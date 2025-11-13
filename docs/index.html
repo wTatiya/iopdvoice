@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>OP-IP Voice Satisfaction Dashboard</title>
+    <title>แดชบอร์ดความพึงพอใจเสียงผู้ป่วยนอก–ใน</title>
     <style>
       :root {
         color-scheme: light dark;
@@ -335,28 +335,26 @@
   </head>
   <body>
     <header>
-      <h1>OP–IP Voice Satisfaction Dashboard</h1>
+      <h1>แดชบอร์ดความพึงพอใจเสียงผู้ป่วยนอก–ใน</h1>
       <p>
-        A consolidated view of outpatient and inpatient satisfaction surveys collected between October 2024 and August 2025.
-        Explore monthly satisfaction, operational volatility, patient sentiment themes, and predictive risk alerts derived from
-        more than 4,000 narrative comments.
+        มุมมองภาพรวมของแบบสำรวจความพึงพอใจผู้ป่วยนอกและผู้ป่วยในตั้งแต่ตุลาคม 2024 ถึงสิงหาคม 2025 สำรวจคะแนนความพึงพอใจรายเดือน ความผันผวนในการให้บริการ หัวข้อความรู้สึกของผู้ป่วย และสัญญาณความเสี่ยงเชิงคาดการณ์ที่สกัดจากความคิดเห็นเชิงบรรยายมากกว่า 4,000 รายการ
       </p>
     </header>
     <main>
       <section id="at-a-glance">
-        <h2>At a glance</h2>
+        <h2>ภาพรวมฉับไว</h2>
         <div class="metric-grid" id="metrics"></div>
-        <h3>Survey coverage</h3>
+        <h3>ความครอบคลุมของแบบสำรวจ</h3>
         <p id="coverage"></p>
         <div class="table-scroll">
-          <table id="monthly-table" aria-label="Best and worst departments by month">
+          <table id="monthly-table" aria-label="หน่วยงานที่ทำคะแนนสูงสุดและต่ำสุดรายเดือน">
             <thead>
               <tr>
-                <th scope="col">Month</th>
-                <th scope="col">Highest scoring department</th>
-                <th scope="col">Score</th>
-                <th scope="col">Lowest scoring department</th>
-                <th scope="col">Score</th>
+                <th scope="col">เดือน</th>
+                <th scope="col">หน่วยงานที่ได้คะแนนสูงสุด</th>
+                <th scope="col">คะแนน</th>
+                <th scope="col">หน่วยงานที่ได้คะแนนต่ำสุด</th>
+                <th scope="col">คะแนน</th>
               </tr>
             </thead>
             <tbody></tbody>
@@ -365,28 +363,27 @@
       </section>
 
       <section id="service-dynamics">
-        <h2>Service quality dynamics</h2>
+        <h2>พลวัตคุณภาพการบริการ</h2>
         <p>
-          Track where service quality is unstable and surface departments that consistently delight patients after weighting
-          scores by the number of survey forms received.
+          ติดตามพื้นที่ที่คุณภาพการบริการผันผวน และค้นหาหน่วยงานที่ทำให้ผู้ป่วยประทับใจอย่างสม่ำเสมอโดยคำนึงถึงน้ำหนักตามจำนวนแบบฟอร์มสำรวจที่ได้รับ
         </p>
         <div class="split-grid">
           <div class="chart-card">
-            <h3>Volatility index (σ of monthly scores)</h3>
-            <div class="chart-container" id="volatility-chart" role="img" aria-label="Volatility index for departments"></div>
+            <h3>ดัชนีความผันผวน (σ ของคะแนนรายเดือน)</h3>
+            <div class="chart-container" id="volatility-chart" role="img" aria-label="ดัชนีความผันผวนของแต่ละหน่วยงาน"></div>
             <div class="inline-stats" id="volatility-summary"></div>
           </div>
           <div class="list-card">
-            <h3>Best practice candidates</h3>
+            <h3>หน่วยงานตัวอย่างมาตรฐานสูง</h3>
             <p class="note">
-              Weighted averages shown. Candidates must sustain ≥6 months of data with an average score ≥4.60.
+              แสดงค่าเฉลี่ยแบบถ่วงน้ำหนัก หน่วยงานต้องมีข้อมูลต่อเนื่องอย่างน้อย 6 เดือนพร้อมคะแนนเฉลี่ย ≥4.60
             </p>
             <ul id="high-performance-list"></ul>
           </div>
           <div class="list-card">
-            <h3>Critical service gaps</h3>
+            <h3>ช่องว่างการบริการที่ต้องเร่งด่วน</h3>
             <p class="note">
-              Lowest weighted performers with available form counts. Use volatility to prioritise urgent stabilisation.
+              หน่วยงานที่ทำคะแนนแบบถ่วงน้ำหนักต่ำที่สุดโดยมีจำนวนแบบฟอร์มกำกับ ใช้ค่าความผันผวนเพื่อจัดลำดับการแก้ไขเร่งด่วน
             </p>
             <ul id="critical-gaps-list"></ul>
           </div>
@@ -394,43 +391,42 @@
       </section>
 
       <section id="trend-analysis">
-        <h2>Trend analysis by department</h2>
+        <h2>วิเคราะห์แนวโน้มรายหน่วยงาน</h2>
         <p>
-          Visualise month-over-month satisfaction for any department. Hover to see weighted averages and reported survey volumes.
+          ดูภาพรวมความพึงพอใจต่อเนื่องรายเดือนของแต่ละหน่วยงาน วางเมาส์เพื่อดูค่าเฉลี่ยแบบถ่วงน้ำหนักและจำนวนแบบสำรวจที่รายงาน
         </p>
         <div class="control-group">
-          <label for="trend-select">Choose department</label>
-          <select id="trend-select" aria-label="Select department for trend chart"></select>
+          <label for="trend-select">เลือกหน่วยงาน</label>
+          <select id="trend-select" aria-label="เลือกหน่วยงานสำหรับกราฟแนวโน้ม"></select>
           <span class="pill" id="trend-months"></span>
         </div>
         <div class="chart-card" style="padding: 1.25rem">
-          <div class="chart-container" id="trend-chart" role="img" aria-label="Monthly satisfaction trend"></div>
+          <div class="chart-container" id="trend-chart" role="img" aria-label="แนวโน้มความพึงพอใจรายเดือน"></div>
           <div class="inline-stats" id="trend-stats"></div>
         </div>
       </section>
 
       <section id="rankings">
-        <h2>Department rankings</h2>
+        <h2>การจัดอันดับหน่วยงาน</h2>
         <p>
-          Rankings are weighted by the number of survey responses whenever counts were reported. Switch between views to see the
-          strongest and weakest performers overall or within each calendar year.
+          การจัดอันดับคำนวณโดยถ่วงน้ำหนักตามจำนวนแบบสำรวจที่มีการรายงาน สลับมุมมองเพื่อดูหน่วยงานที่แข็งแกร่งและอ่อนที่สุดโดยรวม หรือเฉพาะแต่ละปีปฏิทิน
         </p>
-        <div class="tab-strip" role="tablist" aria-label="Ranking views">
-          <button type="button" data-key="overall" class="active">Overall</button>
-          <button type="button" data-key="2024">Year 2024</button>
-          <button type="button" data-key="2025">Year 2025</button>
+        <div class="tab-strip" role="tablist" aria-label="มุมมองการจัดอันดับ">
+          <button type="button" data-key="overall" class="active">ภาพรวม</button>
+          <button type="button" data-key="2024">ปี 2024</button>
+          <button type="button" data-key="2025">ปี 2025</button>
         </div>
         <div class="metric-grid" style="margin-top: 1.5rem">
           <div>
-            <h3>Top 10 departments</h3>
+            <h3>10 หน่วยงานอันดับสูงสุด</h3>
             <div class="table-scroll">
               <table id="top-table" aria-live="polite">
                 <thead>
                   <tr>
-                    <th scope="col">Rank</th>
-                    <th scope="col">Department</th>
-                    <th scope="col">Avg. score</th>
-                    <th scope="col">Survey count</th>
+                    <th scope="col">อันดับ</th>
+                    <th scope="col">หน่วยงาน</th>
+                    <th scope="col">คะแนนเฉลี่ย</th>
+                    <th scope="col">จำนวนแบบสำรวจ</th>
                   </tr>
                 </thead>
                 <tbody></tbody>
@@ -438,15 +434,15 @@
             </div>
           </div>
           <div>
-            <h3>Lowest-scoring departments</h3>
+            <h3>หน่วยงานที่ได้คะแนนต่ำสุด</h3>
             <div class="table-scroll">
               <table id="bottom-table" aria-live="polite">
                 <thead>
                   <tr>
-                    <th scope="col">Rank</th>
-                    <th scope="col">Department</th>
-                    <th scope="col">Avg. score</th>
-                    <th scope="col">Survey count</th>
+                    <th scope="col">อันดับ</th>
+                    <th scope="col">หน่วยงาน</th>
+                    <th scope="col">คะแนนเฉลี่ย</th>
+                    <th scope="col">จำนวนแบบสำรวจ</th>
                   </tr>
                 </thead>
                 <tbody></tbody>
@@ -457,30 +453,29 @@
       </section>
 
       <section id="sentiment-insights">
-        <h2>Sentiment & theme breakdown</h2>
+        <h2>ภาพรวมความรู้สึกและประเด็นสำคัญ</h2>
         <p>
-          Text mining of monthly Thai-language comment summaries highlights the most common frustrations and appreciation notes.
-          Use the stacked chart to see how themes shift over time.
+          การวิเคราะห์ข้อความของสรุปความคิดเห็นภาษาไทยรายเดือนเผยให้เห็นประเด็นปัญหาและความประทับใจที่พบบ่อยที่สุด ใช้กราฟแบบซ้อนเพื่อดูการเปลี่ยนแปลงของหัวข้อเมื่อเวลาผ่านไป
         </p>
         <div class="chart-card">
-          <h3>Theme frequency over time</h3>
-          <div class="chart-container" id="theme-chart" role="img" aria-label="Stacked theme counts by month"></div>
+          <h3>ความถี่ของหัวข้อเมื่อเทียบกับเวลา</h3>
+          <div class="chart-container" id="theme-chart" role="img" aria-label="จำนวนหัวข้อแบบซ้อนรายเดือน"></div>
           <div class="legend" id="theme-legend"></div>
         </div>
         <div class="split-grid">
           <div class="insight-card">
-            <h3>Systemic weaknesses</h3>
+            <h3>จุดอ่อนเชิงระบบ</h3>
             <ul class="insights" id="systemic-weaknesses"></ul>
             <p class="note" id="sentiment-summary"></p>
           </div>
           <div class="insight-card">
-            <h3>Time of day & demographic signals</h3>
+            <h3>สัญญาณช่วงเวลาและกลุ่มผู้รับบริการ</h3>
             <table>
               <thead>
                 <tr>
-                  <th scope="col">Shift cue</th>
-                  <th scope="col">Mentions</th>
-                  <th scope="col">Share</th>
+                  <th scope="col">ช่วงเวลาปฏิบัติงาน</th>
+                  <th scope="col">จำนวนการกล่าวถึง</th>
+                  <th scope="col">สัดส่วน</th>
                 </tr>
               </thead>
               <tbody id="time-table"></tbody>
@@ -488,8 +483,8 @@
             <table style="margin-top: 1rem">
               <thead>
                 <tr>
-                  <th scope="col">Demographic cue</th>
-                  <th scope="col">Mentions</th>
+                  <th scope="col">สัญญาณเชิงประชากร</th>
+                  <th scope="col">จำนวนการกล่าวถึง</th>
                 </tr>
               </thead>
               <tbody id="demographic-mentions"></tbody>
@@ -499,37 +494,36 @@
       </section>
 
       <section id="operations">
-        <h2>Operational correlations & benchmarking</h2>
+        <h2>ความสัมพันธ์ด้านปฏิบัติการและการเปรียบเทียบ</h2>
         <div class="split-grid">
           <div class="chart-card">
-            <h3>Wait-time signals vs satisfaction</h3>
-            <div class="chart-container" id="wait-correlation-chart" role="img" aria-label="Scatterplot of wait theme share versus satisfaction"></div>
+            <h3>สัญญาณเวลารอเทียบกับความพึงพอใจ</h3>
+            <div class="chart-container" id="wait-correlation-chart" role="img" aria-label="กราฟกระจายความถี่หัวข้อเวลารอกับความพึงพอใจ"></div>
             <p class="note" id="wait-correlation-note"></p>
           </div>
           <div class="insight-card">
-            <h3>Top vs bottom structural comparison</h3>
+            <h3>เปรียบเทียบโครงสร้างกลุ่มบนและกลุ่มล่าง</h3>
             <ul class="insights" id="benchmarking-list"></ul>
             <p class="note">
-              Weighted averages use reported form counts; departments without counts revert to simple means.
+              ค่าเฉลี่ยแบบถ่วงน้ำหนักใช้จำนวนแบบฟอร์มที่รายงาน หน่วยงานที่ไม่มีการรายงานจำนวนจะใช้ค่าเฉลี่ยธรรมดา
             </p>
           </div>
         </div>
       </section>
 
       <section id="predictive-risk">
-        <h2>Predictive risk outlook</h2>
+        <h2>มุมมองความเสี่ยงเชิงคาดการณ์</h2>
         <p>
-          A logistic model uses the past three months of scores per department to flag areas likely to decline in the next
-          reporting cycle. Higher probabilities indicate a stronger risk of dropping ≥0.05 points versus the latest month.
+          แบบจำลองลอจิสติกใช้คะแนนย้อนหลังสามเดือนของแต่ละหน่วยงานเพื่อระบุพื้นที่ที่มีแนวโน้มลดลงในรอบรายงานถัดไป ความน่าจะเป็นที่สูงขึ้นหมายถึงความเสี่ยงที่จะลดลงอย่างน้อย 0.05 คะแนนเมื่อเทียบกับเดือนล่าสุด
         </p>
         <div class="table-scroll">
           <table id="risk-table">
             <thead>
               <tr>
-                <th scope="col">Department</th>
-                <th scope="col">Decline probability</th>
-                <th scope="col">Last observed</th>
-                <th scope="col">Latest score</th>
+                <th scope="col">หน่วยงาน</th>
+                <th scope="col">ความน่าจะเป็นของคะแนนลดลง</th>
+                <th scope="col">เดือนล่าสุดที่พบ</th>
+                <th scope="col">คะแนนล่าสุด</th>
               </tr>
             </thead>
             <tbody></tbody>
@@ -538,20 +532,19 @@
       </section>
 
       <section id="equity">
-        <h2>Demographic disparity check</h2>
+        <h2>ตรวจสอบความแตกต่างระหว่างกลุ่มผู้รับบริการ</h2>
         <p>
-          Departments are grouped into high-level service categories to compare average satisfaction and survey coverage. Keyword
-          scans highlight which populations surface most in free-text feedback.
+          หน่วยงานถูกจัดกลุ่มตามบริการระดับสูงเพื่อเปรียบเทียบคะแนนความพึงพอใจเฉลี่ยและความครอบคลุมของแบบสำรวจ การสแกนคำสำคัญช่วยระบุว่ากลุ่มใดถูกกล่าวถึงมากที่สุดในข้อเสนอแนะปลายเปิด
         </p>
         <div class="split-grid">
           <div class="table-scroll">
             <table id="service-group-table">
               <thead>
                 <tr>
-                  <th scope="col">Service group</th>
-                  <th scope="col">Avg. score</th>
-                  <th scope="col">Reported forms</th>
-                  <th scope="col">Departments</th>
+                  <th scope="col">กลุ่มบริการ</th>
+                  <th scope="col">คะแนนเฉลี่ย</th>
+                  <th scope="col">จำนวนแบบฟอร์มที่รายงาน</th>
+                  <th scope="col">จำนวนหน่วยงาน</th>
                 </tr>
               </thead>
               <tbody></tbody>
@@ -561,8 +554,8 @@
             <table id="demographic-table">
               <thead>
                 <tr>
-                  <th scope="col">Mentioned group</th>
-                  <th scope="col">Comment count</th>
+                  <th scope="col">กลุ่มที่ถูกกล่าวถึง</th>
+                  <th scope="col">จำนวนความคิดเห็น</th>
                 </tr>
               </thead>
               <tbody></tbody>
@@ -572,66 +565,62 @@
       </section>
 
       <section id="methodology">
-        <h2>Methodology</h2>
+        <h2>ระเบียบวิธี</h2>
         <p>
-          Data were parsed directly from the <code>Total Table</code> worksheet in each monthly Excel file. Weighted averages use
-          reported survey counts when present; otherwise the mean of recorded scores is applied. Comment themes are extracted from
-          Thai-language narrative summaries via keyword dictionaries tuned to recurring topics (wait times, staffing, facilities,
-          communication, and empathy cues). Predictive risk flags rely on a logistic model that ingests rolling three-month trends
-          per department.
+          ข้อมูลถูกแยกจากแผ่นงาน <code>Total Table</code> ในไฟล์ Excel รายเดือนโดยตรง ค่าเฉลี่ยแบบถ่วงน้ำหนักใช้จำนวนแบบสำรวจที่รายงาน หากไม่มีจำนวนจะใช้ค่าเฉลี่ยของคะแนนที่บันทึกไว้ หัวข้อความเห็นได้จากสรุปคำบรรยายภาษาไทยโดยใช้พจนานุกรมคำสำคัญที่สอดคล้องกับประเด็นซ้ำ ๆ (เวลาในการรอ บุคลากร สิ่งอำนวยความสะดวก การสื่อสาร และความเอาใจใส่) สัญญาณความเสี่ยงเชิงคาดการณ์อาศัยแบบจำลองลอจิสติกที่รับข้อมูลแนวโน้มต่อเนื่องสามเดือนของแต่ละหน่วยงาน
         </p>
       </section>
     </main>
     <footer>
-      Updated automatically from <code>data/</code> on each run. Ready to publish via GitHub Pages.
+      อัปเดตอัตโนมัติจาก <code>data/</code> ทุกครั้งที่รัน พร้อมเผยแพร่ผ่าน GitHub Pages
     </footer>
 
     <script src="https://cdn.plot.ly/plotly-2.35.0.min.js"></script>
     <script>
       const monthNames = [
-        'January',
-        'February',
-        'March',
-        'April',
-        'May',
-        'June',
-        'July',
-        'August',
-        'September',
-        'October',
-        'November',
-        'December'
+        'มกราคม',
+        'กุมภาพันธ์',
+        'มีนาคม',
+        'เมษายน',
+        'พฤษภาคม',
+        'มิถุนายน',
+        'กรกฎาคม',
+        'สิงหาคม',
+        'กันยายน',
+        'ตุลาคม',
+        'พฤศจิกายน',
+        'ธันวาคม'
       ];
 
       const themeLabels = {
-        wait_time: 'Wait & patient flow',
-        attitude: 'Staff attitude & empathy',
-        communication: 'Communication & instructions',
-        process: 'Process & coordination',
-        facilities: 'Facilities & equipment',
-        staffing: 'Staffing levels'
+        wait_time: 'เวลารอและการไหลของผู้ป่วย',
+        attitude: 'ทัศนคติและความเอาใจใส่ของบุคลากร',
+        communication: 'การสื่อสารและคำแนะนำ',
+        process: 'กระบวนการและการประสานงาน',
+        facilities: 'สิ่งอำนวยความสะดวกและอุปกรณ์',
+        staffing: 'ปริมาณบุคลากร'
       };
 
       const themePalette = ['#38bdf8', '#22d3ee', '#a855f7', '#f97316', '#facc15', '#14b8a6'];
 
       const timeLabels = {
-        morning: 'Morning shift cues',
-        afternoon: 'Afternoon cues',
-        evening: 'Evening cues',
-        night: 'Night-shift cues'
+        morning: 'สัญญาณกะเช้า',
+        afternoon: 'สัญญาณช่วงบ่าย',
+        evening: 'สัญญาณช่วงเย็น',
+        night: 'สัญญาณกะกลางคืน'
       };
 
       const demographicLabels = {
-        elderly: 'Older adults / caregivers',
-        children: 'Children & paediatric families',
-        pregnancy: 'Pregnancy & maternity',
-        caregiver: 'Caregivers & family',
-        disability: 'Patients with disabilities',
-        foreign: 'International patients'
+        elderly: 'ผู้สูงอายุ/ผู้ดูแล',
+        children: 'เด็กและครอบครัวกุมารเวช',
+        pregnancy: 'การตั้งครรภ์และมารดา',
+        caregiver: 'ผู้ดูแลและครอบครัว',
+        disability: 'ผู้รับบริการที่มีความพิการ',
+        foreign: 'ผู้ป่วยนานาชาติ'
       };
 
       function formatNumber(value, options = {}) {
-        return new Intl.NumberFormat(undefined, options).format(value);
+        return new Intl.NumberFormat('th-TH', options).format(value);
       }
 
       function formatScore(score) {
@@ -652,19 +641,19 @@
         metrics.innerHTML = '';
         const cards = [
           {
-            label: 'Overall average satisfaction',
+            label: 'คะแนนความพึงพอใจเฉลี่ยรวม',
             value: formatScore(metadata.overall_average_score)
           },
           {
-            label: 'Unique departments',
+            label: 'จำนวนหน่วยงานที่ไม่ซ้ำ',
             value: formatNumber(metadata.unique_departments)
           },
           {
-            label: 'Department × month records',
+            label: 'ระเบียนหน่วยงาน × เดือน',
             value: formatNumber(metadata.department_month_records)
           },
           {
-            label: 'Reported survey forms',
+            label: 'แบบสำรวจที่รายงาน',
             value: formatNumber(metadata.total_reported_surveys, { maximumFractionDigits: 0 })
           }
         ];
@@ -682,7 +671,7 @@
           const [year, month] = period.split('-').map(Number);
           return `${monthNames[month - 1]} ${year}`;
         };
-        coverage.textContent = `Monthly reports span ${describe(first)} through ${describe(last)} (${metadata.periods.length} consecutive months).`;
+        coverage.textContent = `รายงานรายเดือนครอบคลุมตั้งแต่ ${describe(first)} ถึง ${describe(last)} (ต่อเนื่อง ${metadata.periods.length} เดือน)`;
       }
 
       function renderMonthlyTable(summary) {
@@ -697,11 +686,11 @@
           const [year, month] = period.split('-').map(Number);
           const tr = document.createElement('tr');
           tr.innerHTML = `
-            <td data-label="Month">${monthNames[month - 1]} ${year}</td>
-            <td data-label="Highest">${top ? top.department : '—'}</td>
-            <td data-label="Score">${top ? formatScore(top.average_score) : '—'}</td>
-            <td data-label="Lowest">${bottom ? bottom.department : '—'}</td>
-            <td data-label="Score">${bottom ? formatScore(bottom.average_score) : '—'}</td>
+            <td data-label="เดือน">${monthNames[month - 1]} ${year}</td>
+            <td data-label="หน่วยงานคะแนนสูงสุด">${top ? top.department : '—'}</td>
+            <td data-label="คะแนน">${top ? formatScore(top.average_score) : '—'}</td>
+            <td data-label="หน่วยงานคะแนนต่ำสุด">${bottom ? bottom.department : '—'}</td>
+            <td data-label="คะแนน">${bottom ? formatScore(bottom.average_score) : '—'}</td>
           `;
           tbody.appendChild(tr);
         }
@@ -741,7 +730,7 @@
         const container = document.getElementById('volatility-chart');
         const summary = document.getElementById('volatility-summary');
         if (!window.Plotly) {
-          container.textContent = 'Plotly is required to visualise volatility.';
+          container.textContent = 'ต้องใช้ Plotly เพื่อแสดงดัชนีความผันผวน';
           return;
         }
         const unstable = insights.volatility.most_unstable.slice(0, 10);
@@ -754,7 +743,7 @@
             color: '#f59e0b'
           },
           hovertemplate:
-            '<b>%{y}</b><br>Volatility σ: %{x}<br>Range: %{customdata[0]}<br>Trend/month: %{customdata[1]}<br>Observations: %{customdata[2]}<extra></extra>',
+            '<b>%{y}</b><br>ความผันผวน σ: %{x}<br>ช่วงคะแนน: %{customdata[0]}<br>แนวโน้ม/เดือน: %{customdata[1]}<br>จำนวนสังเกต: %{customdata[2]}<extra></extra>',
           customdata: unstable.map((item) => [formatScore(item.score_range), formatScore(item.trend_per_month), item.observations])
         };
         const layout = {
@@ -763,7 +752,7 @@
           paper_bgcolor: 'rgba(15,23,42,0)',
           plot_bgcolor: 'rgba(15,23,42,0)',
           xaxis: {
-            title: 'Volatility (σ)',
+            title: 'ความผันผวน (σ)',
             color: '#94a3b8',
             gridcolor: 'rgba(148, 163, 184, 0.25)'
           },
@@ -778,11 +767,11 @@
         const unstableNames = unstable.slice(0, 3).map((item) => item.department).join(', ');
         const stableNames = insights.volatility.most_stable.slice(0, 3).map((item) => item.department).join(', ');
         const items = [
-          `Median σ across ${insights.volatility.summary.departments_evaluated} departments: <span class="highlight-value">${formatScore(
+          `ค่า σ มัธยฐานของ ${insights.volatility.summary.departments_evaluated} หน่วยงาน: <span class="highlight-value">${formatScore(
             median
           )}</span>`,
-          `Most unstable: <span class="highlight-value">${unstableNames}</span>`,
-          `Most stable: <span class="highlight-value">${stableNames}</span>`
+          `หน่วยงานที่ผันผวนที่สุด: <span class="highlight-value">${unstableNames}</span>`,
+          `หน่วยงานที่นิ่งที่สุด: <span class="highlight-value">${stableNames}</span>`
         ];
         for (const text of items) {
           const span = document.createElement('span');
@@ -803,9 +792,9 @@
           title.textContent = record.department;
           const details = document.createElement('span');
           const parts = [
-            `Avg. score ${formatScore(record.average_score)}`,
-            `Forms ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}`,
-            `Months ${record.months_observed}`
+            `คะแนนเฉลี่ย ${formatScore(record.average_score)}`,
+            `แบบสำรวจ ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}`,
+            `จำนวนเดือน ${record.months_observed}`
           ];
           if (highlightVolatility && record.volatility_index != null) {
             parts.push(`σ ${formatScore(record.volatility_index)}`);
@@ -826,9 +815,9 @@
           title.textContent = record.department;
           const details = document.createElement('span');
           const parts = [
-            `Avg. score ${formatScore(record.average_score)}`,
-            `Forms ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}`,
-            `Months ${record.months_observed}`
+            `คะแนนเฉลี่ย ${formatScore(record.average_score)}`,
+            `แบบสำรวจ ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}`,
+            `จำนวนเดือน ${record.months_observed}`
           ];
           if (record.volatility_index != null) {
             parts.push(`σ ${formatScore(record.volatility_index)}`);
@@ -869,7 +858,7 @@
           const x = entry.series.map((point) => point.period);
           const y = entry.series.map((point) => point.average_score);
           const text = entry.series.map(
-            (point) => `${formatPeriod(point.period)}<br>Score ${formatScore(point.average_score)}<br>Forms ${point.survey_count ?? '—'}`
+            (point) => `${formatPeriod(point.period)}<br>คะแนน ${formatScore(point.average_score)}<br>แบบสำรวจ ${point.survey_count ?? '—'}`
           );
           const trace = {
             x,
@@ -884,13 +873,13 @@
           const layout = {
             margin: { t: 10, r: 20, l: 50, b: 60 },
             yaxis: {
-              title: 'Average satisfaction',
+              title: 'คะแนนความพึงพอใจเฉลี่ย',
               range: [3, 5],
               color: '#94a3b8',
               gridcolor: 'rgba(148, 163, 184, 0.25)'
             },
             xaxis: {
-              title: 'Month',
+              title: 'เดือน',
               color: '#94a3b8'
             },
             paper_bgcolor: 'rgba(15,23,42,0)',
@@ -898,14 +887,14 @@
           };
           Plotly.newPlot(chart, [trace], layout, { responsive: true, displayModeBar: false });
 
-          monthsPill.textContent = `${entry.months_observed} months tracked`;
+          monthsPill.textContent = `ติดตาม ${entry.months_observed} เดือน`;
           stats.innerHTML = '';
           const bestPoint = entry.series.reduce((acc, point) => (point.average_score > acc.average_score ? point : acc), entry.series[0]);
           const worstPoint = entry.series.reduce((acc, point) => (point.average_score < acc.average_score ? point : acc), entry.series[0]);
           const statItems = [
-            `Mean score <span class="highlight-value">${formatScore(entry.mean_score)}</span>`,
-            `Best month <span class="highlight-value">${formatPeriod(bestPoint.period)}</span> (${formatScore(bestPoint.average_score)})`,
-            `Lowest month <span class="highlight-value">${formatPeriod(worstPoint.period)}</span> (${formatScore(worstPoint.average_score)})`
+            `คะแนนเฉลี่ย <span class="highlight-value">${formatScore(entry.mean_score)}</span>`,
+            `เดือนที่ดีที่สุด <span class="highlight-value">${formatPeriod(bestPoint.period)}</span> (${formatScore(bestPoint.average_score)})`,
+            `เดือนที่ต่ำที่สุด <span class="highlight-value">${formatPeriod(worstPoint.period)}</span> (${formatScore(worstPoint.average_score)})`
           ];
           for (const textItem of statItems) {
             const span = document.createElement('span');
@@ -922,7 +911,7 @@
         const container = document.getElementById('theme-chart');
         const legend = document.getElementById('theme-legend');
         if (!window.Plotly) {
-          container.textContent = 'Plotly is required to render theme timelines.';
+          container.textContent = 'ต้องใช้ Plotly เพื่อแสดงไทม์ไลน์ของหัวข้อ';
           return;
         }
         const periods = insights.themes_over_time.map((row) => row.period);
@@ -939,12 +928,12 @@
           paper_bgcolor: 'rgba(15,23,42,0)',
           plot_bgcolor: 'rgba(15,23,42,0)',
           yaxis: {
-            title: 'Mentions',
+            title: 'จำนวนการกล่าวถึง',
             color: '#94a3b8',
             gridcolor: 'rgba(148, 163, 184, 0.25)'
           },
           xaxis: {
-            title: 'Month',
+            title: 'เดือน',
             color: '#94a3b8'
           }
         };
@@ -974,7 +963,7 @@
         systemicList.innerHTML = '';
         topThemes.forEach((item) => {
           const li = document.createElement('li');
-          li.innerHTML = `<strong>${item.label}</strong> — ${formatNumber(item.count)} mentions`;
+          li.innerHTML = `<strong>${item.label}</strong> — ${formatNumber(item.count)} ครั้ง`;
           systemicList.appendChild(li);
         });
 
@@ -983,11 +972,11 @@
         const positiveShare = total ? (sentimentTotals.positive || 0) / total : 0;
         const negativeShare = total ? (sentimentTotals.negative || 0) / total : 0;
         const summary = document.getElementById('sentiment-summary');
-        summary.innerHTML = `Positive narratives account for <span class="highlight-value">${formatPercent(
+        summary.innerHTML = `ข้อเสนอแนะเชิงบวกคิดเป็น <span class="highlight-value">${formatPercent(
           positiveShare
-        )}</span> while negative or improvement requests represent <span class="highlight-value">${formatPercent(negativeShare)}</span> of ${formatNumber(
+        )}</span> ขณะที่ข้อร้องเรียนหรือคำขอปรับปรุงคิดเป็น <span class="highlight-value">${formatPercent(negativeShare)}</span> จากความคิดเห็นที่จัดหมวดหมู่ทั้งหมด ${formatNumber(
           total
-        )} classified comments.`;
+        )} รายการ`;
 
         const timeBody = document.getElementById('time-table');
         timeBody.innerHTML = '';
@@ -1017,7 +1006,7 @@
         const container = document.getElementById('wait-correlation-chart');
         const note = document.getElementById('wait-correlation-note');
         if (!window.Plotly) {
-          container.textContent = 'Plotly is required to visualise correlations.';
+          container.textContent = 'ต้องใช้ Plotly เพื่อแสดงความสัมพันธ์';
           return;
         }
         const series = insights.wait_time_correlation.series;
@@ -1031,18 +1020,18 @@
             color: '#38bdf8',
             size: 10
           },
-          hovertemplate: 'Month %{text}<br>Wait mentions %{customdata[0]} / %{customdata[1]}<br>Wait share %{x:.1f}%<br>Avg. score %{y:.3f}<extra></extra>',
+          hovertemplate: 'เดือน %{text}<br>การกล่าวถึงเรื่องรอ %{customdata[0]} / %{customdata[1]}<br>สัดส่วนการกล่าวถึง %{x:.1f}%<br>คะแนนเฉลี่ย %{y:.3f}<extra></extra>',
           customdata: series.map((row) => [row.wait_mentions, row.comment_total])
         };
         const layout = {
           margin: { t: 10, r: 20, l: 60, b: 60 },
           xaxis: {
-            title: 'Wait-time mentions (% of comments)',
+            title: 'การกล่าวถึงเวลารอ (% ของความคิดเห็น)',
             color: '#94a3b8',
             gridcolor: 'rgba(148, 163, 184, 0.25)'
           },
           yaxis: {
-            title: 'Average satisfaction',
+            title: 'คะแนนความพึงพอใจเฉลี่ย',
             color: '#94a3b8',
             range: [3.5, 5]
           },
@@ -1053,9 +1042,9 @@
 
         const r = insights.wait_time_correlation.pearson_r;
         const p = insights.wait_time_correlation.p_value;
-        note.innerHTML = `Correlation coefficient r = <span class="highlight-value">${r !== null ? r.toFixed(2) : 'n/a'}</span>, p-value = <span class="highlight-value">${
-          p !== null ? p.toFixed(3) : 'n/a'
-        }</span>. Higher wait complaints align with lower satisfaction in most months.`;
+        note.innerHTML = `ค่าสหสัมพันธ์ r = <span class="highlight-value">${r !== null ? r.toFixed(2) : 'ไม่ระบุ'}</span>, p-value = <span class="highlight-value">${
+          p !== null ? p.toFixed(3) : 'ไม่ระบุ'
+        }</span> การร้องเรียนเรื่องเวลารอที่สูงขึ้นสัมพันธ์กับความพึงพอใจที่ลดลงในหลายเดือน`;
       }
 
       function renderBenchmarking(insights) {
@@ -1065,15 +1054,15 @@
         const bottomStats = insights.benchmarking.bottom10.stats;
         const delta = insights.benchmarking.delta;
         const items = [
-          `Top 10 average score <span class="highlight-value">${formatScore(topStats.mean_score)}</span> vs bottom 10 at <span class="highlight-value">${formatScore(
+          `ค่าเฉลี่ยคะแนนของกลุ่ม 10 อันดับแรก <span class="highlight-value">${formatScore(topStats.mean_score)}</span> เทียบกับกลุ่มท้ายสุด <span class="highlight-value">${formatScore(
             bottomStats.mean_score
-          )}</span> (gap ${formatScore(delta.score_gap)}).`,
-          `Top performers handle roughly <span class="highlight-value">${formatNumber(Math.round(topStats.mean_survey_total))}</span> forms per month vs <span class="highlight-value">${formatNumber(
+          )}</span> (ช่องว่าง ${formatScore(delta.score_gap)})`,
+          `กลุ่มบนจัดการแบบสำรวจราว <span class="highlight-value">${formatNumber(Math.round(topStats.mean_survey_total))}</span> ฉบับต่อเดือน เทียบกับ <span class="highlight-value">${formatNumber(
             Math.round(bottomStats.mean_survey_total)
-          )}</span> among the lowest group.`,
-          `Volatility among top units averages ${topStats.mean_volatility != null ? formatScore(topStats.mean_volatility) : '—'} compared with ${
+          )}</span> ในกลุ่มล่าง`,
+          `ความผันผวนเฉลี่ยของกลุ่มบนอยู่ที่ ${topStats.mean_volatility != null ? formatScore(topStats.mean_volatility) : '—'} เมื่อเทียบกับ ${
             bottomStats.mean_volatility != null ? formatScore(bottomStats.mean_volatility) : '—'
-          } for the bottom cohort.`
+          } ของกลุ่มล่าง`
         ];
         items.forEach((text) => {
           const li = document.createElement('li');
@@ -1087,7 +1076,7 @@
         tbody.innerHTML = '';
         const nextPeriod = insights.predictive_risk.next_period;
         if (nextPeriod) {
-          document.querySelector('#predictive-risk h2').innerHTML = `Predictive risk outlook <span class="pill">Next period ${nextPeriod}</span>`;
+          document.querySelector('#predictive-risk h2').innerHTML = `มุมมองความเสี่ยงเชิงคาดการณ์ <span class="pill">ช่วงถัดไป ${nextPeriod}</span>`;
         }
         insights.predictive_risk.high_risk_departments.slice(0, 15).forEach((row) => {
           const tr = document.createElement('tr');
@@ -1158,7 +1147,7 @@
       }
 
       init().catch((error) => {
-        console.error('Failed to load dashboard data', error);
+        console.error('โหลดข้อมูลแดชบอร์ดไม่สำเร็จ', error);
       });
     </script>
   </body>
