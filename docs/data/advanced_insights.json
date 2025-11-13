@@ -4235,19 +4235,19 @@
           "department": "PICU",
           "average_score": 4.818,
           "survey_total": 72.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "ฝังเข็ม",
           "average_score": 4.812,
           "survey_total": 2.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "HBO",
           "average_score": 4.794,
           "survey_total": 34.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "25A",
@@ -4277,19 +4277,19 @@
           "department": "โรคเลือด",
           "average_score": 4.669,
           "survey_total": 10.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "25B",
           "average_score": 4.667,
           "survey_total": 506.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "ผิวหนัง",
           "average_score": 4.658,
           "survey_total": 168.0,
-          "volatility_index": NaN
+          "volatility_index": null
         }
       ],
       "stats": {
@@ -4305,7 +4305,7 @@
           "department": "ศัลยกรรม",
           "average_score": 4.264,
           "survey_total": 876.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "ER",
@@ -4335,7 +4335,7 @@
           "department": "ศูนย์ประกันสุขภาพ",
           "average_score": 3.969,
           "survey_total": 4.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "ชั้น 1 อาคาร 150 ปี",
@@ -4359,7 +4359,7 @@
           "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
           "average_score": 1.0,
           "survey_total": 1.0,
-          "volatility_index": NaN
+          "volatility_index": null
         }
       ],
       "stats": {
