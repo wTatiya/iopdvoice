@@ -553,16 +553,16 @@
               <div class="inline-stats" id="volatility-summary"></div>
             </div>
             <div class="list-card">
-              <h3>หน่วยงานตัวอย่างมาตรฐานสูง</h3>
+              <h3>หน่วยงานที่ได้คะแนนวูฃ</h3>
               <p class="note">
                 แสดงค่าเฉลี่ยแบบถ่วงน้ำหนัก หน่วยงานต้องมีข้อมูลต่อเนื่องอย่างน้อย 6 เดือนพร้อมคะแนนเฉลี่ย ≥4.60
               </p>
               <ul id="high-performance-list"></ul>
             </div>
             <div class="list-card">
-              <h3>ช่องว่างการบริการที่ต้องเร่งด่วน</h3>
+              <h3>ช่องว่างการบริการ</h3>
               <p class="note">
-                หน่วยงานที่ทำคะแนนแบบถ่วงน้ำหนักต่ำที่สุดโดยมีจำนวนแบบฟอร์มกำกับ ใช้ค่าความผันผวนเพื่อจัดลำดับการแก้ไขเร่งด่วน
+                หน่วยงานที่คะแนนต่ำที่สุด ใช้ค่าความผันผวนเพื่อจัดลำดับ
               </p>
               <ul id="critical-gaps-list"></ul>
             </div>
@@ -581,7 +581,7 @@
               <h3>เปรียบเทียบโครงสร้างกลุ่มบนและกลุ่มล่าง</h3>
               <ul class="insights" id="benchmarking-list"></ul>
               <p class="note">
-                ค่าเฉลี่ยแบบถ่วงน้ำหนักใช้จำนวนแบบฟอร์มที่รายงาน หน่วยงานที่ไม่มีการรายงานจำนวนจะใช้ค่าเฉลี่ยธรรมดา
+                ค่าเฉลี่ยแบบถ่วงน้ำหนักใช้จำนวนแบบสำรวจที่รายงาน หน่วยงานที่ไม่มีการรายงานจำนวนจะใช้ค่าเฉลี่ยธรรมดา
               </p>
             </div>
           </div>
@@ -594,7 +594,7 @@
           </p>
           <div class="control-group">
             <label for="trend-select">เลือกหน่วยงาน</label>
-            <select id="trend-select" aria-label="เลือกหน่วยงานสำหรับกราฟแนวโน้ม"></select>
+            <select id="trend-select" aria-label="เลือกหน่วยงาน"></select>
             <span class="pill" id="trend-months"></span>
           </div>
           <div class="chart-card" style="padding: 1.25rem">
@@ -606,7 +606,7 @@
         <section id="rankings" class="card span-12">
           <h2>การจัดอันดับหน่วยงาน</h2>
           <p>
-            การจัดอันดับคำนวณโดยถ่วงน้ำหนักตามจำนวนแบบสำรวจที่มีการรายงาน สลับมุมมองเพื่อดูหน่วยงานที่แข็งแกร่งและอ่อนที่สุดโดยรวม หรือเฉพาะแต่ละปีปฏิทิน
+            การจัดอันดับคำนวณโดยถ่วงน้ำหนักตามจำนวนแบบสำรวจที่มีการรายงาน สลับมุมมองเพื่อดูหน่วยงานที่คะแนนสูงและต่ำที่สุดโดยรวม หรือเฉพาะแต่ละปีปฏิทิน
           </p>
           <div class="tab-strip" role="tablist" aria-label="มุมมองการจัดอันดับ">
             <button type="button" data-key="overall" class="active">ภาพรวม</button>
@@ -652,7 +652,7 @@
         <section id="sentiment-insights" class="card span-7">
           <h2>ภาพรวมความรู้สึกและประเด็นสำคัญ</h2>
           <p>
-            การวิเคราะห์ข้อความของสรุปความคิดเห็นภาษาไทยรายเดือนเผยให้เห็นประเด็นปัญหาและความประทับใจที่พบบ่อยที่สุด ใช้กราฟแบบซ้อนเพื่อดูการเปลี่ยนแปลงของหัวข้อเมื่อเวลาผ่านไป
+           ใช้กราฟแบบซ้อนเพื่อดูการเปลี่ยนแปลงของหัวข้อเมื่อเวลาผ่านไป
           </p>
           <div class="chart-card">
             <h3>ความถี่ของหัวข้อเมื่อเทียบกับเวลา</h3>
@@ -784,19 +784,19 @@
       const themePalette = ['#38bdf8', '#22d3ee', '#a855f7', '#f97316', '#facc15', '#14b8a6'];
 
       const timeLabels = {
-        morning: 'สัญญาณกะเช้า',
-        afternoon: 'สัญญาณช่วงบ่าย',
-        evening: 'สัญญาณช่วงเย็น',
-        night: 'สัญญาณกะกลางคืน'
+        morning: 'เช้า',
+        afternoon: 'บ่าย',
+        evening: 'เย็น',
+        night: 'กลางคืน'
       };
 
       const demographicLabels = {
         elderly: 'ผู้สูงอายุ/ผู้ดูแล',
-        children: 'เด็กและครอบครัวกุมารเวช',
-        pregnancy: 'การตั้งครรภ์และมารดา',
+        children: 'เด็ก',
+        pregnancy: 'สตรีตั้งครรภ์',
         caregiver: 'ผู้ดูแลและครอบครัว',
-        disability: 'ผู้รับบริการที่มีความพิการ',
-        foreign: 'ผู้ป่วยนานาชาติ'
+        disability: 'ผู้พิการ',
+        foreign: 'ผู้ป่วยต่างชาติ'
       };
 
       function formatNumber(value, options = {}) {
@@ -825,15 +825,15 @@
             value: formatScore(metadata.overall_average_score)
           },
           {
-            label: 'จำนวนหน่วยงานที่ไม่ซ้ำ',
+            label: 'จำนวนหน่วยงาน',
             value: formatNumber(metadata.unique_departments)
           },
           {
-            label: 'ระเบียนหน่วยงาน × เดือน',
+            label: 'หน่วยงาน × เดือน',
             value: formatNumber(metadata.department_month_records)
           },
           {
-            label: 'แบบสำรวจที่รายงาน',
+            label: 'จำนวนแบบสำรวจ',
             value: formatNumber(metadata.total_reported_surveys, { maximumFractionDigits: 0 })
           }
         ];
@@ -1201,13 +1201,13 @@
             color: '#38bdf8',
             size: 10
           },
-          hovertemplate: 'เดือน %{text}<br>การกล่าวถึงเรื่องรอ %{customdata[0]} / %{customdata[1]}<br>สัดส่วนการกล่าวถึง %{x:.1f}%<br>คะแนนเฉลี่ย %{y:.3f}<extra></extra>',
+          hovertemplate: 'เดือน %{text}<br>การกล่าวถึงเรื่องรอคอย %{customdata[0]} / %{customdata[1]}<br>สัดส่วนการกล่าวถึง %{x:.1f}%<br>คะแนนเฉลี่ย %{y:.3f}<extra></extra>',
           customdata: series.map((row) => [row.wait_mentions, row.comment_total])
         };
         const layout = {
           margin: { t: 10, r: 20, l: 60, b: 60 },
           xaxis: {
-            title: 'การกล่าวถึงเวลารอ (% ของความคิดเห็น)',
+            title: 'การกล่าวถึงเวลารอคอย (% ของความคิดเห็น)',
             color: '#94a3b8',
             gridcolor: 'rgba(148, 163, 184, 0.25)'
           },
@@ -1225,7 +1225,7 @@
         const p = insights.wait_time_correlation.p_value;
         note.innerHTML = `ค่าสหสัมพันธ์ r = <span class="highlight-value">${r !== null ? r.toFixed(2) : 'ไม่ระบุ'}</span>, p-value = <span class="highlight-value">${
           p !== null ? p.toFixed(3) : 'ไม่ระบุ'
-        }</span> การร้องเรียนเรื่องเวลารอที่สูงขึ้นสัมพันธ์กับความพึงพอใจที่ลดลงในหลายเดือน`;
+        }</span> การร้องเรียนเรื่องเวลารอคอยที่สูงขึ้นสัมพันธ์กับความพึงพอใจที่ลดลงในหลายเดือน`;
       }
 
       function renderBenchmarking(insights) {
