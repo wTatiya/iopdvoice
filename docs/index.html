@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OP-IP Voice Satisfaction Dashboard</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: "Inter", "Segoe UI", sans-serif;
+        line-height: 1.6;
+        background: #0f172a;
+        color: #e2e8f0;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.85)),
+          url('https://images.unsplash.com/photo-1580281658629-69c615f67bcd?auto=format&fit=crop&w=1600&q=80') fixed;
+        background-size: cover;
+        backdrop-filter: blur(6px);
+      }
+
+      header {
+        padding: 3rem 5vw 2rem;
+        background: rgba(15, 23, 42, 0.8);
+        border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      header h1 {
+        margin: 0 0 0.5rem;
+        font-size: clamp(2rem, 3vw, 3.2rem);
+        color: #38bdf8;
+      }
+
+      header p {
+        max-width: 60ch;
+        margin: 0;
+        color: rgba(226, 232, 240, 0.85);
+      }
+
+      main {
+        padding: 2rem 5vw 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+      }
+
+      section {
+        background: rgba(15, 23, 42, 0.7);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 20px;
+        padding: 2rem;
+        box-shadow: 0 12px 40px rgba(15, 23, 42, 0.3);
+      }
+
+      h2 {
+        margin-top: 0;
+        font-size: clamp(1.5rem, 2.2vw, 2.4rem);
+        color: #38bdf8;
+      }
+
+      h3 {
+        margin-top: 1.5rem;
+        font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+        color: #38bdf8;
+      }
+
+      .metric-grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+
+      .metric-card {
+        background: rgba(15, 23, 42, 0.9);
+        border-radius: 16px;
+        padding: 1.5rem;
+        border: 1px solid rgba(56, 189, 248, 0.3);
+      }
+
+      .metric-card h4 {
+        margin: 0;
+        font-size: 0.95rem;
+        color: rgba(148, 163, 184, 0.9);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .metric-card p {
+        margin: 0.75rem 0 0;
+        font-size: clamp(1.8rem, 3vw, 2.6rem);
+        font-weight: 600;
+        color: #f8fafc;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1.5rem;
+        font-size: 0.95rem;
+        background: rgba(15, 23, 42, 0.85);
+        border-radius: 16px;
+        overflow: hidden;
+      }
+
+      th,
+      td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+      }
+
+      th {
+        background: rgba(56, 189, 248, 0.12);
+        color: #bae6fd;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-size: 0.78rem;
+      }
+
+      tbody tr:nth-child(even) {
+        background: rgba(15, 23, 42, 0.65);
+      }
+
+      tbody tr:hover {
+        background: rgba(56, 189, 248, 0.15);
+      }
+
+      .tab-strip {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-top: 1rem;
+      }
+
+      .tab-strip button {
+        border: 1px solid rgba(56, 189, 248, 0.5);
+        background: transparent;
+        color: #e0f2fe;
+        padding: 0.5rem 1.25rem;
+        border-radius: 999px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 0.95rem;
+      }
+
+      .tab-strip button.active {
+        background: rgba(56, 189, 248, 0.2);
+        color: #0ea5e9;
+        border-color: rgba(14, 165, 233, 0.8);
+        box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.25);
+      }
+
+      .tab-strip button:hover {
+        background: rgba(56, 189, 248, 0.15);
+      }
+
+      ul.insights {
+        list-style: none;
+        padding-left: 1.2rem;
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      ul.insights li::before {
+        content: "▹";
+        margin-right: 0.5rem;
+        color: #38bdf8;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.85rem;
+        color: rgba(148, 163, 184, 0.8);
+        padding: 2rem 5vw 3rem;
+      }
+
+      @media (max-width: 720px) {
+        header,
+        main,
+        footer {
+          padding-left: 1.25rem;
+          padding-right: 1.25rem;
+        }
+
+        section {
+          padding: 1.5rem;
+        }
+
+        table {
+          font-size: 0.85rem;
+        }
+
+        th,
+        td {
+          padding: 0.65rem 0.75rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>OP–IP Voice Satisfaction Dashboard</h1>
+      <p>
+        A consolidated view of outpatient and inpatient satisfaction surveys collected between October 2024 and August 2025.
+        Explore the departments that delighted patients, the teams that need attention, and recurring suggestions captured in
+        narrative feedback.
+      </p>
+    </header>
+    <main>
+      <section id="at-a-glance">
+        <h2>At a glance</h2>
+        <div class="metric-grid" id="metrics"></div>
+        <h3>Survey coverage</h3>
+        <p id="coverage"></p>
+        <table id="monthly-table" aria-label="Best and worst departments by month">
+          <thead>
+            <tr>
+              <th scope="col">Month</th>
+              <th scope="col">Highest scoring department</th>
+              <th scope="col">Score</th>
+              <th scope="col">Lowest scoring department</th>
+              <th scope="col">Score</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="rankings">
+        <h2>Department rankings</h2>
+        <p>
+          Rankings are weighted by the number of survey responses whenever counts were reported. Switch between views to see the
+          strongest and weakest performers overall or within each calendar year.
+        </p>
+        <div class="tab-strip" role="tablist" aria-label="Ranking views">
+          <button type="button" data-key="overall" class="active">Overall</button>
+          <button type="button" data-key="2024">Year 2024</button>
+          <button type="button" data-key="2025">Year 2025</button>
+        </div>
+        <div class="metric-grid" style="margin-top: 1.5rem">
+          <div>
+            <h3>Top 10 departments</h3>
+            <table id="top-table" aria-live="polite">
+              <thead>
+                <tr>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Department</th>
+                  <th scope="col">Avg. score</th>
+                  <th scope="col">Survey count</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div>
+            <h3>Lowest-scoring departments</h3>
+            <table id="bottom-table" aria-live="polite">
+              <thead>
+                <tr>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Department</th>
+                  <th scope="col">Avg. score</th>
+                  <th scope="col">Survey count</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="qualitative-insights">
+        <h2>What patients are saying</h2>
+        <p>
+          Narrative responses collected in the monthly reports highlight consistent strengths and opportunities. The most frequent
+          themes across the documents include:
+        </p>
+        <ul class="insights">
+          <li>Long waits between registration, triage, and physician consultation—especially in general practice and after-hours clinics.</li>
+          <li>Requests for more staff at registration desks and clearer coordination between departments when handing off paperwork.</li>
+          <li>Facility improvements such as fixing restrooms, ensuring air-conditioning and entertainment systems work, and providing extra seating or bedding for caregivers.</li>
+          <li>Calls for clearer communication on treatment plans, medication side effects, and follow-up instructions, particularly after procedures.</li>
+          <li>Positive praise for staff friendliness, attentive wound care, cleanliness, and overall service once patients were being seen.</li>
+        </ul>
+        <p class="note">
+          These themes were distilled from the Thai-language satisfaction summaries included alongside the quantitative workbooks. They
+          capture recurrent sentiments across months rather than exhaustive translations.
+        </p>
+      </section>
+
+      <section id="methodology">
+        <h2>Methodology</h2>
+        <p>
+          Data were parsed directly from the <code>Total Table</code> worksheet in each monthly Excel file. Weighted averages were
+          calculated using the reported number of survey forms whenever available; otherwise the mean of the recorded scores was used.
+          The scripts powering this page can be found in the <code>analysis/</code> folder of the repository.
+        </p>
+      </section>
+    </main>
+    <footer>
+      Updated automatically from <code>data/</code> on each run. Ready to publish via GitHub Pages.
+    </footer>
+
+    <script>
+      const monthNames = [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+      ];
+
+      function formatNumber(value, options = {}) {
+        return new Intl.NumberFormat(undefined, options).format(value);
+      }
+
+      function formatScore(score) {
+        return score ? score.toFixed(3).replace(/0+$/, '').replace(/\.$/, '') : '—';
+      }
+
+      function renderMetrics(metadata) {
+        const metrics = document.getElementById('metrics');
+        metrics.innerHTML = '';
+        const cards = [
+          {
+            label: 'Overall average satisfaction',
+            value: formatScore(metadata.overall_average_score)
+          },
+          {
+            label: 'Unique departments',
+            value: formatNumber(metadata.unique_departments)
+          },
+          {
+            label: 'Department × month records',
+            value: formatNumber(metadata.department_month_records)
+          },
+          {
+            label: 'Reported survey forms',
+            value: formatNumber(metadata.total_reported_surveys, { maximumFractionDigits: 0 })
+          }
+        ];
+        for (const card of cards) {
+          const div = document.createElement('div');
+          div.className = 'metric-card';
+          div.innerHTML = `<h4>${card.label}</h4><p>${card.value}</p>`;
+          metrics.appendChild(div);
+        }
+
+        const coverage = document.getElementById('coverage');
+        const first = metadata.periods[0];
+        const last = metadata.periods[metadata.periods.length - 1];
+        const describe = (period) => {
+          const [year, month] = period.split('-').map(Number);
+          return `${monthNames[month - 1]} ${year}`;
+        };
+        coverage.textContent = `Monthly reports span ${describe(first)} through ${describe(last)} (${metadata.periods.length} consecutive months).`;
+      }
+
+      function renderMonthlyTable(summary) {
+        const tbody = document.querySelector('#monthly-table tbody');
+        tbody.innerHTML = '';
+        const periods = summary.metadata.periods;
+        for (const period of periods) {
+          const view = summary.months[period];
+          if (!view) continue;
+          const top = view.top10[0];
+          const bottom = view.bottom10[0];
+          const [year, month] = period.split('-').map(Number);
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td data-label="Month">${monthNames[month - 1]} ${year}</td>
+            <td data-label="Highest">${top ? top.department : '—'}</td>
+            <td data-label="Score">${top ? formatScore(top.average_score) : '—'}</td>
+            <td data-label="Lowest">${bottom ? bottom.department : '—'}</td>
+            <td data-label="Score">${bottom ? formatScore(bottom.average_score) : '—'}</td>
+          `;
+          tbody.appendChild(tr);
+        }
+      }
+
+      function renderRanking(viewKey, summary) {
+        const ranking = viewKey === 'overall' ? summary.overall : summary.years[viewKey];
+        const topBody = document.querySelector('#top-table tbody');
+        const bottomBody = document.querySelector('#bottom-table tbody');
+        topBody.innerHTML = '';
+        bottomBody.innerHTML = '';
+
+        ranking.top10.forEach((row, index) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${row.department}</td>
+            <td>${formatScore(row.average_score)}</td>
+            <td>${row.survey_total ? formatNumber(row.survey_total, { maximumFractionDigits: 0 }) : '—'}</td>
+          `;
+          topBody.appendChild(tr);
+        });
+
+        ranking.bottom10.forEach((row, index) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${row.department}</td>
+            <td>${formatScore(row.average_score)}</td>
+            <td>${row.survey_total ? formatNumber(row.survey_total, { maximumFractionDigits: 0 }) : '—'}</td>
+          `;
+          bottomBody.appendChild(tr);
+        });
+      }
+
+      async function init() {
+        const response = await fetch('data/summary.json');
+        const summary = await response.json();
+
+        renderMetrics(summary.metadata);
+        renderMonthlyTable(summary);
+        renderRanking('overall', summary);
+
+        const buttons = document.querySelectorAll('.tab-strip button');
+        buttons.forEach((button) => {
+          button.addEventListener('click', () => {
+            buttons.forEach((btn) => btn.classList.toggle('active', btn === button));
+            renderRanking(button.dataset.key, summary);
+          });
+        });
+      }
+
+      init().catch((error) => {
+        console.error('Failed to load summary data', error);
+      });
+    </script>
+  </body>
+</html>

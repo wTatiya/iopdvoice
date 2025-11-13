@@ -1,0 +1,6243 @@
+{
+  "raw_scores": [
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 4.575,
+      "survey_count": 5,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 3.9375,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 3.9375,
+      "survey_count": 6,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 4.083333333333333,
+      "survey_count": 12,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.011160714285714,
+      "survey_count": 28,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "พัฒนาการเด็ก",
+      "average_score": 4.6625,
+      "survey_count": 5,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "MED",
+      "average_score": 4.225,
+      "survey_count": 5,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "PED",
+      "average_score": 4.474137931034482,
+      "survey_count": 29,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.41755319148936,
+      "survey_count": 94,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.351377952755903,
+      "survey_count": 127,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.80952380952381,
+      "survey_count": 21,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "เคมีบำบัด",
+      "average_score": 4.583333333333335,
+      "survey_count": 39,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.106481481481482,
+      "survey_count": 27,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.795454545454544,
+      "survey_count": 11,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.681640625,
+      "survey_count": 32,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.560185185185186,
+      "survey_count": 27,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.777777777777779,
+      "survey_count": 9,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ไตเทียม",
+      "average_score": 4.380067567567568,
+      "survey_count": 74,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "21A",
+      "average_score": 4.53125,
+      "survey_count": 14,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "โรคเลือด",
+      "average_score": 4.66875,
+      "survey_count": 10,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.90625,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 5.0,
+      "survey_count": 3,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 5.0,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ER",
+      "average_score": 4.406249999999999,
+      "survey_count": 14,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "HBO",
+      "average_score": 4.6875,
+      "survey_count": 11,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "การเงิน และบัญชี",
+      "average_score": 4.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.548387096774194,
+      "survey_count": 31,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.153846153846154,
+      "survey_count": 39,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.5539772727272725,
+      "survey_count": 22,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.575431034482757,
+      "survey_count": 29,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18A",
+      "average_score": 4.480113636363636,
+      "survey_count": 66,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18B",
+      "average_score": 4.555045871559633,
+      "survey_count": 109,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18D",
+      "average_score": 4.452205882352942,
+      "survey_count": 34,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19A",
+      "average_score": 4.568509615384616,
+      "survey_count": 52,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19B",
+      "average_score": 4.459302325581394,
+      "survey_count": 43,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19C",
+      "average_score": 4.442994505494505,
+      "survey_count": 91,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19D",
+      "average_score": 4.580985915492954,
+      "survey_count": 71,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "21D",
+      "average_score": 4.773026315789474,
+      "survey_count": 38,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22A",
+      "average_score": 4.447368421052631,
+      "survey_count": 19,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22B",
+      "average_score": 4.675347222222222,
+      "survey_count": 36,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22C",
+      "average_score": 4.5984848484848495,
+      "survey_count": 33,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22D",
+      "average_score": 4.5656779661016955,
+      "survey_count": 59,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "23A",
+      "average_score": 4.312499999999998,
+      "survey_count": 22,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "24A",
+      "average_score": 4.886363636363636,
+      "survey_count": 33,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "25A",
+      "average_score": 4.68923611111111,
+      "survey_count": 36,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "25B",
+      "average_score": 4.654891304347826,
+      "survey_count": 46,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "26B",
+      "average_score": 4.682432432432431,
+      "survey_count": 74,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.625,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Dec 67.xlsx",
+      "month": 12,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
+      "average_score": 1.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 5.0,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 4.477678571428571,
+      "survey_count": 14,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.081439393939393,
+      "survey_count": 33,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 3.4226190476190474,
+      "survey_count": 21,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "MED",
+      "average_score": 3.8671875,
+      "survey_count": 8,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "PED",
+      "average_score": 4.3794642857142865,
+      "survey_count": 14,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.247685185185186,
+      "survey_count": 54,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.29644495412844,
+      "survey_count": 109,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 5.0,
+      "survey_count": 3,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "กายภาพ",
+      "average_score": 4.25,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "เวชกรรม ฟื้นฟู",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "เคมีบำบัด",
+      "average_score": 4.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.63,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.6015625,
+      "survey_count": 8,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.6365384615384615,
+      "survey_count": 65,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 5.0,
+      "survey_count": 15,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.494642857142856,
+      "survey_count": 35,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "21A",
+      "average_score": 4.672499999999999,
+      "survey_count": 25,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.8392857142857135,
+      "survey_count": 7,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 4.6875,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 3.53125,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ER",
+      "average_score": 4.481249999999999,
+      "survey_count": 10,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "HBO",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.53219696969697,
+      "survey_count": 33,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.143973214285714,
+      "survey_count": 56,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.64102564102564,
+      "survey_count": 39,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.533653846153848,
+      "survey_count": 13,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18A",
+      "average_score": 4.5956790123456805,
+      "survey_count": 81,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18B",
+      "average_score": 4.548611111111112,
+      "survey_count": 54,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18D",
+      "average_score": 4.760000000000001,
+      "survey_count": 25,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19A",
+      "average_score": 4.306451612903225,
+      "survey_count": 31,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19B",
+      "average_score": 4.475961538461538,
+      "survey_count": 39,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19C",
+      "average_score": 4.4609375,
+      "survey_count": 56,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19D",
+      "average_score": 4.568396226415094,
+      "survey_count": 53,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "21D",
+      "average_score": 4.449596774193549,
+      "survey_count": 31,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22A",
+      "average_score": 4.580882352941177,
+      "survey_count": 17,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22B",
+      "average_score": 4.686046511627907,
+      "survey_count": 43,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22C",
+      "average_score": 4.636088709677421,
+      "survey_count": 62,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22D",
+      "average_score": 4.587993421052631,
+      "survey_count": 76,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "23A",
+      "average_score": 4.54647435897436,
+      "survey_count": 39,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "24A",
+      "average_score": 4.721726190476191,
+      "survey_count": 42,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "25A",
+      "average_score": 4.663851351351353,
+      "survey_count": 74,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "25B",
+      "average_score": 4.705818965517244,
+      "survey_count": 58,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "26B",
+      "average_score": 4.717329545454547,
+      "survey_count": 44,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.786931818181818,
+      "survey_count": 22,
+      "file_path": "1-68/Summary - Nov 67.xlsx",
+      "month": 11,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 3.25,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 5.0,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.825,
+      "survey_count": 5,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 4.96875,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "Meta",
+      "average_score": 4.25,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.4,
+      "survey_count": 5,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "MED",
+      "average_score": 4.59375,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "PED",
+      "average_score": 4.265625,
+      "survey_count": 16,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.468749999999999,
+      "survey_count": 64,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.344387755102046,
+      "survey_count": 147,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.548611111111111,
+      "survey_count": 9,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ฝังเข็ม",
+      "average_score": 4.625,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.485416666666667,
+      "survey_count": 60,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.678571428571428,
+      "survey_count": 7,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.692708333333334,
+      "survey_count": 36,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "21A",
+      "average_score": 4.329861111111111,
+      "survey_count": 18,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.6375,
+      "survey_count": 5,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 1.0,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 3.84375,
+      "survey_count": 2,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ER",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.5027173913043494,
+      "survey_count": 23,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.195,
+      "survey_count": 50,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.549202127659574,
+      "survey_count": 47,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.38970588235294,
+      "survey_count": 17,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18A",
+      "average_score": 4.324353448275861,
+      "survey_count": 58,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18B",
+      "average_score": 4.539383561643835,
+      "survey_count": 73,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "18D",
+      "average_score": 4.458333333333333,
+      "survey_count": 27,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19A",
+      "average_score": 4.408482142857142,
+      "survey_count": 28,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19B",
+      "average_score": 4.380580357142854,
+      "survey_count": 56,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19C",
+      "average_score": 4.407118055555556,
+      "survey_count": 72,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "19D",
+      "average_score": 4.690625000000001,
+      "survey_count": 60,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "21D",
+      "average_score": 4.644230769230769,
+      "survey_count": 26,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22A",
+      "average_score": 4.569444444444444,
+      "survey_count": 18,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22B",
+      "average_score": 4.578804347826087,
+      "survey_count": 23,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22C",
+      "average_score": 4.528716216216216,
+      "survey_count": 37,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "22D",
+      "average_score": 4.605769230769229,
+      "survey_count": 65,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "23A",
+      "average_score": 4.523026315789474,
+      "survey_count": 38,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "24A",
+      "average_score": 4.5360576923076925,
+      "survey_count": 26,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "25A",
+      "average_score": 4.728365384615386,
+      "survey_count": 52,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "25B",
+      "average_score": 4.7392578125,
+      "survey_count": 64,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "26B",
+      "average_score": 4.680208333333334,
+      "survey_count": 60,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.629310344827586,
+      "survey_count": 29,
+      "file_path": "1-68/Summary - Oct 67.xlsx",
+      "month": 10,
+      "year_be": 2567,
+      "year_ad": 2024
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 3.6586538461538463,
+      "survey_count": 13,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 4.4375,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศูนย์ประกันสุขภาพ",
+      "average_score": 2.0,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 4.2019230769230775,
+      "survey_count": 52,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.274305555555555,
+      "survey_count": 36,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 3.9657258064516134,
+      "survey_count": 31,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.367456896551727,
+      "survey_count": 116,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MED",
+      "average_score": 4.313888888888886,
+      "survey_count": 135,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PED",
+      "average_score": 4.506944444444444,
+      "survey_count": 45,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.512931034482758,
+      "survey_count": 87,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.225171232876712,
+      "survey_count": 73,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.689102564102564,
+      "survey_count": 39,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "กายภาพ",
+      "average_score": 4.75,
+      "survey_count": 4,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เวชกรรม ฟื้นฟู",
+      "average_score": 4.625,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 3.7625,
+      "survey_count": 10,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.252325581395346,
+      "survey_count": 215,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.765625,
+      "survey_count": 24,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.5562499999999995,
+      "survey_count": 100,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.03125,
+      "survey_count": 2,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.526785714285714,
+      "survey_count": 35,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัด นอกเวลา",
+      "average_score": 4.59375,
+      "survey_count": 6,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21A",
+      "average_score": 4.8046875,
+      "survey_count": 8,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "หัตถการ",
+      "average_score": 4.484375,
+      "survey_count": 4,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.53125,
+      "survey_count": 26,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 3.5,
+      "survey_count": 4,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 5.0,
+      "survey_count": 2,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ER",
+      "average_score": 4.331896551724137,
+      "survey_count": 29,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.75,
+      "survey_count": 38,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.2764423076923075,
+      "survey_count": 52,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.4861111111111125,
+      "survey_count": 18,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.7102272727272725,
+      "survey_count": 11,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.394736842105263,
+      "survey_count": 19,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.471590909090909,
+      "survey_count": 11,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18A",
+      "average_score": 4.405405405405406,
+      "survey_count": 74,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18B",
+      "average_score": 4.614329268292683,
+      "survey_count": 82,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18C",
+      "average_score": 4.6625,
+      "survey_count": 45,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18D",
+      "average_score": 4.381250000000001,
+      "survey_count": 40,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19A",
+      "average_score": 4.555833333333335,
+      "survey_count": 75,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19B",
+      "average_score": 4.616071428571428,
+      "survey_count": 35,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19D",
+      "average_score": 4.627840909090907,
+      "survey_count": 44,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20B",
+      "average_score": 4.697916666666666,
+      "survey_count": 18,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20C",
+      "average_score": 4.46511627906977,
+      "survey_count": 86,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21D",
+      "average_score": 4.6603260869565215,
+      "survey_count": 46,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22A",
+      "average_score": 3.7788461538461533,
+      "survey_count": 26,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22B",
+      "average_score": 4.606991525423729,
+      "survey_count": 59,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22C",
+      "average_score": 4.546195652173911,
+      "survey_count": 46,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22D",
+      "average_score": 4.463709677419354,
+      "survey_count": 93,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "23A",
+      "average_score": 4.575961538461538,
+      "survey_count": 65,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "24A",
+      "average_score": 4.613520408163264,
+      "survey_count": 98,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25A",
+      "average_score": 4.700148809523811,
+      "survey_count": 84,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25B",
+      "average_score": 4.689858490566038,
+      "survey_count": 53,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "26B",
+      "average_score": 4.600735294117645,
+      "survey_count": 85,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.527083333333334,
+      "survey_count": 30,
+      "file_path": "2-68/Summary - Feb 68.xlsx",
+      "month": 2,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 3.575,
+      "survey_count": 10,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 4.4125,
+      "survey_count": 5,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 4.138888888888889,
+      "survey_count": 9,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.469907407407407,
+      "survey_count": 27,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 3.3671875,
+      "survey_count": 8,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.290348101265823,
+      "survey_count": 79,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MED",
+      "average_score": 4.315764925373134,
+      "survey_count": 134,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PED",
+      "average_score": 4.3125,
+      "survey_count": 33,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.419270833333337,
+      "survey_count": 120,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.323004201680674,
+      "survey_count": 119,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.619877049180327,
+      "survey_count": 61,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "กายภาพ",
+      "average_score": 4.5,
+      "survey_count": 3,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 5.0,
+      "survey_count": 4,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.392763157894736,
+      "survey_count": 95,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.8298611111111125,
+      "survey_count": 36,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.5708333333333355,
+      "survey_count": 75,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.654761904761904,
+      "survey_count": 21,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21A",
+      "average_score": 4.678571428571429,
+      "survey_count": 7,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.7375,
+      "survey_count": 5,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 4.375,
+      "survey_count": 2,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 3.0833333333333335,
+      "survey_count": 3,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ER",
+      "average_score": 4.419270833333333,
+      "survey_count": 24,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "การเงิน และบัญชี",
+      "average_score": 4.9375,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.48798076923077,
+      "survey_count": 26,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.228448275862068,
+      "survey_count": 29,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.8368055555555545,
+      "survey_count": 18,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.895833333333333,
+      "survey_count": 9,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.496875,
+      "survey_count": 20,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.395833333333333,
+      "survey_count": 6,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18A",
+      "average_score": 4.2935267857142865,
+      "survey_count": 56,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18B",
+      "average_score": 4.591406250000004,
+      "survey_count": 80,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18C",
+      "average_score": 4.6125,
+      "survey_count": 5,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18D",
+      "average_score": 4.525462962962964,
+      "survey_count": 54,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19A",
+      "average_score": 4.546874999999998,
+      "survey_count": 44,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19B",
+      "average_score": 4.592741935483872,
+      "survey_count": 31,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19D",
+      "average_score": 4.609999999999999,
+      "survey_count": 50,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20C",
+      "average_score": 4.380608974358973,
+      "survey_count": 78,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21D",
+      "average_score": 4.5271739130434785,
+      "survey_count": 92,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22A",
+      "average_score": 4.6714743589743595,
+      "survey_count": 39,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22B",
+      "average_score": 4.675304878048779,
+      "survey_count": 41,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22C",
+      "average_score": 4.573863636363637,
+      "survey_count": 33,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22D",
+      "average_score": 4.537137681159421,
+      "survey_count": 69,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "23A",
+      "average_score": 4.452500000000001,
+      "survey_count": 25,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "24A",
+      "average_score": 4.713541666666668,
+      "survey_count": 84,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25A",
+      "average_score": 4.736778846153846,
+      "survey_count": 52,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25B",
+      "average_score": 4.654605263157895,
+      "survey_count": 38,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "26B",
+      "average_score": 4.6653846153846175,
+      "survey_count": 65,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.605357142857144,
+      "survey_count": 35,
+      "file_path": "2-68/Summary - Jan 68.xlsx",
+      "month": 1,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 3.58203125,
+      "survey_count": 16,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 3.6666666666666665,
+      "survey_count": 3,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 4.407327586206898,
+      "survey_count": 58,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.6201923076923075,
+      "survey_count": 13,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 4.45,
+      "survey_count": 10,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Meta",
+      "average_score": 1.1875,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.2752862595419865,
+      "survey_count": 131,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MED",
+      "average_score": 4.261202830188679,
+      "survey_count": 106,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PED",
+      "average_score": 4.221153846153847,
+      "survey_count": 13,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.5680803571428585,
+      "survey_count": 112,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.373697916666665,
+      "survey_count": 192,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.605769230769231,
+      "survey_count": 13,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "กายภาพ",
+      "average_score": 4.5,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เวชกรรม ฟื้นฟู",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 4.419318181818182,
+      "survey_count": 55,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.42239010989011,
+      "survey_count": 91,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.958333333333333,
+      "survey_count": 3,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.578125000000002,
+      "survey_count": 56,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.770833333333333,
+      "survey_count": 6,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.629261363636363,
+      "survey_count": 44,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัด นอกเวลา",
+      "average_score": 4.484375,
+      "survey_count": 8,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ไตเทียม",
+      "average_score": 4.380208333333332,
+      "survey_count": 48,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21A",
+      "average_score": 4.642361111111111,
+      "survey_count": 18,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.334821428571429,
+      "survey_count": 14,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 2.03125,
+      "survey_count": 2,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 4.1875,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ER",
+      "average_score": 3.7578125000000004,
+      "survey_count": 32,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "HBO",
+      "average_score": 4.903409090909091,
+      "survey_count": 11,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "การเงิน และบัญชี",
+      "average_score": 4.4375,
+      "survey_count": 1,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.656250000000001,
+      "survey_count": 30,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.109042553191489,
+      "survey_count": 47,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.665178571428572,
+      "survey_count": 14,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.989583333333333,
+      "survey_count": 6,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.902777777777778,
+      "survey_count": 9,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.444196428571428,
+      "survey_count": 28,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Burn U.",
+      "average_score": 4.1875,
+      "survey_count": 3,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18A",
+      "average_score": 4.458333333333334,
+      "survey_count": 66,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18B",
+      "average_score": 4.498975409836065,
+      "survey_count": 61,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18C",
+      "average_score": 4.651785714285713,
+      "survey_count": 119,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18D",
+      "average_score": 4.611413043478261,
+      "survey_count": 46,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19A",
+      "average_score": 4.576923076923076,
+      "survey_count": 39,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19B",
+      "average_score": 4.609722222222223,
+      "survey_count": 45,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19D",
+      "average_score": 4.692857142857143,
+      "survey_count": 35,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20B",
+      "average_score": 4.19921875,
+      "survey_count": 16,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20C",
+      "average_score": 4.543981481481483,
+      "survey_count": 54,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21D",
+      "average_score": 4.625,
+      "survey_count": 24,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22A",
+      "average_score": 4.408333333333332,
+      "survey_count": 15,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22B",
+      "average_score": 4.6495098039215685,
+      "survey_count": 51,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22C",
+      "average_score": 4.613281250000001,
+      "survey_count": 32,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22D",
+      "average_score": 4.491727941176469,
+      "survey_count": 68,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "23A",
+      "average_score": 4.4801587301587285,
+      "survey_count": 63,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "24A",
+      "average_score": 4.596938775510204,
+      "survey_count": 98,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25A",
+      "average_score": 4.707627118644068,
+      "survey_count": 59,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25B",
+      "average_score": 4.576844262295082,
+      "survey_count": 61,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "26B",
+      "average_score": 4.608630952380951,
+      "survey_count": 84,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.713235294117647,
+      "survey_count": 17,
+      "file_path": "2-68/Summary - Mar 68.xlsx",
+      "month": 3,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 4.575,
+      "survey_count": 5,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 4.333333333333333,
+      "survey_count": 3,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศูนย์ประกันสุขภาพ",
+      "average_score": 4.625,
+      "survey_count": 3,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 4.59375,
+      "survey_count": 4,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 3.8249999999999997,
+      "survey_count": 10,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 3.65625,
+      "survey_count": 4,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Meta",
+      "average_score": 4.5625,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.286697247706424,
+      "survey_count": 109,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MED",
+      "average_score": 4.321969696969698,
+      "survey_count": 33,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PED",
+      "average_score": 4.078125,
+      "survey_count": 4,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.608593749999999,
+      "survey_count": 80,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.380718954248367,
+      "survey_count": 153,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.48125,
+      "survey_count": 10,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "กายภาพ",
+      "average_score": 4.75,
+      "survey_count": 2,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เวชกรรม ฟื้นฟู",
+      "average_score": 4.0625,
+      "survey_count": 3,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 4.316176470588234,
+      "survey_count": 51,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.379464285714287,
+      "survey_count": 56,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.5,
+      "survey_count": 3,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.586805555555557,
+      "survey_count": 54,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.516666666666666,
+      "survey_count": 45,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.475961538461538,
+      "survey_count": 13,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21A",
+      "average_score": 4.625,
+      "survey_count": 21,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.895833333333333,
+      "survey_count": 3,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 5.0,
+      "survey_count": 2,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ER",
+      "average_score": 4.1875,
+      "survey_count": 16,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.744485294117646,
+      "survey_count": 34,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.169871794871796,
+      "survey_count": 39,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.590277777777777,
+      "survey_count": 27,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.8875,
+      "survey_count": 5,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.4943181818181825,
+      "survey_count": 11,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.687499999999999,
+      "survey_count": 15,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18A",
+      "average_score": 4.443855932203389,
+      "survey_count": 59,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18B",
+      "average_score": 4.75,
+      "survey_count": 35,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18C",
+      "average_score": 4.657643312101914,
+      "survey_count": 157,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18D",
+      "average_score": 4.53125,
+      "survey_count": 32,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19A",
+      "average_score": 4.481707317073171,
+      "survey_count": 41,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19B",
+      "average_score": 4.5133928571428585,
+      "survey_count": 42,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19D",
+      "average_score": 4.577702702702703,
+      "survey_count": 37,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20B",
+      "average_score": 4.397321428571428,
+      "survey_count": 14,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20C",
+      "average_score": 4.533203124999999,
+      "survey_count": 64,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21D",
+      "average_score": 4.5896739130434785,
+      "survey_count": 23,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22A",
+      "average_score": 4.503333333333332,
+      "survey_count": 75,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22 Stroke",
+      "average_score": 4.489583333333334,
+      "survey_count": 6,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22B",
+      "average_score": 4.635416666666665,
+      "survey_count": 42,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22C",
+      "average_score": 4.402777777777778,
+      "survey_count": 27,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22D",
+      "average_score": 4.465579710144927,
+      "survey_count": 69,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "23A",
+      "average_score": 4.501420454545455,
+      "survey_count": 88,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "24A",
+      "average_score": 4.677083333333334,
+      "survey_count": 90,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25A",
+      "average_score": 4.569078947368424,
+      "survey_count": 57,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25B",
+      "average_score": 4.643028846153847,
+      "survey_count": 52,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "26B",
+      "average_score": 4.614406779661018,
+      "survey_count": 59,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.617187500000001,
+      "survey_count": 24,
+      "file_path": "3-68/Summary - Apr 68.xlsx",
+      "month": 4,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 3.9257812500000004,
+      "survey_count": 16,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 4.958333333333333,
+      "survey_count": 3,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 4.215277777777778,
+      "survey_count": 9,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.3489010989011,
+      "survey_count": 91,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 3.678571428571428,
+      "survey_count": 14,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Meta",
+      "average_score": 1.875,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.248786407766993,
+      "survey_count": 103,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "พัฒนาการเด็ก",
+      "average_score": 4.38169642857143,
+      "survey_count": 28,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MED",
+      "average_score": 4.3914007092198615,
+      "survey_count": 141,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PED",
+      "average_score": 4.335129310344827,
+      "survey_count": 58,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.370489690721651,
+      "survey_count": 97,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.336196682464455,
+      "survey_count": 211,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.90625,
+      "survey_count": 4,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "กายภาพ",
+      "average_score": 4.3125,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เวชกรรม ฟื้นฟู",
+      "average_score": 3.6875,
+      "survey_count": 2,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 4.565789473684211,
+      "survey_count": 19,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.13357843137255,
+      "survey_count": 51,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 5.0,
+      "survey_count": 4,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.551587301587301,
+      "survey_count": 63,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.625000000000001,
+      "survey_count": 18,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.8014705882352935,
+      "survey_count": 34,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัด นอกเวลา",
+      "average_score": 4.484375,
+      "survey_count": 16,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21A",
+      "average_score": 4.609375,
+      "survey_count": 16,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "หัตถการ",
+      "average_score": 4.365131578947368,
+      "survey_count": 19,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.732142857142857,
+      "survey_count": 7,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 3.6875,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 3.1875,
+      "survey_count": 4,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ER",
+      "average_score": 4.269021739130436,
+      "survey_count": 46,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "HBO",
+      "average_score": 4.7727272727272725,
+      "survey_count": 11,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "การเงิน และบัญชี",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "หอบ",
+      "average_score": 4.325,
+      "survey_count": 10,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.713362068965518,
+      "survey_count": 29,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.177631578947367,
+      "survey_count": 38,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.404017857142858,
+      "survey_count": 28,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.955357142857143,
+      "survey_count": 7,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.62215909090909,
+      "survey_count": 22,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.3898809523809526,
+      "survey_count": 21,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Burn U.",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18A",
+      "average_score": 4.421232876712328,
+      "survey_count": 73,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18B",
+      "average_score": 4.567382812500002,
+      "survey_count": 64,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18C",
+      "average_score": 4.60828025477707,
+      "survey_count": 157,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18D",
+      "average_score": 4.600961538461537,
+      "survey_count": 39,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19A",
+      "average_score": 4.621527777777778,
+      "survey_count": 54,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19B",
+      "average_score": 4.362268518518519,
+      "survey_count": 54,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19D",
+      "average_score": 4.593749999999999,
+      "survey_count": 32,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20B",
+      "average_score": 4.444852941176471,
+      "survey_count": 17,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20C",
+      "average_score": 4.462890625000001,
+      "survey_count": 64,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21D",
+      "average_score": 4.61141304347826,
+      "survey_count": 23,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22A",
+      "average_score": 4.538793103448278,
+      "survey_count": 58,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22 Stroke",
+      "average_score": 4.395833333333333,
+      "survey_count": 6,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22B",
+      "average_score": 4.603260869565219,
+      "survey_count": 46,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22C",
+      "average_score": 4.572420634920634,
+      "survey_count": 63,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22D",
+      "average_score": 4.628676470588234,
+      "survey_count": 85,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "23A",
+      "average_score": 4.511029411764706,
+      "survey_count": 102,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "24A",
+      "average_score": 4.648437500000002,
+      "survey_count": 56,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25A",
+      "average_score": 4.772887323943662,
+      "survey_count": 71,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25B",
+      "average_score": 4.7875,
+      "survey_count": 25,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "26B",
+      "average_score": 4.74319306930693,
+      "survey_count": 101,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.554054054054055,
+      "survey_count": 37,
+      "file_path": "3-68/Summary - June 68.xlsx",
+      "month": 6,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 4.53125,
+      "survey_count": 2,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 2.375,
+      "survey_count": 2,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 4.4700000000000015,
+      "survey_count": 25,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.319642857142857,
+      "survey_count": 35,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 2.4305555555555554,
+      "survey_count": 9,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Meta",
+      "average_score": 4.5,
+      "survey_count": 2,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.073598130841121,
+      "survey_count": 107,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MED",
+      "average_score": 3.99375,
+      "survey_count": 10,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PED",
+      "average_score": 4.507211538461538,
+      "survey_count": 26,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.522569444444445,
+      "survey_count": 72,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.343463302752294,
+      "survey_count": 109,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ฝังเข็ม",
+      "average_score": 5.0,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 4.4541666666666675,
+      "survey_count": 15,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.375,
+      "survey_count": 18,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.535714285714286,
+      "survey_count": 7,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.371621621621622,
+      "survey_count": 37,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.989583333333333,
+      "survey_count": 6,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.779513888888889,
+      "survey_count": 36,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัด นอกเวลา",
+      "average_score": 4.546875000000001,
+      "survey_count": 20,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ไตเทียม",
+      "average_score": 4.458841463414634,
+      "survey_count": 82,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21A",
+      "average_score": 4.624999999999999,
+      "survey_count": 19,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "หัตถการ",
+      "average_score": 4.0,
+      "survey_count": 1,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.302083333333334,
+      "survey_count": 18,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 3.7038690476190474,
+      "survey_count": 42,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 2.75,
+      "survey_count": 2,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ER",
+      "average_score": 4.415178571428569,
+      "survey_count": 98,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.684121621621621,
+      "survey_count": 37,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.132462686567164,
+      "survey_count": 67,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.583333333333333,
+      "survey_count": 18,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.859375,
+      "survey_count": 12,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.254807692307692,
+      "survey_count": 13,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.65625,
+      "survey_count": 18,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18A",
+      "average_score": 4.410361842105264,
+      "survey_count": 76,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18B",
+      "average_score": 4.593749999999999,
+      "survey_count": 34,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18C",
+      "average_score": 4.63424295774648,
+      "survey_count": 142,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18D",
+      "average_score": 4.4625,
+      "survey_count": 20,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19A",
+      "average_score": 4.617857142857143,
+      "survey_count": 35,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19B",
+      "average_score": 4.50679347826087,
+      "survey_count": 46,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19D",
+      "average_score": 4.696614583333335,
+      "survey_count": 48,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20B",
+      "average_score": 5.0,
+      "survey_count": 2,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20C",
+      "average_score": 4.620192307692309,
+      "survey_count": 65,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21D",
+      "average_score": 4.7015625,
+      "survey_count": 40,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22A",
+      "average_score": 4.584760273972601,
+      "survey_count": 73,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Stroke",
+      "average_score": 4.633928571428571,
+      "survey_count": 7,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22B",
+      "average_score": 4.6413690476190474,
+      "survey_count": 42,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22C",
+      "average_score": 4.6469594594594605,
+      "survey_count": 37,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22D",
+      "average_score": 4.48,
+      "survey_count": 75,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "23A",
+      "average_score": 4.453124999999997,
+      "survey_count": 104,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "24A",
+      "average_score": 4.719803370786515,
+      "survey_count": 89,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25A",
+      "average_score": 4.6625,
+      "survey_count": 60,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25B",
+      "average_score": 4.556818181818182,
+      "survey_count": 55,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "26B",
+      "average_score": 4.714527027027027,
+      "survey_count": 74,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.553921568627453,
+      "survey_count": 51,
+      "file_path": "3-68/Summary - May 68.xlsx",
+      "month": 5,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ER",
+      "average_score": 3.9829545454545467,
+      "survey_count": 44,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 3.78125,
+      "survey_count": 8,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 4.3125,
+      "survey_count": 5,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "หัตถการ",
+      "average_score": 4.363281250000002,
+      "survey_count": 16,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 3.59375,
+      "survey_count": 4,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.360714285714286,
+      "survey_count": 35,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 4.09973404255319,
+      "survey_count": 47,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Meta",
+      "average_score": 4.29298780487805,
+      "survey_count": 205,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Meta Plus",
+      "average_score": 4.509868421052631,
+      "survey_count": 19,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.3325892857142865,
+      "survey_count": 84,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MED",
+      "average_score": 4.319672131147543,
+      "survey_count": 122,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PED",
+      "average_score": 4.789062499999999,
+      "survey_count": 16,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.4980670103092795,
+      "survey_count": 97,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.465431415929202,
+      "survey_count": 226,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 5.0,
+      "survey_count": 2,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.401785714285714,
+      "survey_count": 28,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.125,
+      "survey_count": 4,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.4473039215686265,
+      "survey_count": 51,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.513888888888889,
+      "survey_count": 9,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.647058823529412,
+      "survey_count": 17,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21A",
+      "average_score": 4.598214285714286,
+      "survey_count": 28,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.458333333333333,
+      "survey_count": 6,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 3.93125,
+      "survey_count": 10,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 3.328125,
+      "survey_count": 4,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.71875,
+      "survey_count": 24,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.184782608695651,
+      "survey_count": 46,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.750000000000001,
+      "survey_count": 27,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.875,
+      "survey_count": 10,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.6480263157894735,
+      "survey_count": 19,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.803571428571429,
+      "survey_count": 14,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18A",
+      "average_score": 4.48726851851852,
+      "survey_count": 54,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18B",
+      "average_score": 4.53191489361702,
+      "survey_count": 47,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18C",
+      "average_score": 4.541129032258068,
+      "survey_count": 155,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18D",
+      "average_score": 4.723684210526316,
+      "survey_count": 38,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19A",
+      "average_score": 4.34298780487805,
+      "survey_count": 41,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19B",
+      "average_score": 4.328869047619048,
+      "survey_count": 42,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19D",
+      "average_score": 4.339015151515151,
+      "survey_count": 33,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20B",
+      "average_score": 4.819444444444445,
+      "survey_count": 9,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20C",
+      "average_score": 4.528716216216216,
+      "survey_count": 37,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21D",
+      "average_score": 4.725852272727274,
+      "survey_count": 44,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22A",
+      "average_score": 4.518292682926829,
+      "survey_count": 41,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Stroke",
+      "average_score": 4.636363636363636,
+      "survey_count": 11,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22B",
+      "average_score": 4.645408163265306,
+      "survey_count": 49,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22C",
+      "average_score": 4.544034090909092,
+      "survey_count": 44,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22D",
+      "average_score": 4.321302816901408,
+      "survey_count": 71,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "23A",
+      "average_score": 4.583180147058824,
+      "survey_count": 136,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "24A",
+      "average_score": 4.722826086956523,
+      "survey_count": 69,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25A",
+      "average_score": 4.798363095238095,
+      "survey_count": 84,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25B",
+      "average_score": 4.839062499999999,
+      "survey_count": 40,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "26B",
+      "average_score": 4.631147540983607,
+      "survey_count": 61,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.404411764705883,
+      "survey_count": 17,
+      "file_path": "4-68/Summary - Aug 68.xlsx",
+      "month": 8,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 3.6944444444444446,
+      "survey_count": 9,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 3.96875,
+      "survey_count": 2,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 5.0,
+      "survey_count": 3,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.348437499999999,
+      "survey_count": 80,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 4.243263473053894,
+      "survey_count": 167,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Meta",
+      "average_score": 4.35121681415929,
+      "survey_count": 113,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Metha Plus",
+      "average_score": 4.443181818181818,
+      "survey_count": 22,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.301438053097345,
+      "survey_count": 113,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MED",
+      "average_score": 4.010416666666667,
+      "survey_count": 6,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PED",
+      "average_score": 4.467261904761904,
+      "survey_count": 21,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.56413043478261,
+      "survey_count": 115,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.313766891891894,
+      "survey_count": 148,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.517857142857143,
+      "survey_count": 7,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 4.03125,
+      "survey_count": 2,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.291666666666666,
+      "survey_count": 24,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.383333333333334,
+      "survey_count": 15,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.390625,
+      "survey_count": 4,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.758522727272727,
+      "survey_count": 22,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.686197916666666,
+      "survey_count": 48,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ผ่าตัด นอกเวลา",
+      "average_score": 4.768382352941177,
+      "survey_count": 17,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21A",
+      "average_score": 4.70777027027027,
+      "survey_count": 37,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "หัตถการ",
+      "average_score": 4.236979166666665,
+      "survey_count": 24,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.238970588235294,
+      "survey_count": 17,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 3.6624999999999996,
+      "survey_count": 35,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 3.9196428571428568,
+      "survey_count": 7,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ER",
+      "average_score": 4.124999999999999,
+      "survey_count": 35,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "การเงิน และบัญชี",
+      "average_score": 3.84375,
+      "survey_count": 2,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.673295454545455,
+      "survey_count": 22,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.097993827160495,
+      "survey_count": 81,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.695652173913044,
+      "survey_count": 23,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.572916666666666,
+      "survey_count": 12,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.734375,
+      "survey_count": 8,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.65625,
+      "survey_count": 6,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18A",
+      "average_score": 4.317460317460318,
+      "survey_count": 63,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18B",
+      "average_score": 4.32845744680851,
+      "survey_count": 47,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18C",
+      "average_score": 4.568862275449099,
+      "survey_count": 167,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "18D",
+      "average_score": 4.595744680851063,
+      "survey_count": 47,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19A",
+      "average_score": 4.675000000000001,
+      "survey_count": 60,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19B",
+      "average_score": 4.52328431372549,
+      "survey_count": 51,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "19D",
+      "average_score": 4.689285714285715,
+      "survey_count": 35,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20B",
+      "average_score": 4.384868421052632,
+      "survey_count": 19,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "20C",
+      "average_score": 4.476973684210526,
+      "survey_count": 38,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "21D",
+      "average_score": 4.546474358974359,
+      "survey_count": 39,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22A",
+      "average_score": 4.383720930232558,
+      "survey_count": 43,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "Stroke",
+      "average_score": 4.645833333333334,
+      "survey_count": 12,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22B",
+      "average_score": 4.580357142857143,
+      "survey_count": 49,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22C",
+      "average_score": 4.635670731707316,
+      "survey_count": 41,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "22D",
+      "average_score": 4.550551470588235,
+      "survey_count": 68,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "23A",
+      "average_score": 4.628947368421053,
+      "survey_count": 95,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "24A",
+      "average_score": 4.685606060606061,
+      "survey_count": 66,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25A",
+      "average_score": 4.788765822784811,
+      "survey_count": 79,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "25B",
+      "average_score": 4.361607142857143,
+      "survey_count": 14,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "26B",
+      "average_score": 4.6998355263157885,
+      "survey_count": 76,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.78030303030303,
+      "survey_count": 33,
+      "file_path": "4-68/Summary - July.xlsx",
+      "month": 7,
+      "year_be": 2568,
+      "year_ad": 2025
+    }
+  ],
+  "yearly": {
+    "2024": [
+      {
+        "department": "ชั้น 1 อาคาร 150 ปี",
+        "average_score": 4.645833333333333,
+        "survey_count": 6,
+        "month_count": 2
+      },
+      {
+        "department": "ห้องบัตร ชั้น 1",
+        "average_score": 4.5625,
+        "survey_count": 4,
+        "month_count": 3
+      },
+      {
+        "department": "ORTHO",
+        "average_score": 4.475694444444445,
+        "survey_count": 18,
+        "month_count": 3
+      },
+      {
+        "department": "นอกเวลา",
+        "average_score": 4.1463068181818175,
+        "survey_count": 44,
+        "month_count": 3
+      },
+      {
+        "department": "คลินิกเวชปฏิบัติ",
+        "average_score": 3.7375,
+        "survey_count": 35,
+        "month_count": 3
+      },
+      {
+        "department": "ศัลยกรรม",
+        "average_score": 4.0974264705882355,
+        "survey_count": 34,
+        "month_count": 3
+      },
+      {
+        "department": "พัฒนาการเด็ก",
+        "average_score": 4.6625,
+        "survey_count": 5,
+        "month_count": 1
+      },
+      {
+        "department": "MED",
+        "average_score": 4.083333333333333,
+        "survey_count": 15,
+        "month_count": 3
+      },
+      {
+        "department": "PED",
+        "average_score": 4.3951271186440675,
+        "survey_count": 59,
+        "month_count": 3
+      },
+      {
+        "department": "OB-GYN",
+        "average_score": 4.3897405660377355,
+        "survey_count": 212,
+        "month_count": 3
+      },
+      {
+        "department": "ANC",
+        "average_score": 4.333061357702351,
+        "survey_count": 383,
+        "month_count": 3
+      },
+      {
+        "department": "ผิวหนัง",
+        "average_score": 4.755681818181818,
+        "survey_count": 33,
+        "month_count": 3
+      },
+      {
+        "department": "เคมีบำบัด",
+        "average_score": 4.568750000000001,
+        "survey_count": 40,
+        "month_count": 2
+      },
+      {
+        "department": "เบาหวาน",
+        "average_score": 4.125178571428572,
+        "survey_count": 28,
+        "month_count": 2
+      },
+      {
+        "department": "จักษุ",
+        "average_score": 4.7281249999999995,
+        "survey_count": 20,
+        "month_count": 3
+      },
+      {
+        "department": "ENT",
+        "average_score": 4.587977707006369,
+        "survey_count": 157,
+        "month_count": 3
+      },
+      {
+        "department": "ส่องกล้อง",
+        "average_score": 4.711734693877552,
+        "survey_count": 49,
+        "month_count": 3
+      },
+      {
+        "department": "ผ่าตัดวิสัญญี",
+        "average_score": 4.615625,
+        "survey_count": 80,
+        "month_count": 3
+      },
+      {
+        "department": "ไตเทียม",
+        "average_score": 4.380067567567568,
+        "survey_count": 74,
+        "month_count": 1
+      },
+      {
+        "department": "21A",
+        "average_score": 4.529605263157895,
+        "survey_count": 57,
+        "month_count": 3
+      },
+      {
+        "department": "โรคเลือด",
+        "average_score": 4.66875,
+        "survey_count": 10,
+        "month_count": 1
+      },
+      {
+        "department": "จิตเวช",
+        "average_score": 4.776785714285714,
+        "survey_count": 14,
+        "month_count": 3
+      },
+      {
+        "department": "ปฐมภูมิ",
+        "average_score": 3.6145833333333335,
+        "survey_count": 6,
+        "month_count": 3
+      },
+      {
+        "department": "ทันตกรรม",
+        "average_score": 4.125,
+        "survey_count": 6,
+        "month_count": 3
+      },
+      {
+        "department": "ER",
+        "average_score": 4.459999999999999,
+        "survey_count": 25,
+        "month_count": 3
+      },
+      {
+        "department": "HBO",
+        "average_score": 4.713541666666667,
+        "survey_count": 12,
+        "month_count": 2
+      },
+      {
+        "department": "การเงิน และบัญชี",
+        "average_score": 4.0,
+        "survey_count": 1,
+        "month_count": 1
+      },
+      {
+        "department": "SICU",
+        "average_score": 4.530172413793104,
+        "survey_count": 87,
+        "month_count": 3
+      },
+      {
+        "department": "ห้องคลอด",
+        "average_score": 4.1642241379310345,
+        "survey_count": 145,
+        "month_count": 3
+      },
+      {
+        "department": "NICU",
+        "average_score": 4.583333333333332,
+        "survey_count": 108,
+        "month_count": 3
+      },
+      {
+        "department": "MICU",
+        "average_score": 4.5127118644067785,
+        "survey_count": 59,
+        "month_count": 3
+      },
+      {
+        "department": "18A",
+        "average_score": 4.4817073170731705,
+        "survey_count": 205,
+        "month_count": 3
+      },
+      {
+        "department": "18B",
+        "average_score": 4.548728813559322,
+        "survey_count": 236,
+        "month_count": 3
+      },
+      {
+        "department": "18D",
+        "average_score": 4.543604651162791,
+        "survey_count": 86,
+        "month_count": 3
+      },
+      {
+        "department": "19A",
+        "average_score": 4.454954954954955,
+        "survey_count": 111,
+        "month_count": 3
+      },
+      {
+        "department": "19B",
+        "average_score": 4.432065217391303,
+        "survey_count": 138,
+        "month_count": 3
+      },
+      {
+        "department": "19C",
+        "average_score": 4.435787671232877,
+        "survey_count": 219,
+        "month_count": 3
+      },
+      {
+        "department": "19D",
+        "average_score": 4.613111413043477,
+        "survey_count": 184,
+        "month_count": 3
+      },
+      {
+        "department": "21D",
+        "average_score": 4.6322368421052635,
+        "survey_count": 95,
+        "month_count": 3
+      },
+      {
+        "department": "22A",
+        "average_score": 4.530092592592593,
+        "survey_count": 54,
+        "month_count": 3
+      },
+      {
+        "department": "22B",
+        "average_score": 4.658088235294118,
+        "survey_count": 102,
+        "month_count": 3
+      },
+      {
+        "department": "22C",
+        "average_score": 4.59659090909091,
+        "survey_count": 132,
+        "month_count": 3
+      },
+      {
+        "department": "22D",
+        "average_score": 4.5871875,
+        "survey_count": 200,
+        "month_count": 3
+      },
+      {
+        "department": "23A",
+        "average_score": 4.485479797979798,
+        "survey_count": 99,
+        "month_count": 3
+      },
+      {
+        "department": "24A",
+        "average_score": 4.727722772277228,
+        "survey_count": 101,
+        "month_count": 3
+      },
+      {
+        "department": "25A",
+        "average_score": 4.690200617283951,
+        "survey_count": 162,
+        "month_count": 3
+      },
+      {
+        "department": "25B",
+        "average_score": 4.704613095238096,
+        "survey_count": 168,
+        "month_count": 3
+      },
+      {
+        "department": "26B",
+        "average_score": 4.690308988764045,
+        "survey_count": 178,
+        "month_count": 3
+      },
+      {
+        "department": "ตึกสว่าง",
+        "average_score": 4.694575471698113,
+        "survey_count": 53,
+        "month_count": 3
+      },
+      {
+        "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
+        "average_score": 1.0,
+        "survey_count": 1,
+        "month_count": 1
+      },
+      {
+        "department": "กายภาพ",
+        "average_score": 4.25,
+        "survey_count": 1,
+        "month_count": 1
+      },
+      {
+        "department": "เวชกรรม ฟื้นฟู",
+        "average_score": 5.0,
+        "survey_count": 1,
+        "month_count": 1
+      },
+      {
+        "department": "Meta",
+        "average_score": 4.25,
+        "survey_count": 1,
+        "month_count": 1
+      },
+      {
+        "department": "ฝังเข็ม",
+        "average_score": 4.625,
+        "survey_count": 1,
+        "month_count": 1
+      }
+    ],
+    "2025": [
+      {
+        "department": "ชั้น 1 อาคาร 150 ปี",
+        "average_score": 3.7832278481012658,
+        "survey_count": 79,
+        "month_count": 8
+      },
+      {
+        "department": "ห้องบัตร ชั้น 1",
+        "average_score": 4.151041666666667,
+        "survey_count": 24,
+        "month_count": 8
+      },
+      {
+        "department": "ศูนย์ประกันสุขภาพ",
+        "average_score": 3.96875,
+        "survey_count": 4,
+        "month_count": 2
+      },
+      {
+        "department": "ORTHO",
+        "average_score": 4.322027439024391,
+        "survey_count": 164,
+        "month_count": 8
+      },
+      {
+        "department": "นอกเวลา",
+        "average_score": 4.343463302752293,
+        "survey_count": 327,
+        "month_count": 8
+      },
+      {
+        "department": "คลินิกเวชปฏิบัติ",
+        "average_score": 4.081681034482759,
+        "survey_count": 290,
+        "month_count": 8
+      },
+      {
+        "department": "ศัลยกรรม",
+        "average_score": 4.27122921615202,
+        "survey_count": 842,
+        "month_count": 8
+      },
+      {
+        "department": "MED",
+        "average_score": 4.316139010189229,
+        "survey_count": 687,
+        "month_count": 8
+      },
+      {
+        "department": "PED",
+        "average_score": 4.423032407407407,
+        "survey_count": 216,
+        "month_count": 8
+      },
+      {
+        "department": "OB-GYN",
+        "average_score": 4.505128205128206,
+        "survey_count": 780,
+        "month_count": 8
+      },
+      {
+        "department": "ANC",
+        "average_score": 4.361393176279448,
+        "survey_count": 1231,
+        "month_count": 8
+      },
+      {
+        "department": "ผิวหนัง",
+        "average_score": 4.6342592592592595,
+        "survey_count": 135,
+        "month_count": 7
+      },
+      {
+        "department": "กายภาพ",
+        "average_score": 4.619318181818182,
+        "survey_count": 11,
+        "month_count": 5
+      },
+      {
+        "department": "เวชกรรม ฟื้นฟู",
+        "average_score": 4.169642857142857,
+        "survey_count": 7,
+        "month_count": 4
+      },
+      {
+        "department": "เคมีบำบัด และโรคเลือด",
+        "average_score": 4.38251582278481,
+        "survey_count": 158,
+        "month_count": 8
+      },
+      {
+        "department": "เบาหวาน",
+        "average_score": 4.316717128027681,
+        "survey_count": 578,
+        "month_count": 8
+      },
+      {
+        "department": "จักษุ",
+        "average_score": 4.694010416666667,
+        "survey_count": 96,
+        "month_count": 8
+      },
+      {
+        "department": "ENT",
+        "average_score": 4.534943181818182,
+        "survey_count": 440,
+        "month_count": 8
+      },
+      {
+        "department": "ส่องกล้อง",
+        "average_score": 4.621608527131782,
+        "survey_count": 129,
+        "month_count": 8
+      },
+      {
+        "department": "ผ่าตัดวิสัญญี",
+        "average_score": 4.6676762114537445,
+        "survey_count": 227,
+        "month_count": 7
+      },
+      {
+        "department": "ผ่าตัด นอกเวลา",
+        "average_score": 4.584888059701493,
+        "survey_count": 67,
+        "month_count": 5
+      },
+      {
+        "department": "21A",
+        "average_score": 4.652191558441558,
+        "survey_count": 154,
+        "month_count": 8
+      },
+      {
+        "department": "หัตถการ",
+        "average_score": 4.318359375,
+        "survey_count": 64,
+        "month_count": 5
+      },
+      {
+        "department": "จิตเวช",
+        "average_score": 4.440104166666667,
+        "survey_count": 96,
+        "month_count": 8
+      },
+      {
+        "department": "ปฐมภูมิ",
+        "average_score": 3.6829427083333335,
+        "survey_count": 96,
+        "month_count": 7
+      },
+      {
+        "department": "ทันตกรรม",
+        "average_score": 3.6975,
+        "survey_count": 25,
+        "month_count": 8
+      },
+      {
+        "department": "ER",
+        "average_score": 4.221064814814815,
+        "survey_count": 324,
+        "month_count": 8
+      },
+      {
+        "department": "SICU",
+        "average_score": 4.684375,
+        "survey_count": 240,
+        "month_count": 8
+      },
+      {
+        "department": "ห้องคลอด",
+        "average_score": 4.162437343358396,
+        "survey_count": 399,
+        "month_count": 8
+      },
+      {
+        "department": "NICU",
+        "average_score": 4.619219653179191,
+        "survey_count": 173,
+        "month_count": 8
+      },
+      {
+        "department": "PICU",
+        "average_score": 4.817708333333333,
+        "survey_count": 72,
+        "month_count": 8
+      },
+      {
+        "department": "MICU",
+        "average_score": 4.547004132231405,
+        "survey_count": 121,
+        "month_count": 8
+      },
+      {
+        "department": "CCU",
+        "average_score": 4.550420168067227,
+        "survey_count": 119,
+        "month_count": 8
+      },
+      {
+        "department": "18A",
+        "average_score": 4.4052303262955865,
+        "survey_count": 521,
+        "month_count": 8
+      },
+      {
+        "department": "18B",
+        "average_score": 4.558472222222223,
+        "survey_count": 450,
+        "month_count": 8
+      },
+      {
+        "department": "18C",
+        "average_score": 4.610480464625132,
+        "survey_count": 947,
+        "month_count": 8
+      },
+      {
+        "department": "18D",
+        "average_score": 4.559928797468355,
+        "survey_count": 316,
+        "month_count": 8
+      },
+      {
+        "department": "19A",
+        "average_score": 4.559768637532134,
+        "survey_count": 389,
+        "month_count": 8
+      },
+      {
+        "department": "19B",
+        "average_score": 4.498013005780347,
+        "survey_count": 346,
+        "month_count": 8
+      },
+      {
+        "department": "19D",
+        "average_score": 4.609872611464968,
+        "survey_count": 314,
+        "month_count": 8
+      },
+      {
+        "department": "20B",
+        "average_score": 4.479605263157895,
+        "survey_count": 95,
+        "month_count": 7
+      },
+      {
+        "department": "20C",
+        "average_score": 4.495498971193417,
+        "survey_count": 486,
+        "month_count": 8
+      },
+      {
+        "department": "21D",
+        "average_score": 4.612726586102719,
+        "survey_count": 331,
+        "month_count": 8
+      },
+      {
+        "department": "22A",
+        "average_score": 4.475675675675675,
+        "survey_count": 370,
+        "month_count": 8
+      },
+      {
+        "department": "22B",
+        "average_score": 4.628133245382585,
+        "survey_count": 379,
+        "month_count": 8
+      },
+      {
+        "department": "22C",
+        "average_score": 4.571400928792569,
+        "survey_count": 323,
+        "month_count": 8
+      },
+      {
+        "department": "22D",
+        "average_score": 4.494042642140468,
+        "survey_count": 598,
+        "month_count": 8
+      },
+      {
+        "department": "23A",
+        "average_score": 4.533093657817108,
+        "survey_count": 678,
+        "month_count": 8
+      },
+      {
+        "department": "24A",
+        "average_score": 4.6692307692307695,
+        "survey_count": 650,
+        "month_count": 8
+      },
+      {
+        "department": "25A",
+        "average_score": 4.724015567765568,
+        "survey_count": 546,
+        "month_count": 8
+      },
+      {
+        "department": "25B",
+        "average_score": 4.64792899408284,
+        "survey_count": 338,
+        "month_count": 8
+      },
+      {
+        "department": "26B",
+        "average_score": 4.663326446280991,
+        "survey_count": 605,
+        "month_count": 8
+      },
+      {
+        "department": "ตึกสว่าง",
+        "average_score": 4.595543032786885,
+        "survey_count": 244,
+        "month_count": 8
+      },
+      {
+        "department": "การเงิน และบัญชี",
+        "average_score": 4.4125,
+        "survey_count": 5,
+        "month_count": 4
+      },
+      {
+        "department": "Meta",
+        "average_score": 4.298374613003096,
+        "survey_count": 323,
+        "month_count": 6
+      },
+      {
+        "department": "ไตเทียม",
+        "average_score": 4.429807692307692,
+        "survey_count": 130,
+        "month_count": 2
+      },
+      {
+        "department": "HBO",
+        "average_score": 4.838068181818182,
+        "survey_count": 22,
+        "month_count": 2
+      },
+      {
+        "department": "Burn U.",
+        "average_score": 4.390625,
+        "survey_count": 4,
+        "month_count": 2
+      },
+      {
+        "department": "22 Stroke",
+        "average_score": 4.442708333333333,
+        "survey_count": 12,
+        "month_count": 2
+      },
+      {
+        "department": "พัฒนาการเด็ก",
+        "average_score": 4.38169642857143,
+        "survey_count": 28,
+        "month_count": 1
+      },
+      {
+        "department": "หอบ",
+        "average_score": 4.325,
+        "survey_count": 10,
+        "month_count": 1
+      },
+      {
+        "department": "ฝังเข็ม",
+        "average_score": 5.0,
+        "survey_count": 1,
+        "month_count": 1
+      },
+      {
+        "department": "Stroke",
+        "average_score": 4.639583333333333,
+        "survey_count": 30,
+        "month_count": 3
+      },
+      {
+        "department": "Meta Plus",
+        "average_score": 4.509868421052631,
+        "survey_count": 19,
+        "month_count": 1
+      },
+      {
+        "department": "Metha Plus",
+        "average_score": 4.443181818181818,
+        "survey_count": 22,
+        "month_count": 1
+      }
+    ]
+  },
+  "overall": [
+    {
+      "department": "ชั้น 1 อาคาร 150 ปี",
+      "average_score": 3.8441176470588236,
+      "survey_count": 85,
+      "month_count": 10
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 4.209821428571429,
+      "survey_count": 28,
+      "month_count": 11
+    },
+    {
+      "department": "ORTHO",
+      "average_score": 4.337225274725275,
+      "survey_count": 182,
+      "month_count": 11
+    },
+    {
+      "department": "นอกเวลา",
+      "average_score": 4.320080862533692,
+      "survey_count": 371,
+      "month_count": 11
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 4.044615384615385,
+      "survey_count": 325,
+      "month_count": 11
+    },
+    {
+      "department": "ศัลยกรรม",
+      "average_score": 4.264483447488585,
+      "survey_count": 876,
+      "month_count": 11
+    },
+    {
+      "department": "พัฒนาการเด็ก",
+      "average_score": 4.424242424242425,
+      "survey_count": 33,
+      "month_count": 2
+    },
+    {
+      "department": "MED",
+      "average_score": 4.31116452991453,
+      "survey_count": 702,
+      "month_count": 11
+    },
+    {
+      "department": "PED",
+      "average_score": 4.4170454545454545,
+      "survey_count": 275,
+      "month_count": 11
+    },
+    {
+      "department": "OB-GYN",
+      "average_score": 4.480468750000001,
+      "survey_count": 992,
+      "month_count": 11
+    },
+    {
+      "department": "ANC",
+      "average_score": 4.354670074349443,
+      "survey_count": 1614,
+      "month_count": 11
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.658110119047619,
+      "survey_count": 168,
+      "month_count": 10
+    },
+    {
+      "department": "เคมีบำบัด",
+      "average_score": 4.568750000000001,
+      "survey_count": 40,
+      "month_count": 2
+    },
+    {
+      "department": "เบาหวาน",
+      "average_score": 4.30786716171617,
+      "survey_count": 606,
+      "month_count": 10
+    },
+    {
+      "department": "จักษุ",
+      "average_score": 4.6998922413793105,
+      "survey_count": 116,
+      "month_count": 11
+    },
+    {
+      "department": "ENT",
+      "average_score": 4.548890284757119,
+      "survey_count": 597,
+      "month_count": 11
+    },
+    {
+      "department": "ส่องกล้อง",
+      "average_score": 4.646418539325842,
+      "survey_count": 178,
+      "month_count": 11
+    },
+    {
+      "department": "ผ่าตัดวิสัญญี",
+      "average_score": 4.654112377850163,
+      "survey_count": 307,
+      "month_count": 10
+    },
+    {
+      "department": "ไตเทียม",
+      "average_score": 4.411764705882353,
+      "survey_count": 204,
+      "month_count": 3
+    },
+    {
+      "department": "21A",
+      "average_score": 4.6190758293838865,
+      "survey_count": 211,
+      "month_count": 11
+    },
+    {
+      "department": "โรคเลือด",
+      "average_score": 4.66875,
+      "survey_count": 10,
+      "month_count": 1
+    },
+    {
+      "department": "จิตเวช",
+      "average_score": 4.482954545454546,
+      "survey_count": 110,
+      "month_count": 11
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 3.678921568627451,
+      "survey_count": 102,
+      "month_count": 10
+    },
+    {
+      "department": "ทันตกรรม",
+      "average_score": 3.780241935483871,
+      "survey_count": 31,
+      "month_count": 11
+    },
+    {
+      "department": "ER",
+      "average_score": 4.238180515759312,
+      "survey_count": 349,
+      "month_count": 11
+    },
+    {
+      "department": "HBO",
+      "average_score": 4.794117647058823,
+      "survey_count": 34,
+      "month_count": 4
+    },
+    {
+      "department": "การเงิน และบัญชี",
+      "average_score": 4.34375,
+      "survey_count": 6,
+      "month_count": 5
+    },
+    {
+      "department": "SICU",
+      "average_score": 4.643348623853211,
+      "survey_count": 327,
+      "month_count": 11
+    },
+    {
+      "department": "ห้องคลอด",
+      "average_score": 4.162913602941177,
+      "survey_count": 544,
+      "month_count": 11
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.605427046263345,
+      "survey_count": 281,
+      "month_count": 11
+    },
+    {
+      "department": "MICU",
+      "average_score": 4.535763888888889,
+      "survey_count": 180,
+      "month_count": 11
+    },
+    {
+      "department": "18A",
+      "average_score": 4.4268250688705235,
+      "survey_count": 726,
+      "month_count": 11
+    },
+    {
+      "department": "18B",
+      "average_score": 4.5551202623906715,
+      "survey_count": 686,
+      "month_count": 11
+    },
+    {
+      "department": "18D",
+      "average_score": 4.556436567164179,
+      "survey_count": 402,
+      "month_count": 11
+    },
+    {
+      "department": "19A",
+      "average_score": 4.5365,
+      "survey_count": 500,
+      "month_count": 11
+    },
+    {
+      "department": "19B",
+      "average_score": 4.479209710743802,
+      "survey_count": 484,
+      "month_count": 11
+    },
+    {
+      "department": "19C",
+      "average_score": 4.435787671232877,
+      "survey_count": 219,
+      "month_count": 3
+    },
+    {
+      "department": "19D",
+      "average_score": 4.611069277108434,
+      "survey_count": 498,
+      "month_count": 11
+    },
+    {
+      "department": "21D",
+      "average_score": 4.617077464788732,
+      "survey_count": 426,
+      "month_count": 11
+    },
+    {
+      "department": "22A",
+      "average_score": 4.482606132075472,
+      "survey_count": 424,
+      "month_count": 11
+    },
+    {
+      "department": "22B",
+      "average_score": 4.634485446985447,
+      "survey_count": 481,
+      "month_count": 11
+    },
+    {
+      "department": "22C",
+      "average_score": 4.578708791208792,
+      "survey_count": 455,
+      "month_count": 11
+    },
+    {
+      "department": "22D",
+      "average_score": 4.517387218045112,
+      "survey_count": 798,
+      "month_count": 11
+    },
+    {
+      "department": "23A",
+      "average_score": 4.527027027027026,
+      "survey_count": 777,
+      "month_count": 11
+    },
+    {
+      "department": "24A",
+      "average_score": 4.677097203728362,
+      "survey_count": 751,
+      "month_count": 11
+    },
+    {
+      "department": "25A",
+      "average_score": 4.716278248587571,
+      "survey_count": 708,
+      "month_count": 11
+    },
+    {
+      "department": "25B",
+      "average_score": 4.666749011857707,
+      "survey_count": 506,
+      "month_count": 11
+    },
+    {
+      "department": "26B",
+      "average_score": 4.669460408684547,
+      "survey_count": 783,
+      "month_count": 11
+    },
+    {
+      "department": "ตึกสว่าง",
+      "average_score": 4.613215488215488,
+      "survey_count": 297,
+      "month_count": 11
+    },
+    {
+      "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
+      "average_score": 1.0,
+      "survey_count": 1,
+      "month_count": 1
+    },
+    {
+      "department": "กายภาพ",
+      "average_score": 4.588541666666667,
+      "survey_count": 12,
+      "month_count": 6
+    },
+    {
+      "department": "เวชกรรม ฟื้นฟู",
+      "average_score": 4.2734375,
+      "survey_count": 8,
+      "month_count": 5
+    },
+    {
+      "department": "Meta",
+      "average_score": 4.2982253086419755,
+      "survey_count": 324,
+      "month_count": 7
+    },
+    {
+      "department": "ฝังเข็ม",
+      "average_score": 4.8125,
+      "survey_count": 2,
+      "month_count": 2
+    },
+    {
+      "department": "ศูนย์ประกันสุขภาพ",
+      "average_score": 3.96875,
+      "survey_count": 4,
+      "month_count": 2
+    },
+    {
+      "department": "เคมีบำบัด และโรคเลือด",
+      "average_score": 4.38251582278481,
+      "survey_count": 158,
+      "month_count": 8
+    },
+    {
+      "department": "ผ่าตัด นอกเวลา",
+      "average_score": 4.584888059701493,
+      "survey_count": 67,
+      "month_count": 5
+    },
+    {
+      "department": "หัตถการ",
+      "average_score": 4.318359375,
+      "survey_count": 64,
+      "month_count": 5
+    },
+    {
+      "department": "PICU",
+      "average_score": 4.817708333333333,
+      "survey_count": 72,
+      "month_count": 8
+    },
+    {
+      "department": "CCU",
+      "average_score": 4.550420168067227,
+      "survey_count": 119,
+      "month_count": 8
+    },
+    {
+      "department": "18C",
+      "average_score": 4.610480464625132,
+      "survey_count": 947,
+      "month_count": 8
+    },
+    {
+      "department": "20B",
+      "average_score": 4.479605263157895,
+      "survey_count": 95,
+      "month_count": 7
+    },
+    {
+      "department": "20C",
+      "average_score": 4.495498971193417,
+      "survey_count": 486,
+      "month_count": 8
+    },
+    {
+      "department": "Burn U.",
+      "average_score": 4.390625,
+      "survey_count": 4,
+      "month_count": 2
+    },
+    {
+      "department": "22 Stroke",
+      "average_score": 4.442708333333333,
+      "survey_count": 12,
+      "month_count": 2
+    },
+    {
+      "department": "หอบ",
+      "average_score": 4.325,
+      "survey_count": 10,
+      "month_count": 1
+    },
+    {
+      "department": "Stroke",
+      "average_score": 4.639583333333333,
+      "survey_count": 30,
+      "month_count": 3
+    },
+    {
+      "department": "Meta Plus",
+      "average_score": 4.509868421052631,
+      "survey_count": 19,
+      "month_count": 1
+    },
+    {
+      "department": "Metha Plus",
+      "average_score": 4.443181818181818,
+      "survey_count": 22,
+      "month_count": 1
+    }
+  ]
+}
