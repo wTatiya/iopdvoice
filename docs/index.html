@@ -38,7 +38,7 @@
       }
 
       header p {
-        max-width: 60ch;
+        max-width: 70ch;
         margin: 0;
         color: rgba(226, 232, 240, 0.85);
       }
@@ -76,7 +76,10 @@
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       }
 
-      .metric-card {
+      .metric-card,
+      .chart-card,
+      .list-card,
+      .insight-card {
         background: rgba(15, 23, 42, 0.9);
         border-radius: 16px;
         padding: 1.5rem;
@@ -96,6 +99,47 @@
         font-size: clamp(1.8rem, 3vw, 2.6rem);
         font-weight: 600;
         color: #f8fafc;
+      }
+
+      .chart-container {
+        width: 100%;
+        min-height: 360px;
+      }
+
+      .split-grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+
+      .list-card ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 1rem;
+      }
+
+      .list-card li {
+        display: grid;
+        gap: 0.35rem;
+      }
+
+      .list-card strong {
+        color: #f8fafc;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.2rem 0.65rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        background: rgba(56, 189, 248, 0.18);
+        color: #bae6fd;
       }
 
       table {
@@ -173,11 +217,97 @@
         color: #38bdf8;
       }
 
+      .control-group {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+
+      .control-group label {
+        font-size: 0.95rem;
+        color: rgba(226, 232, 240, 0.85);
+      }
+
+      .control-group select {
+        background: rgba(15, 23, 42, 0.9);
+        color: #e0f2fe;
+        border: 1px solid rgba(56, 189, 248, 0.4);
+        border-radius: 999px;
+        padding: 0.4rem 1rem;
+        font-size: 0.95rem;
+      }
+
+      .inline-stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        margin-top: 1rem;
+        color: rgba(226, 232, 240, 0.85);
+        font-size: 0.95rem;
+      }
+
+      .inline-stats span {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .note {
+        font-size: 0.85rem;
+        color: rgba(148, 163, 184, 0.8);
+        margin-top: 1rem;
+      }
+
       footer {
         text-align: center;
         font-size: 0.85rem;
         color: rgba(148, 163, 184, 0.8);
         padding: 2rem 5vw 3rem;
+      }
+
+      .table-scroll {
+        overflow-x: auto;
+      }
+
+      .highlight-value {
+        font-weight: 600;
+        color: #f8fafc;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.2rem 0.75rem;
+        border-radius: 999px;
+        background: rgba(56, 189, 248, 0.15);
+        color: #bae6fd;
+        font-size: 0.8rem;
+      }
+
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.65rem;
+        margin-top: 0.75rem;
+      }
+
+      .legend span {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.85rem;
+        color: rgba(226, 232, 240, 0.8);
+      }
+
+      .legend span::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        border-radius: 3px;
+        display: inline-block;
       }
 
       @media (max-width: 720px) {
@@ -208,8 +338,8 @@
       <h1>OP–IP Voice Satisfaction Dashboard</h1>
       <p>
         A consolidated view of outpatient and inpatient satisfaction surveys collected between October 2024 and August 2025.
-        Explore the departments that delighted patients, the teams that need attention, and recurring suggestions captured in
-        narrative feedback.
+        Explore monthly satisfaction, operational volatility, patient sentiment themes, and predictive risk alerts derived from
+        more than 4,000 narrative comments.
       </p>
     </header>
     <main>
@@ -218,18 +348,65 @@
         <div class="metric-grid" id="metrics"></div>
         <h3>Survey coverage</h3>
         <p id="coverage"></p>
-        <table id="monthly-table" aria-label="Best and worst departments by month">
-          <thead>
-            <tr>
-              <th scope="col">Month</th>
-              <th scope="col">Highest scoring department</th>
-              <th scope="col">Score</th>
-              <th scope="col">Lowest scoring department</th>
-              <th scope="col">Score</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+        <div class="table-scroll">
+          <table id="monthly-table" aria-label="Best and worst departments by month">
+            <thead>
+              <tr>
+                <th scope="col">Month</th>
+                <th scope="col">Highest scoring department</th>
+                <th scope="col">Score</th>
+                <th scope="col">Lowest scoring department</th>
+                <th scope="col">Score</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="service-dynamics">
+        <h2>Service quality dynamics</h2>
+        <p>
+          Track where service quality is unstable and surface departments that consistently delight patients after weighting
+          scores by the number of survey forms received.
+        </p>
+        <div class="split-grid">
+          <div class="chart-card">
+            <h3>Volatility index (σ of monthly scores)</h3>
+            <div class="chart-container" id="volatility-chart" role="img" aria-label="Volatility index for departments"></div>
+            <div class="inline-stats" id="volatility-summary"></div>
+          </div>
+          <div class="list-card">
+            <h3>Best practice candidates</h3>
+            <p class="note">
+              Weighted averages shown. Candidates must sustain ≥6 months of data with an average score ≥4.60.
+            </p>
+            <ul id="high-performance-list"></ul>
+          </div>
+          <div class="list-card">
+            <h3>Critical service gaps</h3>
+            <p class="note">
+              Lowest weighted performers with available form counts. Use volatility to prioritise urgent stabilisation.
+            </p>
+            <ul id="critical-gaps-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="trend-analysis">
+        <h2>Trend analysis by department</h2>
+        <p>
+          Visualise month-over-month satisfaction for any department. Hover to see weighted averages and reported survey volumes.
+        </p>
+        <div class="control-group">
+          <label for="trend-select">Choose department</label>
+          <select id="trend-select" aria-label="Select department for trend chart"></select>
+          <span class="pill" id="trend-months"></span>
+        </div>
+        <div class="chart-card" style="padding: 1.25rem">
+          <div class="chart-container" id="trend-chart" role="img" aria-label="Monthly satisfaction trend"></div>
+          <div class="inline-stats" id="trend-stats"></div>
+        </div>
       </section>
 
       <section id="rankings">
@@ -246,27 +423,146 @@
         <div class="metric-grid" style="margin-top: 1.5rem">
           <div>
             <h3>Top 10 departments</h3>
-            <table id="top-table" aria-live="polite">
+            <div class="table-scroll">
+              <table id="top-table" aria-live="polite">
+                <thead>
+                  <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Avg. score</th>
+                    <th scope="col">Survey count</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <h3>Lowest-scoring departments</h3>
+            <div class="table-scroll">
+              <table id="bottom-table" aria-live="polite">
+                <thead>
+                  <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Avg. score</th>
+                    <th scope="col">Survey count</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sentiment-insights">
+        <h2>Sentiment & theme breakdown</h2>
+        <p>
+          Text mining of monthly Thai-language comment summaries highlights the most common frustrations and appreciation notes.
+          Use the stacked chart to see how themes shift over time.
+        </p>
+        <div class="chart-card">
+          <h3>Theme frequency over time</h3>
+          <div class="chart-container" id="theme-chart" role="img" aria-label="Stacked theme counts by month"></div>
+          <div class="legend" id="theme-legend"></div>
+        </div>
+        <div class="split-grid">
+          <div class="insight-card">
+            <h3>Systemic weaknesses</h3>
+            <ul class="insights" id="systemic-weaknesses"></ul>
+            <p class="note" id="sentiment-summary"></p>
+          </div>
+          <div class="insight-card">
+            <h3>Time of day & demographic signals</h3>
+            <table>
               <thead>
                 <tr>
-                  <th scope="col">Rank</th>
-                  <th scope="col">Department</th>
+                  <th scope="col">Shift cue</th>
+                  <th scope="col">Mentions</th>
+                  <th scope="col">Share</th>
+                </tr>
+              </thead>
+              <tbody id="time-table"></tbody>
+            </table>
+            <table style="margin-top: 1rem">
+              <thead>
+                <tr>
+                  <th scope="col">Demographic cue</th>
+                  <th scope="col">Mentions</th>
+                </tr>
+              </thead>
+              <tbody id="demographic-mentions"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="operations">
+        <h2>Operational correlations & benchmarking</h2>
+        <div class="split-grid">
+          <div class="chart-card">
+            <h3>Wait-time signals vs satisfaction</h3>
+            <div class="chart-container" id="wait-correlation-chart" role="img" aria-label="Scatterplot of wait theme share versus satisfaction"></div>
+            <p class="note" id="wait-correlation-note"></p>
+          </div>
+          <div class="insight-card">
+            <h3>Top vs bottom structural comparison</h3>
+            <ul class="insights" id="benchmarking-list"></ul>
+            <p class="note">
+              Weighted averages use reported form counts; departments without counts revert to simple means.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="predictive-risk">
+        <h2>Predictive risk outlook</h2>
+        <p>
+          A logistic model uses the past three months of scores per department to flag areas likely to decline in the next
+          reporting cycle. Higher probabilities indicate a stronger risk of dropping ≥0.05 points versus the latest month.
+        </p>
+        <div class="table-scroll">
+          <table id="risk-table">
+            <thead>
+              <tr>
+                <th scope="col">Department</th>
+                <th scope="col">Decline probability</th>
+                <th scope="col">Last observed</th>
+                <th scope="col">Latest score</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="equity">
+        <h2>Demographic disparity check</h2>
+        <p>
+          Departments are grouped into high-level service categories to compare average satisfaction and survey coverage. Keyword
+          scans highlight which populations surface most in free-text feedback.
+        </p>
+        <div class="split-grid">
+          <div class="table-scroll">
+            <table id="service-group-table">
+              <thead>
+                <tr>
+                  <th scope="col">Service group</th>
                   <th scope="col">Avg. score</th>
-                  <th scope="col">Survey count</th>
+                  <th scope="col">Reported forms</th>
+                  <th scope="col">Departments</th>
                 </tr>
               </thead>
               <tbody></tbody>
             </table>
           </div>
-          <div>
-            <h3>Lowest-scoring departments</h3>
-            <table id="bottom-table" aria-live="polite">
+          <div class="table-scroll">
+            <table id="demographic-table">
               <thead>
                 <tr>
-                  <th scope="col">Rank</th>
-                  <th scope="col">Department</th>
-                  <th scope="col">Avg. score</th>
-                  <th scope="col">Survey count</th>
+                  <th scope="col">Mentioned group</th>
+                  <th scope="col">Comment count</th>
                 </tr>
               </thead>
               <tbody></tbody>
@@ -275,31 +571,14 @@
         </div>
       </section>
 
-      <section id="qualitative-insights">
-        <h2>What patients are saying</h2>
-        <p>
-          Narrative responses collected in the monthly reports highlight consistent strengths and opportunities. The most frequent
-          themes across the documents include:
-        </p>
-        <ul class="insights">
-          <li>Long waits between registration, triage, and physician consultation—especially in general practice and after-hours clinics.</li>
-          <li>Requests for more staff at registration desks and clearer coordination between departments when handing off paperwork.</li>
-          <li>Facility improvements such as fixing restrooms, ensuring air-conditioning and entertainment systems work, and providing extra seating or bedding for caregivers.</li>
-          <li>Calls for clearer communication on treatment plans, medication side effects, and follow-up instructions, particularly after procedures.</li>
-          <li>Positive praise for staff friendliness, attentive wound care, cleanliness, and overall service once patients were being seen.</li>
-        </ul>
-        <p class="note">
-          These themes were distilled from the Thai-language satisfaction summaries included alongside the quantitative workbooks. They
-          capture recurrent sentiments across months rather than exhaustive translations.
-        </p>
-      </section>
-
       <section id="methodology">
         <h2>Methodology</h2>
         <p>
-          Data were parsed directly from the <code>Total Table</code> worksheet in each monthly Excel file. Weighted averages were
-          calculated using the reported number of survey forms whenever available; otherwise the mean of the recorded scores was used.
-          The scripts powering this page can be found in the <code>analysis/</code> folder of the repository.
+          Data were parsed directly from the <code>Total Table</code> worksheet in each monthly Excel file. Weighted averages use
+          reported survey counts when present; otherwise the mean of recorded scores is applied. Comment themes are extracted from
+          Thai-language narrative summaries via keyword dictionaries tuned to recurring topics (wait times, staffing, facilities,
+          communication, and empathy cues). Predictive risk flags rely on a logistic model that ingests rolling three-month trends
+          per department.
         </p>
       </section>
     </main>
@@ -307,6 +586,7 @@
       Updated automatically from <code>data/</code> on each run. Ready to publish via GitHub Pages.
     </footer>
 
+    <script src="https://cdn.plot.ly/plotly-2.35.0.min.js"></script>
     <script>
       const monthNames = [
         'January',
@@ -323,12 +603,48 @@
         'December'
       ];
 
+      const themeLabels = {
+        wait_time: 'Wait & patient flow',
+        attitude: 'Staff attitude & empathy',
+        communication: 'Communication & instructions',
+        process: 'Process & coordination',
+        facilities: 'Facilities & equipment',
+        staffing: 'Staffing levels'
+      };
+
+      const themePalette = ['#38bdf8', '#22d3ee', '#a855f7', '#f97316', '#facc15', '#14b8a6'];
+
+      const timeLabels = {
+        morning: 'Morning shift cues',
+        afternoon: 'Afternoon cues',
+        evening: 'Evening cues',
+        night: 'Night-shift cues'
+      };
+
+      const demographicLabels = {
+        elderly: 'Older adults / caregivers',
+        children: 'Children & paediatric families',
+        pregnancy: 'Pregnancy & maternity',
+        caregiver: 'Caregivers & family',
+        disability: 'Patients with disabilities',
+        foreign: 'International patients'
+      };
+
       function formatNumber(value, options = {}) {
         return new Intl.NumberFormat(undefined, options).format(value);
       }
 
       function formatScore(score) {
-        return score ? score.toFixed(3).replace(/0+$/, '').replace(/\.$/, '') : '—';
+        return score || score === 0 ? score.toFixed(3).replace(/0+$/, '').replace(/\.$/, '') : '—';
+      }
+
+      function formatPercent(value) {
+        return `${(value * 100).toFixed(1)}%`;
+      }
+
+      function formatPeriod(period) {
+        const [year, month] = period.split('-').map(Number);
+        return `${monthNames[month - 1]} ${year}`;
       }
 
       function renderMetrics(metadata) {
@@ -421,9 +737,403 @@
         });
       }
 
+      function renderVolatility(insights) {
+        const container = document.getElementById('volatility-chart');
+        const summary = document.getElementById('volatility-summary');
+        if (!window.Plotly) {
+          container.textContent = 'Plotly is required to visualise volatility.';
+          return;
+        }
+        const unstable = insights.volatility.most_unstable.slice(0, 10);
+        const trace = {
+          type: 'bar',
+          orientation: 'h',
+          x: unstable.map((item) => item.volatility_index),
+          y: unstable.map((item) => item.department),
+          marker: {
+            color: '#f59e0b'
+          },
+          hovertemplate:
+            '<b>%{y}</b><br>Volatility σ: %{x}<br>Range: %{customdata[0]}<br>Trend/month: %{customdata[1]}<br>Observations: %{customdata[2]}<extra></extra>',
+          customdata: unstable.map((item) => [formatScore(item.score_range), formatScore(item.trend_per_month), item.observations])
+        };
+        const layout = {
+          height: 45 * unstable.length + 80,
+          margin: { l: 180, r: 30, t: 10, b: 30 },
+          paper_bgcolor: 'rgba(15,23,42,0)',
+          plot_bgcolor: 'rgba(15,23,42,0)',
+          xaxis: {
+            title: 'Volatility (σ)',
+            color: '#94a3b8',
+            gridcolor: 'rgba(148, 163, 184, 0.25)'
+          },
+          yaxis: {
+            color: '#e2e8f0'
+          }
+        };
+        Plotly.newPlot(container, [trace], layout, { responsive: true, displayModeBar: false });
+
+        summary.innerHTML = '';
+        const median = insights.volatility.summary.median_volatility;
+        const unstableNames = unstable.slice(0, 3).map((item) => item.department).join(', ');
+        const stableNames = insights.volatility.most_stable.slice(0, 3).map((item) => item.department).join(', ');
+        const items = [
+          `Median σ across ${insights.volatility.summary.departments_evaluated} departments: <span class="highlight-value">${formatScore(
+            median
+          )}</span>`,
+          `Most unstable: <span class="highlight-value">${unstableNames}</span>`,
+          `Most stable: <span class="highlight-value">${stableNames}</span>`
+        ];
+        for (const text of items) {
+          const span = document.createElement('span');
+          span.innerHTML = text;
+          summary.appendChild(span);
+        }
+      }
+
+      function renderPerformanceLists(insights) {
+        const highList = document.getElementById('high-performance-list');
+        const gapList = document.getElementById('critical-gaps-list');
+        highList.innerHTML = '';
+        gapList.innerHTML = '';
+
+        const makeItem = (record, highlightVolatility = false) => {
+          const li = document.createElement('li');
+          const title = document.createElement('strong');
+          title.textContent = record.department;
+          const details = document.createElement('span');
+          const parts = [
+            `Avg. score ${formatScore(record.average_score)}`,
+            `Forms ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}`,
+            `Months ${record.months_observed}`
+          ];
+          if (highlightVolatility && record.volatility_index != null) {
+            parts.push(`σ ${formatScore(record.volatility_index)}`);
+          }
+          details.textContent = parts.join(' · ');
+          li.appendChild(title);
+          li.appendChild(details);
+          return li;
+        };
+
+        insights.high_performance.forEach((record) => {
+          highList.appendChild(makeItem(record, true));
+        });
+
+        insights.critical_gaps.forEach((record) => {
+          const li = document.createElement('li');
+          const title = document.createElement('strong');
+          title.textContent = record.department;
+          const details = document.createElement('span');
+          const parts = [
+            `Avg. score ${formatScore(record.average_score)}`,
+            `Forms ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}`,
+            `Months ${record.months_observed}`
+          ];
+          if (record.volatility_index != null) {
+            parts.push(`σ ${formatScore(record.volatility_index)}`);
+          }
+          details.textContent = parts.join(' · ');
+          li.appendChild(title);
+          li.appendChild(details);
+          gapList.appendChild(li);
+        });
+      }
+
+      function renderTrendExplorer(insights) {
+        const select = document.getElementById('trend-select');
+        const chart = document.getElementById('trend-chart');
+        const stats = document.getElementById('trend-stats');
+        const monthsPill = document.getElementById('trend-months');
+        select.innerHTML = '';
+        const departments = insights.trends.departments;
+        const map = new Map(departments.map((item) => [item.department, item]));
+
+        const defaultDepartment = departments
+          .slice()
+          .sort((a, b) => (b.mean_score - a.mean_score !== 0 ? b.mean_score - a.mean_score : b.months_observed - a.months_observed))[0].department;
+
+        for (const item of departments) {
+          const option = document.createElement('option');
+          option.value = item.department;
+          option.textContent = item.department;
+          if (item.department === defaultDepartment) {
+            option.selected = true;
+          }
+          select.appendChild(option);
+        }
+
+        const render = (department) => {
+          const entry = map.get(department);
+          if (!entry || !window.Plotly) return;
+          const x = entry.series.map((point) => point.period);
+          const y = entry.series.map((point) => point.average_score);
+          const text = entry.series.map(
+            (point) => `${formatPeriod(point.period)}<br>Score ${formatScore(point.average_score)}<br>Forms ${point.survey_count ?? '—'}`
+          );
+          const trace = {
+            x,
+            y,
+            text,
+            type: 'scatter',
+            mode: 'lines+markers',
+            line: { color: '#38bdf8', width: 3 },
+            marker: { color: '#0ea5e9', size: 8 },
+            hovertemplate: '%{text}<extra></extra>'
+          };
+          const layout = {
+            margin: { t: 10, r: 20, l: 50, b: 60 },
+            yaxis: {
+              title: 'Average satisfaction',
+              range: [3, 5],
+              color: '#94a3b8',
+              gridcolor: 'rgba(148, 163, 184, 0.25)'
+            },
+            xaxis: {
+              title: 'Month',
+              color: '#94a3b8'
+            },
+            paper_bgcolor: 'rgba(15,23,42,0)',
+            plot_bgcolor: 'rgba(15,23,42,0)'
+          };
+          Plotly.newPlot(chart, [trace], layout, { responsive: true, displayModeBar: false });
+
+          monthsPill.textContent = `${entry.months_observed} months tracked`;
+          stats.innerHTML = '';
+          const bestPoint = entry.series.reduce((acc, point) => (point.average_score > acc.average_score ? point : acc), entry.series[0]);
+          const worstPoint = entry.series.reduce((acc, point) => (point.average_score < acc.average_score ? point : acc), entry.series[0]);
+          const statItems = [
+            `Mean score <span class="highlight-value">${formatScore(entry.mean_score)}</span>`,
+            `Best month <span class="highlight-value">${formatPeriod(bestPoint.period)}</span> (${formatScore(bestPoint.average_score)})`,
+            `Lowest month <span class="highlight-value">${formatPeriod(worstPoint.period)}</span> (${formatScore(worstPoint.average_score)})`
+          ];
+          for (const textItem of statItems) {
+            const span = document.createElement('span');
+            span.innerHTML = textItem;
+            stats.appendChild(span);
+          }
+        };
+
+        select.addEventListener('change', () => render(select.value));
+        render(defaultDepartment);
+      }
+
+      function renderThemes(insights) {
+        const container = document.getElementById('theme-chart');
+        const legend = document.getElementById('theme-legend');
+        if (!window.Plotly) {
+          container.textContent = 'Plotly is required to render theme timelines.';
+          return;
+        }
+        const periods = insights.themes_over_time.map((row) => row.period);
+        const traces = Object.keys(themeLabels).map((key, index) => ({
+          x: periods,
+          y: insights.themes_over_time.map((row) => row.themes[key] || 0),
+          type: 'bar',
+          name: themeLabels[key],
+          marker: { color: themePalette[index % themePalette.length] }
+        }));
+        const layout = {
+          barmode: 'stack',
+          margin: { t: 10, r: 20, l: 50, b: 60 },
+          paper_bgcolor: 'rgba(15,23,42,0)',
+          plot_bgcolor: 'rgba(15,23,42,0)',
+          yaxis: {
+            title: 'Mentions',
+            color: '#94a3b8',
+            gridcolor: 'rgba(148, 163, 184, 0.25)'
+          },
+          xaxis: {
+            title: 'Month',
+            color: '#94a3b8'
+          }
+        };
+        Plotly.newPlot(container, traces, layout, { responsive: true, displayModeBar: false });
+
+        legend.innerHTML = '';
+        Object.entries(themeLabels).forEach(([key, label], index) => {
+          const span = document.createElement('span');
+          const color = themePalette[index % themePalette.length];
+          span.innerHTML = `<span style="width:12px;height:12px;border-radius:3px;background:${color};display:inline-block;"></span>${label}`;
+          span.style.color = 'rgba(226, 232, 240, 0.85)';
+          span.style.fontWeight = '500';
+          span.style.display = 'inline-flex';
+          span.style.alignItems = 'center';
+          span.style.gap = '0.35rem';
+          legend.appendChild(span);
+        });
+
+        const topThemes = Object.entries(insights.systemic_themes.themes)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 3)
+          .map(([key, count]) => ({
+            label: themeLabels[key] || key,
+            count
+          }));
+        const systemicList = document.getElementById('systemic-weaknesses');
+        systemicList.innerHTML = '';
+        topThemes.forEach((item) => {
+          const li = document.createElement('li');
+          li.innerHTML = `<strong>${item.label}</strong> — ${formatNumber(item.count)} mentions`;
+          systemicList.appendChild(li);
+        });
+
+        const sentimentTotals = insights.systemic_themes.sentiment_totals;
+        const total = Object.values(sentimentTotals).reduce((acc, value) => acc + value, 0);
+        const positiveShare = total ? (sentimentTotals.positive || 0) / total : 0;
+        const negativeShare = total ? (sentimentTotals.negative || 0) / total : 0;
+        const summary = document.getElementById('sentiment-summary');
+        summary.innerHTML = `Positive narratives account for <span class="highlight-value">${formatPercent(
+          positiveShare
+        )}</span> while negative or improvement requests represent <span class="highlight-value">${formatPercent(negativeShare)}</span> of ${formatNumber(
+          total
+        )} classified comments.`;
+
+        const timeBody = document.getElementById('time-table');
+        timeBody.innerHTML = '';
+        insights.systemic_themes.time_of_day.forEach((row) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${timeLabels[row.time] || row.time}</td>
+            <td>${formatNumber(row.mentions)}</td>
+            <td>${formatPercent(row.share)}</td>
+          `;
+          timeBody.appendChild(tr);
+        });
+
+        const demographicBody = document.getElementById('demographic-mentions');
+        demographicBody.innerHTML = '';
+        insights.systemic_themes.demographic_mentions.forEach((row) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${demographicLabels[row.group] || row.group}</td>
+            <td>${formatNumber(row.mentions)}</td>
+          `;
+          demographicBody.appendChild(tr);
+        });
+      }
+
+      function renderWaitCorrelation(insights) {
+        const container = document.getElementById('wait-correlation-chart');
+        const note = document.getElementById('wait-correlation-note');
+        if (!window.Plotly) {
+          container.textContent = 'Plotly is required to visualise correlations.';
+          return;
+        }
+        const series = insights.wait_time_correlation.series;
+        const trace = {
+          x: series.map((row) => row.wait_share * 100),
+          y: series.map((row) => row.satisfaction),
+          mode: 'markers+text',
+          text: series.map((row) => row.period),
+          textposition: 'top center',
+          marker: {
+            color: '#38bdf8',
+            size: 10
+          },
+          hovertemplate: 'Month %{text}<br>Wait mentions %{customdata[0]} / %{customdata[1]}<br>Wait share %{x:.1f}%<br>Avg. score %{y:.3f}<extra></extra>',
+          customdata: series.map((row) => [row.wait_mentions, row.comment_total])
+        };
+        const layout = {
+          margin: { t: 10, r: 20, l: 60, b: 60 },
+          xaxis: {
+            title: 'Wait-time mentions (% of comments)',
+            color: '#94a3b8',
+            gridcolor: 'rgba(148, 163, 184, 0.25)'
+          },
+          yaxis: {
+            title: 'Average satisfaction',
+            color: '#94a3b8',
+            range: [3.5, 5]
+          },
+          paper_bgcolor: 'rgba(15,23,42,0)',
+          plot_bgcolor: 'rgba(15,23,42,0)'
+        };
+        Plotly.newPlot(container, [trace], layout, { responsive: true, displayModeBar: false });
+
+        const r = insights.wait_time_correlation.pearson_r;
+        const p = insights.wait_time_correlation.p_value;
+        note.innerHTML = `Correlation coefficient r = <span class="highlight-value">${r !== null ? r.toFixed(2) : 'n/a'}</span>, p-value = <span class="highlight-value">${
+          p !== null ? p.toFixed(3) : 'n/a'
+        }</span>. Higher wait complaints align with lower satisfaction in most months.`;
+      }
+
+      function renderBenchmarking(insights) {
+        const list = document.getElementById('benchmarking-list');
+        list.innerHTML = '';
+        const topStats = insights.benchmarking.top10.stats;
+        const bottomStats = insights.benchmarking.bottom10.stats;
+        const delta = insights.benchmarking.delta;
+        const items = [
+          `Top 10 average score <span class="highlight-value">${formatScore(topStats.mean_score)}</span> vs bottom 10 at <span class="highlight-value">${formatScore(
+            bottomStats.mean_score
+          )}</span> (gap ${formatScore(delta.score_gap)}).`,
+          `Top performers handle roughly <span class="highlight-value">${formatNumber(Math.round(topStats.mean_survey_total))}</span> forms per month vs <span class="highlight-value">${formatNumber(
+            Math.round(bottomStats.mean_survey_total)
+          )}</span> among the lowest group.`,
+          `Volatility among top units averages ${topStats.mean_volatility != null ? formatScore(topStats.mean_volatility) : '—'} compared with ${
+            bottomStats.mean_volatility != null ? formatScore(bottomStats.mean_volatility) : '—'
+          } for the bottom cohort.`
+        ];
+        items.forEach((text) => {
+          const li = document.createElement('li');
+          li.innerHTML = text;
+          list.appendChild(li);
+        });
+      }
+
+      function renderPredictiveRisk(insights) {
+        const tbody = document.querySelector('#risk-table tbody');
+        tbody.innerHTML = '';
+        const nextPeriod = insights.predictive_risk.next_period;
+        if (nextPeriod) {
+          document.querySelector('#predictive-risk h2').innerHTML = `Predictive risk outlook <span class="pill">Next period ${nextPeriod}</span>`;
+        }
+        insights.predictive_risk.high_risk_departments.slice(0, 15).forEach((row) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${row.department}</td>
+            <td>${formatPercent(row.probability_of_decline)}</td>
+            <td>${row.last_period}</td>
+            <td>${formatScore(row.last_score)}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      }
+
+      function renderDemographicTables(insights) {
+        const serviceBody = document.querySelector('#service-group-table tbody');
+        serviceBody.innerHTML = '';
+        insights.demographic_disparity.service_groups.forEach((row) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${row.service_group}</td>
+            <td>${formatScore(row.average_score)}</td>
+            <td>${formatNumber(row.survey_total)}</td>
+            <td>${formatNumber(row.departments)}</td>
+          `;
+          serviceBody.appendChild(tr);
+        });
+
+        const demoBody = document.querySelector('#demographic-table tbody');
+        demoBody.innerHTML = '';
+        insights.demographic_disparity.comment_mentions.forEach((row) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${demographicLabels[row.group] || row.group}</td>
+            <td>${formatNumber(row.mentions)}</td>
+          `;
+          demoBody.appendChild(tr);
+        });
+      }
+
       async function init() {
-        const response = await fetch('data/summary.json');
-        const summary = await response.json();
+        const [summaryResponse, insightsResponse] = await Promise.all([
+          fetch('data/summary.json'),
+          fetch('data/advanced_insights.json')
+        ]);
+        const summary = await summaryResponse.json();
+        const insights = await insightsResponse.json();
 
         renderMetrics(summary.metadata);
         renderMonthlyTable(summary);
@@ -436,10 +1146,19 @@
             renderRanking(button.dataset.key, summary);
           });
         });
+
+        renderVolatility(insights);
+        renderPerformanceLists(insights);
+        renderTrendExplorer(insights);
+        renderThemes(insights);
+        renderWaitCorrelation(insights);
+        renderBenchmarking(insights);
+        renderPredictiveRisk(insights);
+        renderDemographicTables(insights);
       }
 
       init().catch((error) => {
-        console.error('Failed to load summary data', error);
+        console.error('Failed to load dashboard data', error);
       });
     </script>
   </body>
