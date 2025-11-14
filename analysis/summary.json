@@ -1,7 +1,7 @@
 {
   "metadata": {
     "department_month_records": 567,
-    "unique_departments": 54,
+    "unique_departments": 64,
     "years": [
       2024,
       2025
@@ -21,11 +21,7 @@
     ],
     "total_reported_surveys": 22261.0,
     "overall_average_score": 4.483643142715961,
-    "overall_recommendation_percentage": 0.9643565652935627,
-    "recommendation_percentage_by_year": {
-      "2024": 0.9746747588424438,
-      "2025": 0.9618477466912381
-    }
+    "overall_recommendation_percentage": 0.9643565652935627
   },
   "overall": {
     "top10": [
@@ -152,8 +148,8 @@
         "recommendation_percent": 0.9531963470319634
       }
     ],
-    "department_count": 69,
-    "average_of_averages": 4.410001807963854
+    "department_count": 64,
+    "average_of_averages": 4.404769301359395
   },
   "years": {
     "2024": {
@@ -264,9 +260,9 @@
         },
         {
           "department": "คลินิก Meta",
-          "average_score": 4.125178571428572,
-          "survey_total": 28.0,
-          "recommendation_percent": 0.9285714285714286
+          "average_score": 4.12948275862069,
+          "survey_total": 29.0,
+          "recommendation_percent": 0.9310344827586207
         },
         {
           "department": "นอกเวลา",
@@ -281,8 +277,8 @@
           "recommendation_percent": 1.0
         }
       ],
-      "department_count": 54,
-      "average_of_averages": 4.413202377555131
+      "department_count": 53,
+      "average_of_averages": 4.416362878776778
     },
     "2025": {
       "top10": [
@@ -409,8 +405,8 @@
           "recommendation_percent": 0.9548693586698337
         }
       ],
-      "department_count": 65,
-      "average_of_averages": 4.4561449518894465
+      "department_count": 61,
+      "average_of_averages": 4.4556424575562446
     }
   },
   "months": {
@@ -545,6 +541,18 @@
     "2024-11": {
       "top10": [
         {
+          "department": "ส่องกล้อง",
+          "average_score": 5.0,
+          "survey_total": 15.0,
+          "recommendation_percent": 1.0
+        },
+        {
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 5.0,
+          "survey_total": 2.0,
+          "recommendation_percent": 1.0
+        },
+        {
           "department": "เวชกรรม ฟื้นฟู",
           "average_score": 5.0,
           "survey_total": 1.0,
@@ -557,27 +565,15 @@
           "recommendation_percent": 1.0
         },
         {
-          "department": "ศัลยกรรม",
-          "average_score": 5.0,
-          "survey_total": 1.0,
-          "recommendation_percent": 1.0
-        },
-        {
-          "department": "ห้องบัตร ชั้น 1",
-          "average_score": 5.0,
-          "survey_total": 2.0,
-          "recommendation_percent": 1.0
-        },
-        {
           "department": "HBO",
           "average_score": 5.0,
           "survey_total": 1.0,
           "recommendation_percent": 1.0
         },
         {
-          "department": "ส่องกล้อง",
+          "department": "ศัลยกรรม",
           "average_score": 5.0,
-          "survey_total": 15.0,
+          "survey_total": 1.0,
           "recommendation_percent": 1.0
         },
         {
@@ -1119,12 +1115,6 @@
       ],
       "bottom10": [
         {
-          "department": "คลินิก Meta",
-          "average_score": 1.1875,
-          "survey_total": 1.0,
-          "recommendation_percent": 0.0
-        },
-        {
           "department": "ปฐมภูมิ",
           "average_score": 2.03125,
           "survey_total": 2.0,
@@ -1177,10 +1167,16 @@
           "average_score": 4.221153846153847,
           "survey_total": 13.0,
           "recommendation_percent": 0.9230769230769231
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 4.261202830188679,
+          "survey_total": 106.0,
+          "recommendation_percent": 0.9622641509433962
         }
       ],
-      "department_count": 56,
-      "average_of_averages": 4.39152559530756
+      "department_count": 55,
+      "average_of_averages": 4.449141299785507
     },
     "2025-04": {
       "top10": [
@@ -1203,16 +1199,16 @@
           "recommendation_percent": 1.0
         },
         {
-          "department": "18B",
-          "average_score": 4.75,
-          "survey_total": 35.0,
-          "recommendation_percent": 1.0
-        },
-        {
           "department": "กายภาพ",
           "average_score": 4.75,
           "survey_total": 2.0,
           "recommendation_percent": 0.5
+        },
+        {
+          "department": "18B",
+          "average_score": 4.75,
+          "survey_total": 35.0,
+          "recommendation_percent": 1.0
         },
         {
           "department": "SICU",
@@ -1307,8 +1303,8 @@
           "recommendation_percent": 0.6666666666666666
         }
       ],
-      "department_count": 52,
-      "average_of_averages": 4.496013387525382
+      "department_count": 50,
+      "average_of_averages": 4.494856109047005
     },
     "2025-05": {
       "top10": [
@@ -1319,13 +1315,13 @@
           "recommendation_percent": 0.5
         },
         {
-          "department": "ผิวหนัง",
+          "department": "ฝังเข็ม",
           "average_score": 5.0,
           "survey_total": 1.0,
           "recommendation_percent": 1.0
         },
         {
-          "department": "ฝังเข็ม",
+          "department": "ผิวหนัง",
           "average_score": 5.0,
           "survey_total": 1.0,
           "recommendation_percent": 1.0
@@ -1435,8 +1431,8 @@
           "recommendation_percent": 0.9444444444444444
         }
       ],
-      "department_count": 54,
-      "average_of_averages": 4.41548936458856
+      "department_count": 52,
+      "average_of_averages": 4.40998652581502
     },
     "2025-06": {
       "top10": [
@@ -1503,12 +1499,6 @@
       ],
       "bottom10": [
         {
-          "department": "คลินิก Meta",
-          "average_score": 1.875,
-          "survey_total": 1.0,
-          "recommendation_percent": 1.0
-        },
-        {
           "department": "ทันตกรรม",
           "average_score": 3.1875,
           "survey_total": 4.0,
@@ -1521,15 +1511,15 @@
           "recommendation_percent": 0.7857142857142857
         },
         {
-          "department": "ปฐมภูมิ",
-          "average_score": 3.6875,
-          "survey_total": 1.0,
-          "recommendation_percent": 1.0
-        },
-        {
           "department": "เวชกรรม ฟื้นฟู",
           "average_score": 3.6875,
           "survey_total": 2.0,
+          "recommendation_percent": 1.0
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 3.6875,
+          "survey_total": 1.0,
           "recommendation_percent": 1.0
         },
         {
@@ -1540,9 +1530,9 @@
         },
         {
           "department": "คลินิก Meta",
-          "average_score": 4.13357843137255,
-          "survey_total": 51.0,
-          "recommendation_percent": 0.9607843137254902
+          "average_score": 4.090144230769232,
+          "survey_total": 52.0,
+          "recommendation_percent": 0.9615384615384616
         },
         {
           "department": "ห้องคลอด",
@@ -1561,10 +1551,16 @@
           "average_score": 4.248786407766993,
           "survey_total": 103.0,
           "recommendation_percent": 0.970873786407767
+        },
+        {
+          "department": "ER",
+          "average_score": 4.269021739130436,
+          "survey_total": 46.0,
+          "recommendation_percent": 0.8695652173913043
         }
       ],
-      "department_count": 59,
-      "average_of_averages": 4.430424884932713
+      "department_count": 57,
+      "average_of_averages": 4.47486663506395
     },
     "2025-07": {
       "top10": [
@@ -1691,8 +1687,8 @@
           "recommendation_percent": 0.625
         }
       ],
-      "department_count": 54,
-      "average_of_averages": 4.43605275774449
+      "department_count": 52,
+      "average_of_averages": 4.435694325697165
     },
     "2025-08": {
       "top10": [
@@ -1808,9 +1804,9 @@
         },
         {
           "department": "คลินิก Meta",
-          "average_score": 4.29298780487805,
-          "survey_total": 205.0,
-          "recommendation_percent": 0.9951219512195122
+          "average_score": 4.3060622317596575,
+          "survey_total": 233.0,
+          "recommendation_percent": 0.9785407725321889
         },
         {
           "department": "ห้องบัตร ชั้น 1",
@@ -1819,8 +1815,8 @@
           "recommendation_percent": 0.8
         }
       ],
-      "department_count": 51,
-      "average_of_averages": 4.453847590799199
+      "department_count": 49,
+      "average_of_averages": 4.451961811323138
     }
   }
 }

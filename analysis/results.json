@@ -4701,7 +4701,7 @@
       "recommendation_percent": 0.9951219512195122
     },
     {
-      "department": "คลินิก Meta",
+      "department": "Meta Plus",
       "average_score": 4.509868421052631,
       "survey_count": 19,
       "file_path": "4-68/Summary - Aug 68.xlsx",
@@ -5191,7 +5191,7 @@
       "recommendation_percent": 0.8672566371681415
     },
     {
-      "department": "คลินิก Meta",
+      "department": "Meta Plus",
       "average_score": 4.443181818181818,
       "survey_count": 22,
       "file_path": "4-68/Summary - July.xlsx",
@@ -5766,10 +5766,10 @@
       },
       {
         "department": "คลินิก Meta",
-        "average_score": 4.125178571428572,
-        "survey_count": 28,
-        "month_count": 2,
-        "recommendation_percent": 0.9285714285714286
+        "average_score": 4.12948275862069,
+        "survey_count": 29,
+        "month_count": 3,
+        "recommendation_percent": 0.9310344827586207
       },
       {
         "department": "จักษุ",
@@ -6038,13 +6038,6 @@
         "recommendation_percent": 1.0
       },
       {
-        "department": "คลินิก Meta",
-        "average_score": 4.25,
-        "survey_count": 1,
-        "month_count": 1,
-        "recommendation_percent": 1.0
-      },
-      {
         "department": "ฝังเข็ม",
         "average_score": 4.625,
         "survey_count": 1,
@@ -6160,10 +6153,10 @@
       },
       {
         "department": "คลินิก Meta",
-        "average_score": 4.316717128027681,
-        "survey_count": 578,
+        "average_score": 4.310141509433962,
+        "survey_count": 901,
         "month_count": 8,
-        "recommendation_percent": 0.9152249134948097
+        "recommendation_percent": 0.9267480577136515
       },
       {
         "department": "จักษุ",
@@ -6356,10 +6349,10 @@
       },
       {
         "department": "22A (Stroke Unit)",
-        "average_score": 4.475675675675675,
-        "survey_count": 370,
+        "average_score": 4.486650485436893,
+        "survey_count": 412,
         "month_count": 8,
-        "recommendation_percent": 0.9675675675675676
+        "recommendation_percent": 0.970873786407767
       },
       {
         "department": "22B",
@@ -6432,13 +6425,6 @@
         "recommendation_percent": 1.0
       },
       {
-        "department": "คลินิก Meta",
-        "average_score": 4.298374613003096,
-        "survey_count": 323,
-        "month_count": 6,
-        "recommendation_percent": 0.9473684210526315
-      },
-      {
         "department": "ไตเทียม",
         "average_score": 4.429807692307692,
         "survey_count": 130,
@@ -6456,13 +6442,6 @@
         "department": "Burn Unit",
         "average_score": 4.390625,
         "survey_count": 4,
-        "month_count": 2,
-        "recommendation_percent": 1.0
-      },
-      {
-        "department": "22A (Stroke Unit)",
-        "average_score": 4.442708333333333,
-        "survey_count": 12,
         "month_count": 2,
         "recommendation_percent": 1.0
       },
@@ -6488,25 +6467,11 @@
         "recommendation_percent": 1.0
       },
       {
-        "department": "22A (Stroke Unit)",
-        "average_score": 4.639583333333333,
-        "survey_count": 30,
-        "month_count": 3,
-        "recommendation_percent": 1.0
-      },
-      {
-        "department": "คลินิก Meta",
-        "average_score": 4.509868421052631,
-        "survey_count": 19,
-        "month_count": 1,
-        "recommendation_percent": 1.0
-      },
-      {
-        "department": "คลินิก Meta",
-        "average_score": 4.443181818181818,
-        "survey_count": 22,
-        "month_count": 1,
-        "recommendation_percent": 0.8181818181818182
+        "department": "Meta Plus",
+        "average_score": 4.474085365853658,
+        "survey_count": 41,
+        "month_count": 2,
+        "recommendation_percent": 0.9024390243902439
       }
     ]
   },
@@ -6597,17 +6562,17 @@
     },
     {
       "department": "เคมีบำบัด",
-      "average_score": 4.568750000000001,
-      "survey_count": 40,
-      "month_count": 2,
-      "recommendation_percent": 0.975
+      "average_score": 4.420138888888889,
+      "survey_count": 198,
+      "month_count": 10,
+      "recommendation_percent": 0.9595959595959596
     },
     {
       "department": "คลินิก Meta",
-      "average_score": 4.30786716171617,
-      "survey_count": 606,
-      "month_count": 10,
-      "recommendation_percent": 0.9158415841584159
+      "average_score": 4.304508064516128,
+      "survey_count": 930,
+      "month_count": 11,
+      "recommendation_percent": 0.9268817204301075
     },
     {
       "department": "จักษุ",
@@ -6786,10 +6751,10 @@
     },
     {
       "department": "22A (Stroke Unit)",
-      "average_score": 4.482606132075472,
-      "survey_count": 424,
+      "average_score": 4.491684549356223,
+      "survey_count": 466,
       "month_count": 11,
-      "recommendation_percent": 0.9669811320754716
+      "recommendation_percent": 0.9699570815450643
     },
     {
       "department": "22B",
@@ -6876,13 +6841,6 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "คลินิก Meta",
-      "average_score": 4.2982253086419755,
-      "survey_count": 324,
-      "month_count": 7,
-      "recommendation_percent": 0.9475308641975309
-    },
-    {
       "department": "ฝังเข็ม",
       "average_score": 4.8125,
       "survey_count": 2,
@@ -6895,13 +6853,6 @@
       "survey_count": 4,
       "month_count": 2,
       "recommendation_percent": 1.0
-    },
-    {
-      "department": "เคมีบำบัด",
-      "average_score": 4.38251582278481,
-      "survey_count": 158,
-      "month_count": 8,
-      "recommendation_percent": 0.9556962025316456
     },
     {
       "department": "ผ่าตัด นอกเวลา",
@@ -6960,13 +6911,6 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22A (Stroke Unit)",
-      "average_score": 4.442708333333333,
-      "survey_count": 12,
-      "month_count": 2,
-      "recommendation_percent": 1.0
-    },
-    {
       "department": "หอบ",
       "average_score": 4.325,
       "survey_count": 10,
@@ -6974,25 +6918,11 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22A (Stroke Unit)",
-      "average_score": 4.639583333333333,
-      "survey_count": 30,
-      "month_count": 3,
-      "recommendation_percent": 1.0
-    },
-    {
-      "department": "คลินิก Meta",
-      "average_score": 4.509868421052631,
-      "survey_count": 19,
-      "month_count": 1,
-      "recommendation_percent": 1.0
-    },
-    {
-      "department": "คลินิก Meta",
-      "average_score": 4.443181818181818,
-      "survey_count": 22,
-      "month_count": 1,
-      "recommendation_percent": 0.8181818181818182
+      "department": "Meta Plus",
+      "average_score": 4.474085365853658,
+      "survey_count": 41,
+      "month_count": 2,
+      "recommendation_percent": 0.9024390243902439
     }
   ]
 }

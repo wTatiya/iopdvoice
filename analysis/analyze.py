@@ -4,7 +4,7 @@ import re
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable, List, Optional
+from typing import Iterable, List, Optional, Tuple
 
 import pandas as pd
 
@@ -46,6 +46,54 @@ def clean_text(value: Optional[str]) -> Optional[str]:
     text = text.replace('\n', ' ')
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
+
+
+DEPARTMENT_ALIASES: dict[str, str] = {
+    'meta': 'คลินิก Meta',
+    'meta clinic': 'คลินิก Meta',
+    'คลินิก meta': 'คลินิก Meta',
+    'เบาหวาน': 'คลินิก Meta',
+    'med': 'OPD Med',
+    'opd med': 'OPD Med',
+    'burn u.': 'Burn Unit',
+    'burn u': 'Burn Unit',
+    'burn unit': 'Burn Unit',
+    '22a': '22A (Stroke Unit)',
+    '22 stroke': '22A (Stroke Unit)',
+    'stroke': '22A (Stroke Unit)',
+    'metha plus': 'Meta Plus',
+    'meta plus': 'Meta Plus',
+    'เคมีบำบัด และโรคเลือด': 'เคมีบำบัด',
+    'เคมีบำบัดและโรคเลือด': 'เคมีบำบัด',
+}
+
+
+def normalize_department_display(name: Optional[str]) -> Optional[str]:
+    if not name:
+        return name
+    normalized = name
+    for character, replacement in (
+        ('\ufeff', ''),
+        ('\u200b', ''),
+        ('\u200c', ''),
+        ('\u200d', ''),
+        ('\u202f', ' '),
+        ('\xa0', ' '),
+    ):
+        normalized = normalized.replace(character, replacement)
+    normalized = re.sub(r'\s+', ' ', normalized, flags=re.UNICODE).strip()
+    if not normalized:
+        return None
+    alias = DEPARTMENT_ALIASES.get(normalized.casefold())
+    if alias:
+        return alias
+    return normalized
+
+
+def department_group_key(name: Optional[str]) -> Tuple[str, str]:
+    display = normalize_department_display(name) or ''
+    key = display.casefold()
+    return key, display
 
 
 def parse_month_year(path: Path) -> tuple[int, int, int]:
@@ -125,6 +173,9 @@ def parse_excel(path: Path) -> List[DepartmentScore]:
                 dept_name = clean_text(dept)
                 if not dept_name:
                     continue
+                dept_name = normalize_department_display(dept_name)
+                if not dept_name:
+                    continue
                 val = row.iloc[col_idx]
                 if pd.isna(val):
                     continue
@@ -186,9 +237,12 @@ def load_all_scores(data_dir: Path) -> List[DepartmentScore]:
 def aggregate_scores(scores: Iterable[DepartmentScore], *, group_key) -> List[Aggregate]:
     buckets: dict[str, dict[str, float]] = {}
     meta: dict[str, dict[str, int]] = {}
+    labels: dict[str, str] = {}
 
     for score in scores:
-        key = group_key(score)
+        key, label = group_key(score)
+        if key not in labels and label:
+            labels[key] = label
         if key not in buckets:
             buckets[key] = {
                 'weighted': 0.0,
@@ -241,7 +295,7 @@ def aggregate_scores(scores: Iterable[DepartmentScore], *, group_key) -> List[Ag
                 recommendation = float('nan')
         aggregates.append(
             Aggregate(
-                department=key,
+                department=labels.get(key, key),
                 average_score=avg,
                 survey_count=survey_count,
                 month_count=len(bucket['months']),
@@ -252,7 +306,7 @@ def aggregate_scores(scores: Iterable[DepartmentScore], *, group_key) -> List[Ag
 
 
 def aggregate_by_department(scores: Iterable[DepartmentScore]) -> List[Aggregate]:
-    return aggregate_scores(scores, group_key=lambda s: s.department)
+    return aggregate_scores(scores, group_key=lambda s: department_group_key(s.department))
 
 
 def aggregate_by_year(scores: Iterable[DepartmentScore]) -> dict[int, List[Aggregate]]:
