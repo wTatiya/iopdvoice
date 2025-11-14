@@ -21,7 +21,11 @@
     ],
     "total_reported_surveys": 22261.0,
     "overall_average_score": 4.483643142715961,
-    "overall_recommendation_percentage": 0.9643565652935627
+    "overall_recommendation_percentage": 0.9643565652935627,
+    "recommendation_percentage_by_year": {
+      "2024": 0.9746747588424438,
+      "2025": 0.9618477466912381
+    }
   },
   "overall": {
     "top10": [

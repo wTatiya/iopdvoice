@@ -203,6 +203,43 @@
         color: #0f172a;
       }
 
+      .metric-indicator {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        margin-top: 0.75rem;
+        font-weight: 600;
+        font-size: 1rem;
+      }
+
+      .metric-indicator--up {
+        color: #16a34a;
+      }
+
+      .metric-indicator--down {
+        color: #dc2626;
+      }
+
+      .metric-indicator--flat {
+        color: #1e293b;
+      }
+
+      .indicator-symbol {
+        font-size: 1rem;
+        line-height: 1;
+      }
+
+      .indicator-caption {
+        margin-top: 0.25rem;
+        font-size: 0.75rem;
+        color: #475569;
+        font-weight: 600;
+      }
+
+      .indicator-change {
+        font-variant-numeric: tabular-nums;
+      }
+
       .chart-container {
         width: 100%;
         min-height: 360px;
@@ -774,9 +811,75 @@
         return `${monthNames[month - 1]} ${year}`;
       }
 
+      function renderIndicator(indicator) {
+        if (!indicator) {
+          return '';
+        }
+        const indicatorClass = `metric-indicator metric-indicator--${indicator.direction}`;
+        return `
+          <div class="${indicatorClass}" aria-label="${indicator.ariaLabel}">
+            <span class="indicator-symbol" aria-hidden="true">${indicator.symbol}</span>
+            <span class="indicator-change">${indicator.changeText}</span>
+          </div>
+          <div class="indicator-caption">${indicator.contextText}</div>
+        `;
+      }
+
+      function buildYearlyRecommendationIndicator(metadata, gregorianYear) {
+        const mapping = metadata.recommendation_percentage_by_year || {};
+        const current = mapping[gregorianYear];
+        if (current == null) {
+          return null;
+        }
+        const previousYear = gregorianYear - 1;
+        const previous = mapping[previousYear];
+        const currentBE = gregorianYear + 543;
+        if (previous == null) {
+          return {
+            direction: 'flat',
+            symbol: '◆',
+            changeText: '—',
+            contextText: 'ไม่มีข้อมูลปีเทียบเคียง',
+            ariaLabel: `ไม่มีข้อมูลเพื่อเปรียบเทียบกับปี ${currentBE}`
+          };
+        }
+        const delta = current - previous;
+        const threshold = 0.0005;
+        const magnitude = Math.abs(delta);
+        const previousBE = previousYear + 543;
+        if (magnitude <= threshold) {
+          return {
+            direction: 'flat',
+            symbol: '◆',
+            changeText: '0.0%',
+            contextText: `เทียบปี ${previousBE}`,
+            ariaLabel: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ไม่เปลี่ยนแปลงเมื่อเทียบกับปี ${previousBE}`
+          };
+        }
+        const changeText = `${delta < 0 ? '-' : ''}${(magnitude * 100).toFixed(1)}%`;
+        const direction = delta < 0 ? 'down' : 'up';
+        const symbol = direction === 'down' ? '▼' : '▲';
+        const action = direction === 'down' ? 'ลดลง' : 'เพิ่มขึ้น';
+        return {
+          direction,
+          symbol,
+          changeText,
+          contextText: `เทียบปี ${previousBE}`,
+          ariaLabel: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(
+            magnitude * 100
+          ).toFixed(1)} จุดเปอร์เซ็นต์เมื่อเทียบกับปี ${previousBE}`
+        };
+      }
+
       function renderMetrics(metadata) {
         const metrics = document.getElementById('metrics');
         metrics.innerHTML = '';
+        const currentYear = 2025;
+        const currentRecommendation =
+          metadata.recommendation_percentage_by_year &&
+          metadata.recommendation_percentage_by_year[currentYear];
+        const indicator = buildYearlyRecommendationIndicator(metadata, currentYear);
+        const beYear = currentYear + 543;
         const cards = [
           {
             label: 'คะแนนความพึงพอใจเฉลี่ยรวม',
@@ -790,8 +893,10 @@
                 : '—'
           },
           {
-            label: 'หน่วยงาน × เดือน',
-            value: formatNumber(metadata.department_month_records)
+            label: `สัดส่วนการแนะนำญาติหรือคนรู้จัก ปี ${beYear}`,
+            value:
+              currentRecommendation != null ? formatPercent(currentRecommendation) : '—',
+            indicator
           },
           {
             label: 'จำนวนแบบสำรวจ',
@@ -801,7 +906,7 @@
         for (const card of cards) {
           const div = document.createElement('div');
           div.className = 'metric-card';
-          div.innerHTML = `<h4>${card.label}</h4><p>${card.value}</p>`;
+          div.innerHTML = `<h4>${card.label}</h4><p>${card.value}</p>${renderIndicator(card.indicator)}`;
           metrics.appendChild(div);
         }
 
