@@ -307,6 +307,11 @@
         color: #1e293b;
       }
 
+      .list-card .list-detail-accent {
+        font-style: italic;
+        color: #475569;
+      }
+
       .tag {
         display: inline-flex;
         align-items: center;
@@ -1167,13 +1172,13 @@
           const details = document.createElement('span');
           const parts = [
             `คะแนนเฉลี่ย ${formatScore(record.average_score)}`,
-            `แบบสำรวจ ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}`,
-            `จำนวนเดือน ${record.months_observed}`
+            `<span class="list-detail-accent">แบบสำรวจ ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}</span>`,
+            `<span class="list-detail-accent">จำนวนเดือน ${record.months_observed}</span>`
           ];
           if (highlightVolatility && record.volatility_index != null) {
             parts.push(`σ ${formatScore(record.volatility_index)}`);
           }
-          details.textContent = parts.join(' · ');
+          details.innerHTML = parts.join(' · ');
           li.appendChild(title);
           li.appendChild(details);
           return li;
@@ -1190,13 +1195,13 @@
           const details = document.createElement('span');
           const parts = [
             `คะแนนเฉลี่ย ${formatScore(record.average_score)}`,
-            `แบบสำรวจ ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}`,
-            `จำนวนเดือน ${record.months_observed}`
+            `<span class="list-detail-accent">แบบสำรวจ ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}</span>`,
+            `<span class="list-detail-accent">จำนวนเดือน ${record.months_observed}</span>`
           ];
           if (record.volatility_index != null) {
             parts.push(`σ ${formatScore(record.volatility_index)}`);
           }
-          details.textContent = parts.join(' · ');
+          details.innerHTML = parts.join(' · ');
           li.appendChild(title);
           li.appendChild(details);
           gapList.appendChild(li);
