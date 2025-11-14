@@ -676,7 +676,7 @@
         ]
       },
       {
-        "department": "22 Stroke",
+        "department": "22A (Stroke Unit)",
         "mean_score": 4.443,
         "months_observed": 2,
         "series": [
@@ -693,7 +693,7 @@
         ]
       },
       {
-        "department": "22A",
+        "department": "22A (Stroke Unit)",
         "mean_score": 4.453,
         "months_observed": 11,
         "series": [
@@ -1313,7 +1313,7 @@
         ]
       },
       {
-        "department": "Burn U.",
+        "department": "Burn Unit",
         "mean_score": 4.594,
         "months_observed": 2,
         "series": [
@@ -1528,7 +1528,7 @@
         ]
       },
       {
-        "department": "MED",
+        "department": "OPD Med",
         "mean_score": 4.238,
         "months_observed": 11,
         "series": [
@@ -1590,7 +1590,7 @@
         ]
       },
       {
-        "department": "Meta",
+        "department": "คลินิก Meta",
         "mean_score": 3.574,
         "months_observed": 7,
         "series": [
@@ -1632,7 +1632,7 @@
         ]
       },
       {
-        "department": "Meta Plus",
+        "department": "คลินิก Meta",
         "mean_score": 4.51,
         "months_observed": 1,
         "series": [
@@ -1644,7 +1644,7 @@
         ]
       },
       {
-        "department": "Metha Plus",
+        "department": "คลินิก Meta",
         "mean_score": 4.443,
         "months_observed": 1,
         "series": [
@@ -2075,7 +2075,7 @@
         ]
       },
       {
-        "department": "Stroke",
+        "department": "22A (Stroke Unit)",
         "mean_score": 4.639,
         "months_observed": 3,
         "series": [
@@ -3170,7 +3170,7 @@
         ]
       },
       {
-        "department": "เคมีบำบัด และโรคเลือด",
+        "department": "เคมีบำบัด",
         "mean_score": 4.444,
         "months_observed": 8,
         "series": [
@@ -3217,7 +3217,7 @@
         ]
       },
       {
-        "department": "เบาหวาน",
+        "department": "คลินิก Meta",
         "mean_score": 4.339,
         "months_observed": 10,
         "series": [
@@ -3348,7 +3348,7 @@
     },
     "most_unstable": [
       {
-        "department": "Meta",
+        "department": "คลินิก Meta",
         "volatility_index": 1.309,
         "coefficient_of_variation": 0.3662,
         "score_range": 3.375,
@@ -3420,7 +3420,7 @@
         "observations": 5
       },
       {
-        "department": "เคมีบำบัด และโรคเลือด",
+        "department": "เคมีบำบัด",
         "volatility_index": 0.4008,
         "coefficient_of_variation": 0.0902,
         "score_range": 1.237,
@@ -3485,7 +3485,7 @@
     ],
     "most_stable": [
       {
-        "department": "Stroke",
+        "department": "22A (Stroke Unit)",
         "volatility_index": 0.0051,
         "coefficient_of_variation": 0.0011,
         "score_range": 0.012,
@@ -3807,21 +3807,21 @@
       "months_observed": 5
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 4.298,
       "survey_total": 324,
       "volatility_index": 1.309,
       "months_observed": 7
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.308,
       "survey_total": 606,
       "volatility_index": null,
       "months_observed": 10
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.311,
       "survey_total": 702,
       "volatility_index": null,
@@ -4377,7 +4377,7 @@
   "predictive_risk": {
     "high_risk_departments": [
       {
-        "department": "เคมีบำบัด และโรคเลือด",
+        "department": "เคมีบำบัด",
         "probability_of_decline": 0.9149,
         "last_period": "2025-08",
         "last_score": 5.0
@@ -4395,7 +4395,7 @@
         "last_score": 4.839
       },
       {
-        "department": "Meta",
+        "department": "คลินิก Meta",
         "probability_of_decline": 0.754,
         "last_period": "2025-08",
         "last_score": 4.293
@@ -4621,13 +4621,13 @@
       "months_observed": 11.0
     },
     {
-      "department": "22 Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.443,
       "survey_total": 12.0,
       "months_observed": 2.0
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.483,
       "survey_total": 424.0,
       "months_observed": 11.0
@@ -4687,7 +4687,7 @@
       "months_observed": 11.0
     },
     {
-      "department": "Burn U.",
+      "department": "Burn Unit",
       "average_score": 4.391,
       "survey_total": 4.0,
       "months_observed": 2.0
@@ -4717,7 +4717,7 @@
       "months_observed": 4.0
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.311,
       "survey_total": 702.0,
       "months_observed": 11.0
@@ -4729,19 +4729,19 @@
       "months_observed": 11.0
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 4.298,
       "survey_total": 324.0,
       "months_observed": 7.0
     },
     {
-      "department": "Meta Plus",
+      "department": "คลินิก Meta",
       "average_score": 4.51,
       "survey_total": 19.0,
       "months_observed": 1.0
     },
     {
-      "department": "Metha Plus",
+      "department": "คลินิก Meta",
       "average_score": 4.443,
       "survey_total": 22.0,
       "months_observed": 1.0
@@ -4783,7 +4783,7 @@
       "months_observed": 11.0
     },
     {
-      "department": "Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.64,
       "survey_total": 30.0,
       "months_observed": 3.0
@@ -4933,13 +4933,13 @@
       "months_observed": 2.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 4.383,
       "survey_total": 158.0,
       "months_observed": 8.0
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.308,
       "survey_total": 606.0,
       "months_observed": 10.0
