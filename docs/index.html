@@ -216,11 +216,18 @@
         color: #0f172a;
       }
 
+      .indicator-group {
+        margin-top: 0.75rem;
+      }
+
+      .indicator-group + .indicator-group {
+        margin-top: 0.65rem;
+      }
+
       .metric-indicator {
         display: inline-flex;
         align-items: center;
         gap: 0.35rem;
-        margin-top: 0.75rem;
         font-weight: 600;
         font-size: 1rem;
       }
@@ -799,6 +806,16 @@
         'ธันวาคม'
       ];
 
+      const thaiListFormatter = new Intl.ListFormat('th', {
+        style: 'long',
+        type: 'conjunction'
+      });
+
+      function formatThaiYearList(years) {
+        const beYears = years.map((year) => `ปี ${year + 543}`);
+        return thaiListFormatter.format(beYears);
+      }
+
       const themeLabels = {
         wait_time: 'ระยะเวลารอคอย',
         attitude: 'ทัศนคติของบุคลากร',
@@ -847,18 +864,51 @@
         if (!indicator) {
           return '';
         }
-        const indicatorClass = `metric-indicator metric-indicator--${indicator.direction}`;
-        const secondary = indicator.secondaryContextText
-          ? `<div class="indicator-caption indicator-caption--secondary">${indicator.secondaryContextText}</div>`
-          : '';
-        return `
-          <div class="${indicatorClass}" aria-label="${indicator.ariaLabel}">
-            <span class="indicator-symbol" aria-hidden="true">${indicator.symbol}</span>
-            <span class="indicator-change">${indicator.changeText}</span>
-          </div>
-          <div class="indicator-caption">${indicator.contextText}</div>
-          ${secondary}
-        `;
+        const comparisons = [
+          {
+            direction: indicator.direction,
+            symbol: indicator.symbol,
+            changeText: indicator.changeText,
+            contextText: indicator.contextText,
+            ariaLabel: indicator.ariaLabel,
+            captionClass: 'indicator-caption'
+          }
+        ];
+
+        if (indicator.secondaryComparison) {
+          comparisons.push({
+            direction: indicator.secondaryComparison.direction,
+            symbol: indicator.secondaryComparison.symbol,
+            changeText: indicator.secondaryComparison.changeText,
+            contextText: indicator.secondaryComparison.contextText,
+            ariaLabel: indicator.secondaryComparison.ariaLabel,
+            captionClass: 'indicator-caption indicator-caption--secondary'
+          });
+        } else if (indicator.secondaryContextText) {
+          comparisons.push({
+            contextText: indicator.secondaryContextText,
+            captionClass: 'indicator-caption indicator-caption--secondary',
+            showIndicator: false
+          });
+        }
+
+        return comparisons
+          .map((comparison) => {
+            const indicatorMarkup =
+              comparison.showIndicator === false
+                ? ''
+                : `<div class="metric-indicator metric-indicator--${comparison.direction}" aria-label="${comparison.ariaLabel}">
+                    <span class="indicator-symbol" aria-hidden="true">${comparison.symbol}</span>
+                    <span class="indicator-change">${comparison.changeText}</span>
+                  </div>`;
+            return `
+              <div class="indicator-group">
+                ${indicatorMarkup}
+                <div class="${comparison.captionClass}">${comparison.contextText}</div>
+              </div>
+            `;
+          })
+          .join('');
       }
 
       function buildYearlyRecommendationIndicator(metadata, gregorianYear) {
@@ -870,7 +920,11 @@
         const previousYear = gregorianYear - 1;
         const previous = mapping[previousYear];
         const currentBE = gregorianYear + 543;
-        if (previous == null) {
+        const previousYears = Object.keys(mapping)
+          .map(Number)
+          .filter((year) => year < gregorianYear && mapping[year] != null)
+          .sort((a, b) => a - b);
+        if (previous == null && previousYears.length === 0) {
           return {
             direction: 'flat',
             symbol: '◆',
@@ -879,33 +933,69 @@
             ariaLabel: `ไม่มีข้อมูลเพื่อเปรียบเทียบกับปี ${currentBE}`
           };
         }
-        const delta = current - previous;
+
         const threshold = 0.0005;
-        const magnitude = Math.abs(delta);
-        const previousBE = previousYear + 543;
-        if (magnitude <= threshold) {
+        const createComparison = (delta, contextText, labels) => {
+          const magnitude = Math.abs(delta);
+          if (magnitude <= threshold) {
+            return {
+              direction: 'flat',
+              symbol: '◆',
+              changeText: '0.0%',
+              contextText,
+              ariaLabel: labels.equal
+            };
+          }
+          const direction = delta < 0 ? 'down' : 'up';
+          const symbol = direction === 'down' ? '▼' : '▲';
+          const action = direction === 'down' ? 'ลดลง' : 'เพิ่มขึ้น';
           return {
+            direction,
+            symbol,
+            changeText: `${delta < 0 ? '-' : ''}${(magnitude * 100).toFixed(1)}%`,
+            contextText,
+            ariaLabel: labels.difference(action, magnitude)
+          };
+        };
+
+        let primaryComparison;
+        if (previous == null) {
+          primaryComparison = {
             direction: 'flat',
             symbol: '◆',
-            changeText: '0.0%',
-            contextText: 'เทียบกับปีที่แล้ว',
-            secondaryContextText: 'เทียบกับทุกปีที่ผ่านมา',
-            ariaLabel: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ไม่เปลี่ยนแปลงเมื่อเทียบกับปี ${previousBE}`
+            changeText: '—',
+            contextText: 'ไม่มีข้อมูลปีเทียบเคียง',
+            ariaLabel: `ไม่มีข้อมูลเพื่อเปรียบเทียบกับปี ${currentBE}`
           };
+        } else {
+          const delta = current - previous;
+          const previousBE = previousYear + 543;
+          primaryComparison = createComparison(delta, 'เทียบกับปีที่แล้ว', {
+            equal: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ไม่เปลี่ยนแปลงเมื่อเทียบกับปี ${previousBE}`,
+            difference: (action, magnitude) =>
+              `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(magnitude * 100).toFixed(1)} จุดเปอร์เซ็นต์เมื่อเทียบกับปี ${previousBE}`
+          });
         }
-        const changeText = `${delta < 0 ? '-' : ''}${(magnitude * 100).toFixed(1)}%`;
-        const direction = delta < 0 ? 'down' : 'up';
-        const symbol = direction === 'down' ? '▼' : '▲';
-        const action = direction === 'down' ? 'ลดลง' : 'เพิ่มขึ้น';
+
+        let secondaryComparison = null;
+        if (previousYears.length > 0) {
+          const sum = previousYears.reduce((acc, year) => acc + mapping[year], 0);
+          const average = sum / previousYears.length;
+          const delta = current - average;
+          const averagedYearsLabel =
+            previousYears.length === 1
+              ? `ค่าเฉลี่ย${formatThaiYearList(previousYears)}`
+              : `ค่าเฉลี่ยของ${formatThaiYearList(previousYears)}`;
+          secondaryComparison = createComparison(delta, 'เทียบกับทุกปีที่ผ่านมา', {
+            equal: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ไม่เปลี่ยนแปลงเมื่อเทียบกับ${averagedYearsLabel}`,
+            difference: (action, magnitude) =>
+              `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(magnitude * 100).toFixed(1)} จุดเปอร์เซ็นต์เมื่อเทียบกับ${averagedYearsLabel}`
+          });
+        }
+
         return {
-          direction,
-          symbol,
-          changeText,
-          contextText: 'เทียบกับปีที่แล้ว',
-          secondaryContextText: 'เทียบกับทุกปีที่ผ่านมา',
-          ariaLabel: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(
-            magnitude * 100
-          ).toFixed(1)} จุดเปอร์เซ็นต์เมื่อเทียบกับปี ${previousBE}`
+          ...primaryComparison,
+          secondaryComparison
         };
       }
 
