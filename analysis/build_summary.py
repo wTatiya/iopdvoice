@@ -52,17 +52,44 @@ def build_rankings(df: pd.DataFrame) -> dict:
 def weighted_average(group: pd.DataFrame) -> pd.Series:
     has_weight = group['survey_count'].notna() & (group['survey_count'] > 0)
     if has_weight.any():
-        weighted_sum = (group.loc[has_weight, 'average_score'] * group.loc[has_weight, 'survey_count']).sum()
-        weight = group.loc[has_weight, 'survey_count'].sum()
+        weights = group.loc[has_weight, 'survey_count'].astype(float)
+        weighted_sum = (group.loc[has_weight, 'average_score'] * weights).sum()
+        weight = weights.sum()
         if weight > 0:
             avg = weighted_sum / weight
         else:
             avg = group['average_score'].mean()
         survey_total = int(weight)
+        if 'recommendation_percent' in group:
+            recommendation = weighted_mean(group.loc[has_weight, 'recommendation_percent'], weights)
+        else:
+            recommendation = None
     else:
         avg = group['average_score'].mean()
         survey_total = int(group['average_score'].count())
-    return pd.Series({'average_score': avg, 'survey_total': survey_total})
+        if 'recommendation_percent' in group:
+            recommendation = weighted_mean(group['recommendation_percent'])
+        else:
+            recommendation = None
+    return pd.Series(
+        {
+            'average_score': avg,
+            'survey_total': survey_total,
+            'recommendation_percent': recommendation,
+        }
+    )
+
+
+def weighted_mean(values: pd.Series, weights: pd.Series | None = None) -> float | None:
+    valid = values.notna()
+    if not valid.any():
+        return None
+    if weights is not None:
+        valid_weights = weights[valid]
+        total_weight = valid_weights.sum()
+        if total_weight > 0:
+            return float((values[valid] * valid_weights).sum() / total_weight)
+    return float(values[valid].mean())
 
 
 def build_metadata(df: pd.DataFrame) -> dict:
@@ -73,7 +100,9 @@ def build_metadata(df: pd.DataFrame) -> dict:
         .astype(float)
         .sum()
     )
-    weighted_avg = weighted_average(df.assign(department='__overall__'))['average_score']
+    overall_metrics = weighted_average(df.assign(department='__overall__'))
+    weighted_avg = overall_metrics['average_score']
+    recommendation = overall_metrics.get('recommendation_percent')
     return {
         'department_month_records': int(len(df)),
         'unique_departments': int(df['department'].nunique()),
@@ -81,6 +110,9 @@ def build_metadata(df: pd.DataFrame) -> dict:
         'periods': period_labels,
         'total_reported_surveys': float(total_surveys),
         'overall_average_score': float(weighted_avg),
+        'overall_recommendation_percentage': None
+        if recommendation is None or pd.isna(recommendation)
+        else float(recommendation),
     }
 
 

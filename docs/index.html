@@ -783,8 +783,11 @@
             value: formatScore(metadata.overall_average_score)
           },
           {
-            label: 'จำนวนหน่วยงาน',
-            value: formatNumber(metadata.unique_departments)
+            label: 'สัดส่วนเฉลี่ยของการแนะนำญาติหรือคนรู้จักให้มาใช้บริการที่โรงพยาบาล',
+            value:
+              metadata.overall_recommendation_percentage != null
+                ? formatPercent(metadata.overall_recommendation_percentage)
+                : '—'
           },
           {
             label: 'หน่วยงาน × เดือน',
