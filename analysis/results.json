@@ -71,7 +71,7 @@
       "recommendation_percent": 0.6
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.225,
       "survey_count": 5,
       "file_path": "1-68/Summary - Dec 67.xlsx",
@@ -131,7 +131,7 @@
       "recommendation_percent": 0.9743589743589743
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.106481481481482,
       "survey_count": 27,
       "file_path": "1-68/Summary - Dec 67.xlsx",
@@ -391,7 +391,7 @@
       "recommendation_percent": 0.8947368421052632
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.447368421052631,
       "survey_count": 19,
       "file_path": "1-68/Summary - Dec 67.xlsx",
@@ -551,7 +551,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 3.8671875,
       "survey_count": 8,
       "file_path": "1-68/Summary - Nov 67.xlsx",
@@ -631,7 +631,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.63,
       "survey_count": 1,
       "file_path": "1-68/Summary - Nov 67.xlsx",
@@ -861,7 +861,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.580882352941177,
       "survey_count": 17,
       "file_path": "1-68/Summary - Nov 67.xlsx",
@@ -1011,7 +1011,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 4.25,
       "survey_count": 1,
       "file_path": "1-68/Summary - Oct 67.xlsx",
@@ -1031,7 +1031,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.59375,
       "survey_count": 2,
       "file_path": "1-68/Summary - Oct 67.xlsx",
@@ -1301,7 +1301,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.569444444444444,
       "survey_count": 18,
       "file_path": "1-68/Summary - Oct 67.xlsx",
@@ -1471,7 +1471,7 @@
       "recommendation_percent": 0.9913793103448276
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.313888888888886,
       "survey_count": 135,
       "file_path": "2-68/Summary - Feb 68.xlsx",
@@ -1541,7 +1541,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 3.7625,
       "survey_count": 10,
       "file_path": "2-68/Summary - Feb 68.xlsx",
@@ -1551,7 +1551,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.252325581395346,
       "survey_count": 215,
       "file_path": "2-68/Summary - Feb 68.xlsx",
@@ -1831,7 +1831,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 3.7788461538461533,
       "survey_count": 26,
       "file_path": "2-68/Summary - Feb 68.xlsx",
@@ -1991,7 +1991,7 @@
       "recommendation_percent": 0.9873417721518988
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.315764925373134,
       "survey_count": 134,
       "file_path": "2-68/Summary - Jan 68.xlsx",
@@ -2051,7 +2051,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 5.0,
       "survey_count": 4,
       "file_path": "2-68/Summary - Jan 68.xlsx",
@@ -2061,7 +2061,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.392763157894736,
       "survey_count": 95,
       "file_path": "2-68/Summary - Jan 68.xlsx",
@@ -2311,7 +2311,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.6714743589743595,
       "survey_count": 39,
       "file_path": "2-68/Summary - Jan 68.xlsx",
@@ -2461,7 +2461,7 @@
       "recommendation_percent": 0.9
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 1.1875,
       "survey_count": 1,
       "file_path": "2-68/Summary - Mar 68.xlsx",
@@ -2481,7 +2481,7 @@
       "recommendation_percent": 0.9847328244274809
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.261202830188679,
       "survey_count": 106,
       "file_path": "2-68/Summary - Mar 68.xlsx",
@@ -2551,7 +2551,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 4.419318181818182,
       "survey_count": 55,
       "file_path": "2-68/Summary - Mar 68.xlsx",
@@ -2561,7 +2561,7 @@
       "recommendation_percent": 0.9454545454545454
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.42239010989011,
       "survey_count": 91,
       "file_path": "2-68/Summary - Mar 68.xlsx",
@@ -2761,7 +2761,7 @@
       "recommendation_percent": 0.8571428571428571
     },
     {
-      "department": "Burn U.",
+      "department": "Burn Unit",
       "average_score": 4.1875,
       "survey_count": 3,
       "file_path": "2-68/Summary - Mar 68.xlsx",
@@ -2871,7 +2871,7 @@
       "recommendation_percent": 0.8333333333333333
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.408333333333332,
       "survey_count": 15,
       "file_path": "2-68/Summary - Mar 68.xlsx",
@@ -3031,7 +3031,7 @@
       "recommendation_percent": 0.5
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 4.5625,
       "survey_count": 1,
       "file_path": "3-68/Summary - Apr 68.xlsx",
@@ -3051,7 +3051,7 @@
       "recommendation_percent": 0.9082568807339451
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.321969696969698,
       "survey_count": 33,
       "file_path": "3-68/Summary - Apr 68.xlsx",
@@ -3121,7 +3121,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 4.316176470588234,
       "survey_count": 51,
       "file_path": "3-68/Summary - Apr 68.xlsx",
@@ -3131,7 +3131,7 @@
       "recommendation_percent": 0.9215686274509803
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.379464285714287,
       "survey_count": 56,
       "file_path": "3-68/Summary - Apr 68.xlsx",
@@ -3381,7 +3381,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.503333333333332,
       "survey_count": 75,
       "file_path": "3-68/Summary - Apr 68.xlsx",
@@ -3391,7 +3391,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22 Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.489583333333334,
       "survey_count": 6,
       "file_path": "3-68/Summary - Apr 68.xlsx",
@@ -3541,7 +3541,7 @@
       "recommendation_percent": 0.7857142857142857
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 1.875,
       "survey_count": 1,
       "file_path": "3-68/Summary - June 68.xlsx",
@@ -3571,7 +3571,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.3914007092198615,
       "survey_count": 141,
       "file_path": "3-68/Summary - June 68.xlsx",
@@ -3641,7 +3641,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 4.565789473684211,
       "survey_count": 19,
       "file_path": "3-68/Summary - June 68.xlsx",
@@ -3651,7 +3651,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.13357843137255,
       "survey_count": 51,
       "file_path": "3-68/Summary - June 68.xlsx",
@@ -3861,7 +3861,7 @@
       "recommendation_percent": 0.9523809523809524
     },
     {
-      "department": "Burn U.",
+      "department": "Burn Unit",
       "average_score": 5.0,
       "survey_count": 1,
       "file_path": "3-68/Summary - June 68.xlsx",
@@ -3971,7 +3971,7 @@
       "recommendation_percent": 0.9565217391304348
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.538793103448278,
       "survey_count": 58,
       "file_path": "3-68/Summary - June 68.xlsx",
@@ -3981,7 +3981,7 @@
       "recommendation_percent": 0.9137931034482759
     },
     {
-      "department": "22 Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.395833333333333,
       "survey_count": 6,
       "file_path": "3-68/Summary - June 68.xlsx",
@@ -4131,7 +4131,7 @@
       "recommendation_percent": 0.4444444444444444
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 4.5,
       "survey_count": 2,
       "file_path": "3-68/Summary - May 68.xlsx",
@@ -4151,7 +4151,7 @@
       "recommendation_percent": 0.9719626168224299
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 3.99375,
       "survey_count": 10,
       "file_path": "3-68/Summary - May 68.xlsx",
@@ -4211,7 +4211,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 4.4541666666666675,
       "survey_count": 15,
       "file_path": "3-68/Summary - May 68.xlsx",
@@ -4221,7 +4221,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.375,
       "survey_count": 18,
       "file_path": "3-68/Summary - May 68.xlsx",
@@ -4511,7 +4511,7 @@
       "recommendation_percent": 0.925
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.584760273972601,
       "survey_count": 73,
       "file_path": "3-68/Summary - May 68.xlsx",
@@ -4521,7 +4521,7 @@
       "recommendation_percent": 0.9726027397260275
     },
     {
-      "department": "Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.633928571428571,
       "survey_count": 7,
       "file_path": "3-68/Summary - May 68.xlsx",
@@ -4691,7 +4691,7 @@
       "recommendation_percent": 0.8936170212765957
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 4.29298780487805,
       "survey_count": 205,
       "file_path": "4-68/Summary - Aug 68.xlsx",
@@ -4701,7 +4701,7 @@
       "recommendation_percent": 0.9951219512195122
     },
     {
-      "department": "Meta Plus",
+      "department": "คลินิก Meta",
       "average_score": 4.509868421052631,
       "survey_count": 19,
       "file_path": "4-68/Summary - Aug 68.xlsx",
@@ -4721,7 +4721,7 @@
       "recommendation_percent": 0.9880952380952381
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.319672131147543,
       "survey_count": 122,
       "file_path": "4-68/Summary - Aug 68.xlsx",
@@ -4761,7 +4761,7 @@
       "recommendation_percent": 0.9867256637168141
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 5.0,
       "survey_count": 2,
       "file_path": "4-68/Summary - Aug 68.xlsx",
@@ -4771,7 +4771,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.401785714285714,
       "survey_count": 28,
       "file_path": "4-68/Summary - Aug 68.xlsx",
@@ -5021,7 +5021,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.518292682926829,
       "survey_count": 41,
       "file_path": "4-68/Summary - Aug 68.xlsx",
@@ -5031,7 +5031,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.636363636363636,
       "survey_count": 11,
       "file_path": "4-68/Summary - Aug 68.xlsx",
@@ -5181,7 +5181,7 @@
       "recommendation_percent": 0.844311377245509
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 4.35121681415929,
       "survey_count": 113,
       "file_path": "4-68/Summary - July.xlsx",
@@ -5191,7 +5191,7 @@
       "recommendation_percent": 0.8672566371681415
     },
     {
-      "department": "Metha Plus",
+      "department": "คลินิก Meta",
       "average_score": 4.443181818181818,
       "survey_count": 22,
       "file_path": "4-68/Summary - July.xlsx",
@@ -5211,7 +5211,7 @@
       "recommendation_percent": 0.8495575221238938
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.010416666666667,
       "survey_count": 6,
       "file_path": "4-68/Summary - July.xlsx",
@@ -5261,7 +5261,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 4.03125,
       "survey_count": 2,
       "file_path": "4-68/Summary - July.xlsx",
@@ -5271,7 +5271,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.291666666666666,
       "survey_count": 24,
       "file_path": "4-68/Summary - July.xlsx",
@@ -5561,7 +5561,7 @@
       "recommendation_percent": 0.9743589743589743
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.383720930232558,
       "survey_count": 43,
       "file_path": "4-68/Summary - July.xlsx",
@@ -5571,7 +5571,7 @@
       "recommendation_percent": 0.9767441860465117
     },
     {
-      "department": "Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.645833333333334,
       "survey_count": 12,
       "file_path": "4-68/Summary - July.xlsx",
@@ -5723,7 +5723,7 @@
         "recommendation_percent": 0.6
       },
       {
-        "department": "MED",
+        "department": "OPD Med",
         "average_score": 4.083333333333333,
         "survey_count": 15,
         "month_count": 3,
@@ -5765,7 +5765,7 @@
         "recommendation_percent": 0.975
       },
       {
-        "department": "เบาหวาน",
+        "department": "คลินิก Meta",
         "average_score": 4.125178571428572,
         "survey_count": 28,
         "month_count": 2,
@@ -5947,7 +5947,7 @@
         "recommendation_percent": 0.9578947368421052
       },
       {
-        "department": "22A",
+        "department": "22A (Stroke Unit)",
         "average_score": 4.530092592592593,
         "survey_count": 54,
         "month_count": 3,
@@ -6038,7 +6038,7 @@
         "recommendation_percent": 1.0
       },
       {
-        "department": "Meta",
+        "department": "คลินิก Meta",
         "average_score": 4.25,
         "survey_count": 1,
         "month_count": 1,
@@ -6103,7 +6103,7 @@
         "recommendation_percent": 0.9548693586698337
       },
       {
-        "department": "MED",
+        "department": "OPD Med",
         "average_score": 4.316139010189229,
         "survey_count": 687,
         "month_count": 8,
@@ -6152,14 +6152,14 @@
         "recommendation_percent": 1.0
       },
       {
-        "department": "เคมีบำบัด และโรคเลือด",
+        "department": "เคมีบำบัด",
         "average_score": 4.38251582278481,
         "survey_count": 158,
         "month_count": 8,
         "recommendation_percent": 0.9556962025316456
       },
       {
-        "department": "เบาหวาน",
+        "department": "คลินิก Meta",
         "average_score": 4.316717128027681,
         "survey_count": 578,
         "month_count": 8,
@@ -6355,7 +6355,7 @@
         "recommendation_percent": 0.972809667673716
       },
       {
-        "department": "22A",
+        "department": "22A (Stroke Unit)",
         "average_score": 4.475675675675675,
         "survey_count": 370,
         "month_count": 8,
@@ -6432,7 +6432,7 @@
         "recommendation_percent": 1.0
       },
       {
-        "department": "Meta",
+        "department": "คลินิก Meta",
         "average_score": 4.298374613003096,
         "survey_count": 323,
         "month_count": 6,
@@ -6453,14 +6453,14 @@
         "recommendation_percent": 1.0
       },
       {
-        "department": "Burn U.",
+        "department": "Burn Unit",
         "average_score": 4.390625,
         "survey_count": 4,
         "month_count": 2,
         "recommendation_percent": 1.0
       },
       {
-        "department": "22 Stroke",
+        "department": "22A (Stroke Unit)",
         "average_score": 4.442708333333333,
         "survey_count": 12,
         "month_count": 2,
@@ -6488,21 +6488,21 @@
         "recommendation_percent": 1.0
       },
       {
-        "department": "Stroke",
+        "department": "22A (Stroke Unit)",
         "average_score": 4.639583333333333,
         "survey_count": 30,
         "month_count": 3,
         "recommendation_percent": 1.0
       },
       {
-        "department": "Meta Plus",
+        "department": "คลินิก Meta",
         "average_score": 4.509868421052631,
         "survey_count": 19,
         "month_count": 1,
         "recommendation_percent": 1.0
       },
       {
-        "department": "Metha Plus",
+        "department": "คลินิก Meta",
         "average_score": 4.443181818181818,
         "survey_count": 22,
         "month_count": 1,
@@ -6561,7 +6561,7 @@
       "recommendation_percent": 0.9393939393939394
     },
     {
-      "department": "MED",
+      "department": "OPD Med",
       "average_score": 4.31116452991453,
       "survey_count": 702,
       "month_count": 11,
@@ -6603,7 +6603,7 @@
       "recommendation_percent": 0.975
     },
     {
-      "department": "เบาหวาน",
+      "department": "คลินิก Meta",
       "average_score": 4.30786716171617,
       "survey_count": 606,
       "month_count": 10,
@@ -6785,7 +6785,7 @@
       "recommendation_percent": 0.9694835680751174
     },
     {
-      "department": "22A",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.482606132075472,
       "survey_count": 424,
       "month_count": 11,
@@ -6876,7 +6876,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "Meta",
+      "department": "คลินิก Meta",
       "average_score": 4.2982253086419755,
       "survey_count": 324,
       "month_count": 7,
@@ -6897,7 +6897,7 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "เคมีบำบัด และโรคเลือด",
+      "department": "เคมีบำบัด",
       "average_score": 4.38251582278481,
       "survey_count": 158,
       "month_count": 8,
@@ -6953,14 +6953,14 @@
       "recommendation_percent": 0.9176954732510288
     },
     {
-      "department": "Burn U.",
+      "department": "Burn Unit",
       "average_score": 4.390625,
       "survey_count": 4,
       "month_count": 2,
       "recommendation_percent": 1.0
     },
     {
-      "department": "22 Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.442708333333333,
       "survey_count": 12,
       "month_count": 2,
@@ -6974,21 +6974,21 @@
       "recommendation_percent": 1.0
     },
     {
-      "department": "Stroke",
+      "department": "22A (Stroke Unit)",
       "average_score": 4.639583333333333,
       "survey_count": 30,
       "month_count": 3,
       "recommendation_percent": 1.0
     },
     {
-      "department": "Meta Plus",
+      "department": "คลินิก Meta",
       "average_score": 4.509868421052631,
       "survey_count": 19,
       "month_count": 1,
       "recommendation_percent": 1.0
     },
     {
-      "department": "Metha Plus",
+      "department": "คลินิก Meta",
       "average_score": 4.443181818181818,
       "survey_count": 22,
       "month_count": 1,
