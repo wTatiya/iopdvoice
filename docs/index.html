@@ -336,6 +336,26 @@
         overflow: hidden;
       }
 
+      .table-layout {
+        display: grid;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+
+      .table-layout--monthly {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        align-items: start;
+      }
+
+      .table-layout h3 {
+        margin: 0;
+        color: #1e293b;
+      }
+
+      .table-layout .table-scroll {
+        margin-top: 1rem;
+      }
+
       th,
       td {
         padding: 0.75rem 1rem;
@@ -564,19 +584,37 @@
           <div class="metric-grid" id="metrics"></div>
           <h3>ความครอบคลุมของแบบสำรวจ</h3>
           <p id="coverage"></p>
-          <div class="table-scroll">
-            <table id="monthly-table" aria-label="หน่วยงานที่ทำคะแนนสูงสุดและต่ำสุดรายเดือน">
-              <thead>
-                <tr>
-                  <th scope="col">เดือน</th>
-                  <th scope="col">หน่วยงานที่ได้คะแนนสูงสุด</th>
-                  <th scope="col">คะแนน</th>
-                  <th scope="col">หน่วยงานที่ได้คะแนนต่ำสุด</th>
-                  <th scope="col">คะแนน</th>
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
+          <div class="table-layout table-layout--monthly">
+            <div>
+              <h3>หน่วยงานที่ได้คะแนนสูงสุดรายเดือน</h3>
+              <div class="table-scroll">
+                <table id="monthly-top-table" aria-label="หน่วยงานที่ทำคะแนนสูงสุดรายเดือน">
+                  <thead>
+                    <tr>
+                      <th scope="col">เดือน</th>
+                      <th scope="col">หน่วยงาน</th>
+                      <th scope="col">คะแนน</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3>หน่วยงานที่ได้คะแนนต่ำสุดรายเดือน</h3>
+              <div class="table-scroll">
+                <table id="monthly-bottom-table" aria-label="หน่วยงานที่ทำคะแนนต่ำสุดรายเดือน">
+                  <thead>
+                    <tr>
+                      <th scope="col">เดือน</th>
+                      <th scope="col">หน่วยงาน</th>
+                      <th scope="col">คะแนน</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -1054,8 +1092,10 @@
       }
 
       function renderMonthlyTable(summary) {
-        const tbody = document.querySelector('#monthly-table tbody');
-        tbody.innerHTML = '';
+        const topBody = document.querySelector('#monthly-top-table tbody');
+        const bottomBody = document.querySelector('#monthly-bottom-table tbody');
+        topBody.innerHTML = '';
+        bottomBody.innerHTML = '';
         const periods = summary.metadata.periods;
         for (const period of periods) {
           const view = summary.months[period];
@@ -1063,15 +1103,23 @@
           const top = view.top10[0];
           const bottom = view.bottom10[0];
           const [year, month] = period.split('-').map(Number);
-          const tr = document.createElement('tr');
-          tr.innerHTML = `
-            <td data-label="เดือน">${monthNames[month - 1]} ${year}</td>
+          const monthLabel = `${monthNames[month - 1]} ${year}`;
+
+          const topRow = document.createElement('tr');
+          topRow.innerHTML = `
+            <td data-label="เดือน">${monthLabel}</td>
             <td data-label="หน่วยงานคะแนนสูงสุด">${top ? top.department : '—'}</td>
             <td data-label="คะแนน">${top ? formatScore(top.average_score) : '—'}</td>
+          `;
+          topBody.appendChild(topRow);
+
+          const bottomRow = document.createElement('tr');
+          bottomRow.innerHTML = `
+            <td data-label="เดือน">${monthLabel}</td>
             <td data-label="หน่วยงานคะแนนต่ำสุด">${bottom ? bottom.department : '—'}</td>
             <td data-label="คะแนน">${bottom ? formatScore(bottom.average_score) : '—'}</td>
           `;
-          tbody.appendChild(tr);
+          bottomBody.appendChild(bottomRow);
         }
       }
 
