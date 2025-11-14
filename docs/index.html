@@ -236,6 +236,11 @@
         font-weight: 600;
       }
 
+      .indicator-caption--secondary {
+        color: #64748b;
+        font-weight: 500;
+      }
+
       .indicator-change {
         font-variant-numeric: tabular-nums;
       }
@@ -820,12 +825,16 @@
           return '';
         }
         const indicatorClass = `metric-indicator metric-indicator--${indicator.direction}`;
+        const secondary = indicator.secondaryContextText
+          ? `<div class="indicator-caption indicator-caption--secondary">${indicator.secondaryContextText}</div>`
+          : '';
         return `
           <div class="${indicatorClass}" aria-label="${indicator.ariaLabel}">
             <span class="indicator-symbol" aria-hidden="true">${indicator.symbol}</span>
             <span class="indicator-change">${indicator.changeText}</span>
           </div>
           <div class="indicator-caption">${indicator.contextText}</div>
+          ${secondary}
         `;
       }
 
@@ -856,7 +865,8 @@
             direction: 'flat',
             symbol: '◆',
             changeText: '0.0%',
-            contextText: `เทียบปี ${previousBE}`,
+            contextText: 'เทียบกับปีที่แล้ว',
+            secondaryContextText: 'เทียบกับทุกปีที่ผ่านมา',
             ariaLabel: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ไม่เปลี่ยนแปลงเมื่อเทียบกับปี ${previousBE}`
           };
         }
@@ -868,7 +878,8 @@
           direction,
           symbol,
           changeText,
-          contextText: `เทียบปี ${previousBE}`,
+          contextText: 'เทียบกับปีที่แล้ว',
+          secondaryContextText: 'เทียบกับทุกปีที่ผ่านมา',
           ariaLabel: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(
             magnitude * 100
           ).toFixed(1)} จุดเปอร์เซ็นต์เมื่อเทียบกับปี ${previousBE}`
