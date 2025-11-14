@@ -290,28 +290,6 @@
         }
       }
 
-      .list-card ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        gap: 0.85rem;
-      }
-
-      .list-card li {
-        display: grid;
-        gap: 0.4rem;
-      }
-
-      .list-card strong {
-        color: #1e293b;
-      }
-
-      .list-card .list-detail-accent {
-        font-style: italic;
-        color: #475569;
-      }
-
       .tag {
         display: inline-flex;
         align-items: center;
@@ -639,20 +617,6 @@
               <h3>ดัชนีความผันผวน (σ ของคะแนนรายเดือน)</h3>
               <div class="chart-container" id="volatility-chart" role="img" aria-label="ดัชนีความผันผวนของแต่ละหน่วยงาน"></div>
               <div class="inline-stats" id="volatility-summary"></div>
-            </div>
-            <div class="list-card">
-              <h3>หน่วยงานที่ได้คะแนนสูง</h3>
-              <p class="note">
-                แสดงค่าเฉลี่ยแบบถ่วงน้ำหนัก หน่วยงานต้องมีข้อมูลต่อเนื่องอย่างน้อย 6 เดือนพร้อมคะแนนเฉลี่ย ≥4.50
-              </p>
-              <ul id="high-performance-list"></ul>
-            </div>
-            <div class="list-card">
-              <h3>ช่องว่างการบริการ</h3>
-              <p class="note">
-                หน่วยงานที่คะแนนต่ำที่สุด ใช้ค่าความผันผวนเพื่อจัดลำดับ
-              </p>
-              <ul id="critical-gaps-list"></ul>
             </div>
           </div>
         </section>
@@ -1149,55 +1113,6 @@
         }
       }
 
-      function renderPerformanceLists(insights) {
-        const highList = document.getElementById('high-performance-list');
-        const gapList = document.getElementById('critical-gaps-list');
-        highList.innerHTML = '';
-        gapList.innerHTML = '';
-
-        const makeItem = (record, highlightVolatility = false) => {
-          const li = document.createElement('li');
-          const title = document.createElement('strong');
-          title.textContent = record.department;
-          const details = document.createElement('span');
-          const parts = [
-            `คะแนนเฉลี่ย ${formatScore(record.average_score)}`,
-            `<span class="list-detail-accent">แบบสำรวจ ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}</span>`,
-            `<span class="list-detail-accent">จำนวนเดือน ${record.months_observed}</span>`
-          ];
-          if (highlightVolatility && record.volatility_index != null) {
-            parts.push(`σ ${formatScore(record.volatility_index)}`);
-          }
-          details.innerHTML = parts.join(' · ');
-          li.appendChild(title);
-          li.appendChild(details);
-          return li;
-        };
-
-        insights.high_performance.forEach((record) => {
-          highList.appendChild(makeItem(record, true));
-        });
-
-        insights.critical_gaps.forEach((record) => {
-          const li = document.createElement('li');
-          const title = document.createElement('strong');
-          title.textContent = record.department;
-          const details = document.createElement('span');
-          const parts = [
-            `คะแนนเฉลี่ย ${formatScore(record.average_score)}`,
-            `<span class="list-detail-accent">แบบสำรวจ ${formatNumber(record.survey_total, { maximumFractionDigits: 0 })}</span>`,
-            `<span class="list-detail-accent">จำนวนเดือน ${record.months_observed}</span>`
-          ];
-          if (record.volatility_index != null) {
-            parts.push(`σ ${formatScore(record.volatility_index)}`);
-          }
-          details.innerHTML = parts.join(' · ');
-          li.appendChild(title);
-          li.appendChild(details);
-          gapList.appendChild(li);
-        });
-      }
-
       function renderTrendExplorer(insights) {
         const select = document.getElementById('trend-select');
         const chart = document.getElementById('trend-chart');
@@ -1506,7 +1421,6 @@
         });
 
         renderVolatility(insights);
-        renderPerformanceLists(insights);
         renderTrendExplorer(insights);
         renderThemes(insights);
         renderWaitCorrelation(insights);
