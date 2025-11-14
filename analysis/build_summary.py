@@ -1,11 +1,57 @@
 import json
-from collections import defaultdict
+import math
 from pathlib import Path
 
 import pandas as pd
+from json.encoder import (
+    _make_iterencode,
+    encode_basestring,
+    encode_basestring_ascii,
+)
 
 RESULTS_PATH = Path('analysis/results.json')
 OUTPUT_PATH = Path('analysis/summary.json')
+DOCS_OUTPUT_PATH = Path('docs/data/summary.json')
+
+
+class TwoDecimalEncoder(json.JSONEncoder):
+    def iterencode(self, o, _one_shot: bool = False):
+        if self.check_circular:
+            markers = {}
+        else:
+            markers = None
+
+        if self.ensure_ascii:
+            _encoder = encode_basestring_ascii
+        else:
+            _encoder = encode_basestring
+
+        def floatstr(
+            value,
+            allow_nan=self.allow_nan,
+            _inf=float('inf'),
+            _neginf=-float('inf'),
+        ):
+            if not allow_nan:
+                if math.isnan(value) or math.isinf(value):
+                    raise ValueError(
+                        f'Out of range float values are not JSON compliant: {value!r}'
+                    )
+            return format(value, '.2f')
+
+        _iterencode = _make_iterencode(
+            markers,
+            self.default,
+            _encoder,
+            self.indent,
+            floatstr,
+            self.key_separator,
+            self.item_separator,
+            self.sort_keys,
+            self.skipkeys,
+            _one_shot,
+        )
+        return _iterencode(o, 0)
 
 
 def load_results() -> pd.DataFrame:
@@ -139,8 +185,16 @@ def build_metadata(df: pd.DataFrame) -> dict:
 def main() -> None:
     df = load_results()
     summary = summarize(df)
-    OUTPUT_PATH.write_text(json.dumps(summary, indent=2, ensure_ascii=False))
+    payload = json.dumps(
+        summary,
+        indent=2,
+        ensure_ascii=False,
+        cls=TwoDecimalEncoder,
+    )
+    OUTPUT_PATH.write_text(payload)
+    DOCS_OUTPUT_PATH.write_text(payload)
     print(f'Wrote {OUTPUT_PATH}')
+    print(f'Wrote {DOCS_OUTPUT_PATH}')
 
 
 if __name__ == '__main__':
