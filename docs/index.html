@@ -683,7 +683,7 @@
         <section id="rankings" class="card span-12">
           <h2>การจัดอันดับหน่วยงาน</h2>
           <p>
-            การจัดอันดับคำนวณโดยถ่วงน้ำหนักตามจำนวนแบบสำรวจที่มีการรายงาน สลับมุมมองเพื่อดูหน่วยงานที่คะแนนสูงและต่ำที่สุดโดยรวม หรือเฉพาะแต่ละปีปฏิทิน
+            การจัดอันดับคำนวณโดยถ่วงน้ำหนักตามจำนวนแบบสำรวจที่มีการรายงาน และวัดระยะห่างของคะแนนเฉลี่ยเมื่อเทียบกับค่าเบี่ยงเบนมาตรฐาน (σ) ของทุกหน่วยงาน สลับมุมมองเพื่อดูหน่วยงานที่โดดเด่นหรือมีคะแนนต่ำกว่าเกณฑ์ในแต่ละปีปฏิทิน
           </p>
           <div class="tab-strip" role="tablist" aria-label="มุมมองการจัดอันดับ">
             <button type="button" data-key="overall" class="active">ภาพรวม</button>
@@ -700,6 +700,7 @@
                       <th scope="col">อันดับ</th>
                       <th scope="col">หน่วยงาน</th>
                       <th scope="col">คะแนนเฉลี่ย</th>
+                      <th scope="col">เทียบค่า σ</th>
                       <th scope="col">จำนวนแบบสำรวจ</th>
                     </tr>
                   </thead>
@@ -716,6 +717,7 @@
                       <th scope="col">อันดับ</th>
                       <th scope="col">หน่วยงาน</th>
                       <th scope="col">คะแนนเฉลี่ย</th>
+                      <th scope="col">เทียบค่า σ</th>
                       <th scope="col">จำนวนแบบสำรวจ</th>
                     </tr>
                   </thead>
@@ -891,11 +893,26 @@
       }
 
       function formatScore(score) {
-        return score || score === 0 ? score.toFixed(3).replace(/0+$/, '').replace(/\.$/, '') : '—';
+        const numeric = Number(score);
+        return Number.isFinite(numeric) ? numeric.toFixed(2) : '—';
       }
 
       function formatPercent(value) {
-        return `${(value * 100).toFixed(1)}%`;
+        const numeric = Number(value);
+        return Number.isFinite(numeric) ? `${(numeric * 100).toFixed(2)}%` : '—';
+      }
+
+      function formatSigma(value) {
+        const numeric = Number(value);
+        if (!Number.isFinite(numeric)) {
+          return '—';
+        }
+        const rounded = numeric.toFixed(2);
+        const prefix = numeric > 0 ? '+' : numeric < 0 ? '' : '±';
+        if (prefix === '±') {
+          return `${rounded}σ`;
+        }
+        return `${prefix}${rounded}σ`;
       }
 
       function formatPeriod(period) {
@@ -984,7 +1001,7 @@
             return {
               direction: 'flat',
               symbol: '◆',
-              changeText: '0.0%',
+              changeText: '0.00%',
               contextText,
               ariaLabel: labels.equal
             };
@@ -995,7 +1012,7 @@
           return {
             direction,
             symbol,
-            changeText: `${delta < 0 ? '-' : ''}${(magnitude * 100).toFixed(1)}%`,
+            changeText: `${delta < 0 ? '-' : ''}${(magnitude * 100).toFixed(2)}%`,
             contextText,
             ariaLabel: labels.difference(action, magnitude)
           };
@@ -1016,7 +1033,7 @@
           primaryComparison = createComparison(delta, 'เทียบกับปีที่แล้ว', {
             equal: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ไม่เปลี่ยนแปลงเมื่อเทียบกับปี ${previousBE}`,
             difference: (action, magnitude) =>
-              `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(magnitude * 100).toFixed(1)} จุดเปอร์เซ็นต์เมื่อเทียบกับปี ${previousBE}`
+              `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(magnitude * 100).toFixed(2)} จุดเปอร์เซ็นต์เมื่อเทียบกับปี ${previousBE}`
           });
         }
 
@@ -1032,7 +1049,7 @@
           secondaryComparison = createComparison(delta, 'เทียบกับทุกปีที่ผ่านมา', {
             equal: `ค่าเฉลี่ยการแนะนำปี ${currentBE} ไม่เปลี่ยนแปลงเมื่อเทียบกับ${averagedYearsLabel}`,
             difference: (action, magnitude) =>
-              `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(magnitude * 100).toFixed(1)} จุดเปอร์เซ็นต์เมื่อเทียบกับ${averagedYearsLabel}`
+              `ค่าเฉลี่ยการแนะนำปี ${currentBE} ${action} ${(magnitude * 100).toFixed(2)} จุดเปอร์เซ็นต์เมื่อเทียบกับ${averagedYearsLabel}`
           });
         }
 
@@ -1136,6 +1153,7 @@
             <td>${index + 1}</td>
             <td>${row.department}</td>
             <td>${formatScore(row.average_score)}</td>
+            <td>${formatSigma(row.sigma_diff)}</td>
             <td>${row.survey_total ? formatNumber(row.survey_total, { maximumFractionDigits: 0 }) : '—'}</td>
           `;
           topBody.appendChild(tr);
@@ -1147,6 +1165,7 @@
             <td>${index + 1}</td>
             <td>${row.department}</td>
             <td>${formatScore(row.average_score)}</td>
+            <td>${formatSigma(row.sigma_diff)}</td>
             <td>${row.survey_total ? formatNumber(row.survey_total, { maximumFractionDigits: 0 }) : '—'}</td>
           `;
           bottomBody.appendChild(tr);
@@ -1471,7 +1490,7 @@
         const r = insights.wait_time_correlation.pearson_r;
         const p = insights.wait_time_correlation.p_value;
         note.innerHTML = `ค่าสหสัมพันธ์ r = <span class="highlight-value">${r !== null ? r.toFixed(2) : 'ไม่ระบุ'}</span>, p-value = <span class="highlight-value">${
-          p !== null ? p.toFixed(3) : 'ไม่ระบุ'
+          p !== null ? p.toFixed(2) : 'ไม่ระบุ'
         }</span> การร้องเรียนเรื่องเวลารอคอยที่สูงขึ้นสัมพันธ์กับความพึงพอใจที่ลดลงในหลายเดือน`;
       }
 
