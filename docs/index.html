@@ -251,6 +251,10 @@
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       }
 
+      .split-grid--service-dynamics .chart-card {
+        grid-column: 1 / -1;
+      }
+
       .list-card ul {
         list-style: none;
         margin: 0;
@@ -541,7 +545,7 @@
           <p>
             ติดตามพื้นที่ที่คุณภาพการบริการผันผวน และค้นหาหน่วยงานที่ทำให้ผู้ป่วยประทับใจอย่างสม่ำเสมอโดยคำนึงถึงน้ำหนักตามจำนวนแบบฟอร์มสำรวจที่ได้รับ
           </p>
-          <div class="split-grid">
+          <div class="split-grid split-grid--service-dynamics">
             <div class="chart-card">
               <h3>ดัชนีความผันผวน (σ ของคะแนนรายเดือน)</h3>
               <div class="chart-container" id="volatility-chart" role="img" aria-label="ดัชนีความผันผวนของแต่ละหน่วยงาน"></div>
