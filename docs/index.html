@@ -618,6 +618,54 @@
           </div>
         </section>
 
+        <section id="rankings" class="card span-12">
+          <h2>การจัดอันดับหน่วยงาน</h2>
+          <p>
+            การจัดอันดับคำนวณโคคะแนนค่าเฉลี่ย (average) และวัดระยะห่างของคะแนนเฉลี่ยเมื่อเทียบกับค่าเบี่ยงเบนมาตรฐาน (σ) ของทุกหน่วยงาน สลับมุมมองเพื่อดูหน่วยงานที่โดดเด่นหรือมีคะแนนต่ำกว่าเกณฑ์ในแต่ละปี
+          </p>
+          <div class="tab-strip" role="tablist" aria-label="มุมมองการจัดอันดับ">
+            <button type="button" data-key="overall" class="active">ภาพรวม</button>
+            <button type="button" data-key="2067">ปี 2067</button>
+            <button type="button" data-key="2068">ปี 2068</button>
+          </div>
+          <div class="metric-grid" style="margin-top: 1.5rem">
+            <div>
+              <h3>10 หน่วยงานอันดับสูงสุด</h3>
+              <div class="table-scroll">
+                <table id="top-table" aria-live="polite">
+                  <thead>
+                    <tr>
+                      <th scope="col">อันดับ</th>
+                      <th scope="col">หน่วยงาน</th>
+                      <th scope="col">คะแนนเฉลี่ย</th>
+                      <th scope="col">เทียบค่า σ</th>
+                      <th scope="col">จำนวนแบบสำรวจ</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3>หน่วยงานที่ได้คะแนนต่ำสุด</h3>
+              <div class="table-scroll">
+                <table id="bottom-table" aria-live="polite">
+                  <thead>
+                    <tr>
+                      <th scope="col">อันดับ</th>
+                      <th scope="col">หน่วยงาน</th>
+                      <th scope="col">คะแนนเฉลี่ย</th>
+                      <th scope="col">เทียบค่า σ</th>
+                      <th scope="col">จำนวนแบบสำรวจ</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="service-dynamics" class="card span-7">
           <h2>คุณภาพการบริการ</h2>
           <p>
@@ -677,54 +725,6 @@
           <div class="chart-card" style="padding: 1.25rem">
             <div class="chart-container" id="trend-chart" role="img" aria-label="แนวโน้มความพึงพอใจรายเดือน"></div>
             <div class="inline-stats" id="trend-stats"></div>
-          </div>
-        </section>
-
-        <section id="rankings" class="card span-12">
-          <h2>การจัดอันดับหน่วยงาน</h2>
-          <p>
-            การจัดอันดับคำนวณโคคะแนนค่าเฉลี่ย (average) และวัดระยะห่างของคะแนนเฉลี่ยเมื่อเทียบกับค่าเบี่ยงเบนมาตรฐาน (σ) ของทุกหน่วยงาน สลับมุมมองเพื่อดูหน่วยงานที่โดดเด่นหรือมีคะแนนต่ำกว่าเกณฑ์ในแต่ละปี
-          </p>
-          <div class="tab-strip" role="tablist" aria-label="มุมมองการจัดอันดับ">
-            <button type="button" data-key="overall" class="active">ภาพรวม</button>
-            <button type="button" data-key="2067">ปี 2067</button>
-            <button type="button" data-key="2068">ปี 2068</button>
-          </div>
-          <div class="metric-grid" style="margin-top: 1.5rem">
-            <div>
-              <h3>10 หน่วยงานอันดับสูงสุด</h3>
-              <div class="table-scroll">
-                <table id="top-table" aria-live="polite">
-                  <thead>
-                    <tr>
-                      <th scope="col">อันดับ</th>
-                      <th scope="col">หน่วยงาน</th>
-                      <th scope="col">คะแนนเฉลี่ย</th>
-                      <th scope="col">เทียบค่า σ</th>
-                      <th scope="col">จำนวนแบบสำรวจ</th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                </table>
-              </div>
-            </div>
-            <div>
-              <h3>หน่วยงานที่ได้คะแนนต่ำสุด</h3>
-              <div class="table-scroll">
-                <table id="bottom-table" aria-live="polite">
-                  <thead>
-                    <tr>
-                      <th scope="col">อันดับ</th>
-                      <th scope="col">หน่วยงาน</th>
-                      <th scope="col">คะแนนเฉลี่ย</th>
-                      <th scope="col">เทียบค่า σ</th>
-                      <th scope="col">จำนวนแบบสำรวจ</th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                </table>
-              </div>
-            </div>
           </div>
         </section>
 
