@@ -87,6 +87,7 @@ class DepartmentScore:
     month: int
     year_be: int
     year_ad: int
+    recommendation_percent: Optional[float] = None
 
 
 @dataclass
@@ -95,6 +96,7 @@ class Aggregate:
     average_score: float
     survey_count: int
     month_count: int
+    recommendation_percent: Optional[float]
 
 
 def parse_excel(path: Path) -> List[DepartmentScore]:
@@ -107,6 +109,7 @@ def parse_excel(path: Path) -> List[DepartmentScore]:
 
     headers: Optional[List[Optional[str]]] = None
     counts_row: Optional[pd.Series] = None
+    pending_scores: dict[int, DepartmentScore] = {}
     results: List[DepartmentScore] = []
 
     for _, row in df.iterrows():
@@ -117,6 +120,7 @@ def parse_excel(path: Path) -> List[DepartmentScore]:
         elif headers and first_cell == 'จำนวนใบประเมิน':
             counts_row = row
         elif headers and first_cell == 'ระดับคะแนนเฉลี่ย':
+            pending_scores.clear()
             for col_idx, dept in enumerate(headers[1:], start=1):
                 dept_name = clean_text(dept)
                 if not dept_name:
@@ -138,19 +142,37 @@ def parse_excel(path: Path) -> List[DepartmentScore]:
                             survey_count = int(float(count_val))
                         except (TypeError, ValueError):
                             survey_count = None
-                results.append(
-                    DepartmentScore(
-                        department=dept_name,
-                        average_score=score,
-                        survey_count=survey_count,
-                        file_path=str(path.relative_to(DATA_DIR)),
-                        month=month,
-                        year_be=year_be,
-                        year_ad=year_ad,
-                    )
+                score_entry = DepartmentScore(
+                    department=dept_name,
+                    average_score=score,
+                    survey_count=survey_count,
+                    file_path=str(path.relative_to(DATA_DIR)),
+                    month=month,
+                    year_be=year_be,
+                    year_ad=year_ad,
                 )
+                results.append(score_entry)
+                pending_scores[col_idx] = score_entry
+        elif (
+            headers
+            and first_cell
+            and first_cell.startswith('การแนะนำญาติหรือคนรู้จักให้มาใช้บริการที่โรงพยาบาล')
+        ):
+            for col_idx, _ in enumerate(headers[1:], start=1):
+                score_entry = pending_scores.get(col_idx)
+                if not score_entry:
+                    continue
+                val = row.iloc[col_idx]
+                if pd.isna(val) or (isinstance(val, str) and val.strip() == '-'):
+                    continue
+                try:
+                    recommendation = float(val) / 100.0
+                except (TypeError, ValueError):
+                    continue
+                score_entry.recommendation_percent = recommendation
             headers = None
             counts_row = None
+            pending_scores.clear()
     return results
 
 
@@ -168,7 +190,17 @@ def aggregate_scores(scores: Iterable[DepartmentScore], *, group_key) -> List[Ag
     for score in scores:
         key = group_key(score)
         if key not in buckets:
-            buckets[key] = {'weighted': 0.0, 'weight': 0.0, 'simple_total': 0.0, 'count': 0, 'months': set()}
+            buckets[key] = {
+                'weighted': 0.0,
+                'weight': 0.0,
+                'simple_total': 0.0,
+                'count': 0,
+                'months': set(),
+                'rec_weighted': 0.0,
+                'rec_weight': 0.0,
+                'rec_simple_total': 0.0,
+                'rec_simple_count': 0,
+            }
             meta[key] = {'survey_count': 0}
         bucket = buckets[key]
         weight = score.survey_count if score.survey_count and score.survey_count > 0 else None
@@ -176,9 +208,15 @@ def aggregate_scores(scores: Iterable[DepartmentScore], *, group_key) -> List[Ag
             bucket['weighted'] += score.average_score * weight
             bucket['weight'] += weight
             meta[key]['survey_count'] += weight
+            if score.recommendation_percent is not None:
+                bucket['rec_weighted'] += score.recommendation_percent * weight
+                bucket['rec_weight'] += weight
         else:
             bucket['simple_total'] += score.average_score
             bucket['count'] += 1
+            if score.recommendation_percent is not None:
+                bucket['rec_simple_total'] += score.recommendation_percent
+                bucket['rec_simple_count'] += 1
         bucket['months'].add((score.year_ad, score.month))
 
     aggregates: List[Aggregate] = []
@@ -187,16 +225,27 @@ def aggregate_scores(scores: Iterable[DepartmentScore], *, group_key) -> List[Ag
         if total_weight > 0:
             avg = bucket['weighted'] / total_weight
             survey_count = meta[key]['survey_count']
+            if bucket['rec_weight'] > 0:
+                recommendation = bucket['rec_weighted'] / bucket['rec_weight']
+            elif bucket['rec_simple_count'] > 0:
+                recommendation = bucket['rec_simple_total'] / bucket['rec_simple_count']
+            else:
+                recommendation = float('nan')
         else:
             count = bucket['count']
             avg = bucket['simple_total'] / count if count else float('nan')
             survey_count = count
+            if bucket['rec_simple_count'] > 0:
+                recommendation = bucket['rec_simple_total'] / bucket['rec_simple_count']
+            else:
+                recommendation = float('nan')
         aggregates.append(
             Aggregate(
                 department=key,
                 average_score=avg,
                 survey_count=survey_count,
                 month_count=len(bucket['months']),
+                recommendation_percent=recommendation,
             )
         )
     return aggregates
