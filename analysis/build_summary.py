@@ -36,10 +36,30 @@ def summarize(df: pd.DataFrame) -> dict:
 
 
 def build_rankings(df: pd.DataFrame) -> dict:
-    grouped = df.groupby('department').apply(weighted_average, include_groups=False).reset_index()
-    grouped = grouped.sort_values('average_score', ascending=False)
-    top10 = grouped.head(10).to_dict(orient='records')
-    bottom10 = grouped.tail(10).sort_values('average_score').to_dict(orient='records')
+    grouped = (
+        df.groupby('department')
+        .apply(weighted_average, include_groups=False)
+        .reset_index()
+    )
+
+    mean_score = grouped['average_score'].mean()
+    std_dev = grouped['average_score'].std(ddof=0)
+    if pd.isna(std_dev) or std_dev == 0:
+        grouped['sigma_diff'] = 0.0
+    else:
+        grouped['sigma_diff'] = (grouped['average_score'] - mean_score) / std_dev
+
+    top10 = (
+        grouped.sort_values('sigma_diff', ascending=False)
+        .head(10)
+        .to_dict(orient='records')
+    )
+    bottom10 = (
+        grouped.sort_values('sigma_diff', ascending=True)
+        .head(10)
+        .to_dict(orient='records')
+    )
+    grouped = grouped.sort_values('sigma_diff', ascending=False)
     grouped['rank'] = range(1, len(grouped) + 1)
     return {
         'top10': top10,

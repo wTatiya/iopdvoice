@@ -683,7 +683,7 @@
         <section id="rankings" class="card span-12">
           <h2>การจัดอันดับหน่วยงาน</h2>
           <p>
-            การจัดอันดับคำนวณโดยถ่วงน้ำหนักตามจำนวนแบบสำรวจที่มีการรายงาน สลับมุมมองเพื่อดูหน่วยงานที่คะแนนสูงและต่ำที่สุดโดยรวม หรือเฉพาะแต่ละปีปฏิทิน
+            การจัดอันดับคำนวณโดยถ่วงน้ำหนักตามจำนวนแบบสำรวจที่มีการรายงาน และวัดระยะห่างของคะแนนเฉลี่ยเมื่อเทียบกับค่าเบี่ยงเบนมาตรฐาน (σ) ของทุกหน่วยงาน สลับมุมมองเพื่อดูหน่วยงานที่โดดเด่นหรือมีคะแนนต่ำกว่าเกณฑ์ในแต่ละปีปฏิทิน
           </p>
           <div class="tab-strip" role="tablist" aria-label="มุมมองการจัดอันดับ">
             <button type="button" data-key="overall" class="active">ภาพรวม</button>
@@ -700,6 +700,7 @@
                       <th scope="col">อันดับ</th>
                       <th scope="col">หน่วยงาน</th>
                       <th scope="col">คะแนนเฉลี่ย</th>
+                      <th scope="col">เทียบค่า σ</th>
                       <th scope="col">จำนวนแบบสำรวจ</th>
                     </tr>
                   </thead>
@@ -716,6 +717,7 @@
                       <th scope="col">อันดับ</th>
                       <th scope="col">หน่วยงาน</th>
                       <th scope="col">คะแนนเฉลี่ย</th>
+                      <th scope="col">เทียบค่า σ</th>
                       <th scope="col">จำนวนแบบสำรวจ</th>
                     </tr>
                   </thead>
@@ -896,6 +898,19 @@
 
       function formatPercent(value) {
         return `${(value * 100).toFixed(1)}%`;
+      }
+
+      function formatSigma(value) {
+        const numeric = Number(value);
+        if (!Number.isFinite(numeric)) {
+          return '—';
+        }
+        const rounded = numeric.toFixed(2);
+        const prefix = numeric > 0 ? '+' : numeric < 0 ? '' : '±';
+        if (prefix === '±') {
+          return `${rounded}σ`;
+        }
+        return `${prefix}${rounded}σ`;
       }
 
       function formatPeriod(period) {
@@ -1136,6 +1151,7 @@
             <td>${index + 1}</td>
             <td>${row.department}</td>
             <td>${formatScore(row.average_score)}</td>
+            <td>${formatSigma(row.sigma_diff)}</td>
             <td>${row.survey_total ? formatNumber(row.survey_total, { maximumFractionDigits: 0 }) : '—'}</td>
           `;
           topBody.appendChild(tr);
@@ -1147,6 +1163,7 @@
             <td>${index + 1}</td>
             <td>${row.department}</td>
             <td>${formatScore(row.average_score)}</td>
+            <td>${formatSigma(row.sigma_diff)}</td>
             <td>${row.survey_total ? formatNumber(row.survey_total, { maximumFractionDigits: 0 }) : '—'}</td>
           `;
           bottomBody.appendChild(tr);
