@@ -579,40 +579,6 @@
         <section id="at-a-glance" class="card span-12">
           <h2>ภาพรวม</h2>
           <div class="metric-grid" id="metrics"></div>
-          <h3>10 อันดับหน่วยงาน</h3>
-          <p id="coverage"></p>
-          <div class="table-layout table-layout--monthly">
-            <div>
-              <h3>หน่วยงานที่ได้คะแนนสูงสุด</h3>
-              <div class="table-scroll">
-                <table id="monthly-top-table" aria-label="หน่วยงานที่ทำคะแนนสูงสุด">
-                  <thead>
-                    <tr>
-                      <th scope="col">เดือน</th>
-                      <th scope="col">หน่วยงาน</th>
-                      <th scope="col">คะแนน</th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                </table>
-              </div>
-            </div>
-            <div>
-              <h3>หน่วยงานที่ได้คะแนนต่ำสุด</h3>
-              <div class="table-scroll">
-                <table id="monthly-bottom-table" aria-label="หน่วยงานที่ทำคะแนนต่ำสุด">
-                  <thead>
-                    <tr>
-                      <th scope="col">เดือน</th>
-                      <th scope="col">หน่วยงาน</th>
-                      <th scope="col">คะแนน</th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                </table>
-              </div>
-            </div>
-          </div>
         </section>
 
         <section id="rankings" class="card span-12">
@@ -1095,46 +1061,6 @@
           metrics.appendChild(div);
         }
 
-        const coverage = document.getElementById('coverage');
-        const first = metadata.periods[0];
-        const last = metadata.periods[metadata.periods.length - 1];
-        const describe = (period) => {
-          const [year, month] = period.split('-').map(Number);
-          return `${monthNames[month - 1]} ${year}`;
-        };
-        coverage.textContent = `รายงานรายเดือนครอบคลุมตั้งแต่ ${describe(first)} ถึง ${describe(last)} (ต่อเนื่อง ${metadata.periods.length} เดือน)`;
-      }
-
-      function renderMonthlyTable(summary) {
-        const topBody = document.querySelector('#monthly-top-table tbody');
-        const bottomBody = document.querySelector('#monthly-bottom-table tbody');
-        topBody.innerHTML = '';
-        bottomBody.innerHTML = '';
-        const periods = summary.metadata.periods;
-        for (const period of periods) {
-          const view = summary.months[period];
-          if (!view) continue;
-          const top = view.top10[0];
-          const bottom = view.bottom10[0];
-          const [year, month] = period.split('-').map(Number);
-          const monthLabel = `${monthNames[month - 1]} ${year}`;
-
-          const topRow = document.createElement('tr');
-          topRow.innerHTML = `
-            <td data-label="เดือน">${monthLabel}</td>
-            <td data-label="หน่วยงานคะแนนสูงสุด">${top ? top.department : '—'}</td>
-            <td data-label="คะแนน">${top ? formatScore(top.average_score) : '—'}</td>
-          `;
-          topBody.appendChild(topRow);
-
-          const bottomRow = document.createElement('tr');
-          bottomRow.innerHTML = `
-            <td data-label="เดือน">${monthLabel}</td>
-            <td data-label="หน่วยงานคะแนนต่ำสุด">${bottom ? bottom.department : '—'}</td>
-            <td data-label="คะแนน">${bottom ? formatScore(bottom.average_score) : '—'}</td>
-          `;
-          bottomBody.appendChild(bottomRow);
-        }
       }
 
       function renderRanking(viewKey, summary) {
@@ -1569,7 +1495,6 @@
         const insights = await insightsResponse.json();
 
         renderMetrics(summary.metadata);
-        renderMonthlyTable(summary);
         renderRanking('overall', summary);
 
         const buttons = document.querySelectorAll('.tab-strip button');
