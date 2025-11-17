@@ -6367,37 +6367,37 @@
           "department": "PICU",
           "average_score": 4.818,
           "survey_total": 72.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "HBO",
           "average_score": 4.757,
           "survey_total": 67.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "ฝ่ายการเงิน",
           "average_score": 4.75,
           "survey_total": 1.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "26A",
           "average_score": 4.731,
           "survey_total": 67.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "โรคเลือด",
           "average_score": 4.724,
           "survey_total": 12.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "ฝังเข็ม",
           "average_score": 4.708,
           "survey_total": 3.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "24A",
@@ -6479,19 +6479,19 @@
           "department": "การเงิน",
           "average_score": 3.5,
           "survey_total": 2.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "ห้องบัตร",
           "average_score": 3.021,
           "survey_total": 3.0,
-          "volatility_index": NaN
+          "volatility_index": null
         },
         {
           "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
           "average_score": 1.0,
           "survey_total": 1.0,
-          "volatility_index": NaN
+          "volatility_index": null
         }
       ],
       "stats": {
