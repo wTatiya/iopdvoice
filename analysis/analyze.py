@@ -107,22 +107,46 @@ def parse_month_year(path: Path) -> tuple[int, int, int]:
     if month is None:
         raise ValueError(f'Could not determine month from {path}')
 
-    year_two_digit = None
-    match = re.search(r'(\d{2})', name)
-    if match:
-        year_two_digit = int(match.group(1))
+    def iter_year_tokens() -> Iterable[int]:
+        """Yield numeric year tokens from the file path ordered by confidence."""
 
-    if year_two_digit is None:
-        # Try parent directory e.g. "4-68"
-        match = re.search(r'(\d{2})', path.parent.name)
-        if match:
-            year_two_digit = int(match.group(1))
+        parts = [path.stem, path.name, path.parent.name]
+        if path.parent.parent != path.parent:
+            parts.append(path.parent.parent.name)
 
-    if year_two_digit is None:
+        for part in parts:
+            text = part.lower()
+            for match in re.findall(r'25\d{2}', text):
+                yield int(match)
+        for part in parts:
+            text = part.lower()
+            for match in re.findall(r'20\d{2}', text):
+                yield int(match)
+        for part in parts:
+            text = part.lower()
+            for match in re.findall(r'\d{2}', text):
+                yield int(match)
+
+    year_be: Optional[int] = None
+    year_ad: Optional[int] = None
+
+    for token in iter_year_tokens():
+        if token >= 2500:
+            year_be = token
+            year_ad = year_be - 543
+            break
+        if 1900 <= token <= 2100 and year_ad is None:
+            year_ad = token
+            year_be = year_ad + 543
+            break
+        if token >= 50 and year_be is None and year_ad is None:
+            year_be = 2500 + token
+            year_ad = year_be - 543
+            break
+
+    if year_be is None or year_ad is None:
         raise ValueError(f'Could not determine year from {path}')
 
-    year_be = 2500 + year_two_digit
-    year_ad = year_be - 543
     return year_be, year_ad, month
 
 
