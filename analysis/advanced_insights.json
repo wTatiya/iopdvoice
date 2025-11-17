@@ -1,16 +1,22 @@
 {
   "metadata": {
-    "departments": 64,
-    "observations": 567,
-    "overall_average_score": 4.405,
-    "overall_score_std": 0.4866,
+    "departments": 69,
+    "observations": 979,
+    "overall_average_score": 4.379,
+    "overall_score_std": 0.5095,
     "comment_count": 4361
   },
   "trends": {
     "periods": [
-      "2024-10",
-      "2024-11",
-      "2024-12",
+      "2024-01",
+      "2024-02",
+      "2024-03",
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
       "2025-01",
       "2025-02",
       "2025-03",
@@ -18,28 +24,61 @@
       "2025-05",
       "2025-06",
       "2025-07",
-      "2025-08"
+      "2025-08",
+      "2025-10",
+      "2025-11",
+      "2025-12"
     ],
     "departments": [
       {
         "department": "18A",
-        "mean_score": 4.422,
-        "months_observed": 11,
+        "mean_score": 4.421,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.324,
-            "survey_count": 58
+            "period": "2024-01",
+            "average_score": 4.492,
+            "survey_count": 45
           },
           {
-            "period": "2024-11",
-            "average_score": 4.596,
-            "survey_count": 81
+            "period": "2024-02",
+            "average_score": 4.411,
+            "survey_count": 69
           },
           {
-            "period": "2024-12",
-            "average_score": 4.48,
-            "survey_count": 66
+            "period": "2024-03",
+            "average_score": 4.448,
+            "survey_count": 73
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.443,
+            "survey_count": 92
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.431,
+            "survey_count": 100
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.363,
+            "survey_count": 74
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.394,
+            "survey_count": 33
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.379,
+            "survey_count": 56
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.416,
+            "survey_count": 89
           },
           {
             "period": "2025-01",
@@ -80,28 +119,73 @@
             "period": "2025-08",
             "average_score": 4.487,
             "survey_count": 54
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.324,
+            "survey_count": 58
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.596,
+            "survey_count": 81
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.48,
+            "survey_count": 66
           }
         ]
       },
       {
         "department": "18B",
-        "mean_score": 4.556,
-        "months_observed": 11,
+        "mean_score": 4.534,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.539,
-            "survey_count": 73
+            "period": "2024-01",
+            "average_score": 4.684,
+            "survey_count": 96
           },
           {
-            "period": "2024-11",
-            "average_score": 4.549,
-            "survey_count": 54
+            "period": "2024-02",
+            "average_score": 4.609,
+            "survey_count": 69
           },
           {
-            "period": "2024-12",
-            "average_score": 4.555,
-            "survey_count": 109
+            "period": "2024-03",
+            "average_score": 4.563,
+            "survey_count": 72
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.462,
+            "survey_count": 70
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.611,
+            "survey_count": 69
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.45,
+            "survey_count": 65
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.557,
+            "survey_count": 81
+          },
+          {
+            "period": "2024-08",
+            "average_score": 3.979,
+            "survey_count": 3
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.656,
+            "survey_count": 85
           },
           {
             "period": "2025-01",
@@ -142,6 +226,21 @@
             "period": "2025-08",
             "average_score": 4.532,
             "survey_count": 47
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.539,
+            "survey_count": 73
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.549,
+            "survey_count": 54
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.555,
+            "survey_count": 109
           }
         ]
       },
@@ -194,23 +293,53 @@
       },
       {
         "department": "18D",
-        "mean_score": 4.555,
-        "months_observed": 11,
+        "mean_score": 4.535,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.458,
-            "survey_count": 27
+            "period": "2024-01",
+            "average_score": 4.492,
+            "survey_count": 45
           },
           {
-            "period": "2024-11",
-            "average_score": 4.76,
-            "survey_count": 25
+            "period": "2024-02",
+            "average_score": 4.544,
+            "survey_count": 41
           },
           {
-            "period": "2024-12",
-            "average_score": 4.452,
-            "survey_count": 34
+            "period": "2024-03",
+            "average_score": 4.498,
+            "survey_count": 36
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.64,
+            "survey_count": 49
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.437,
+            "survey_count": 52
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.52,
+            "survey_count": 31
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.46,
+            "survey_count": 48
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.557,
+            "survey_count": 50
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.444,
+            "survey_count": 38
           },
           {
             "period": "2025-01",
@@ -251,28 +380,73 @@
             "period": "2025-08",
             "average_score": 4.724,
             "survey_count": 38
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.458,
+            "survey_count": 27
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.76,
+            "survey_count": 25
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.452,
+            "survey_count": 34
           }
         ]
       },
       {
         "department": "19A",
-        "mean_score": 4.518,
-        "months_observed": 11,
+        "mean_score": 4.502,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.408,
-            "survey_count": 28
+            "period": "2024-01",
+            "average_score": 4.412,
+            "survey_count": 67
           },
           {
-            "period": "2024-11",
-            "average_score": 4.306,
-            "survey_count": 31
+            "period": "2024-02",
+            "average_score": 4.54,
+            "survey_count": 76
           },
           {
-            "period": "2024-12",
-            "average_score": 4.569,
+            "period": "2024-03",
+            "average_score": 4.455,
+            "survey_count": 55
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.41,
             "survey_count": 52
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.571,
+            "survey_count": 43
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.477,
+            "survey_count": 52
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.35,
+            "survey_count": 37
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.509,
+            "survey_count": 69
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.615,
+            "survey_count": 25
           },
           {
             "period": "2025-01",
@@ -313,28 +487,73 @@
             "period": "2025-08",
             "average_score": 4.343,
             "survey_count": 41
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.408,
+            "survey_count": 28
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.306,
+            "survey_count": 31
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.569,
+            "survey_count": 52
           }
         ]
       },
       {
         "department": "19B",
-        "mean_score": 4.488,
-        "months_observed": 11,
+        "mean_score": 4.468,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
+            "period": "2024-01",
+            "average_score": 4.486,
+            "survey_count": 32
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.431,
+            "survey_count": 94
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.526,
+            "survey_count": 63
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.443,
+            "survey_count": 80
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.411,
+            "survey_count": 49
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.412,
+            "survey_count": 73
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.478,
+            "survey_count": 92
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.422,
+            "survey_count": 70
+          },
+          {
+            "period": "2024-09",
             "average_score": 4.381,
-            "survey_count": 56
-          },
-          {
-            "period": "2024-11",
-            "average_score": 4.476,
-            "survey_count": 39
-          },
-          {
-            "period": "2024-12",
-            "average_score": 4.459,
-            "survey_count": 43
+            "survey_count": 78
           },
           {
             "period": "2025-01",
@@ -375,26 +594,86 @@
             "period": "2025-08",
             "average_score": 4.329,
             "survey_count": 42
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.381,
+            "survey_count": 56
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.476,
+            "survey_count": 39
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.459,
+            "survey_count": 43
           }
         ]
       },
       {
         "department": "19C",
-        "mean_score": 4.437,
-        "months_observed": 3,
+        "mean_score": 4.472,
+        "months_observed": 12,
         "series": [
           {
-            "period": "2024-10",
+            "period": "2024-01",
+            "average_score": 4.52,
+            "survey_count": 31
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.578,
+            "survey_count": 25
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.561,
+            "survey_count": 42
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.338,
+            "survey_count": 35
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.332,
+            "survey_count": 50
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.403,
+            "survey_count": 53
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.542,
+            "survey_count": 51
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.534,
+            "survey_count": 87
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.548,
+            "survey_count": 39
+          },
+          {
+            "period": "2025-10",
             "average_score": 4.407,
             "survey_count": 72
           },
           {
-            "period": "2024-11",
+            "period": "2025-11",
             "average_score": 4.461,
             "survey_count": 56
           },
           {
-            "period": "2024-12",
+            "period": "2025-12",
             "average_score": 4.443,
             "survey_count": 91
           }
@@ -402,23 +681,53 @@
       },
       {
         "department": "19D",
-        "mean_score": 4.606,
-        "months_observed": 11,
+        "mean_score": 4.594,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.691,
-            "survey_count": 60
+            "period": "2024-01",
+            "average_score": 4.373,
+            "survey_count": 31
           },
           {
-            "period": "2024-11",
-            "average_score": 4.568,
-            "survey_count": 53
+            "period": "2024-02",
+            "average_score": 4.575,
+            "survey_count": 91
           },
           {
-            "period": "2024-12",
-            "average_score": 4.581,
-            "survey_count": 71
+            "period": "2024-03",
+            "average_score": 4.649,
+            "survey_count": 55
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.547,
+            "survey_count": 79
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.654,
+            "survey_count": 89
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.564,
+            "survey_count": 72
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.601,
+            "survey_count": 74
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.676,
+            "survey_count": 63
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.579,
+            "survey_count": 39
           },
           {
             "period": "2025-01",
@@ -459,6 +768,21 @@
             "period": "2025-08",
             "average_score": 4.339,
             "survey_count": 33
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.691,
+            "survey_count": 60
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.568,
+            "survey_count": 53
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.581,
+            "survey_count": 71
           }
         ]
       },
@@ -553,23 +877,48 @@
       },
       {
         "department": "21A",
-        "mean_score": 4.62,
-        "months_observed": 11,
+        "mean_score": 4.589,
+        "months_observed": 19,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.33,
+            "period": "2024-01",
+            "average_score": 4.713,
+            "survey_count": 17
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.574,
+            "survey_count": 27
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.716,
+            "survey_count": 13
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.203,
+            "survey_count": 20
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.694,
+            "survey_count": 30
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.857,
+            "survey_count": 7
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.358,
             "survey_count": 18
           },
           {
-            "period": "2024-11",
-            "average_score": 4.672,
-            "survey_count": 25
-          },
-          {
-            "period": "2024-12",
-            "average_score": 4.531,
-            "survey_count": 14
+            "period": "2024-09",
+            "average_score": 4.26,
+            "survey_count": 6
           },
           {
             "period": "2025-01",
@@ -610,28 +959,73 @@
             "period": "2025-08",
             "average_score": 4.598,
             "survey_count": 28
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.33,
+            "survey_count": 18
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.672,
+            "survey_count": 25
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.531,
+            "survey_count": 14
           }
         ]
       },
       {
         "department": "21D",
-        "mean_score": 4.623,
-        "months_observed": 11,
+        "mean_score": 4.597,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.644,
+            "period": "2024-01",
+            "average_score": 4.537,
+            "survey_count": 29
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.667,
+            "survey_count": 18
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.663,
             "survey_count": 26
           },
           {
-            "period": "2024-11",
-            "average_score": 4.45,
-            "survey_count": 31
+            "period": "2024-04",
+            "average_score": 4.456,
+            "survey_count": 30
           },
           {
-            "period": "2024-12",
-            "average_score": 4.773,
-            "survey_count": 38
+            "period": "2024-05",
+            "average_score": 4.312,
+            "survey_count": 8
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.75,
+            "survey_count": 6
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.456,
+            "survey_count": 10
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.576,
+            "survey_count": 14
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.665,
+            "survey_count": 14
           },
           {
             "period": "2025-01",
@@ -672,28 +1066,73 @@
             "period": "2025-08",
             "average_score": 4.726,
             "survey_count": 44
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.644,
+            "survey_count": 26
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.45,
+            "survey_count": 31
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.773,
+            "survey_count": 38
           }
         ]
       },
       {
         "department": "22A (Stroke Unit)",
-        "mean_score": 4.487,
-        "months_observed": 16,
+        "mean_score": 4.457,
+        "months_observed": 25,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.569,
+            "period": "2024-01",
+            "average_score": 4.513,
+            "survey_count": 14
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.388,
+            "survey_count": 5
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.01,
+            "survey_count": 12
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.58,
+            "survey_count": 7
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.448,
             "survey_count": 18
           },
           {
-            "period": "2024-11",
-            "average_score": 4.581,
-            "survey_count": 17
+            "period": "2024-06",
+            "average_score": 4.042,
+            "survey_count": 6
           },
           {
-            "period": "2024-12",
-            "average_score": 4.447,
-            "survey_count": 19
+            "period": "2024-07",
+            "average_score": 4.487,
+            "survey_count": 14
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.556,
+            "survey_count": 18
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.618,
+            "survey_count": 18
           },
           {
             "period": "2025-01",
@@ -759,28 +1198,73 @@
             "period": "2025-08",
             "average_score": 4.636,
             "survey_count": 11
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.569,
+            "survey_count": 18
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.581,
+            "survey_count": 17
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.447,
+            "survey_count": 19
           }
         ]
       },
       {
         "department": "22B",
-        "mean_score": 4.634,
-        "months_observed": 11,
+        "mean_score": 4.609,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.579,
-            "survey_count": 23
+            "period": "2024-01",
+            "average_score": 4.507,
+            "survey_count": 59
           },
           {
-            "period": "2024-11",
-            "average_score": 4.686,
-            "survey_count": 43
+            "period": "2024-02",
+            "average_score": 4.725,
+            "survey_count": 38
           },
           {
-            "period": "2024-12",
-            "average_score": 4.675,
-            "survey_count": 36
+            "period": "2024-03",
+            "average_score": 4.609,
+            "survey_count": 44
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.602,
+            "survey_count": 41
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.429,
+            "survey_count": 44
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.464,
+            "survey_count": 38
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.682,
+            "survey_count": 33
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.644,
+            "survey_count": 50
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.549,
+            "survey_count": 45
           },
           {
             "period": "2025-01",
@@ -821,28 +1305,73 @@
             "period": "2025-08",
             "average_score": 4.645,
             "survey_count": 49
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.579,
+            "survey_count": 23
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.686,
+            "survey_count": 43
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.675,
+            "survey_count": 36
           }
         ]
       },
       {
         "department": "22C",
-        "mean_score": 4.573,
-        "months_observed": 11,
+        "mean_score": 4.53,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.529,
+            "period": "2024-01",
+            "average_score": 4.565,
+            "survey_count": 23
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.534,
+            "survey_count": 41
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.509,
+            "survey_count": 21
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.434,
+            "survey_count": 34
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.227,
+            "survey_count": 44
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.51,
+            "survey_count": 42
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.539,
+            "survey_count": 51
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.402,
             "survey_count": 37
           },
           {
-            "period": "2024-11",
-            "average_score": 4.636,
-            "survey_count": 62
-          },
-          {
-            "period": "2024-12",
-            "average_score": 4.598,
-            "survey_count": 33
+            "period": "2024-09",
+            "average_score": 4.585,
+            "survey_count": 42
           },
           {
             "period": "2025-01",
@@ -883,28 +1412,73 @@
             "period": "2025-08",
             "average_score": 4.544,
             "survey_count": 44
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.529,
+            "survey_count": 37
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.636,
+            "survey_count": 62
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.598,
+            "survey_count": 33
           }
         ]
       },
       {
         "department": "22D",
-        "mean_score": 4.518,
-        "months_observed": 11,
+        "mean_score": 4.51,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.606,
-            "survey_count": 65
+            "period": "2024-01",
+            "average_score": 4.553,
+            "survey_count": 64
           },
           {
-            "period": "2024-11",
-            "average_score": 4.588,
+            "period": "2024-02",
+            "average_score": 4.493,
+            "survey_count": 67
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.489,
+            "survey_count": 79
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.387,
             "survey_count": 76
           },
           {
-            "period": "2024-12",
-            "average_score": 4.566,
-            "survey_count": 59
+            "period": "2024-05",
+            "average_score": 4.55,
+            "survey_count": 82
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.535,
+            "survey_count": 87
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.452,
+            "survey_count": 60
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.514,
+            "survey_count": 92
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.524,
+            "survey_count": 84
           },
           {
             "period": "2025-01",
@@ -945,28 +1519,73 @@
             "period": "2025-08",
             "average_score": 4.321,
             "survey_count": 71
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.606,
+            "survey_count": 65
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.588,
+            "survey_count": 76
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.566,
+            "survey_count": 59
           }
         ]
       },
       {
         "department": "23A",
-        "mean_score": 4.506,
-        "months_observed": 11,
+        "mean_score": 4.569,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.523,
-            "survey_count": 38
+            "period": "2024-01",
+            "average_score": 4.642,
+            "survey_count": 65
           },
           {
-            "period": "2024-11",
-            "average_score": 4.546,
-            "survey_count": 39
+            "period": "2024-02",
+            "average_score": 4.657,
+            "survey_count": 57
           },
           {
-            "period": "2024-12",
-            "average_score": 4.312,
-            "survey_count": 22
+            "period": "2024-03",
+            "average_score": 4.761,
+            "survey_count": 11
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.568,
+            "survey_count": 44
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.667,
+            "survey_count": 60
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.608,
+            "survey_count": 49
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.751,
+            "survey_count": 43
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.588,
+            "survey_count": 54
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.572,
+            "survey_count": 27
           },
           {
             "period": "2025-01",
@@ -1007,28 +1626,73 @@
             "period": "2025-08",
             "average_score": 4.583,
             "survey_count": 136
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.523,
+            "survey_count": 38
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.546,
+            "survey_count": 39
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.312,
+            "survey_count": 22
           }
         ]
       },
       {
         "department": "24A",
-        "mean_score": 4.684,
-        "months_observed": 11,
+        "mean_score": 4.716,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.536,
-            "survey_count": 26
+            "period": "2024-01",
+            "average_score": 4.753,
+            "survey_count": 82
           },
           {
-            "period": "2024-11",
-            "average_score": 4.722,
-            "survey_count": 42
+            "period": "2024-02",
+            "average_score": 4.741,
+            "survey_count": 55
           },
           {
-            "period": "2024-12",
-            "average_score": 4.886,
-            "survey_count": 33
+            "period": "2024-03",
+            "average_score": 4.756,
+            "survey_count": 68
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.866,
+            "survey_count": 40
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.772,
+            "survey_count": 37
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.81,
+            "survey_count": 23
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.634,
+            "survey_count": 29
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.793,
+            "survey_count": 38
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.684,
+            "survey_count": 17
           },
           {
             "period": "2025-01",
@@ -1069,28 +1733,73 @@
             "period": "2025-08",
             "average_score": 4.723,
             "survey_count": 69
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.536,
+            "survey_count": 26
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.722,
+            "survey_count": 42
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.886,
+            "survey_count": 33
           }
         ]
       },
       {
         "department": "25A",
-        "mean_score": 4.711,
-        "months_observed": 11,
+        "mean_score": 4.686,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.728,
-            "survey_count": 52
+            "period": "2024-01",
+            "average_score": 4.593,
+            "survey_count": 57
           },
           {
-            "period": "2024-11",
-            "average_score": 4.664,
-            "survey_count": 74
+            "period": "2024-02",
+            "average_score": 4.708,
+            "survey_count": 49
           },
           {
-            "period": "2024-12",
-            "average_score": 4.689,
-            "survey_count": 36
+            "period": "2024-03",
+            "average_score": 4.558,
+            "survey_count": 62
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.597,
+            "survey_count": 45
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.555,
+            "survey_count": 62
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.776,
+            "survey_count": 45
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.685,
+            "survey_count": 61
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.705,
+            "survey_count": 80
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.716,
+            "survey_count": 46
           },
           {
             "period": "2025-01",
@@ -1131,28 +1840,73 @@
             "period": "2025-08",
             "average_score": 4.798,
             "survey_count": 84
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.728,
+            "survey_count": 52
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.664,
+            "survey_count": 74
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.689,
+            "survey_count": 36
           }
         ]
       },
       {
         "department": "25B",
-        "mean_score": 4.655,
-        "months_observed": 11,
+        "mean_score": 4.639,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.739,
-            "survey_count": 64
+            "period": "2024-01",
+            "average_score": 4.598,
+            "survey_count": 60
           },
           {
-            "period": "2024-11",
-            "average_score": 4.706,
-            "survey_count": 58
+            "period": "2024-02",
+            "average_score": 4.599,
+            "survey_count": 92
           },
           {
-            "period": "2024-12",
-            "average_score": 4.655,
-            "survey_count": 46
+            "period": "2024-03",
+            "average_score": 4.649,
+            "survey_count": 87
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.653,
+            "survey_count": 82
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.617,
+            "survey_count": 90
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.555,
+            "survey_count": 60
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.673,
+            "survey_count": 76
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.596,
+            "survey_count": 87
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.628,
+            "survey_count": 76
           },
           {
             "period": "2025-01",
@@ -1193,28 +1947,80 @@
             "period": "2025-08",
             "average_score": 4.839,
             "survey_count": 40
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.739,
+            "survey_count": 64
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.706,
+            "survey_count": 58
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.655,
+            "survey_count": 46
+          }
+        ]
+      },
+      {
+        "department": "26A",
+        "mean_score": 4.731,
+        "months_observed": 1,
+        "series": [
+          {
+            "period": "2024-07",
+            "average_score": 4.731,
+            "survey_count": 67
           }
         ]
       },
       {
         "department": "26B",
-        "mean_score": 4.669,
-        "months_observed": 11,
+        "mean_score": 4.661,
+        "months_observed": 19,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.68,
-            "survey_count": 60
+            "period": "2024-01",
+            "average_score": 4.532,
+            "survey_count": 50
           },
           {
-            "period": "2024-11",
-            "average_score": 4.717,
-            "survey_count": 44
+            "period": "2024-02",
+            "average_score": 4.603,
+            "survey_count": 51
           },
           {
-            "period": "2024-12",
+            "period": "2024-03",
+            "average_score": 4.626,
+            "survey_count": 55
+          },
+          {
+            "period": "2024-04",
             "average_score": 4.682,
-            "survey_count": 74
+            "survey_count": 56
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.742,
+            "survey_count": 75
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.74,
+            "survey_count": 59
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.618,
+            "survey_count": 73
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.664,
+            "survey_count": 61
           },
           {
             "period": "2025-01",
@@ -1255,28 +2061,73 @@
             "period": "2025-08",
             "average_score": 4.631,
             "survey_count": 61
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.68,
+            "survey_count": 60
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.717,
+            "survey_count": 44
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.682,
+            "survey_count": 74
           }
         ]
       },
       {
         "department": "ANC",
-        "mean_score": 4.341,
-        "months_observed": 11,
+        "mean_score": 4.354,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.344,
-            "survey_count": 147
-          },
-          {
-            "period": "2024-11",
+            "period": "2024-01",
             "average_score": 4.296,
-            "survey_count": 109
+            "survey_count": 94
           },
           {
-            "period": "2024-12",
-            "average_score": 4.351,
-            "survey_count": 127
+            "period": "2024-02",
+            "average_score": 4.493,
+            "survey_count": 95
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.514,
+            "survey_count": 82
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.392,
+            "survey_count": 140
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.391,
+            "survey_count": 96
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.346,
+            "survey_count": 103
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.269,
+            "survey_count": 105
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.349,
+            "survey_count": 251
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.275,
+            "survey_count": 188
           },
           {
             "period": "2025-01",
@@ -1317,14 +2168,54 @@
             "period": "2025-08",
             "average_score": 4.465,
             "survey_count": 226
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.344,
+            "survey_count": 147
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.296,
+            "survey_count": 109
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.351,
+            "survey_count": 127
           }
         ]
       },
       {
         "department": "Burn Unit",
-        "mean_score": 4.594,
-        "months_observed": 2,
+        "mean_score": 4.633,
+        "months_observed": 7,
         "series": [
+          {
+            "period": "2024-01",
+            "average_score": 4.938,
+            "survey_count": 4
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.969,
+            "survey_count": 4
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.763,
+            "survey_count": 5
+          },
+          {
+            "period": "2024-06",
+            "average_score": 3.938,
+            "survey_count": 2
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.641,
+            "survey_count": 4
+          },
           {
             "period": "2025-03",
             "average_score": 4.188,
@@ -1386,23 +2277,43 @@
       },
       {
         "department": "ENT",
-        "mean_score": 4.532,
-        "months_observed": 11,
+        "mean_score": 4.598,
+        "months_observed": 18,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.485,
-            "survey_count": 60
+            "period": "2024-01",
+            "average_score": 4.579,
+            "survey_count": 23
           },
           {
-            "period": "2024-11",
-            "average_score": 4.637,
-            "survey_count": 65
+            "period": "2024-02",
+            "average_score": 4.312,
+            "survey_count": 37
           },
           {
-            "period": "2024-12",
-            "average_score": 4.682,
-            "survey_count": 32
+            "period": "2024-03",
+            "average_score": 4.553,
+            "survey_count": 20
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.591,
+            "survey_count": 20
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.938,
+            "survey_count": 4
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.938,
+            "survey_count": 1
+          },
+          {
+            "period": "2024-08",
+            "average_score": 5.0,
+            "survey_count": 2
           },
           {
             "period": "2025-01",
@@ -1443,28 +2354,58 @@
             "period": "2025-08",
             "average_score": 4.447,
             "survey_count": 51
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.485,
+            "survey_count": 60
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.637,
+            "survey_count": 65
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.682,
+            "survey_count": 32
           }
         ]
       },
       {
         "department": "ER",
-        "mean_score": 4.307,
-        "months_observed": 11,
+        "mean_score": 4.277,
+        "months_observed": 17,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 5.0,
-            "survey_count": 1
+            "period": "2024-04",
+            "average_score": 4.41,
+            "survey_count": 53
           },
           {
-            "period": "2024-11",
-            "average_score": 4.481,
-            "survey_count": 10
+            "period": "2024-05",
+            "average_score": 4.575,
+            "survey_count": 29
           },
           {
-            "period": "2024-12",
-            "average_score": 4.406,
-            "survey_count": 14
+            "period": "2024-06",
+            "average_score": 3.925,
+            "survey_count": 15
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.333,
+            "survey_count": 9
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.423,
+            "survey_count": 13
+          },
+          {
+            "period": "2024-09",
+            "average_score": 3.665,
+            "survey_count": 11
           },
           {
             "period": "2025-01",
@@ -1505,23 +2446,43 @@
             "period": "2025-08",
             "average_score": 3.983,
             "survey_count": 44
+          },
+          {
+            "period": "2025-10",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.481,
+            "survey_count": 10
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.406,
+            "survey_count": 14
           }
         ]
       },
       {
         "department": "HBO",
-        "mean_score": 4.841,
-        "months_observed": 4,
+        "mean_score": 4.828,
+        "months_observed": 7,
         "series": [
           {
-            "period": "2024-11",
+            "period": "2024-06",
+            "average_score": 4.817,
+            "survey_count": 15
+          },
+          {
+            "period": "2024-08",
             "average_score": 5.0,
             "survey_count": 1
           },
           {
-            "period": "2024-12",
-            "average_score": 4.688,
-            "survey_count": 11
+            "period": "2024-09",
+            "average_score": 4.614,
+            "survey_count": 17
           },
           {
             "period": "2025-03",
@@ -1531,6 +2492,16 @@
           {
             "period": "2025-06",
             "average_score": 4.773,
+            "survey_count": 11
+          },
+          {
+            "period": "2025-11",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.688,
             "survey_count": 11
           }
         ]
@@ -1554,23 +2525,53 @@
       },
       {
         "department": "MICU",
-        "mean_score": 4.55,
-        "months_observed": 11,
+        "mean_score": 4.546,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.39,
-            "survey_count": 17
-          },
-          {
-            "period": "2024-11",
-            "average_score": 4.534,
+            "period": "2024-01",
+            "average_score": 4.596,
             "survey_count": 13
           },
           {
-            "period": "2024-12",
-            "average_score": 4.575,
-            "survey_count": 29
+            "period": "2024-02",
+            "average_score": 4.473,
+            "survey_count": 14
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.596,
+            "survey_count": 15
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.562,
+            "survey_count": 10
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.638,
+            "survey_count": 20
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.598,
+            "survey_count": 23
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.406,
+            "survey_count": 18
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.484,
+            "survey_count": 23
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.516,
+            "survey_count": 8
           },
           {
             "period": "2025-01",
@@ -1611,28 +2612,73 @@
             "period": "2025-08",
             "average_score": 4.648,
             "survey_count": 19
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.39,
+            "survey_count": 17
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.534,
+            "survey_count": 13
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.575,
+            "survey_count": 29
           }
         ]
       },
       {
         "department": "NICU",
-        "mean_score": 4.614,
-        "months_observed": 11,
+        "mean_score": 4.624,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.549,
-            "survey_count": 47
+            "period": "2024-01",
+            "average_score": 4.765,
+            "survey_count": 42
           },
           {
-            "period": "2024-11",
-            "average_score": 4.641,
-            "survey_count": 39
+            "period": "2024-02",
+            "average_score": 4.593,
+            "survey_count": 31
           },
           {
-            "period": "2024-12",
-            "average_score": 4.554,
-            "survey_count": 22
+            "period": "2024-03",
+            "average_score": 4.612,
+            "survey_count": 33
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.616,
+            "survey_count": 36
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.508,
+            "survey_count": 24
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.775,
+            "survey_count": 15
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.582,
+            "survey_count": 23
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.548,
+            "survey_count": 55
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.719,
+            "survey_count": 38
           },
           {
             "period": "2025-01",
@@ -1673,28 +2719,73 @@
             "period": "2025-08",
             "average_score": 4.75,
             "survey_count": 27
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.549,
+            "survey_count": 47
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.641,
+            "survey_count": 39
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.554,
+            "survey_count": 22
           }
         ]
       },
       {
         "department": "OB-GYN",
-        "mean_score": 4.473,
-        "months_observed": 11,
+        "mean_score": 4.457,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.469,
-            "survey_count": 64
+            "period": "2024-01",
+            "average_score": 4.319,
+            "survey_count": 98
           },
           {
-            "period": "2024-11",
-            "average_score": 4.248,
-            "survey_count": 54
+            "period": "2024-02",
+            "average_score": 4.374,
+            "survey_count": 111
           },
           {
-            "period": "2024-12",
-            "average_score": 4.418,
-            "survey_count": 94
+            "period": "2024-03",
+            "average_score": 4.601,
+            "survey_count": 42
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.521,
+            "survey_count": 126
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.505,
+            "survey_count": 65
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.337,
+            "survey_count": 36
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.746,
+            "survey_count": 32
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.535,
+            "survey_count": 50
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.01,
+            "survey_count": 12
           },
           {
             "period": "2025-01",
@@ -1735,28 +2826,73 @@
             "period": "2025-08",
             "average_score": 4.498,
             "survey_count": 97
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.469,
+            "survey_count": 64
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.248,
+            "survey_count": 54
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.418,
+            "survey_count": 94
           }
         ]
       },
       {
         "department": "OPD Med",
-        "mean_score": 4.238,
-        "months_observed": 11,
+        "mean_score": 4.017,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.594,
-            "survey_count": 2
+            "period": "2024-01",
+            "average_score": 4.185,
+            "survey_count": 108
           },
           {
-            "period": "2024-11",
-            "average_score": 3.867,
-            "survey_count": 8
+            "period": "2024-02",
+            "average_score": 4.013,
+            "survey_count": 43
           },
           {
-            "period": "2024-12",
-            "average_score": 4.225,
-            "survey_count": 5
+            "period": "2024-03",
+            "average_score": 4.08,
+            "survey_count": 22
+          },
+          {
+            "period": "2024-04",
+            "average_score": 3.957,
+            "survey_count": 42
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.078,
+            "survey_count": 83
+          },
+          {
+            "period": "2024-06",
+            "average_score": 3.94,
+            "survey_count": 50
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.116,
+            "survey_count": 57
+          },
+          {
+            "period": "2024-08",
+            "average_score": 3.986,
+            "survey_count": 37
+          },
+          {
+            "period": "2024-09",
+            "average_score": 1.375,
+            "survey_count": 1
           },
           {
             "period": "2025-01",
@@ -1797,28 +2933,73 @@
             "period": "2025-08",
             "average_score": 4.32,
             "survey_count": 122
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.594,
+            "survey_count": 2
+          },
+          {
+            "period": "2025-11",
+            "average_score": 3.867,
+            "survey_count": 8
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.225,
+            "survey_count": 5
           }
         ]
       },
       {
         "department": "ORTHO",
-        "mean_score": 4.367,
-        "months_observed": 11,
+        "mean_score": 4.368,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 5.0,
-            "survey_count": 2
+            "period": "2024-01",
+            "average_score": 4.285,
+            "survey_count": 39
           },
           {
-            "period": "2024-11",
-            "average_score": 4.478,
-            "survey_count": 14
+            "period": "2024-02",
+            "average_score": 4.418,
+            "survey_count": 38
           },
           {
-            "period": "2024-12",
-            "average_score": 3.938,
-            "survey_count": 2
+            "period": "2024-03",
+            "average_score": 4.48,
+            "survey_count": 176
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.389,
+            "survey_count": 100
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.375,
+            "survey_count": 26
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.202,
+            "survey_count": 114
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.488,
+            "survey_count": 52
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.638,
+            "survey_count": 5
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.052,
+            "survey_count": 6
           },
           {
             "period": "2025-01",
@@ -1859,28 +3040,73 @@
             "period": "2025-08",
             "average_score": 3.594,
             "survey_count": 4
+          },
+          {
+            "period": "2025-10",
+            "average_score": 5.0,
+            "survey_count": 2
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.478,
+            "survey_count": 14
+          },
+          {
+            "period": "2025-12",
+            "average_score": 3.938,
+            "survey_count": 2
           }
         ]
       },
       {
         "department": "PED",
-        "mean_score": 4.394,
-        "months_observed": 11,
+        "mean_score": 4.387,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.266,
-            "survey_count": 16
+            "period": "2024-01",
+            "average_score": 4.469,
+            "survey_count": 47
           },
           {
-            "period": "2024-11",
-            "average_score": 4.379,
-            "survey_count": 14
+            "period": "2024-02",
+            "average_score": 4.344,
+            "survey_count": 2
           },
           {
-            "period": "2024-12",
-            "average_score": 4.474,
+            "period": "2024-03",
+            "average_score": 4.168,
+            "survey_count": 39
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.27,
+            "survey_count": 28
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.388,
             "survey_count": 29
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.194,
+            "survey_count": 9
+          },
+          {
+            "period": "2024-07",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.246,
+            "survey_count": 15
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.328,
+            "survey_count": 107
           },
           {
             "period": "2025-01",
@@ -1921,6 +3147,21 @@
             "period": "2025-08",
             "average_score": 4.789,
             "survey_count": 16
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.266,
+            "survey_count": 16
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.379,
+            "survey_count": 14
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.474,
+            "survey_count": 29
           }
         ]
       },
@@ -1973,23 +3214,53 @@
       },
       {
         "department": "SICU",
-        "mean_score": 4.637,
-        "months_observed": 11,
+        "mean_score": 4.614,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.503,
-            "survey_count": 23
+            "period": "2024-01",
+            "average_score": 4.667,
+            "survey_count": 27
           },
           {
-            "period": "2024-11",
-            "average_score": 4.532,
+            "period": "2024-02",
+            "average_score": 4.507,
+            "survey_count": 28
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.526,
+            "survey_count": 26
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.869,
+            "survey_count": 30
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.527,
+            "survey_count": 28
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.447,
+            "survey_count": 25
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.422,
+            "survey_count": 20
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.646,
             "survey_count": 33
           },
           {
-            "period": "2024-12",
-            "average_score": 4.548,
-            "survey_count": 31
+            "period": "2024-09",
+            "average_score": 4.659,
+            "survey_count": 26
           },
           {
             "period": "2025-01",
@@ -2030,18 +3301,58 @@
             "period": "2025-08",
             "average_score": 4.719,
             "survey_count": 24
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.503,
+            "survey_count": 23
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.532,
+            "survey_count": 33
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.548,
+            "survey_count": 31
           }
         ]
       },
       {
         "department": "กายภาพ",
-        "mean_score": 4.51,
-        "months_observed": 6,
+        "mean_score": 4.578,
+        "months_observed": 12,
         "series": [
           {
-            "period": "2024-11",
-            "average_score": 4.25,
+            "period": "2024-01",
+            "average_score": 4.875,
             "survey_count": 1
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.047,
+            "survey_count": 4
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.75,
+            "survey_count": 1
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.229,
+            "survey_count": 3
+          },
+          {
+            "period": "2024-08",
+            "average_score": 5.0,
+            "survey_count": 2
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.969,
+            "survey_count": 2
           },
           {
             "period": "2025-01",
@@ -2067,6 +3378,23 @@
             "period": "2025-06",
             "average_score": 4.312,
             "survey_count": 1
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.25,
+            "survey_count": 1
+          }
+        ]
+      },
+      {
+        "department": "การเงิน",
+        "mean_score": 3.5,
+        "months_observed": 1,
+        "series": [
+          {
+            "period": "2024-07",
+            "average_score": 3.5,
+            "survey_count": 2
           }
         ]
       },
@@ -2075,11 +3403,6 @@
         "mean_score": 4.444,
         "months_observed": 5,
         "series": [
-          {
-            "period": "2024-12",
-            "average_score": 4.0,
-            "survey_count": 1
-          },
           {
             "period": "2025-01",
             "average_score": 4.938,
@@ -2099,28 +3422,68 @@
             "period": "2025-07",
             "average_score": 3.844,
             "survey_count": 2
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.0,
+            "survey_count": 1
           }
         ]
       },
       {
         "department": "คลินิก Meta",
-        "mean_score": 4.024,
-        "months_observed": 17,
+        "mean_score": 4.077,
+        "months_observed": 27,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.25,
+            "period": "2024-01",
+            "average_score": 4.125,
+            "survey_count": 6
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.047,
+            "survey_count": 82
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.5,
             "survey_count": 1
           },
           {
-            "period": "2024-11",
-            "average_score": 4.63,
+            "period": "2024-04",
+            "average_score": 4.068,
+            "survey_count": 73
+          },
+          {
+            "period": "2024-04",
+            "average_score": 3.625,
             "survey_count": 1
           },
           {
-            "period": "2024-12",
-            "average_score": 4.106,
-            "survey_count": 27
+            "period": "2024-05",
+            "average_score": 4.174,
+            "survey_count": 38
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.213,
+            "survey_count": 22
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.191,
+            "survey_count": 17
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.115,
+            "survey_count": 38
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.62,
+            "survey_count": 1
           },
           {
             "period": "2025-01",
@@ -2144,13 +3507,13 @@
           },
           {
             "period": "2025-04",
-            "average_score": 4.379,
-            "survey_count": 56
+            "average_score": 4.562,
+            "survey_count": 1
           },
           {
             "period": "2025-04",
-            "average_score": 4.562,
-            "survey_count": 1
+            "average_score": 4.379,
+            "survey_count": 56
           },
           {
             "period": "2025-05",
@@ -2191,28 +3554,73 @@
             "period": "2025-08",
             "average_score": 4.402,
             "survey_count": 28
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.25,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.63,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.106,
+            "survey_count": 27
           }
         ]
       },
       {
         "department": "คลินิกเวชปฏิบัติ",
-        "mean_score": 3.851,
-        "months_observed": 11,
+        "mean_score": 3.874,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.969,
-            "survey_count": 2
+            "period": "2024-01",
+            "average_score": 4.287,
+            "survey_count": 54
           },
           {
-            "period": "2024-11",
-            "average_score": 3.423,
+            "period": "2024-02",
+            "average_score": 4.108,
+            "survey_count": 45
+          },
+          {
+            "period": "2024-03",
+            "average_score": 3.883,
+            "survey_count": 119
+          },
+          {
+            "period": "2024-04",
+            "average_score": 3.829,
+            "survey_count": 59
+          },
+          {
+            "period": "2024-05",
+            "average_score": 3.808,
+            "survey_count": 13
+          },
+          {
+            "period": "2024-06",
+            "average_score": 3.863,
+            "survey_count": 103
+          },
+          {
+            "period": "2024-07",
+            "average_score": 3.798,
+            "survey_count": 63
+          },
+          {
+            "period": "2024-08",
+            "average_score": 3.709,
+            "survey_count": 44
+          },
+          {
+            "period": "2024-09",
+            "average_score": 3.833,
             "survey_count": 21
-          },
-          {
-            "period": "2024-12",
-            "average_score": 4.083,
-            "survey_count": 12
           },
           {
             "period": "2025-01",
@@ -2253,28 +3661,73 @@
             "period": "2025-08",
             "average_score": 4.1,
             "survey_count": 47
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.969,
+            "survey_count": 2
+          },
+          {
+            "period": "2025-11",
+            "average_score": 3.423,
+            "survey_count": 21
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.083,
+            "survey_count": 12
           }
         ]
       },
       {
         "department": "จักษุ",
-        "mean_score": 4.681,
-        "months_observed": 11,
+        "mean_score": 4.632,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 5.0,
-            "survey_count": 1
+            "period": "2024-01",
+            "average_score": 4.628,
+            "survey_count": 22
           },
           {
-            "period": "2024-11",
-            "average_score": 4.602,
-            "survey_count": 8
-          },
-          {
-            "period": "2024-12",
+            "period": "2024-02",
             "average_score": 4.795,
-            "survey_count": 11
+            "survey_count": 7
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.323,
+            "survey_count": 6
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.554,
+            "survey_count": 7
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.458,
+            "survey_count": 3
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.634,
+            "survey_count": 7
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.938,
+            "survey_count": 7
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.667,
+            "survey_count": 3
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.143,
+            "survey_count": 7
           },
           {
             "period": "2025-01",
@@ -2315,28 +3768,73 @@
             "period": "2025-08",
             "average_score": 4.125,
             "survey_count": 4
+          },
+          {
+            "period": "2025-10",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.602,
+            "survey_count": 8
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.795,
+            "survey_count": 11
           }
         ]
       },
       {
         "department": "จิตเวช",
-        "mean_score": 4.601,
-        "months_observed": 11,
+        "mean_score": 4.604,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.638,
-            "survey_count": 5
+            "period": "2024-01",
+            "average_score": 4.608,
+            "survey_count": 15
           },
           {
-            "period": "2024-11",
-            "average_score": 4.839,
-            "survey_count": 7
+            "period": "2024-02",
+            "average_score": 4.757,
+            "survey_count": 18
           },
           {
-            "period": "2024-12",
-            "average_score": 4.906,
-            "survey_count": 2
+            "period": "2024-03",
+            "average_score": 4.605,
+            "survey_count": 16
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.609,
+            "survey_count": 16
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.495,
+            "survey_count": 26
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.594,
+            "survey_count": 14
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.6,
+            "survey_count": 20
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.71,
+            "survey_count": 11
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.495,
+            "survey_count": 23
           },
           {
             "period": "2025-01",
@@ -2377,6 +3875,21 @@
             "period": "2025-08",
             "average_score": 4.458,
             "survey_count": 6
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.638,
+            "survey_count": 5
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.839,
+            "survey_count": 7
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.906,
+            "survey_count": 2
           }
         ]
       },
@@ -2386,7 +3899,7 @@
         "months_observed": 1,
         "series": [
           {
-            "period": "2024-11",
+            "period": "2025-11",
             "average_score": 1.0,
             "survey_count": 1
           }
@@ -2394,18 +3907,48 @@
       },
       {
         "department": "ชั้น 1 อาคาร 150 ปี",
-        "mean_score": 4.09,
-        "months_observed": 10,
+        "mean_score": 3.922,
+        "months_observed": 18,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 5.0,
-            "survey_count": 1
+            "period": "2024-02",
+            "average_score": 3.688,
+            "survey_count": 2
           },
           {
-            "period": "2024-12",
-            "average_score": 4.575,
-            "survey_count": 5
+            "period": "2024-03",
+            "average_score": 5.0,
+            "survey_count": 2
+          },
+          {
+            "period": "2024-04",
+            "average_score": 1.792,
+            "survey_count": 3
+          },
+          {
+            "period": "2024-05",
+            "average_score": 3.766,
+            "survey_count": 8
+          },
+          {
+            "period": "2024-06",
+            "average_score": 3.094,
+            "survey_count": 4
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.179,
+            "survey_count": 7
+          },
+          {
+            "period": "2024-08",
+            "average_score": 3.344,
+            "survey_count": 6
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.833,
+            "survey_count": 3
           },
           {
             "period": "2025-01",
@@ -2446,28 +3989,68 @@
             "period": "2025-08",
             "average_score": 3.781,
             "survey_count": 8
+          },
+          {
+            "period": "2025-10",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.575,
+            "survey_count": 5
           }
         ]
       },
       {
         "department": "ตึกสว่าง",
-        "mean_score": 4.618,
-        "months_observed": 11,
+        "mean_score": 4.591,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.629,
-            "survey_count": 29
+            "period": "2024-01",
+            "average_score": 4.656,
+            "survey_count": 20
           },
           {
-            "period": "2024-11",
-            "average_score": 4.787,
-            "survey_count": 22
+            "period": "2024-02",
+            "average_score": 4.581,
+            "survey_count": 20
           },
           {
-            "period": "2024-12",
-            "average_score": 4.625,
-            "survey_count": 2
+            "period": "2024-03",
+            "average_score": 4.303,
+            "survey_count": 39
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.509,
+            "survey_count": 42
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.407,
+            "survey_count": 33
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.672,
+            "survey_count": 33
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.546,
+            "survey_count": 39
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.743,
+            "survey_count": 34
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.614,
+            "survey_count": 28
           },
           {
             "period": "2025-01",
@@ -2508,28 +4091,68 @@
             "period": "2025-08",
             "average_score": 4.404,
             "survey_count": 17
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.629,
+            "survey_count": 29
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.787,
+            "survey_count": 22
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.625,
+            "survey_count": 2
           }
         ]
       },
       {
         "department": "ทันตกรรม",
-        "mean_score": 3.894,
-        "months_observed": 11,
+        "mean_score": 3.827,
+        "months_observed": 19,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 3.844,
+            "period": "2024-02",
+            "average_score": 3.989,
+            "survey_count": 11
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.487,
+            "survey_count": 5
+          },
+          {
+            "period": "2024-04",
+            "average_score": 2.425,
+            "survey_count": 5
+          },
+          {
+            "period": "2024-05",
+            "average_score": 2.625,
+            "survey_count": 3
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.531,
             "survey_count": 2
           },
           {
-            "period": "2024-11",
-            "average_score": 3.531,
-            "survey_count": 2
+            "period": "2024-07",
+            "average_score": 3.771,
+            "survey_count": 3
           },
           {
-            "period": "2024-12",
+            "period": "2024-08",
+            "average_score": 3.062,
+            "survey_count": 1
+          },
+          {
+            "period": "2024-09",
             "average_score": 5.0,
-            "survey_count": 2
+            "survey_count": 1
           },
           {
             "period": "2025-01",
@@ -2570,27 +4193,67 @@
             "period": "2025-08",
             "average_score": 3.328,
             "survey_count": 4
+          },
+          {
+            "period": "2025-10",
+            "average_score": 3.844,
+            "survey_count": 2
+          },
+          {
+            "period": "2025-11",
+            "average_score": 3.531,
+            "survey_count": 2
+          },
+          {
+            "period": "2025-12",
+            "average_score": 5.0,
+            "survey_count": 2
           }
         ]
       },
       {
         "department": "นอกเวลา",
-        "mean_score": 4.31,
-        "months_observed": 11,
+        "mean_score": 4.416,
+        "months_observed": 19,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.825,
-            "survey_count": 5
+            "period": "2024-01",
+            "average_score": 4.667,
+            "survey_count": 3
           },
           {
-            "period": "2024-11",
-            "average_score": 4.081,
-            "survey_count": 33
+            "period": "2024-02",
+            "average_score": 4.312,
+            "survey_count": 6
           },
           {
-            "period": "2024-12",
-            "average_score": 3.938,
+            "period": "2024-04",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.396,
+            "survey_count": 6
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.679,
+            "survey_count": 7
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.475,
+            "survey_count": 10
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.281,
+            "survey_count": 4
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.688,
             "survey_count": 6
           },
           {
@@ -2632,28 +4295,73 @@
             "period": "2025-08",
             "average_score": 4.361,
             "survey_count": 35
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.825,
+            "survey_count": 5
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.081,
+            "survey_count": 33
+          },
+          {
+            "period": "2025-12",
+            "average_score": 3.938,
+            "survey_count": 6
           }
         ]
       },
       {
         "department": "ปฐมภูมิ",
-        "mean_score": 3.558,
-        "months_observed": 10,
+        "mean_score": 3.773,
+        "months_observed": 19,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 1.0,
+            "period": "2024-01",
+            "average_score": 4.078,
+            "survey_count": 12
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.096,
+            "survey_count": 13
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.181,
+            "survey_count": 46
+          },
+          {
+            "period": "2024-04",
+            "average_score": 3.94,
+            "survey_count": 89
+          },
+          {
+            "period": "2024-05",
+            "average_score": 3.777,
+            "survey_count": 23
+          },
+          {
+            "period": "2024-06",
+            "average_score": 3.706,
+            "survey_count": 10
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.361,
+            "survey_count": 18
+          },
+          {
+            "period": "2024-08",
+            "average_score": 3.656,
             "survey_count": 2
           },
           {
-            "period": "2024-11",
-            "average_score": 4.688,
+            "period": "2024-09",
+            "average_score": 4.312,
             "survey_count": 1
-          },
-          {
-            "period": "2024-12",
-            "average_score": 5.0,
-            "survey_count": 3
           },
           {
             "period": "2025-01",
@@ -2689,28 +4397,73 @@
             "period": "2025-08",
             "average_score": 3.931,
             "survey_count": 10
+          },
+          {
+            "period": "2025-10",
+            "average_score": 1.0,
+            "survey_count": 2
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.688,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-12",
+            "average_score": 5.0,
+            "survey_count": 3
           }
         ]
       },
       {
         "department": "ผิวหนัง",
-        "mean_score": 4.718,
-        "months_observed": 10,
+        "mean_score": 4.658,
+        "months_observed": 19,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.549,
+            "period": "2024-01",
+            "average_score": 4.617,
+            "survey_count": 31
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.372,
+            "survey_count": 20
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.737,
+            "survey_count": 5
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.156,
+            "survey_count": 2
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.625,
+            "survey_count": 17
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.534,
+            "survey_count": 26
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.534,
+            "survey_count": 24
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.743,
             "survey_count": 9
           },
           {
-            "period": "2024-11",
+            "period": "2024-09",
             "average_score": 5.0,
-            "survey_count": 3
-          },
-          {
-            "period": "2024-12",
-            "average_score": 4.81,
-            "survey_count": 21
+            "survey_count": 1
           },
           {
             "period": "2025-01",
@@ -2746,6 +4499,21 @@
             "period": "2025-07",
             "average_score": 4.518,
             "survey_count": 7
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.549,
+            "survey_count": 9
+          },
+          {
+            "period": "2025-11",
+            "average_score": 5.0,
+            "survey_count": 3
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.81,
+            "survey_count": 21
           }
         ]
       },
@@ -2783,23 +4551,53 @@
       },
       {
         "department": "ผ่าตัดวิสัญญี",
-        "mean_score": 4.651,
-        "months_observed": 10,
+        "mean_score": 4.649,
+        "months_observed": 19,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.693,
-            "survey_count": 36
+            "period": "2024-01",
+            "average_score": 4.6,
+            "survey_count": 33
           },
           {
-            "period": "2024-11",
-            "average_score": 4.495,
+            "period": "2024-02",
+            "average_score": 4.515,
+            "survey_count": 29
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.512,
             "survey_count": 35
           },
           {
-            "period": "2024-12",
-            "average_score": 4.778,
-            "survey_count": 9
+            "period": "2024-04",
+            "average_score": 4.677,
+            "survey_count": 31
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.517,
+            "survey_count": 36
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.792,
+            "survey_count": 18
+          },
+          {
+            "period": "2024-07",
+            "average_score": 4.645,
+            "survey_count": 37
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.762,
+            "survey_count": 31
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.801,
+            "survey_count": 50
           },
           {
             "period": "2025-02",
@@ -2835,62 +4633,149 @@
             "period": "2025-08",
             "average_score": 4.647,
             "survey_count": 17
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.693,
+            "survey_count": 36
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.495,
+            "survey_count": 35
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.778,
+            "survey_count": 9
           }
         ]
       },
       {
         "department": "ฝังเข็ม",
-        "mean_score": 4.812,
-        "months_observed": 2,
+        "mean_score": 4.708,
+        "months_observed": 3,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.625,
+            "period": "2024-03",
+            "average_score": 4.5,
             "survey_count": 1
           },
           {
             "period": "2025-05",
             "average_score": 5.0,
             "survey_count": 1
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.625,
+            "survey_count": 1
+          }
+        ]
+      },
+      {
+        "department": "ฝ่ายการเงิน",
+        "mean_score": 4.75,
+        "months_observed": 1,
+        "series": [
+          {
+            "period": "2024-04",
+            "average_score": 4.75,
+            "survey_count": 1
           }
         ]
       },
       {
         "department": "พัฒนาการเด็ก",
-        "mean_score": 4.522,
-        "months_observed": 2,
+        "mean_score": 4.501,
+        "months_observed": 7,
         "series": [
           {
-            "period": "2024-12",
-            "average_score": 4.662,
-            "survey_count": 5
+            "period": "2024-01",
+            "average_score": 4.882,
+            "survey_count": 9
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.289,
+            "survey_count": 8
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.031,
+            "survey_count": 6
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.692,
+            "survey_count": 29
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.571,
+            "survey_count": 28
           },
           {
             "period": "2025-06",
             "average_score": 4.382,
             "survey_count": 28
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.662,
+            "survey_count": 5
           }
         ]
       },
       {
         "department": "ศัลยกรรม",
-        "mean_score": 4.326,
-        "months_observed": 11,
+        "mean_score": 4.41,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.4,
+            "period": "2024-01",
+            "average_score": 4.813,
+            "survey_count": 34
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.883,
+            "survey_count": 16
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.591,
+            "survey_count": 13
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.268,
+            "survey_count": 57
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.625,
             "survey_count": 5
           },
           {
-            "period": "2024-11",
-            "average_score": 5.0,
-            "survey_count": 1
+            "period": "2024-06",
+            "average_score": 4.105,
+            "survey_count": 22
           },
           {
-            "period": "2024-12",
-            "average_score": 4.011,
-            "survey_count": 28
+            "period": "2024-07",
+            "average_score": 4.0,
+            "survey_count": 6
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.7,
+            "survey_count": 5
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.625,
+            "survey_count": 1
           },
           {
             "period": "2025-01",
@@ -2931,14 +4816,39 @@
             "period": "2025-08",
             "average_score": 4.333,
             "survey_count": 84
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.4,
+            "survey_count": 5
+          },
+          {
+            "period": "2025-11",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.011,
+            "survey_count": 28
           }
         ]
       },
       {
         "department": "ศูนย์ประกันสุขภาพ",
-        "mean_score": 3.312,
-        "months_observed": 2,
+        "mean_score": 3.656,
+        "months_observed": 4,
         "series": [
+          {
+            "period": "2024-08",
+            "average_score": 3.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2024-09",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
           {
             "period": "2025-02",
             "average_score": 2.0,
@@ -2953,23 +4863,48 @@
       },
       {
         "department": "ส่องกล้อง",
-        "mean_score": 4.645,
-        "months_observed": 11,
+        "mean_score": 4.621,
+        "months_observed": 19,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.679,
+            "period": "2024-01",
+            "average_score": 4.667,
+            "survey_count": 30
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.847,
+            "survey_count": 20
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.655,
+            "survey_count": 19
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.292,
+            "survey_count": 9
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.196,
             "survey_count": 7
           },
           {
-            "period": "2024-11",
-            "average_score": 5.0,
-            "survey_count": 15
+            "period": "2024-07",
+            "average_score": 4.531,
+            "survey_count": 2
           },
           {
-            "period": "2024-12",
-            "average_score": 4.56,
-            "survey_count": 27
+            "period": "2024-08",
+            "average_score": 4.625,
+            "survey_count": 9
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.896,
+            "survey_count": 6
           },
           {
             "period": "2025-01",
@@ -3010,6 +4945,21 @@
             "period": "2025-08",
             "average_score": 4.514,
             "survey_count": 9
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.679,
+            "survey_count": 7
+          },
+          {
+            "period": "2025-11",
+            "average_score": 5.0,
+            "survey_count": 15
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.56,
+            "survey_count": 27
           }
         ]
       },
@@ -3027,9 +4977,24 @@
       },
       {
         "department": "หัตถการ",
-        "mean_score": 4.29,
-        "months_observed": 5,
+        "mean_score": 4.318,
+        "months_observed": 8,
         "series": [
+          {
+            "period": "2024-03",
+            "average_score": 4.389,
+            "survey_count": 13
+          },
+          {
+            "period": "2024-04",
+            "average_score": 3.708,
+            "survey_count": 3
+          },
+          {
+            "period": "2024-05",
+            "average_score": 5.0,
+            "survey_count": 4
+          },
           {
             "period": "2025-02",
             "average_score": 4.484,
@@ -3059,23 +5024,53 @@
       },
       {
         "department": "ห้องคลอด",
-        "mean_score": 4.17,
-        "months_observed": 11,
+        "mean_score": 4.281,
+        "months_observed": 20,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 4.195,
+            "period": "2024-01",
+            "average_score": 4.073,
+            "survey_count": 54
+          },
+          {
+            "period": "2024-02",
+            "average_score": 4.494,
+            "survey_count": 54
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.596,
+            "survey_count": 52
+          },
+          {
+            "period": "2024-04",
+            "average_score": 4.604,
+            "survey_count": 24
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.431,
             "survey_count": 50
           },
           {
-            "period": "2024-11",
-            "average_score": 4.144,
-            "survey_count": 56
+            "period": "2024-06",
+            "average_score": 4.37,
+            "survey_count": 53
           },
           {
-            "period": "2024-12",
-            "average_score": 4.154,
-            "survey_count": 39
+            "period": "2024-07",
+            "average_score": 4.445,
+            "survey_count": 52
+          },
+          {
+            "period": "2024-08",
+            "average_score": 4.45,
+            "survey_count": 55
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.289,
+            "survey_count": 51
           },
           {
             "period": "2025-01",
@@ -3116,28 +5111,60 @@
             "period": "2025-08",
             "average_score": 4.185,
             "survey_count": 46
+          },
+          {
+            "period": "2025-10",
+            "average_score": 4.195,
+            "survey_count": 50
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.144,
+            "survey_count": 56
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.154,
+            "survey_count": 39
+          }
+        ]
+      },
+      {
+        "department": "ห้องบัตร",
+        "mean_score": 3.021,
+        "months_observed": 1,
+        "series": [
+          {
+            "period": "2024-05",
+            "average_score": 3.021,
+            "survey_count": 3
           }
         ]
       },
       {
         "department": "ห้องบัตร ชั้น 1",
-        "mean_score": 4.156,
-        "months_observed": 11,
+        "mean_score": 4.128,
+        "months_observed": 15,
         "series": [
           {
-            "period": "2024-10",
-            "average_score": 3.25,
-            "survey_count": 1
+            "period": "2024-06",
+            "average_score": 2.946,
+            "survey_count": 7
           },
           {
-            "period": "2024-11",
-            "average_score": 5.0,
+            "period": "2024-07",
+            "average_score": 4.55,
             "survey_count": 2
           },
           {
-            "period": "2024-12",
-            "average_score": 5.0,
-            "survey_count": 1
+            "period": "2024-08",
+            "average_score": 3.938,
+            "survey_count": 3
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.766,
+            "survey_count": 4
           },
           {
             "period": "2025-01",
@@ -3178,23 +5205,43 @@
             "period": "2025-08",
             "average_score": 4.312,
             "survey_count": 5
+          },
+          {
+            "period": "2025-10",
+            "average_score": 3.25,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-11",
+            "average_score": 5.0,
+            "survey_count": 2
+          },
+          {
+            "period": "2025-12",
+            "average_score": 5.0,
+            "survey_count": 1
           }
         ]
       },
       {
         "department": "เคมีบำบัด",
-        "mean_score": 4.413,
-        "months_observed": 10,
+        "mean_score": 4.448,
+        "months_observed": 13,
         "series": [
           {
-            "period": "2024-11",
-            "average_score": 4.0,
-            "survey_count": 1
+            "period": "2024-01",
+            "average_score": 4.344,
+            "survey_count": 8
           },
           {
-            "period": "2024-12",
-            "average_score": 4.583,
-            "survey_count": 39
+            "period": "2024-04",
+            "average_score": 4.729,
+            "survey_count": 9
+          },
+          {
+            "period": "2024-05",
+            "average_score": 4.625,
+            "survey_count": 2
           },
           {
             "period": "2025-01",
@@ -3235,16 +5282,26 @@
             "period": "2025-08",
             "average_score": 5.0,
             "survey_count": 2
+          },
+          {
+            "period": "2025-11",
+            "average_score": 4.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.583,
+            "survey_count": 39
           }
         ]
       },
       {
         "department": "เวชกรรม ฟื้นฟู",
-        "mean_score": 4.475,
-        "months_observed": 5,
+        "mean_score": 4.562,
+        "months_observed": 6,
         "series": [
           {
-            "period": "2024-11",
+            "period": "2024-05",
             "average_score": 5.0,
             "survey_count": 1
           },
@@ -3267,16 +5324,31 @@
             "period": "2025-06",
             "average_score": 3.688,
             "survey_count": 2
+          },
+          {
+            "period": "2025-11",
+            "average_score": 5.0,
+            "survey_count": 1
           }
         ]
       },
       {
         "department": "โรคเลือด",
-        "mean_score": 4.669,
-        "months_observed": 1,
+        "mean_score": 4.89,
+        "months_observed": 3,
         "series": [
           {
-            "period": "2024-12",
+            "period": "2024-03",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2024-09",
+            "average_score": 5.0,
+            "survey_count": 1
+          },
+          {
+            "period": "2025-12",
             "average_score": 4.669,
             "survey_count": 10
           }
@@ -3284,13 +5356,23 @@
       },
       {
         "department": "ไตเทียม",
-        "mean_score": 4.406,
-        "months_observed": 3,
+        "mean_score": 4.331,
+        "months_observed": 6,
         "series": [
           {
-            "period": "2024-12",
-            "average_score": 4.38,
-            "survey_count": 74
+            "period": "2024-01",
+            "average_score": 4.176,
+            "survey_count": 38
+          },
+          {
+            "period": "2024-06",
+            "average_score": 4.308,
+            "survey_count": 87
+          },
+          {
+            "period": "2024-09",
+            "average_score": 4.282,
+            "survey_count": 59
           },
           {
             "period": "2025-03",
@@ -3301,6 +5383,28 @@
             "period": "2025-05",
             "average_score": 4.459,
             "survey_count": 82
+          },
+          {
+            "period": "2025-12",
+            "average_score": 4.38,
+            "survey_count": 74
+          }
+        ]
+      },
+      {
+        "department": "ไม่ระบุ",
+        "mean_score": 4.188,
+        "months_observed": 2,
+        "series": [
+          {
+            "period": "2024-01",
+            "average_score": 3.969,
+            "survey_count": 2
+          },
+          {
+            "period": "2024-03",
+            "average_score": 4.406,
+            "survey_count": 4
           }
         ]
       }
@@ -3308,174 +5412,147 @@
   },
   "volatility": {
     "summary": {
-      "departments_evaluated": 56,
-      "median_volatility": 0.1179
+      "departments_evaluated": 61,
+      "median_volatility": 0.1562
     },
     "most_unstable": [
       {
-        "department": "ปฐมภูมิ",
-        "volatility_index": 1.1441,
-        "coefficient_of_variation": 0.3216,
-        "score_range": 4.0,
-        "trend_per_month": 0.0555,
-        "last_score": 3.931,
-        "observations": 10
+        "department": "ศูนย์ประกันสุขภาพ",
+        "volatility_index": 1.2163,
+        "coefficient_of_variation": 0.3327,
+        "score_range": 3.0,
+        "trend_per_month": 0.1875,
+        "last_score": 4.625,
+        "observations": 4
       },
       {
-        "department": "คลินิก Meta",
-        "volatility_index": 0.927,
-        "coefficient_of_variation": 0.2304,
-        "score_range": 3.442,
-        "trend_per_month": 0.0034,
-        "last_score": 4.402,
-        "observations": 17
+        "department": "ปฐมภูมิ",
+        "volatility_index": 0.8765,
+        "coefficient_of_variation": 0.2323,
+        "score_range": 4.0,
+        "trend_per_month": -0.028,
+        "last_score": 5.0,
+        "observations": 19
       },
       {
         "department": "ทันตกรรม",
-        "volatility_index": 0.779,
-        "coefficient_of_variation": 0.2001,
-        "score_range": 2.25,
-        "trend_per_month": -0.0648,
-        "last_score": 3.328,
-        "observations": 11
-      },
-      {
-        "department": "ห้องบัตร ชั้น 1",
-        "volatility_index": 0.7709,
-        "coefficient_of_variation": 0.1855,
-        "score_range": 2.625,
-        "trend_per_month": -0.0283,
-        "last_score": 4.312,
-        "observations": 11
-      },
-      {
-        "department": "คลินิกเวชปฏิบัติ",
-        "volatility_index": 0.632,
-        "coefficient_of_variation": 0.1641,
-        "score_range": 2.538,
-        "trend_per_month": -0.0405,
-        "last_score": 4.1,
-        "observations": 11
-      },
-      {
-        "department": "เวชกรรม ฟื้นฟู",
-        "volatility_index": 0.5223,
-        "coefficient_of_variation": 0.1167,
-        "score_range": 1.312,
-        "trend_per_month": -0.3188,
-        "last_score": 3.688,
-        "observations": 5
+        "volatility_index": 0.829,
+        "coefficient_of_variation": 0.2166,
+        "score_range": 2.575,
+        "trend_per_month": 0.0182,
+        "last_score": 5.0,
+        "observations": 19
       },
       {
         "department": "ชั้น 1 อาคาร 150 ปี",
-        "volatility_index": 0.4981,
-        "coefficient_of_variation": 0.1218,
-        "score_range": 1.425,
-        "trend_per_month": -0.0713,
-        "last_score": 3.781,
-        "observations": 10
+        "volatility_index": 0.7623,
+        "coefficient_of_variation": 0.1944,
+        "score_range": 3.208,
+        "trend_per_month": 0.0543,
+        "last_score": 4.575,
+        "observations": 18
+      },
+      {
+        "department": "ห้องบัตร ชั้น 1",
+        "volatility_index": 0.7555,
+        "coefficient_of_variation": 0.183,
+        "score_range": 2.625,
+        "trend_per_month": 0.0366,
+        "last_score": 5.0,
+        "observations": 15
+      },
+      {
+        "department": "คลินิก Meta",
+        "volatility_index": 0.7547,
+        "coefficient_of_variation": 0.1851,
+        "score_range": 3.442,
+        "trend_per_month": 0.0041,
+        "last_score": 4.106,
+        "observations": 27
+      },
+      {
+        "department": "OPD Med",
+        "volatility_index": 0.6323,
+        "coefficient_of_variation": 0.1574,
+        "score_range": 3.219,
+        "trend_per_month": 0.0177,
+        "last_score": 4.225,
+        "observations": 20
+      },
+      {
+        "department": "เวชกรรม ฟื้นฟู",
+        "volatility_index": 0.5154,
+        "coefficient_of_variation": 0.113,
+        "score_range": 1.312,
+        "trend_per_month": -0.1071,
+        "last_score": 5.0,
+        "observations": 6
+      },
+      {
+        "department": "คลินิกเวชปฏิบัติ",
+        "volatility_index": 0.483,
+        "coefficient_of_variation": 0.1247,
+        "score_range": 2.538,
+        "trend_per_month": 0.0,
+        "last_score": 4.083,
+        "observations": 20
       },
       {
         "department": "การเงิน และบัญชี",
         "volatility_index": 0.4712,
         "coefficient_of_variation": 0.106,
         "score_range": 1.156,
-        "trend_per_month": -0.025,
-        "last_score": 3.844,
+        "trend_per_month": -0.2469,
+        "last_score": 4.0,
         "observations": 5
       },
       {
-        "department": "ORTHO",
-        "volatility_index": 0.4002,
-        "coefficient_of_variation": 0.0916,
-        "score_range": 1.406,
-        "trend_per_month": -0.0278,
-        "last_score": 3.594,
-        "observations": 11
-      },
-      {
-        "department": "เคมีบำบัด",
-        "volatility_index": 0.3863,
-        "coefficient_of_variation": 0.0875,
-        "score_range": 1.237,
-        "trend_per_month": 0.0299,
+        "department": "Burn Unit",
+        "volatility_index": 0.3853,
+        "coefficient_of_variation": 0.0832,
+        "score_range": 1.062,
+        "trend_per_month": -0.0535,
         "last_score": 5.0,
-        "observations": 10
-      },
-      {
-        "department": "ER",
-        "volatility_index": 0.3016,
-        "coefficient_of_variation": 0.07,
-        "score_range": 1.242,
-        "trend_per_month": -0.0643,
-        "last_score": 3.983,
-        "observations": 11
-      },
-      {
-        "department": "นอกเวลา",
-        "volatility_index": 0.2731,
-        "coefficient_of_variation": 0.0634,
-        "score_range": 1.0,
-        "trend_per_month": -0.007,
-        "last_score": 4.361,
-        "observations": 11
-      },
-      {
-        "department": "จักษุ",
-        "volatility_index": 0.2664,
-        "coefficient_of_variation": 0.0569,
-        "score_range": 0.875,
-        "trend_per_month": -0.0499,
-        "last_score": 4.125,
-        "observations": 11
-      },
-      {
-        "department": "20B",
-        "volatility_index": 0.262,
-        "coefficient_of_variation": 0.0574,
-        "score_range": 0.801,
-        "trend_per_month": 0.028,
-        "last_score": 4.819,
         "observations": 7
       },
       {
-        "department": "ส่องกล้อง",
-        "volatility_index": 0.2509,
-        "coefficient_of_variation": 0.054,
-        "score_range": 0.969,
-        "trend_per_month": -0.004,
-        "last_score": 4.514,
-        "observations": 11
+        "department": "เคมีบำบัด",
+        "volatility_index": 0.3536,
+        "coefficient_of_variation": 0.0795,
+        "score_range": 1.237,
+        "trend_per_month": -0.0108,
+        "last_score": 4.583,
+        "observations": 13
+      },
+      {
+        "department": "หัตถการ",
+        "volatility_index": 0.3503,
+        "coefficient_of_variation": 0.0811,
+        "score_range": 1.292,
+        "trend_per_month": 0.0008,
+        "last_score": 4.363,
+        "observations": 8
+      },
+      {
+        "department": "ORTHO",
+        "volatility_index": 0.3161,
+        "coefficient_of_variation": 0.0724,
+        "score_range": 1.406,
+        "trend_per_month": -0.0003,
+        "last_score": 3.938,
+        "observations": 20
+      },
+      {
+        "department": "ER",
+        "volatility_index": 0.3107,
+        "coefficient_of_variation": 0.0726,
+        "score_range": 1.335,
+        "trend_per_month": 0.011,
+        "last_score": 4.406,
+        "observations": 17
       }
     ],
     "most_stable": [
-      {
-        "department": "19C",
-        "volatility_index": 0.0224,
-        "coefficient_of_variation": 0.005,
-        "score_range": 0.054,
-        "trend_per_month": 0.0179,
-        "last_score": 4.443,
-        "observations": 3
-      },
-      {
-        "department": "22B",
-        "volatility_index": 0.0359,
-        "coefficient_of_variation": 0.0077,
-        "score_range": 0.107,
-        "trend_per_month": -0.0031,
-        "last_score": 4.645,
-        "observations": 11
-      },
-      {
-        "department": "ไตเทียม",
-        "volatility_index": 0.0371,
-        "coefficient_of_variation": 0.0084,
-        "score_range": 0.079,
-        "trend_per_month": 0.0394,
-        "last_score": 4.459,
-        "observations": 3
-      },
       {
         "department": "18C",
         "volatility_index": 0.0409,
@@ -3487,48 +5564,21 @@
       },
       {
         "department": "26B",
-        "volatility_index": 0.0466,
-        "coefficient_of_variation": 0.01,
-        "score_range": 0.142,
-        "trend_per_month": -0.0002,
-        "last_score": 4.631,
-        "observations": 11
+        "volatility_index": 0.0566,
+        "coefficient_of_variation": 0.0122,
+        "score_range": 0.211,
+        "trend_per_month": 0.004,
+        "last_score": 4.682,
+        "observations": 19
       },
       {
-        "department": "ห้องคลอด",
-        "volatility_index": 0.0494,
-        "coefficient_of_variation": 0.0119,
-        "score_range": 0.178,
-        "trend_per_month": -0.0042,
-        "last_score": 4.185,
-        "observations": 11
-      },
-      {
-        "department": "ANC",
-        "volatility_index": 0.0562,
-        "coefficient_of_variation": 0.0129,
-        "score_range": 0.24,
-        "trend_per_month": 0.0075,
-        "last_score": 4.465,
-        "observations": 11
-      },
-      {
-        "department": "25A",
-        "volatility_index": 0.0631,
-        "coefficient_of_variation": 0.0134,
-        "score_range": 0.229,
-        "trend_per_month": 0.0075,
-        "last_score": 4.798,
-        "observations": 11
-      },
-      {
-        "department": "22C",
-        "volatility_index": 0.0662,
-        "coefficient_of_variation": 0.0145,
-        "score_range": 0.244,
-        "trend_per_month": -0.0,
-        "last_score": 4.544,
-        "observations": 11
+        "department": "18A",
+        "volatility_index": 0.0668,
+        "coefficient_of_variation": 0.0151,
+        "score_range": 0.302,
+        "trend_per_month": 0.0012,
+        "last_score": 4.48,
+        "observations": 20
       },
       {
         "department": "20C",
@@ -3540,49 +5590,103 @@
         "observations": 8
       },
       {
-        "department": "23A",
-        "volatility_index": 0.0807,
-        "coefficient_of_variation": 0.0179,
-        "score_range": 0.316,
-        "trend_per_month": 0.0105,
-        "last_score": 4.583,
-        "observations": 11
-      },
-      {
         "department": "22D",
-        "volatility_index": 0.0826,
-        "coefficient_of_variation": 0.0183,
+        "volatility_index": 0.0705,
+        "coefficient_of_variation": 0.0156,
         "score_range": 0.307,
-        "trend_per_month": -0.0136,
-        "last_score": 4.321,
-        "observations": 11
+        "trend_per_month": 0.0026,
+        "last_score": 4.566,
+        "observations": 20
       },
       {
-        "department": "18A",
-        "volatility_index": 0.0837,
-        "coefficient_of_variation": 0.0189,
-        "score_range": 0.302,
-        "trend_per_month": -0.0018,
-        "last_score": 4.487,
-        "observations": 11
+        "department": "ANC",
+        "volatility_index": 0.0712,
+        "coefficient_of_variation": 0.0164,
+        "score_range": 0.289,
+        "trend_per_month": -0.003,
+        "last_score": 4.351,
+        "observations": 20
+      },
+      {
+        "department": "22B",
+        "volatility_index": 0.0737,
+        "coefficient_of_variation": 0.016,
+        "score_range": 0.296,
+        "trend_per_month": 0.0041,
+        "last_score": 4.675,
+        "observations": 20
+      },
+      {
+        "department": "25A",
+        "volatility_index": 0.0742,
+        "coefficient_of_variation": 0.0158,
+        "score_range": 0.243,
+        "trend_per_month": 0.0059,
+        "last_score": 4.689,
+        "observations": 20
+      },
+      {
+        "department": "19B",
+        "volatility_index": 0.0789,
+        "coefficient_of_variation": 0.0177,
+        "score_range": 0.287,
+        "trend_per_month": -0.0009,
+        "last_score": 4.459,
+        "observations": 20
+      },
+      {
+        "department": "19C",
+        "volatility_index": 0.0833,
+        "coefficient_of_variation": 0.0186,
+        "score_range": 0.245,
+        "trend_per_month": -0.0041,
+        "last_score": 4.443,
+        "observations": 12
       },
       {
         "department": "24A",
-        "volatility_index": 0.0862,
-        "coefficient_of_variation": 0.0184,
+        "volatility_index": 0.0851,
+        "coefficient_of_variation": 0.018,
         "score_range": 0.35,
-        "trend_per_month": 0.0014,
-        "last_score": 4.723,
-        "observations": 11
+        "trend_per_month": -0.0043,
+        "last_score": 4.886,
+        "observations": 20
       },
       {
-        "department": "21D",
-        "volatility_index": 0.0892,
-        "coefficient_of_variation": 0.0193,
-        "score_range": 0.323,
-        "trend_per_month": 0.0054,
-        "last_score": 4.726,
-        "observations": 11
+        "department": "ไตเทียม",
+        "volatility_index": 0.0896,
+        "coefficient_of_variation": 0.0207,
+        "score_range": 0.283,
+        "trend_per_month": 0.0449,
+        "last_score": 4.38,
+        "observations": 6
+      },
+      {
+        "department": "19D",
+        "volatility_index": 0.0928,
+        "coefficient_of_variation": 0.0202,
+        "score_range": 0.358,
+        "trend_per_month": 0.0022,
+        "last_score": 4.581,
+        "observations": 20
+      },
+      {
+        "department": "18D",
+        "volatility_index": 0.095,
+        "coefficient_of_variation": 0.0209,
+        "score_range": 0.379,
+        "trend_per_month": 0.0046,
+        "last_score": 4.452,
+        "observations": 20
+      },
+      {
+        "department": "25B",
+        "volatility_index": 0.0952,
+        "coefficient_of_variation": 0.0205,
+        "score_range": 0.477,
+        "trend_per_month": 0.0039,
+        "last_score": 4.655,
+        "observations": 20
       }
     ]
   },
@@ -3595,102 +5699,102 @@
       "volatility_index": null
     },
     {
-      "department": "25A",
-      "average_score": 4.716,
-      "survey_total": 708,
-      "months_observed": 11,
-      "volatility_index": 0.0631
-    },
-    {
-      "department": "จักษุ",
-      "average_score": 4.7,
-      "survey_total": 116,
-      "months_observed": 11,
-      "volatility_index": 0.2664
-    },
-    {
-      "department": "24A",
-      "average_score": 4.677,
-      "survey_total": 751,
-      "months_observed": 11,
-      "volatility_index": 0.0862
-    },
-    {
-      "department": "26B",
-      "average_score": 4.669,
-      "survey_total": 783,
-      "months_observed": 11,
-      "volatility_index": 0.0466
-    },
-    {
-      "department": "25B",
-      "average_score": 4.667,
-      "survey_total": 506,
-      "months_observed": 11,
+      "department": "HBO",
+      "average_score": 4.757,
+      "survey_total": 67,
+      "months_observed": 7,
       "volatility_index": null
     },
     {
-      "department": "ผิวหนัง",
+      "department": "24A",
+      "average_score": 4.706,
+      "survey_total": 1140,
+      "months_observed": 20,
+      "volatility_index": 0.0851
+    },
+    {
+      "department": "25A",
+      "average_score": 4.689,
+      "survey_total": 1215,
+      "months_observed": 20,
+      "volatility_index": 0.0742
+    },
+    {
+      "department": "Burn Unit",
+      "average_score": 4.671,
+      "survey_total": 23,
+      "months_observed": 7,
+      "volatility_index": 0.3853
+    },
+    {
+      "department": "26B",
+      "average_score": 4.664,
+      "survey_total": 1263,
+      "months_observed": 19,
+      "volatility_index": 0.0566
+    },
+    {
+      "department": "จักษุ",
       "average_score": 4.658,
-      "survey_total": 168,
-      "months_observed": 10,
+      "survey_total": 185,
+      "months_observed": 20,
       "volatility_index": null
     },
     {
       "department": "ผ่าตัดวิสัญญี",
-      "average_score": 4.654,
-      "survey_total": 307,
-      "months_observed": 10,
+      "average_score": 4.651,
+      "survey_total": 607,
+      "months_observed": 19,
       "volatility_index": null
     },
     {
       "department": "ส่องกล้อง",
-      "average_score": 4.646,
-      "survey_total": 178,
-      "months_observed": 11,
-      "volatility_index": 0.2509
+      "average_score": 4.645,
+      "survey_total": 280,
+      "months_observed": 19,
+      "volatility_index": null
+    },
+    {
+      "department": "25B",
+      "average_score": 4.64,
+      "survey_total": 1216,
+      "months_observed": 20,
+      "volatility_index": 0.0952
     },
     {
       "department": "SICU",
-      "average_score": 4.643,
-      "survey_total": 327,
-      "months_observed": 11,
+      "average_score": 4.623,
+      "survey_total": 570,
+      "months_observed": 20,
       "volatility_index": null
+    },
+    {
+      "department": "NICU",
+      "average_score": 4.619,
+      "survey_total": 578,
+      "months_observed": 20,
+      "volatility_index": null
+    },
+    {
+      "department": "ผิวหนัง",
+      "average_score": 4.614,
+      "survey_total": 303,
+      "months_observed": 19,
+      "volatility_index": null
+    },
+    {
+      "department": "18C",
+      "average_score": 4.61,
+      "survey_total": 947,
+      "months_observed": 8,
+      "volatility_index": 0.0409
     },
     {
       "department": "22B",
-      "average_score": 4.634,
-      "survey_total": 481,
-      "months_observed": 11,
-      "volatility_index": 0.0359
-    },
-    {
-      "department": "21A",
-      "average_score": 4.619,
-      "survey_total": 211,
-      "months_observed": 11,
-      "volatility_index": null
-    },
-    {
-      "department": "21D",
-      "average_score": 4.617,
-      "survey_total": 426,
-      "months_observed": 11,
-      "volatility_index": 0.0892
-    },
-    {
-      "department": "ตึกสว่าง",
-      "average_score": 4.613,
-      "survey_total": 297,
-      "months_observed": 11,
-      "volatility_index": null
-    },
-    {
-      "department": "19D",
-      "average_score": 4.611,
-      "survey_total": 498,
-      "months_observed": 11,
-      "volatility_index": null
+      "average_score": 4.607,
+      "survey_total": 873,
+      "months_observed": 20,
+      "volatility_index": 0.0737
     }
   ],
   "critical_gaps": [
@@ -3702,118 +5806,118 @@
       "months_observed": 1
     },
     {
-      "department": "ปฐมภูมิ",
-      "average_score": 3.679,
-      "survey_total": 102,
-      "volatility_index": 1.1441,
-      "months_observed": 10
+      "department": "ห้องบัตร",
+      "average_score": 3.021,
+      "survey_total": 3,
+      "volatility_index": null,
+      "months_observed": 1
+    },
+    {
+      "department": "การเงิน",
+      "average_score": 3.5,
+      "survey_total": 2,
+      "volatility_index": null,
+      "months_observed": 1
     },
     {
       "department": "ทันตกรรม",
-      "average_score": 3.78,
-      "survey_total": 31,
-      "volatility_index": 0.779,
-      "months_observed": 11
+      "average_score": 3.741,
+      "survey_total": 62,
+      "volatility_index": 0.829,
+      "months_observed": 19
     },
     {
       "department": "ชั้น 1 อาคาร 150 ปี",
-      "average_score": 3.844,
-      "survey_total": 85,
-      "volatility_index": 0.4981,
-      "months_observed": 10
+      "average_score": 3.798,
+      "survey_total": 120,
+      "volatility_index": 0.7623,
+      "months_observed": 18
+    },
+    {
+      "department": "ปฐมภูมิ",
+      "average_score": 3.906,
+      "survey_total": 316,
+      "volatility_index": 0.8765,
+      "months_observed": 19
+    },
+    {
+      "department": "คลินิกเวชปฏิบัติ",
+      "average_score": 3.959,
+      "survey_total": 846,
+      "volatility_index": 0.483,
+      "months_observed": 20
     },
     {
       "department": "ศูนย์ประกันสุขภาพ",
-      "average_score": 3.969,
-      "survey_total": 4,
+      "average_score": 3.979,
+      "survey_total": 6,
+      "volatility_index": 1.2163,
+      "months_observed": 4
+    },
+    {
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 4.056,
+      "survey_total": 44,
+      "volatility_index": 0.7555,
+      "months_observed": 15
+    },
+    {
+      "department": "OPD Med",
+      "average_score": 4.215,
+      "survey_total": 1145,
+      "volatility_index": 0.6323,
+      "months_observed": 20
+    },
+    {
+      "department": "คลินิก Meta",
+      "average_score": 4.258,
+      "survey_total": 1209,
+      "volatility_index": 0.7547,
+      "months_observed": 18
+    },
+    {
+      "department": "ไม่ระบุ",
+      "average_score": 4.26,
+      "survey_total": 6,
       "volatility_index": null,
       "months_observed": 2
     },
     {
-      "department": "คลินิกเวชปฏิบัติ",
-      "average_score": 4.045,
-      "survey_total": 325,
-      "volatility_index": 0.632,
-      "months_observed": 11
+      "department": "ER",
+      "average_score": 4.261,
+      "survey_total": 479,
+      "volatility_index": 0.3107,
+      "months_observed": 17
     },
     {
       "department": "ห้องคลอด",
-      "average_score": 4.163,
-      "survey_total": 544,
-      "volatility_index": 0.0494,
-      "months_observed": 11
-    },
-    {
-      "department": "ห้องบัตร ชั้น 1",
-      "average_score": 4.21,
-      "survey_total": 28,
-      "volatility_index": 0.7709,
-      "months_observed": 11
-    },
-    {
-      "department": "ER",
-      "average_score": 4.238,
-      "survey_total": 349,
-      "volatility_index": 0.3016,
-      "months_observed": 11
+      "average_score": 4.272,
+      "survey_total": 989,
+      "volatility_index": null,
+      "months_observed": 20
     },
     {
       "department": "ศัลยกรรม",
-      "average_score": 4.264,
-      "survey_total": 876,
+      "average_score": 4.296,
+      "survey_total": 1035,
       "volatility_index": null,
-      "months_observed": 11
-    },
-    {
-      "department": "เวชกรรม ฟื้นฟู",
-      "average_score": 4.273,
-      "survey_total": 8,
-      "volatility_index": 0.5223,
-      "months_observed": 5
-    },
-    {
-      "department": "คลินิก Meta",
-      "average_score": 4.305,
-      "survey_total": 930,
-      "volatility_index": 0.927,
-      "months_observed": 11
-    },
-    {
-      "department": "OPD Med",
-      "average_score": 4.311,
-      "survey_total": 702,
-      "volatility_index": null,
-      "months_observed": 11
-    },
-    {
-      "department": "หัตถการ",
-      "average_score": 4.318,
-      "survey_total": 64,
-      "volatility_index": null,
-      "months_observed": 5
-    },
-    {
-      "department": "นอกเวลา",
-      "average_score": 4.32,
-      "survey_total": 371,
-      "volatility_index": 0.2731,
-      "months_observed": 11
+      "months_observed": 20
     }
   ],
   "systemic_themes": {
     "themes": {
-      "wait_time": 613,
       "attitude": 1085,
-      "staffing": 387,
-      "facilities": 341,
+      "wait_time": 613,
+      "process": 247,
       "communication": 535,
-      "process": 247
+      "staffing": 387,
+      "facilities": 341
     },
     "sentiment_totals": {
       "negative": 555,
       "mixed": 205,
-      "neutral": 1246,
-      "positive": 2355
+      "positive": 2355,
+      "neutral": 1246
     },
     "time_of_day": [
       {
@@ -4113,25 +6217,67 @@
   "wait_time_correlation": {
     "series": [
       {
-        "period": "2024-10",
-        "satisfaction": 4.502,
-        "wait_share": 0.1378,
-        "wait_mentions": 39,
-        "comment_total": 283
+        "period": "2024-01",
+        "satisfaction": 4.487,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
       },
       {
-        "period": "2024-11",
-        "satisfaction": 4.51,
-        "wait_share": 0.1146,
-        "wait_mentions": 33,
-        "comment_total": 288
+        "period": "2024-02",
+        "satisfaction": 4.508,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
       },
       {
-        "period": "2024-12",
-        "satisfaction": 4.509,
-        "wait_share": 0.0936,
-        "wait_mentions": 28,
-        "comment_total": 299
+        "period": "2024-03",
+        "satisfaction": 4.457,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
+      },
+      {
+        "period": "2024-04",
+        "satisfaction": 4.416,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
+      },
+      {
+        "period": "2024-05",
+        "satisfaction": 4.46,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
+      },
+      {
+        "period": "2024-06",
+        "satisfaction": 4.403,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
+      },
+      {
+        "period": "2024-07",
+        "satisfaction": 4.471,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
+      },
+      {
+        "period": "2024-08",
+        "satisfaction": 4.488,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
+      },
+      {
+        "period": "2024-09",
+        "satisfaction": 4.48,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
       },
       {
         "period": "2025-01",
@@ -4188,10 +6334,31 @@
         "wait_share": 0.1914,
         "wait_mentions": 76,
         "comment_total": 397
+      },
+      {
+        "period": "2025-10",
+        "satisfaction": 4.502,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
+      },
+      {
+        "period": "2025-11",
+        "satisfaction": 4.51,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
+      },
+      {
+        "period": "2025-12",
+        "satisfaction": 4.509,
+        "wait_share": 0.0,
+        "wait_mentions": 0,
+        "comment_total": 0
       }
     ],
-    "pearson_r": -0.5738,
-    "p_value": 0.065
+    "pearson_r": 0.0644,
+    "p_value": 0.7873
   },
   "benchmarking": {
     "top10": {
@@ -4203,122 +6370,122 @@
           "volatility_index": NaN
         },
         {
-          "department": "ฝังเข็ม",
-          "average_score": 4.812,
-          "survey_total": 2.0,
-          "volatility_index": NaN
-        },
-        {
           "department": "HBO",
-          "average_score": 4.794,
-          "survey_total": 34.0,
+          "average_score": 4.757,
+          "survey_total": 67.0,
           "volatility_index": NaN
         },
         {
-          "department": "25A",
-          "average_score": 4.716,
-          "survey_total": 708.0,
-          "volatility_index": 0.0631
+          "department": "ฝ่ายการเงิน",
+          "average_score": 4.75,
+          "survey_total": 1.0,
+          "volatility_index": NaN
         },
         {
-          "department": "จักษุ",
-          "average_score": 4.7,
-          "survey_total": 116.0,
-          "volatility_index": 0.2664
-        },
-        {
-          "department": "24A",
-          "average_score": 4.677,
-          "survey_total": 751.0,
-          "volatility_index": 0.0862
-        },
-        {
-          "department": "26B",
-          "average_score": 4.669,
-          "survey_total": 783.0,
-          "volatility_index": 0.0466
+          "department": "26A",
+          "average_score": 4.731,
+          "survey_total": 67.0,
+          "volatility_index": NaN
         },
         {
           "department": "โรคเลือด",
-          "average_score": 4.669,
-          "survey_total": 10.0,
+          "average_score": 4.724,
+          "survey_total": 12.0,
           "volatility_index": NaN
         },
         {
-          "department": "25B",
-          "average_score": 4.667,
-          "survey_total": 506.0,
+          "department": "ฝังเข็ม",
+          "average_score": 4.708,
+          "survey_total": 3.0,
           "volatility_index": NaN
         },
         {
-          "department": "ผิวหนัง",
-          "average_score": 4.658,
-          "survey_total": 168.0,
-          "volatility_index": NaN
+          "department": "24A",
+          "average_score": 4.706,
+          "survey_total": 1140.0,
+          "volatility_index": 0.0851
+        },
+        {
+          "department": "25A",
+          "average_score": 4.689,
+          "survey_total": 1215.0,
+          "volatility_index": 0.0742
+        },
+        {
+          "department": "Burn Unit",
+          "average_score": 4.671,
+          "survey_total": 23.0,
+          "volatility_index": 0.3853
+        },
+        {
+          "department": "26B",
+          "average_score": 4.664,
+          "survey_total": 1263.0,
+          "volatility_index": 0.0566
         }
       ],
       "stats": {
-        "mean_score": 4.718,
-        "mean_volatility": 0.1156,
-        "mean_survey_total": 315.0,
-        "mean_months_observed": 8.0
+        "mean_score": 4.722,
+        "mean_volatility": 0.1503,
+        "mean_survey_total": 386.3,
+        "mean_months_observed": 8.9
       }
     },
     "bottom10": {
       "departments": [
         {
-          "department": "ศัลยกรรม",
-          "average_score": 4.264,
-          "survey_total": 876.0,
-          "volatility_index": NaN
-        },
-        {
-          "department": "ER",
-          "average_score": 4.238,
-          "survey_total": 349.0,
-          "volatility_index": 0.3016
+          "department": "OPD Med",
+          "average_score": 4.215,
+          "survey_total": 1145.0,
+          "volatility_index": 0.6323
         },
         {
           "department": "ห้องบัตร ชั้น 1",
-          "average_score": 4.21,
-          "survey_total": 28.0,
-          "volatility_index": 0.7709
-        },
-        {
-          "department": "ห้องคลอด",
-          "average_score": 4.163,
-          "survey_total": 544.0,
-          "volatility_index": 0.0494
-        },
-        {
-          "department": "คลินิกเวชปฏิบัติ",
-          "average_score": 4.045,
-          "survey_total": 325.0,
-          "volatility_index": 0.632
+          "average_score": 4.056,
+          "survey_total": 44.0,
+          "volatility_index": 0.7555
         },
         {
           "department": "ศูนย์ประกันสุขภาพ",
-          "average_score": 3.969,
-          "survey_total": 4.0,
-          "volatility_index": NaN
+          "average_score": 3.979,
+          "survey_total": 6.0,
+          "volatility_index": 1.2163
         },
         {
-          "department": "ชั้น 1 อาคาร 150 ปี",
-          "average_score": 3.844,
-          "survey_total": 85.0,
-          "volatility_index": 0.4981
-        },
-        {
-          "department": "ทันตกรรม",
-          "average_score": 3.78,
-          "survey_total": 31.0,
-          "volatility_index": 0.779
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.959,
+          "survey_total": 846.0,
+          "volatility_index": 0.483
         },
         {
           "department": "ปฐมภูมิ",
-          "average_score": 3.679,
-          "survey_total": 102.0,
-          "volatility_index": 1.1441
+          "average_score": 3.906,
+          "survey_total": 316.0,
+          "volatility_index": 0.8765
+        },
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 3.798,
+          "survey_total": 120.0,
+          "volatility_index": 0.7623
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 3.741,
+          "survey_total": 62.0,
+          "volatility_index": 0.829
+        },
+        {
+          "department": "การเงิน",
+          "average_score": 3.5,
+          "survey_total": 2.0,
+          "volatility_index": NaN
+        },
+        {
+          "department": "ห้องบัตร",
+          "average_score": 3.021,
+          "survey_total": 3.0,
+          "volatility_index": NaN
         },
         {
           "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
@@ -4328,160 +6495,160 @@
         }
       ],
       "stats": {
-        "mean_score": 3.719,
-        "mean_volatility": 0.5964,
-        "mean_survey_total": 234.5,
-        "mean_months_observed": 8.9
+        "mean_score": 3.518,
+        "mean_volatility": 0.7936,
+        "mean_survey_total": 254.5,
+        "mean_months_observed": 11.8
       }
     },
     "delta": {
-      "score_gap": 0.999,
-      "survey_gap": 80.5
+      "score_gap": 1.204,
+      "survey_gap": 131.8
     }
   },
   "predictive_risk": {
     "high_risk_departments": [
       {
-        "department": "เคมีบำบัด",
-        "probability_of_decline": 0.8495,
-        "last_period": "2025-08",
+        "department": "ทันตกรรม",
+        "probability_of_decline": 0.9649,
+        "last_period": "2025-12",
         "last_score": 5.0
       },
       {
-        "department": "25B",
-        "probability_of_decline": 0.723,
-        "last_period": "2025-08",
-        "last_score": 4.839
+        "department": "ปฐมภูมิ",
+        "probability_of_decline": 0.96,
+        "last_period": "2025-12",
+        "last_score": 5.0
+      },
+      {
+        "department": "ศูนย์ประกันสุขภาพ",
+        "probability_of_decline": 0.9282,
+        "last_period": "2025-04",
+        "last_score": 4.625
+      },
+      {
+        "department": "Burn Unit",
+        "probability_of_decline": 0.8786,
+        "last_period": "2025-06",
+        "last_score": 5.0
       },
       {
         "department": "ห้องบัตร ชั้น 1",
-        "probability_of_decline": 0.7174,
-        "last_period": "2025-08",
-        "last_score": 4.312
+        "probability_of_decline": 0.8462,
+        "last_period": "2025-12",
+        "last_score": 5.0
       },
       {
-        "department": "PICU",
-        "probability_of_decline": 0.6905,
-        "last_period": "2025-08",
-        "last_score": 4.875
+        "department": "เวชกรรม ฟื้นฟู",
+        "probability_of_decline": 0.8411,
+        "last_period": "2025-11",
+        "last_score": 5.0
       },
       {
-        "department": "PED",
-        "probability_of_decline": 0.6882,
-        "last_period": "2025-08",
-        "last_score": 4.789
+        "department": "จิตเวช",
+        "probability_of_decline": 0.7057,
+        "last_period": "2025-12",
+        "last_score": 4.906
+      },
+      {
+        "department": "จักษุ",
+        "probability_of_decline": 0.6807,
+        "last_period": "2025-12",
+        "last_score": 4.795
+      },
+      {
+        "department": "ชั้น 1 อาคาร 150 ปี",
+        "probability_of_decline": 0.6797,
+        "last_period": "2025-12",
+        "last_score": 4.575
+      },
+      {
+        "department": "ผ่าตัด นอกเวลา",
+        "probability_of_decline": 0.6748,
+        "last_period": "2025-07",
+        "last_score": 4.768
+      },
+      {
+        "department": "24A",
+        "probability_of_decline": 0.6719,
+        "last_period": "2025-12",
+        "last_score": 4.886
       },
       {
         "department": "CCU",
-        "probability_of_decline": 0.6661,
+        "probability_of_decline": 0.655,
         "last_period": "2025-08",
         "last_score": 4.804
       },
       {
         "department": "20B",
-        "probability_of_decline": 0.6633,
+        "probability_of_decline": 0.6326,
         "last_period": "2025-08",
         "last_score": 4.819
       },
       {
-        "department": "ผ่าตัด นอกเวลา",
-        "probability_of_decline": 0.6589,
-        "last_period": "2025-07",
-        "last_score": 4.768
+        "department": "ผ่าตัดวิสัญญี",
+        "probability_of_decline": 0.6287,
+        "last_period": "2025-12",
+        "last_score": 4.778
       },
       {
-        "department": "NICU",
-        "probability_of_decline": 0.6344,
-        "last_period": "2025-08",
-        "last_score": 4.75
-      },
-      {
-        "department": "18D",
-        "probability_of_decline": 0.6095,
-        "last_period": "2025-08",
-        "last_score": 4.724
-      },
-      {
-        "department": "25A",
-        "probability_of_decline": 0.6076,
-        "last_period": "2025-08",
-        "last_score": 4.798
-      },
-      {
-        "department": "21D",
-        "probability_of_decline": 0.5935,
-        "last_period": "2025-08",
-        "last_score": 4.726
-      },
-      {
-        "department": "HBO",
-        "probability_of_decline": 0.5733,
-        "last_period": "2025-06",
-        "last_score": 4.773
-      },
-      {
-        "department": "MICU",
-        "probability_of_decline": 0.573,
-        "last_period": "2025-08",
-        "last_score": 4.648
-      },
-      {
-        "department": "22A (Stroke Unit)",
-        "probability_of_decline": 0.5688,
-        "last_period": "2025-08",
-        "last_score": 4.636
+        "department": "เคมีบำบัด",
+        "probability_of_decline": 0.625,
+        "last_period": "2025-12",
+        "last_score": 4.583
       }
     ],
-    "next_period": "2025-09"
+    "next_period": "2026-01"
   },
   "demographic_disparity": {
     "service_groups": [
       {
         "service_group": "Adult Inpatient",
-        "average_score": 4.682,
-        "survey_total": 2748,
-        "departments": 4
+        "average_score": 4.686,
+        "survey_total": 4901,
+        "departments": 5
       },
       {
         "service_group": "Emergency",
-        "average_score": 4.238,
-        "survey_total": 349,
+        "average_score": 4.261,
+        "survey_total": 479,
         "departments": 1
       },
       {
         "service_group": "General Medicine",
-        "average_score": 4.291,
-        "survey_total": 2369,
+        "average_score": 4.249,
+        "survey_total": 3655,
         "departments": 5
       },
       {
         "service_group": "Maternity",
-        "average_score": 4.333,
-        "survey_total": 3150,
+        "average_score": 4.366,
+        "survey_total": 5321,
         "departments": 3
       },
       {
         "service_group": "Other",
-        "average_score": 4.339,
-        "survey_total": 10635,
-        "departments": 38
+        "average_score": 4.3,
+        "survey_total": 18116,
+        "departments": 42
       },
       {
         "service_group": "Pediatrics",
-        "average_score": 4.566,
-        "survey_total": 661,
+        "average_score": 4.586,
+        "survey_total": 1315,
         "departments": 4
       },
       {
         "service_group": "Specialty Clinic",
-        "average_score": 4.703,
-        "survey_total": 917,
+        "average_score": 4.656,
+        "survey_total": 1262,
         "departments": 5
       },
       {
         "service_group": "Surgical",
-        "average_score": 4.46,
-        "survey_total": 1432,
+        "average_score": 4.475,
+        "survey_total": 2447,
         "departments": 4
       }
     ],
@@ -4515,15 +6682,15 @@
   "weighted_scores": [
     {
       "department": "18A",
-      "average_score": 4.427,
-      "survey_total": 726.0,
-      "months_observed": 11.0
+      "average_score": 4.424,
+      "survey_total": 1357.0,
+      "months_observed": 20.0
     },
     {
       "department": "18B",
-      "average_score": 4.555,
-      "survey_total": 686.0,
-      "months_observed": 11.0
+      "average_score": 4.566,
+      "survey_total": 1296.0,
+      "months_observed": 20.0
     },
     {
       "department": "18C",
@@ -4533,33 +6700,33 @@
     },
     {
       "department": "18D",
-      "average_score": 4.556,
-      "survey_total": 402.0,
-      "months_observed": 11.0
+      "average_score": 4.534,
+      "survey_total": 792.0,
+      "months_observed": 20.0
     },
     {
       "department": "19A",
-      "average_score": 4.536,
-      "survey_total": 500.0,
-      "months_observed": 11.0
+      "average_score": 4.508,
+      "survey_total": 976.0,
+      "months_observed": 20.0
     },
     {
       "department": "19B",
-      "average_score": 4.479,
-      "survey_total": 484.0,
-      "months_observed": 11.0
+      "average_score": 4.457,
+      "survey_total": 1115.0,
+      "months_observed": 20.0
     },
     {
       "department": "19C",
-      "average_score": 4.436,
-      "survey_total": 219.0,
-      "months_observed": 3.0
+      "average_score": 4.467,
+      "survey_total": 632.0,
+      "months_observed": 12.0
     },
     {
       "department": "19D",
-      "average_score": 4.611,
-      "survey_total": 498.0,
-      "months_observed": 11.0
+      "average_score": 4.601,
+      "survey_total": 1091.0,
+      "months_observed": 20.0
     },
     {
       "department": "20B",
@@ -4575,81 +6742,87 @@
     },
     {
       "department": "21A",
-      "average_score": 4.619,
-      "survey_total": 211.0,
-      "months_observed": 11.0
+      "average_score": 4.592,
+      "survey_total": 349.0,
+      "months_observed": 19.0
     },
     {
       "department": "21D",
-      "average_score": 4.617,
-      "survey_total": 426.0,
-      "months_observed": 11.0
+      "average_score": 4.603,
+      "survey_total": 581.0,
+      "months_observed": 20.0
     },
     {
       "department": "22A (Stroke Unit)",
-      "average_score": 4.492,
-      "survey_total": 466.0,
-      "months_observed": 11.0
+      "average_score": 4.482,
+      "survey_total": 578.0,
+      "months_observed": 20.0
     },
     {
       "department": "22B",
-      "average_score": 4.634,
-      "survey_total": 481.0,
-      "months_observed": 11.0
+      "average_score": 4.607,
+      "survey_total": 873.0,
+      "months_observed": 20.0
     },
     {
       "department": "22C",
-      "average_score": 4.579,
-      "survey_total": 455.0,
-      "months_observed": 11.0
+      "average_score": 4.534,
+      "survey_total": 790.0,
+      "months_observed": 20.0
     },
     {
       "department": "22D",
-      "average_score": 4.517,
-      "survey_total": 798.0,
-      "months_observed": 11.0
+      "average_score": 4.51,
+      "survey_total": 1489.0,
+      "months_observed": 20.0
     },
     {
       "department": "23A",
-      "average_score": 4.527,
-      "survey_total": 777.0,
-      "months_observed": 11.0
+      "average_score": 4.566,
+      "survey_total": 1187.0,
+      "months_observed": 20.0
     },
     {
       "department": "24A",
-      "average_score": 4.677,
-      "survey_total": 751.0,
-      "months_observed": 11.0
+      "average_score": 4.706,
+      "survey_total": 1140.0,
+      "months_observed": 20.0
     },
     {
       "department": "25A",
-      "average_score": 4.716,
-      "survey_total": 708.0,
-      "months_observed": 11.0
+      "average_score": 4.689,
+      "survey_total": 1215.0,
+      "months_observed": 20.0
     },
     {
       "department": "25B",
-      "average_score": 4.667,
-      "survey_total": 506.0,
-      "months_observed": 11.0
+      "average_score": 4.64,
+      "survey_total": 1216.0,
+      "months_observed": 20.0
+    },
+    {
+      "department": "26A",
+      "average_score": 4.731,
+      "survey_total": 67.0,
+      "months_observed": 1.0
     },
     {
       "department": "26B",
-      "average_score": 4.669,
-      "survey_total": 783.0,
-      "months_observed": 11.0
+      "average_score": 4.664,
+      "survey_total": 1263.0,
+      "months_observed": 19.0
     },
     {
       "department": "ANC",
-      "average_score": 4.355,
-      "survey_total": 1614.0,
-      "months_observed": 11.0
+      "average_score": 4.356,
+      "survey_total": 2768.0,
+      "months_observed": 20.0
     },
     {
       "department": "Burn Unit",
-      "average_score": 4.391,
-      "survey_total": 4.0,
-      "months_observed": 2.0
+      "average_score": 4.671,
+      "survey_total": 23.0,
+      "months_observed": 7.0
     },
     {
       "department": "CCU",
@@ -4659,27 +6832,27 @@
     },
     {
       "department": "ENT",
-      "average_score": 4.549,
-      "survey_total": 597.0,
-      "months_observed": 11.0
+      "average_score": 4.543,
+      "survey_total": 704.0,
+      "months_observed": 18.0
     },
     {
       "department": "ER",
-      "average_score": 4.238,
-      "survey_total": 349.0,
-      "months_observed": 11.0
+      "average_score": 4.261,
+      "survey_total": 479.0,
+      "months_observed": 17.0
     },
     {
       "department": "HBO",
-      "average_score": 4.794,
-      "survey_total": 34.0,
-      "months_observed": 4.0
+      "average_score": 4.757,
+      "survey_total": 67.0,
+      "months_observed": 7.0
     },
     {
       "department": "MICU",
-      "average_score": 4.536,
-      "survey_total": 180.0,
-      "months_observed": 11.0
+      "average_score": 4.538,
+      "survey_total": 324.0,
+      "months_observed": 20.0
     },
     {
       "department": "Meta Plus",
@@ -4689,33 +6862,33 @@
     },
     {
       "department": "NICU",
-      "average_score": 4.605,
-      "survey_total": 281.0,
-      "months_observed": 11.0
+      "average_score": 4.619,
+      "survey_total": 578.0,
+      "months_observed": 20.0
     },
     {
       "department": "OB-GYN",
-      "average_score": 4.48,
-      "survey_total": 992.0,
-      "months_observed": 11.0
+      "average_score": 4.471,
+      "survey_total": 1564.0,
+      "months_observed": 20.0
     },
     {
       "department": "OPD Med",
-      "average_score": 4.311,
-      "survey_total": 702.0,
-      "months_observed": 11.0
+      "average_score": 4.215,
+      "survey_total": 1145.0,
+      "months_observed": 20.0
     },
     {
       "department": "ORTHO",
-      "average_score": 4.337,
-      "survey_total": 182.0,
-      "months_observed": 11.0
+      "average_score": 4.371,
+      "survey_total": 738.0,
+      "months_observed": 20.0
     },
     {
       "department": "PED",
-      "average_score": 4.417,
-      "survey_total": 275.0,
-      "months_observed": 11.0
+      "average_score": 4.37,
+      "survey_total": 552.0,
+      "months_observed": 20.0
     },
     {
       "department": "PICU",
@@ -4725,15 +6898,21 @@
     },
     {
       "department": "SICU",
-      "average_score": 4.643,
-      "survey_total": 327.0,
-      "months_observed": 11.0
+      "average_score": 4.623,
+      "survey_total": 570.0,
+      "months_observed": 20.0
     },
     {
       "department": "กายภาพ",
-      "average_score": 4.589,
-      "survey_total": 12.0,
-      "months_observed": 6.0
+      "average_score": 4.54,
+      "survey_total": 25.0,
+      "months_observed": 12.0
+    },
+    {
+      "department": "การเงิน",
+      "average_score": 3.5,
+      "survey_total": 2.0,
+      "months_observed": 1.0
     },
     {
       "department": "การเงิน และบัญชี",
@@ -4743,27 +6922,27 @@
     },
     {
       "department": "คลินิก Meta",
-      "average_score": 4.305,
-      "survey_total": 930.0,
-      "months_observed": 11.0
+      "average_score": 4.258,
+      "survey_total": 1209.0,
+      "months_observed": 18.0
     },
     {
       "department": "คลินิกเวชปฏิบัติ",
-      "average_score": 4.045,
-      "survey_total": 325.0,
-      "months_observed": 11.0
+      "average_score": 3.959,
+      "survey_total": 846.0,
+      "months_observed": 20.0
     },
     {
       "department": "จักษุ",
-      "average_score": 4.7,
-      "survey_total": 116.0,
-      "months_observed": 11.0
+      "average_score": 4.658,
+      "survey_total": 185.0,
+      "months_observed": 20.0
     },
     {
       "department": "จิตเวช",
-      "average_score": 4.483,
-      "survey_total": 110.0,
-      "months_observed": 11.0
+      "average_score": 4.549,
+      "survey_total": 269.0,
+      "months_observed": 20.0
     },
     {
       "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
@@ -4773,39 +6952,39 @@
     },
     {
       "department": "ชั้น 1 อาคาร 150 ปี",
-      "average_score": 3.844,
-      "survey_total": 85.0,
-      "months_observed": 10.0
+      "average_score": 3.798,
+      "survey_total": 120.0,
+      "months_observed": 18.0
     },
     {
       "department": "ตึกสว่าง",
-      "average_score": 4.613,
-      "survey_total": 297.0,
-      "months_observed": 11.0
+      "average_score": 4.58,
+      "survey_total": 585.0,
+      "months_observed": 20.0
     },
     {
       "department": "ทันตกรรม",
-      "average_score": 3.78,
-      "survey_total": 31.0,
-      "months_observed": 11.0
+      "average_score": 3.741,
+      "survey_total": 62.0,
+      "months_observed": 19.0
     },
     {
       "department": "นอกเวลา",
-      "average_score": 4.32,
-      "survey_total": 371.0,
-      "months_observed": 11.0
+      "average_score": 4.34,
+      "survey_total": 414.0,
+      "months_observed": 19.0
     },
     {
       "department": "ปฐมภูมิ",
-      "average_score": 3.679,
-      "survey_total": 102.0,
-      "months_observed": 10.0
+      "average_score": 3.906,
+      "survey_total": 316.0,
+      "months_observed": 19.0
     },
     {
       "department": "ผิวหนัง",
-      "average_score": 4.658,
-      "survey_total": 168.0,
-      "months_observed": 10.0
+      "average_score": 4.614,
+      "survey_total": 303.0,
+      "months_observed": 19.0
     },
     {
       "department": "ผ่าตัด นอกเวลา",
@@ -4815,39 +6994,45 @@
     },
     {
       "department": "ผ่าตัดวิสัญญี",
-      "average_score": 4.654,
-      "survey_total": 307.0,
-      "months_observed": 10.0
+      "average_score": 4.651,
+      "survey_total": 607.0,
+      "months_observed": 19.0
     },
     {
       "department": "ฝังเข็ม",
-      "average_score": 4.812,
-      "survey_total": 2.0,
-      "months_observed": 2.0
+      "average_score": 4.708,
+      "survey_total": 3.0,
+      "months_observed": 3.0
+    },
+    {
+      "department": "ฝ่ายการเงิน",
+      "average_score": 4.75,
+      "survey_total": 1.0,
+      "months_observed": 1.0
     },
     {
       "department": "พัฒนาการเด็ก",
-      "average_score": 4.424,
-      "survey_total": 33.0,
-      "months_observed": 2.0
+      "average_score": 4.535,
+      "survey_total": 113.0,
+      "months_observed": 7.0
     },
     {
       "department": "ศัลยกรรม",
-      "average_score": 4.264,
-      "survey_total": 876.0,
-      "months_observed": 11.0
+      "average_score": 4.296,
+      "survey_total": 1035.0,
+      "months_observed": 20.0
     },
     {
       "department": "ศูนย์ประกันสุขภาพ",
-      "average_score": 3.969,
-      "survey_total": 4.0,
-      "months_observed": 2.0
+      "average_score": 3.979,
+      "survey_total": 6.0,
+      "months_observed": 4.0
     },
     {
       "department": "ส่องกล้อง",
-      "average_score": 4.646,
-      "survey_total": 178.0,
-      "months_observed": 11.0
+      "average_score": 4.645,
+      "survey_total": 280.0,
+      "months_observed": 19.0
     },
     {
       "department": "หอบ",
@@ -4857,45 +7042,57 @@
     },
     {
       "department": "หัตถการ",
-      "average_score": 4.318,
-      "survey_total": 64.0,
-      "months_observed": 5.0
+      "average_score": 4.34,
+      "survey_total": 84.0,
+      "months_observed": 8.0
     },
     {
       "department": "ห้องคลอด",
-      "average_score": 4.163,
-      "survey_total": 544.0,
-      "months_observed": 11.0
+      "average_score": 4.272,
+      "survey_total": 989.0,
+      "months_observed": 20.0
     },
     {
-      "department": "ห้องบัตร ชั้น 1",
-      "average_score": 4.21,
-      "survey_total": 28.0,
-      "months_observed": 11.0
-    },
-    {
-      "department": "เคมีบำบัด",
-      "average_score": 4.42,
-      "survey_total": 198.0,
-      "months_observed": 10.0
-    },
-    {
-      "department": "เวชกรรม ฟื้นฟู",
-      "average_score": 4.273,
-      "survey_total": 8.0,
-      "months_observed": 5.0
-    },
-    {
-      "department": "โรคเลือด",
-      "average_score": 4.669,
-      "survey_total": 10.0,
+      "department": "ห้องบัตร",
+      "average_score": 3.021,
+      "survey_total": 3.0,
       "months_observed": 1.0
     },
     {
-      "department": "ไตเทียม",
-      "average_score": 4.412,
-      "survey_total": 204.0,
+      "department": "ห้องบัตร ชั้น 1",
+      "average_score": 4.056,
+      "survey_total": 44.0,
+      "months_observed": 15.0
+    },
+    {
+      "department": "เคมีบำบัด",
+      "average_score": 4.432,
+      "survey_total": 217.0,
+      "months_observed": 13.0
+    },
+    {
+      "department": "เวชกรรม ฟื้นฟู",
+      "average_score": 4.354,
+      "survey_total": 9.0,
+      "months_observed": 6.0
+    },
+    {
+      "department": "โรคเลือด",
+      "average_score": 4.724,
+      "survey_total": 12.0,
       "months_observed": 3.0
+    },
+    {
+      "department": "ไตเทียม",
+      "average_score": 4.346,
+      "survey_total": 388.0,
+      "months_observed": 6.0
+    },
+    {
+      "department": "ไม่ระบุ",
+      "average_score": 4.26,
+      "survey_total": 6.0,
+      "months_observed": 2.0
     }
   ]
 }

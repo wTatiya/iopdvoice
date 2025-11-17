@@ -1,15 +1,21 @@
 {
   "metadata": {
-    "department_month_records": 567,
-    "unique_departments": 64,
+    "department_month_records": 979,
+    "unique_departments": 69,
     "years": [
       2024,
       2025
     ],
     "periods": [
-      "2024-10",
-      "2024-11",
-      "2024-12",
+      "2024-01",
+      "2024-02",
+      "2024-03",
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
       "2025-01",
       "2025-02",
       "2025-03",
@@ -17,11 +23,14 @@
       "2025-05",
       "2025-06",
       "2025-07",
-      "2025-08"
+      "2025-08",
+      "2025-10",
+      "2025-11",
+      "2025-12"
     ],
-    "total_reported_surveys": 22261.00,
-    "overall_average_score": 4.48,
-    "overall_recommendation_percentage": 0.96
+    "total_reported_surveys": 37496.00,
+    "overall_average_score": 4.47,
+    "overall_recommendation_percentage": 0.97
   },
   "overall": {
     "top10": [
@@ -30,70 +39,70 @@
         "average_score": 4.82,
         "survey_total": 72.00,
         "recommendation_percent": 0.99,
-        "sigma_diff": 0.85
-      },
-      {
-        "department": "ฝังเข็ม",
-        "average_score": 4.81,
-        "survey_total": 2.00,
-        "recommendation_percent": 1.00,
-        "sigma_diff": 0.84
+        "sigma_diff": 0.86
       },
       {
         "department": "HBO",
-        "average_score": 4.79,
-        "survey_total": 34.00,
-        "recommendation_percent": 0.94,
-        "sigma_diff": 0.80
+        "average_score": 4.76,
+        "survey_total": 67.00,
+        "recommendation_percent": 0.96,
+        "sigma_diff": 0.74
       },
       {
-        "department": "25A",
+        "department": "ฝ่ายการเงิน",
+        "average_score": 4.75,
+        "survey_total": 1.00,
+        "recommendation_percent": 1.00,
+        "sigma_diff": 0.73
+      },
+      {
+        "department": "26A",
+        "average_score": 4.73,
+        "survey_total": 67.00,
+        "recommendation_percent": 1.00,
+        "sigma_diff": 0.69
+      },
+      {
+        "department": "โรคเลือด",
         "average_score": 4.72,
-        "survey_total": 708.00,
+        "survey_total": 12.00,
+        "recommendation_percent": 1.00,
+        "sigma_diff": 0.68
+      },
+      {
+        "department": "ฝังเข็ม",
+        "average_score": 4.71,
+        "survey_total": 3.00,
+        "recommendation_percent": 1.00,
+        "sigma_diff": 0.65
+      },
+      {
+        "department": "24A",
+        "average_score": 4.71,
+        "survey_total": 1140.00,
         "recommendation_percent": 0.98,
         "sigma_diff": 0.64
       },
       {
-        "department": "จักษุ",
-        "average_score": 4.70,
-        "survey_total": 116.00,
-        "recommendation_percent": 0.96,
+        "department": "25A",
+        "average_score": 4.69,
+        "survey_total": 1215.00,
+        "recommendation_percent": 0.98,
         "sigma_diff": 0.61
       },
       {
-        "department": "24A",
-        "average_score": 4.68,
-        "survey_total": 751.00,
-        "recommendation_percent": 0.98,
-        "sigma_diff": 0.56
+        "department": "Burn Unit",
+        "average_score": 4.67,
+        "survey_total": 23.00,
+        "recommendation_percent": 1.00,
+        "sigma_diff": 0.57
       },
       {
         "department": "26B",
-        "average_score": 4.67,
-        "survey_total": 783.00,
-        "recommendation_percent": 0.99,
-        "sigma_diff": 0.54
-      },
-      {
-        "department": "โรคเลือด",
-        "average_score": 4.67,
-        "survey_total": 10.00,
-        "recommendation_percent": 1.00,
-        "sigma_diff": 0.54
-      },
-      {
-        "department": "25B",
-        "average_score": 4.67,
-        "survey_total": 506.00,
-        "recommendation_percent": 0.98,
-        "sigma_diff": 0.54
-      },
-      {
-        "department": "ผิวหนัง",
         "average_score": 4.66,
-        "survey_total": 168.00,
-        "recommendation_percent": 0.96,
-        "sigma_diff": 0.52
+        "survey_total": 1263.00,
+        "recommendation_percent": 0.98,
+        "sigma_diff": 0.56
       }
     ],
     "bottom10": [
@@ -102,147 +111,295 @@
         "average_score": 1.00,
         "survey_total": 1.00,
         "recommendation_percent": 0.00,
-        "sigma_diff": -7.00
+        "sigma_diff": -6.63
       },
       {
-        "department": "ปฐมภูมิ",
-        "average_score": 3.68,
-        "survey_total": 102.00,
-        "recommendation_percent": 0.89,
-        "sigma_diff": -1.49
+        "department": "ห้องบัตร",
+        "average_score": 3.02,
+        "survey_total": 3.00,
+        "recommendation_percent": 0.33,
+        "sigma_diff": -2.67
+      },
+      {
+        "department": "การเงิน",
+        "average_score": 3.50,
+        "survey_total": 2.00,
+        "recommendation_percent": 0.50,
+        "sigma_diff": -1.73
       },
       {
         "department": "ทันตกรรม",
-        "average_score": 3.78,
-        "survey_total": 31.00,
-        "recommendation_percent": 0.77,
-        "sigma_diff": -1.28
+        "average_score": 3.74,
+        "survey_total": 62.00,
+        "recommendation_percent": 0.74,
+        "sigma_diff": -1.25
       },
       {
         "department": "ชั้น 1 อาคาร 150 ปี",
-        "average_score": 3.84,
-        "survey_total": 85.00,
-        "recommendation_percent": 0.78,
-        "sigma_diff": -1.15
+        "average_score": 3.80,
+        "survey_total": 120.00,
+        "recommendation_percent": 0.77,
+        "sigma_diff": -1.14
       },
       {
-        "department": "ศูนย์ประกันสุขภาพ",
-        "average_score": 3.97,
-        "survey_total": 4.00,
-        "recommendation_percent": 1.00,
-        "sigma_diff": -0.90
+        "department": "ปฐมภูมิ",
+        "average_score": 3.91,
+        "survey_total": 316.00,
+        "recommendation_percent": 0.92,
+        "sigma_diff": -0.93
       },
       {
         "department": "คลินิกเวชปฏิบัติ",
-        "average_score": 4.04,
-        "survey_total": 325.00,
-        "recommendation_percent": 0.83,
-        "sigma_diff": -0.74
+        "average_score": 3.96,
+        "survey_total": 846.00,
+        "recommendation_percent": 0.88,
+        "sigma_diff": -0.83
       },
       {
-        "department": "ห้องคลอด",
-        "average_score": 4.16,
-        "survey_total": 544.00,
+        "department": "ศูนย์ประกันสุขภาพ",
+        "average_score": 3.98,
+        "survey_total": 6.00,
         "recommendation_percent": 1.00,
-        "sigma_diff": -0.50
+        "sigma_diff": -0.79
       },
       {
         "department": "ห้องบัตร ชั้น 1",
+        "average_score": 4.06,
+        "survey_total": 44.00,
+        "recommendation_percent": 0.80,
+        "sigma_diff": -0.63
+      },
+      {
+        "department": "OPD Med",
         "average_score": 4.21,
-        "survey_total": 28.00,
-        "recommendation_percent": 0.86,
-        "sigma_diff": -0.40
-      },
-      {
-        "department": "ER",
-        "average_score": 4.24,
-        "survey_total": 349.00,
-        "recommendation_percent": 0.93,
-        "sigma_diff": -0.34
-      },
-      {
-        "department": "ศัลยกรรม",
-        "average_score": 4.26,
-        "survey_total": 876.00,
-        "recommendation_percent": 0.95,
-        "sigma_diff": -0.29
+        "survey_total": 1145.00,
+        "recommendation_percent": 0.94,
+        "sigma_diff": -0.32
       }
     ],
-    "department_count": 64,
-    "average_of_averages": 4.40
+    "department_count": 69,
+    "average_of_averages": 4.38
   },
   "years": {
     "2024": {
       "top10": [
         {
+          "department": "โรคเลือด",
+          "average_score": 5.00,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.68
+        },
+        {
           "department": "เวชกรรม ฟื้นฟู",
           "average_score": 5.00,
           "survey_total": 1.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 1.08
-        },
-        {
-          "department": "จิตเวช",
-          "average_score": 4.78,
-          "survey_total": 14.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.67
-        },
-        {
-          "department": "ผิวหนัง",
-          "average_score": 4.76,
-          "survey_total": 33.00,
-          "recommendation_percent": 0.94,
-          "sigma_diff": 0.63
-        },
-        {
-          "department": "จักษุ",
-          "average_score": 4.73,
-          "survey_total": 20.00,
-          "recommendation_percent": 0.95,
-          "sigma_diff": 0.58
+          "sigma_diff": 1.68
         },
         {
           "department": "24A",
+          "average_score": 4.76,
+          "survey_total": 389.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": 0.98
+        },
+        {
+          "department": "ฝ่ายการเงิน",
+          "average_score": 4.75,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.95
+        },
+        {
+          "department": "26A",
           "average_score": 4.73,
-          "survey_total": 101.00,
-          "recommendation_percent": 0.97,
-          "sigma_diff": 0.58
+          "survey_total": 67.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.90
+        },
+        {
+          "department": "Burn Unit",
+          "average_score": 4.73,
+          "survey_total": 19.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.90
         },
         {
           "department": "HBO",
-          "average_score": 4.71,
-          "survey_total": 12.00,
-          "recommendation_percent": 0.83,
-          "sigma_diff": 0.55
-        },
-        {
-          "department": "ส่องกล้อง",
-          "average_score": 4.71,
-          "survey_total": 49.00,
-          "recommendation_percent": 0.94,
-          "sigma_diff": 0.55
-        },
-        {
-          "department": "25B",
-          "average_score": 4.70,
-          "survey_total": 168.00,
-          "recommendation_percent": 0.99,
-          "sigma_diff": 0.53
-        },
-        {
-          "department": "ตึกสว่าง",
-          "average_score": 4.69,
-          "survey_total": 53.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.52
+          "average_score": 4.72,
+          "survey_total": 33.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": 0.86
         },
         {
           "department": "26B",
-          "average_score": 4.69,
-          "survey_total": 178.00,
+          "average_score": 4.66,
+          "survey_total": 480.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": 0.68
+        },
+        {
+          "department": "25A",
+          "average_score": 4.65,
+          "survey_total": 507.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": 0.67
+        },
+        {
+          "department": "ผ่าตัดวิสัญญี",
+          "average_score": 4.65,
+          "survey_total": 300.00,
           "recommendation_percent": 0.99,
-          "sigma_diff": 0.51
+          "sigma_diff": 0.66
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ห้องบัตร",
+          "average_score": 3.02,
+          "survey_total": 3.00,
+          "recommendation_percent": 0.33,
+          "sigma_diff": -4.05
+        },
+        {
+          "department": "การเงิน",
+          "average_score": 3.50,
+          "survey_total": 2.00,
+          "recommendation_percent": 0.50,
+          "sigma_diff": -2.66
+        },
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 3.69,
+          "survey_total": 35.00,
+          "recommendation_percent": 0.74,
+          "sigma_diff": -2.12
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 3.70,
+          "survey_total": 31.00,
+          "recommendation_percent": 0.71,
+          "sigma_diff": -2.08
+        },
+        {
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 3.79,
+          "survey_total": 16.00,
+          "recommendation_percent": 0.69,
+          "sigma_diff": -1.83
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.91,
+          "survey_total": 521.00,
+          "recommendation_percent": 0.91,
+          "sigma_diff": -1.49
+        },
+        {
+          "department": "ศูนย์ประกันสุขภาพ",
+          "average_score": 4.00,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -1.22
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 4.01,
+          "survey_total": 214.00,
+          "recommendation_percent": 0.94,
+          "sigma_diff": -1.17
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 4.06,
+          "survey_total": 443.00,
+          "recommendation_percent": 0.94,
+          "sigma_diff": -1.04
+        },
+        {
+          "department": "คลินิก Meta",
+          "average_score": 4.11,
+          "survey_total": 279.00,
+          "recommendation_percent": 0.93,
+          "sigma_diff": -0.91
+        }
+      ],
+      "department_count": 59,
+      "average_of_averages": 4.42
+    },
+    "2025": {
+      "top10": [
+        {
+          "department": "PICU",
+          "average_score": 4.82,
+          "survey_total": 72.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": 0.85
+        },
+        {
+          "department": "ฝังเข็ม",
+          "average_score": 4.81,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.84
+        },
+        {
+          "department": "HBO",
+          "average_score": 4.79,
+          "survey_total": 34.00,
+          "recommendation_percent": 0.94,
+          "sigma_diff": 0.80
+        },
+        {
+          "department": "25A",
+          "average_score": 4.72,
+          "survey_total": 708.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": 0.64
+        },
+        {
+          "department": "จักษุ",
+          "average_score": 4.70,
+          "survey_total": 116.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": 0.61
+        },
+        {
+          "department": "24A",
+          "average_score": 4.68,
+          "survey_total": 751.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": 0.56
+        },
+        {
+          "department": "26B",
+          "average_score": 4.67,
+          "survey_total": 783.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": 0.54
+        },
+        {
+          "department": "โรคเลือด",
+          "average_score": 4.67,
+          "survey_total": 10.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.54
+        },
+        {
+          "department": "25B",
+          "average_score": 4.67,
+          "survey_total": 506.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": 0.54
+        },
+        {
+          "department": "ผิวหนัง",
+          "average_score": 4.66,
+          "survey_total": 168.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": 0.52
         }
       ],
       "bottom10": [
@@ -251,668 +408,1408 @@
           "average_score": 1.00,
           "survey_total": 1.00,
           "recommendation_percent": 0.00,
-          "sigma_diff": -6.33
+          "sigma_diff": -7.00
         },
-        {
-          "department": "ปฐมภูมิ",
-          "average_score": 3.61,
-          "survey_total": 6.00,
-          "recommendation_percent": 0.67,
-          "sigma_diff": -1.49
-        },
-        {
-          "department": "คลินิกเวชปฏิบัติ",
-          "average_score": 3.74,
-          "survey_total": 35.00,
-          "recommendation_percent": 0.80,
-          "sigma_diff": -1.26
-        },
-        {
-          "department": "การเงิน และบัญชี",
-          "average_score": 4.00,
-          "survey_total": 1.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.77
-        },
-        {
-          "department": "OPD Med",
-          "average_score": 4.08,
-          "survey_total": 15.00,
-          "recommendation_percent": 0.80,
-          "sigma_diff": -0.62
-        },
-        {
-          "department": "ศัลยกรรม",
-          "average_score": 4.10,
-          "survey_total": 34.00,
-          "recommendation_percent": 0.91,
-          "sigma_diff": -0.59
-        },
-        {
-          "department": "ทันตกรรม",
-          "average_score": 4.12,
-          "survey_total": 6.00,
-          "recommendation_percent": 0.83,
-          "sigma_diff": -0.54
-        },
-        {
-          "department": "คลินิก Meta",
-          "average_score": 4.13,
-          "survey_total": 29.00,
-          "recommendation_percent": 0.93,
-          "sigma_diff": -0.53
-        },
-        {
-          "department": "นอกเวลา",
-          "average_score": 4.15,
-          "survey_total": 44.00,
-          "recommendation_percent": 0.98,
-          "sigma_diff": -0.50
-        },
-        {
-          "department": "ห้องคลอด",
-          "average_score": 4.16,
-          "survey_total": 145.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.47
-        }
-      ],
-      "department_count": 53,
-      "average_of_averages": 4.42
-    },
-    "2025": {
-      "top10": [
-        {
-          "department": "ฝังเข็ม",
-          "average_score": 5.00,
-          "survey_total": 1.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 2.18
-        },
-        {
-          "department": "HBO",
-          "average_score": 4.84,
-          "survey_total": 22.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 1.53
-        },
-        {
-          "department": "PICU",
-          "average_score": 4.82,
-          "survey_total": 72.00,
-          "recommendation_percent": 0.99,
-          "sigma_diff": 1.45
-        },
-        {
-          "department": "25A",
-          "average_score": 4.72,
-          "survey_total": 546.00,
-          "recommendation_percent": 0.98,
-          "sigma_diff": 1.08
-        },
-        {
-          "department": "จักษุ",
-          "average_score": 4.69,
-          "survey_total": 96.00,
-          "recommendation_percent": 0.96,
-          "sigma_diff": 0.96
-        },
-        {
-          "department": "SICU",
-          "average_score": 4.68,
-          "survey_total": 240.00,
-          "recommendation_percent": 0.97,
-          "sigma_diff": 0.92
-        },
-        {
-          "department": "24A",
-          "average_score": 4.67,
-          "survey_total": 650.00,
-          "recommendation_percent": 0.98,
-          "sigma_diff": 0.86
-        },
-        {
-          "department": "ผ่าตัดวิสัญญี",
-          "average_score": 4.67,
-          "survey_total": 227.00,
-          "recommendation_percent": 0.98,
-          "sigma_diff": 0.85
-        },
-        {
-          "department": "26B",
-          "average_score": 4.66,
-          "survey_total": 605.00,
-          "recommendation_percent": 0.99,
-          "sigma_diff": 0.83
-        },
-        {
-          "department": "21A",
-          "average_score": 4.65,
-          "survey_total": 154.00,
-          "recommendation_percent": 0.99,
-          "sigma_diff": 0.79
-        }
-      ],
-      "bottom10": [
         {
           "department": "ปฐมภูมิ",
           "average_score": 3.68,
-          "survey_total": 96.00,
-          "recommendation_percent": 0.91,
-          "sigma_diff": -3.10
+          "survey_total": 102.00,
+          "recommendation_percent": 0.89,
+          "sigma_diff": -1.49
         },
         {
           "department": "ทันตกรรม",
-          "average_score": 3.70,
-          "survey_total": 25.00,
-          "recommendation_percent": 0.76,
-          "sigma_diff": -3.04
+          "average_score": 3.78,
+          "survey_total": 31.00,
+          "recommendation_percent": 0.77,
+          "sigma_diff": -1.28
         },
         {
           "department": "ชั้น 1 อาคาร 150 ปี",
-          "average_score": 3.78,
-          "survey_total": 79.00,
-          "recommendation_percent": 0.76,
-          "sigma_diff": -2.70
+          "average_score": 3.84,
+          "survey_total": 85.00,
+          "recommendation_percent": 0.78,
+          "sigma_diff": -1.15
         },
         {
           "department": "ศูนย์ประกันสุขภาพ",
           "average_score": 3.97,
           "survey_total": 4.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": -1.95
+          "sigma_diff": -0.90
         },
         {
           "department": "คลินิกเวชปฏิบัติ",
-          "average_score": 4.08,
-          "survey_total": 290.00,
+          "average_score": 4.04,
+          "survey_total": 325.00,
           "recommendation_percent": 0.83,
-          "sigma_diff": -1.50
-        },
-        {
-          "department": "ห้องบัตร ชั้น 1",
-          "average_score": 4.15,
-          "survey_total": 24.00,
-          "recommendation_percent": 0.83,
-          "sigma_diff": -1.22
+          "sigma_diff": -0.74
         },
         {
           "department": "ห้องคลอด",
           "average_score": 4.16,
-          "survey_total": 399.00,
-          "recommendation_percent": 0.99,
-          "sigma_diff": -1.18
+          "survey_total": 544.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.50
         },
         {
-          "department": "เวชกรรม ฟื้นฟู",
-          "average_score": 4.17,
-          "survey_total": 7.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -1.15
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 4.21,
+          "survey_total": 28.00,
+          "recommendation_percent": 0.86,
+          "sigma_diff": -0.40
         },
         {
           "department": "ER",
-          "average_score": 4.22,
-          "survey_total": 324.00,
-          "recommendation_percent": 0.94,
-          "sigma_diff": -0.94
+          "average_score": 4.24,
+          "survey_total": 349.00,
+          "recommendation_percent": 0.93,
+          "sigma_diff": -0.34
         },
         {
           "department": "ศัลยกรรม",
-          "average_score": 4.27,
-          "survey_total": 842.00,
+          "average_score": 4.26,
+          "survey_total": 876.00,
           "recommendation_percent": 0.95,
-          "sigma_diff": -0.74
+          "sigma_diff": -0.29
         }
       ],
-      "department_count": 61,
-      "average_of_averages": 4.46
+      "department_count": 64,
+      "average_of_averages": 4.40
     }
   },
   "months": {
-    "2024-10": {
+    "2024-01": {
       "top10": [
         {
-          "department": "จักษุ",
-          "average_score": 5.00,
+          "department": "Burn Unit",
+          "average_score": 4.94,
+          "survey_total": 4.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.91
+        },
+        {
+          "department": "พัฒนาการเด็ก",
+          "average_score": 4.88,
+          "survey_total": 9.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.66
+        },
+        {
+          "department": "กายภาพ",
+          "average_score": 4.88,
           "survey_total": 1.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.91
+          "sigma_diff": 1.63
         },
         {
-          "department": "ชั้น 1 อาคาร 150 ปี",
-          "average_score": 5.00,
-          "survey_total": 1.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.91
+          "department": "ศัลยกรรม",
+          "average_score": 4.81,
+          "survey_total": 34.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": 1.35
         },
         {
-          "department": "ER",
-          "average_score": 5.00,
-          "survey_total": 1.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.91
+          "department": "NICU",
+          "average_score": 4.76,
+          "survey_total": 42.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": 1.13
         },
         {
-          "department": "ORTHO",
-          "average_score": 5.00,
-          "survey_total": 2.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.91
+          "department": "24A",
+          "average_score": 4.75,
+          "survey_total": 82.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": 1.08
         },
         {
-          "department": "คลินิกเวชปฏิบัติ",
-          "average_score": 4.97,
-          "survey_total": 2.00,
+          "department": "21A",
+          "average_score": 4.71,
+          "survey_total": 17.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.86
+          "sigma_diff": 0.90
+        },
+        {
+          "department": "18B",
+          "average_score": 4.68,
+          "survey_total": 96.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.77
         },
         {
           "department": "นอกเวลา",
-          "average_score": 4.83,
-          "survey_total": 5.00,
+          "average_score": 4.67,
+          "survey_total": 3.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.62
+          "sigma_diff": 0.69
         },
         {
-          "department": "25B",
-          "average_score": 4.74,
-          "survey_total": 64.00,
+          "department": "SICU",
+          "average_score": 4.67,
+          "survey_total": 27.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.48
-        },
-        {
-          "department": "25A",
-          "average_score": 4.73,
-          "survey_total": 52.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.46
-        },
-        {
-          "department": "ผ่าตัดวิสัญญี",
-          "average_score": 4.69,
-          "survey_total": 36.00,
-          "recommendation_percent": 0.99,
-          "sigma_diff": 0.40
-        },
-        {
-          "department": "19D",
-          "average_score": 4.69,
-          "survey_total": 60.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.40
+          "sigma_diff": 0.69
         }
       ],
       "bottom10": [
         {
-          "department": "ปฐมภูมิ",
-          "average_score": 1.00,
+          "department": "ไม่ระบุ",
+          "average_score": 3.97,
           "survey_total": 2.00,
-          "recommendation_percent": 0.00,
-          "sigma_diff": -5.69
-        },
-        {
-          "department": "ห้องบัตร ชั้น 1",
-          "average_score": 3.25,
-          "survey_total": 1.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": -1.98
-        },
-        {
-          "department": "ทันตกรรม",
-          "average_score": 3.84,
-          "survey_total": 2.00,
-          "recommendation_percent": 0.50,
-          "sigma_diff": -1.00
+          "sigma_diff": -2.46
         },
         {
           "department": "ห้องคลอด",
-          "average_score": 4.20,
-          "survey_total": 50.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.42
+          "average_score": 4.07,
+          "survey_total": 54.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": -1.99
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 4.08,
+          "survey_total": 12.00,
+          "recommendation_percent": 0.83,
+          "sigma_diff": -1.97
         },
         {
           "department": "คลินิก Meta",
-          "average_score": 4.25,
-          "survey_total": 1.00,
+          "average_score": 4.12,
+          "survey_total": 6.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": -0.33
+          "sigma_diff": -1.76
         },
         {
-          "department": "PED",
-          "average_score": 4.27,
-          "survey_total": 16.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.30
+          "department": "ไตเทียม",
+          "average_score": 4.18,
+          "survey_total": 38.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": -1.53
         },
         {
-          "department": "18A",
-          "average_score": 4.32,
-          "survey_total": 58.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.21
+          "department": "OPD Med",
+          "average_score": 4.19,
+          "survey_total": 108.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": -1.48
         },
         {
-          "department": "21A",
-          "average_score": 4.33,
-          "survey_total": 18.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.20
+          "department": "ORTHO",
+          "average_score": 4.29,
+          "survey_total": 39.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": -1.03
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 4.29,
+          "survey_total": 54.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": -1.02
         },
         {
           "department": "ANC",
-          "average_score": 4.34,
-          "survey_total": 147.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.17
+          "average_score": 4.30,
+          "survey_total": 94.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": -0.98
         },
         {
-          "department": "19B",
-          "average_score": 4.38,
-          "survey_total": 56.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.12
+          "department": "OB-GYN",
+          "average_score": 4.32,
+          "survey_total": 98.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": -0.88
         }
       ],
-      "department_count": 44,
-      "average_of_averages": 4.45
+      "department_count": 45,
+      "average_of_averages": 4.51
     },
-    "2024-11": {
+    "2024-02": {
       "top10": [
         {
-          "department": "ส่องกล้อง",
-          "average_score": 5.00,
-          "survey_total": 15.00,
+          "department": "Burn Unit",
+          "average_score": 4.97,
+          "survey_total": 4.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.90
+          "sigma_diff": 1.93
         },
         {
-          "department": "ห้องบัตร ชั้น 1",
+          "department": "ศัลยกรรม",
+          "average_score": 4.88,
+          "survey_total": 16.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.58
+        },
+        {
+          "department": "ส่องกล้อง",
+          "average_score": 4.85,
+          "survey_total": 20.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.44
+        },
+        {
+          "department": "จักษุ",
+          "average_score": 4.79,
+          "survey_total": 7.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.23
+        },
+        {
+          "department": "จิตเวช",
+          "average_score": 4.76,
+          "survey_total": 18.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.07
+        },
+        {
+          "department": "24A",
+          "average_score": 4.74,
+          "survey_total": 55.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.01
+        },
+        {
+          "department": "22B",
+          "average_score": 4.73,
+          "survey_total": 38.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.95
+        },
+        {
+          "department": "25A",
+          "average_score": 4.71,
+          "survey_total": 49.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.88
+        },
+        {
+          "department": "21D",
+          "average_score": 4.67,
+          "survey_total": 18.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.71
+        },
+        {
+          "department": "23A",
+          "average_score": 4.66,
+          "survey_total": 57.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.67
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 3.69,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -3.23
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 3.99,
+          "survey_total": 11.00,
+          "recommendation_percent": 0.73,
+          "sigma_diff": -2.02
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 4.01,
+          "survey_total": 43.00,
+          "recommendation_percent": 0.95,
+          "sigma_diff": -1.92
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 4.10,
+          "survey_total": 13.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -1.59
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 4.11,
+          "survey_total": 45.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": -1.54
+        },
+        {
+          "department": "พัฒนาการเด็ก",
+          "average_score": 4.29,
+          "survey_total": 8.00,
+          "recommendation_percent": 0.88,
+          "sigma_diff": -0.81
+        },
+        {
+          "department": "ENT",
+          "average_score": 4.31,
+          "survey_total": 37.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": -0.72
+        },
+        {
+          "department": "นอกเวลา",
+          "average_score": 4.31,
+          "survey_total": 6.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": -0.72
+        },
+        {
+          "department": "PED",
+          "average_score": 4.34,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.59
+        },
+        {
+          "department": "ผิวหนัง",
+          "average_score": 4.37,
+          "survey_total": 20.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.48
+        }
+      ],
+      "department_count": 42,
+      "average_of_averages": 4.49
+    },
+    "2024-03": {
+      "top10": [
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
           "average_score": 5.00,
           "survey_total": 2.00,
           "recommendation_percent": 1.00,
+          "sigma_diff": 2.11
+        },
+        {
+          "department": "โรคเลือด",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 2.11
+        },
+        {
+          "department": "Burn Unit",
+          "average_score": 4.76,
+          "survey_total": 5.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.10
+        },
+        {
+          "department": "23A",
+          "average_score": 4.76,
+          "survey_total": 11.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.10
+        },
+        {
+          "department": "24A",
+          "average_score": 4.76,
+          "survey_total": 68.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": 1.08
+        },
+        {
+          "department": "ผิวหนัง",
+          "average_score": 4.74,
+          "survey_total": 5.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.99
+        },
+        {
+          "department": "21A",
+          "average_score": 4.72,
+          "survey_total": 13.00,
+          "recommendation_percent": 1.00,
           "sigma_diff": 0.90
+        },
+        {
+          "department": "21D",
+          "average_score": 4.66,
+          "survey_total": 26.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": 0.68
+        },
+        {
+          "department": "ส่องกล้อง",
+          "average_score": 4.65,
+          "survey_total": 19.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.64
+        },
+        {
+          "department": "25B",
+          "average_score": 4.65,
+          "survey_total": 87.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.62
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.88,
+          "survey_total": 119.00,
+          "recommendation_percent": 0.87,
+          "sigma_diff": -2.65
+        },
+        {
+          "department": "22A (Stroke Unit)",
+          "average_score": 4.01,
+          "survey_total": 12.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -2.11
+        },
+        {
+          "department": "พัฒนาการเด็ก",
+          "average_score": 4.03,
+          "survey_total": 6.00,
+          "recommendation_percent": 0.83,
+          "sigma_diff": -2.02
+        },
+        {
+          "department": "คลินิก Meta",
+          "average_score": 4.05,
+          "survey_total": 83.00,
+          "recommendation_percent": 0.90,
+          "sigma_diff": -1.93
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 4.08,
+          "survey_total": 22.00,
+          "recommendation_percent": 0.91,
+          "sigma_diff": -1.81
+        },
+        {
+          "department": "PED",
+          "average_score": 4.17,
+          "survey_total": 39.00,
+          "recommendation_percent": 0.92,
+          "sigma_diff": -1.43
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 4.18,
+          "survey_total": 46.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": -1.38
+        },
+        {
+          "department": "ตึกสว่าง",
+          "average_score": 4.30,
+          "survey_total": 39.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": -0.86
+        },
+        {
+          "department": "จักษุ",
+          "average_score": 4.32,
+          "survey_total": 6.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": -0.77
+        },
+        {
+          "department": "หัตถการ",
+          "average_score": 4.39,
+          "survey_total": 13.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.49
+        }
+      ],
+      "department_count": 46,
+      "average_of_averages": 4.50
+    },
+    "2024-04": {
+      "top10": [
+        {
+          "department": "นอกเวลา",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.18
+        },
+        {
+          "department": "SICU",
+          "average_score": 4.87,
+          "survey_total": 30.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.94
+        },
+        {
+          "department": "24A",
+          "average_score": 4.87,
+          "survey_total": 40.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.93
+        },
+        {
+          "department": "ฝ่ายการเงิน",
+          "average_score": 4.75,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.73
+        },
+        {
+          "department": "เคมีบำบัด",
+          "average_score": 4.73,
+          "survey_total": 9.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.69
+        },
+        {
+          "department": "26B",
+          "average_score": 4.68,
+          "survey_total": 56.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": 0.60
+        },
+        {
+          "department": "ผ่าตัดวิสัญญี",
+          "average_score": 4.68,
+          "survey_total": 31.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.59
+        },
+        {
+          "department": "25B",
+          "average_score": 4.65,
+          "survey_total": 82.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": 0.55
+        },
+        {
+          "department": "18D",
+          "average_score": 4.64,
+          "survey_total": 49.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.53
+        },
+        {
+          "department": "NICU",
+          "average_score": 4.62,
+          "survey_total": 36.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.48
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 1.79,
+          "survey_total": 3.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": -4.60
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 2.42,
+          "survey_total": 5.00,
+          "recommendation_percent": 0.20,
+          "sigma_diff": -3.46
+        },
+        {
+          "department": "หัตถการ",
+          "average_score": 3.71,
+          "survey_total": 3.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": -1.15
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.83,
+          "survey_total": 59.00,
+          "recommendation_percent": 0.86,
+          "sigma_diff": -0.93
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 3.94,
+          "survey_total": 89.00,
+          "recommendation_percent": 0.93,
+          "sigma_diff": -0.73
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 3.96,
+          "survey_total": 42.00,
+          "recommendation_percent": 0.93,
+          "sigma_diff": -0.70
+        },
+        {
+          "department": "กายภาพ",
+          "average_score": 4.05,
+          "survey_total": 4.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.54
+        },
+        {
+          "department": "คลินิก Meta",
+          "average_score": 4.06,
+          "survey_total": 74.00,
+          "recommendation_percent": 0.89,
+          "sigma_diff": -0.51
+        },
+        {
+          "department": "ผิวหนัง",
+          "average_score": 4.16,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.34
+        },
+        {
+          "department": "ศัลยกรรม",
+          "average_score": 4.27,
+          "survey_total": 57.00,
+          "recommendation_percent": 0.95,
+          "sigma_diff": -0.14
+        }
+      ],
+      "department_count": 45,
+      "average_of_averages": 4.35
+    },
+    "2024-05": {
+      "top10": [
+        {
+          "department": "หัตถการ",
+          "average_score": 5.00,
+          "survey_total": 4.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.42
         },
         {
           "department": "เวชกรรม ฟื้นฟู",
           "average_score": 5.00,
           "survey_total": 1.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.90
+          "sigma_diff": 1.42
+        },
+        {
+          "department": "ENT",
+          "average_score": 4.94,
+          "survey_total": 4.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.28
+        },
+        {
+          "department": "24A",
+          "average_score": 4.77,
+          "survey_total": 37.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.89
+        },
+        {
+          "department": "กายภาพ",
+          "average_score": 4.75,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.83
+        },
+        {
+          "department": "26B",
+          "average_score": 4.74,
+          "survey_total": 75.00,
+          "recommendation_percent": 0.95,
+          "sigma_diff": 0.82
+        },
+        {
+          "department": "23A",
+          "average_score": 4.67,
+          "survey_total": 60.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": 0.64
+        },
+        {
+          "department": "19D",
+          "average_score": 4.65,
+          "survey_total": 89.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": 0.61
+        },
+        {
+          "department": "MICU",
+          "average_score": 4.64,
+          "survey_total": 20.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.57
         },
         {
           "department": "ผิวหนัง",
+          "average_score": 4.62,
+          "survey_total": 17.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.54
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ทันตกรรม",
+          "average_score": 2.62,
+          "survey_total": 3.00,
+          "recommendation_percent": 0.33,
+          "sigma_diff": -4.17
+        },
+        {
+          "department": "ห้องบัตร",
+          "average_score": 3.02,
+          "survey_total": 3.00,
+          "recommendation_percent": 0.33,
+          "sigma_diff": -3.24
+        },
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 3.77,
+          "survey_total": 8.00,
+          "recommendation_percent": 0.75,
+          "sigma_diff": -1.48
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 3.78,
+          "survey_total": 23.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": -1.46
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.81,
+          "survey_total": 13.00,
+          "recommendation_percent": 0.92,
+          "sigma_diff": -1.38
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 4.08,
+          "survey_total": 83.00,
+          "recommendation_percent": 0.94,
+          "sigma_diff": -0.75
+        },
+        {
+          "department": "คลินิก Meta",
+          "average_score": 4.17,
+          "survey_total": 38.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": -0.52
+        },
+        {
+          "department": "ส่องกล้อง",
+          "average_score": 4.20,
+          "survey_total": 7.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.47
+        },
+        {
+          "department": "21A",
+          "average_score": 4.20,
+          "survey_total": 20.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.45
+        },
+        {
+          "department": "22C",
+          "average_score": 4.23,
+          "survey_total": 44.00,
+          "recommendation_percent": 0.91,
+          "sigma_diff": -0.40
+        }
+      ],
+      "department_count": 47,
+      "average_of_averages": 4.40
+    },
+    "2024-06": {
+      "top10": [
+        {
+          "department": "ENT",
+          "average_score": 4.94,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.38
+        },
+        {
+          "department": "HBO",
+          "average_score": 4.82,
+          "survey_total": 15.00,
+          "recommendation_percent": 0.93,
+          "sigma_diff": 1.08
+        },
+        {
+          "department": "24A",
+          "average_score": 4.81,
+          "survey_total": 23.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.06
+        },
+        {
+          "department": "ผ่าตัดวิสัญญี",
+          "average_score": 4.79,
+          "survey_total": 18.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.01
+        },
+        {
+          "department": "25A",
+          "average_score": 4.78,
+          "survey_total": 45.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.98
+        },
+        {
+          "department": "NICU",
+          "average_score": 4.77,
+          "survey_total": 15.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.97
+        },
+        {
+          "department": "21D",
+          "average_score": 4.75,
+          "survey_total": 6.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.91
+        },
+        {
+          "department": "26B",
+          "average_score": 4.74,
+          "survey_total": 59.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": 0.89
+        },
+        {
+          "department": "21A",
+          "average_score": 4.69,
+          "survey_total": 30.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.77
+        },
+        {
+          "department": "พัฒนาการเด็ก",
+          "average_score": 4.69,
+          "survey_total": 29.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": 0.77
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 2.95,
+          "survey_total": 7.00,
+          "recommendation_percent": 0.57,
+          "sigma_diff": -3.59
+        },
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 3.09,
+          "survey_total": 4.00,
+          "recommendation_percent": 0.50,
+          "sigma_diff": -3.22
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 3.71,
+          "survey_total": 10.00,
+          "recommendation_percent": 0.90,
+          "sigma_diff": -1.69
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.86,
+          "survey_total": 103.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": -1.30
+        },
+        {
+          "department": "ER",
+          "average_score": 3.92,
+          "survey_total": 15.00,
+          "recommendation_percent": 0.80,
+          "sigma_diff": -1.15
+        },
+        {
+          "department": "Burn Unit",
+          "average_score": 3.94,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -1.12
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 3.94,
+          "survey_total": 50.00,
+          "recommendation_percent": 0.94,
+          "sigma_diff": -1.11
+        },
+        {
+          "department": "22A (Stroke Unit)",
+          "average_score": 4.04,
+          "survey_total": 6.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.86
+        },
+        {
+          "department": "ศัลยกรรม",
+          "average_score": 4.11,
+          "survey_total": 22.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.70
+        },
+        {
+          "department": "PED",
+          "average_score": 4.19,
+          "survey_total": 9.00,
+          "recommendation_percent": 0.89,
+          "sigma_diff": -0.48
+        }
+      ],
+      "department_count": 47,
+      "average_of_averages": 4.38
+    },
+    "2024-07": {
+      "top10": [
+        {
+          "department": "PED",
           "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.86
+        },
+        {
+          "department": "จักษุ",
+          "average_score": 4.94,
+          "survey_total": 7.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.64
+        },
+        {
+          "department": "21A",
+          "average_score": 4.86,
+          "survey_total": 7.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.37
+        },
+        {
+          "department": "23A",
+          "average_score": 4.75,
+          "survey_total": 43.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.00
+        },
+        {
+          "department": "OB-GYN",
+          "average_score": 4.75,
+          "survey_total": 32.00,
+          "recommendation_percent": 0.88,
+          "sigma_diff": 0.99
+        },
+        {
+          "department": "26A",
+          "average_score": 4.73,
+          "survey_total": 67.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.94
+        },
+        {
+          "department": "25A",
+          "average_score": 4.69,
+          "survey_total": 61.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.78
+        },
+        {
+          "department": "22B",
+          "average_score": 4.68,
+          "survey_total": 33.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.77
+        },
+        {
+          "department": "25B",
+          "average_score": 4.67,
+          "survey_total": 76.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": 0.73
+        },
+        {
+          "department": "ผ่าตัดวิสัญญี",
+          "average_score": 4.65,
+          "survey_total": 37.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.64
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "การเงิน",
+          "average_score": 3.50,
+          "survey_total": 2.00,
+          "recommendation_percent": 0.50,
+          "sigma_diff": -3.28
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 3.77,
           "survey_total": 3.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.90
+          "sigma_diff": -2.35
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.80,
+          "survey_total": 63.00,
+          "recommendation_percent": 0.90,
+          "sigma_diff": -2.26
+        },
+        {
+          "department": "ศัลยกรรม",
+          "average_score": 4.00,
+          "survey_total": 6.00,
+          "recommendation_percent": 0.83,
+          "sigma_diff": -1.57
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 4.12,
+          "survey_total": 57.00,
+          "recommendation_percent": 0.93,
+          "sigma_diff": -1.17
+        },
+        {
+          "department": "คลินิก Meta",
+          "average_score": 4.14,
+          "survey_total": 55.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": -1.09
+        },
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 4.18,
+          "survey_total": 7.00,
+          "recommendation_percent": 0.86,
+          "sigma_diff": -0.96
+        },
+        {
+          "department": "ANC",
+          "average_score": 4.27,
+          "survey_total": 105.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": -0.65
+        },
+        {
+          "department": "ER",
+          "average_score": 4.33,
+          "survey_total": 9.00,
+          "recommendation_percent": 0.89,
+          "sigma_diff": -0.43
+        },
+        {
+          "department": "19A",
+          "average_score": 4.35,
+          "survey_total": 37.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.37
+        }
+      ],
+      "department_count": 43,
+      "average_of_averages": 4.46
+    },
+    "2024-08": {
+      "top10": [
+        {
+          "department": "ENT",
+          "average_score": 5.00,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.31
         },
         {
           "department": "HBO",
           "average_score": 5.00,
           "survey_total": 1.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.90
+          "sigma_diff": 1.31
         },
         {
-          "department": "ศัลยกรรม",
+          "department": "กายภาพ",
           "average_score": 5.00,
-          "survey_total": 1.00,
+          "survey_total": 2.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": 0.90
-        },
-        {
-          "department": "จิตเวช",
-          "average_score": 4.84,
-          "survey_total": 7.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.63
-        },
-        {
-          "department": "ตึกสว่าง",
-          "average_score": 4.79,
-          "survey_total": 22.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.55
-        },
-        {
-          "department": "18D",
-          "average_score": 4.76,
-          "survey_total": 25.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.50
+          "sigma_diff": 1.31
         },
         {
           "department": "24A",
-          "average_score": 4.72,
-          "survey_total": 42.00,
+          "average_score": 4.79,
+          "survey_total": 38.00,
           "recommendation_percent": 1.00,
+          "sigma_diff": 0.84
+        },
+        {
+          "department": "ผ่าตัดวิสัญญี",
+          "average_score": 4.76,
+          "survey_total": 31.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": 0.77
+        },
+        {
+          "department": "ผิวหนัง",
+          "average_score": 4.74,
+          "survey_total": 9.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.73
+        },
+        {
+          "department": "ตึกสว่าง",
+          "average_score": 4.74,
+          "survey_total": 34.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.73
+        },
+        {
+          "department": "จิตเวช",
+          "average_score": 4.71,
+          "survey_total": 11.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.66
+        },
+        {
+          "department": "25A",
+          "average_score": 4.70,
+          "survey_total": 80.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.64
+        },
+        {
+          "department": "ศัลยกรรม",
+          "average_score": 4.70,
+          "survey_total": 5.00,
+          "recommendation_percent": 0.80,
+          "sigma_diff": 0.63
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ศูนย์ประกันสุขภาพ",
+          "average_score": 3.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -3.19
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 3.06,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -3.05
+        },
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 3.34,
+          "survey_total": 6.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": -2.42
+        },
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 3.66,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -1.72
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.71,
+          "survey_total": 44.00,
+          "recommendation_percent": 0.89,
+          "sigma_diff": -1.60
+        },
+        {
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 3.94,
+          "survey_total": 3.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": -1.08
+        },
+        {
+          "department": "18B",
+          "average_score": 3.98,
+          "survey_total": 3.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.99
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 3.99,
+          "survey_total": 37.00,
+          "recommendation_percent": 0.86,
+          "sigma_diff": -0.97
+        },
+        {
+          "department": "PED",
+          "average_score": 4.25,
+          "survey_total": 15.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.39
+        },
+        {
+          "department": "นอกเวลา",
+          "average_score": 4.28,
+          "survey_total": 4.00,
+          "recommendation_percent": 0.75,
+          "sigma_diff": -0.31
+        }
+      ],
+      "department_count": 46,
+      "average_of_averages": 4.42
+    },
+    "2024-09": {
+      "top10": [
+        {
+          "department": "ทันตกรรม",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.97
+        },
+        {
+          "department": "ผิวหนัง",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.97
+        },
+        {
+          "department": "โรคเลือด",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.97
+        },
+        {
+          "department": "ศูนย์ประกันสุขภาพ",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.97
+        },
+        {
+          "department": "กายภาพ",
+          "average_score": 4.97,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.91
+        },
+        {
+          "department": "ส่องกล้อง",
+          "average_score": 4.90,
+          "survey_total": 6.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": 0.77
+        },
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 4.83,
+          "survey_total": 3.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": 0.66
+        },
+        {
+          "department": "ผ่าตัดวิสัญญี",
+          "average_score": 4.80,
+          "survey_total": 50.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": 0.60
+        },
+        {
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 4.77,
+          "survey_total": 4.00,
+          "recommendation_percent": 0.75,
+          "sigma_diff": 0.53
+        },
+        {
+          "department": "NICU",
+          "average_score": 4.72,
+          "survey_total": 38.00,
+          "recommendation_percent": 0.95,
           "sigma_diff": 0.44
         }
       ],
       "bottom10": [
         {
-          "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
-          "average_score": 1.00,
+          "department": "OPD Med",
+          "average_score": 1.38,
           "survey_total": 1.00,
-          "recommendation_percent": 0.00,
-          "sigma_diff": -5.65
+          "recommendation_percent": 1.00,
+          "sigma_diff": -5.79
+        },
+        {
+          "department": "ER",
+          "average_score": 3.66,
+          "survey_total": 11.00,
+          "recommendation_percent": 0.73,
+          "sigma_diff": -1.52
         },
         {
           "department": "คลินิกเวชปฏิบัติ",
-          "average_score": 3.42,
+          "average_score": 3.83,
           "survey_total": 21.00,
-          "recommendation_percent": 0.76,
-          "sigma_diff": -1.68
-        },
-        {
-          "department": "ทันตกรรม",
-          "average_score": 3.53,
-          "survey_total": 2.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -1.51
-        },
-        {
-          "department": "OPD Med",
-          "average_score": 3.87,
-          "survey_total": 8.00,
-          "recommendation_percent": 0.88,
-          "sigma_diff": -0.96
-        },
-        {
-          "department": "เคมีบำบัด",
-          "average_score": 4.00,
-          "survey_total": 1.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.74
-        },
-        {
-          "department": "นอกเวลา",
-          "average_score": 4.08,
-          "survey_total": 33.00,
-          "recommendation_percent": 0.97,
-          "sigma_diff": -0.61
-        },
-        {
-          "department": "ห้องคลอด",
-          "average_score": 4.14,
-          "survey_total": 56.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -0.50
+          "recommendation_percent": 0.81,
+          "sigma_diff": -1.21
         },
         {
           "department": "OB-GYN",
-          "average_score": 4.25,
-          "survey_total": 54.00,
-          "recommendation_percent": 0.96,
-          "sigma_diff": -0.33
-        },
-        {
-          "department": "กายภาพ",
-          "average_score": 4.25,
-          "survey_total": 1.00,
+          "average_score": 4.01,
+          "survey_total": 12.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": -0.33
+          "sigma_diff": -0.88
         },
         {
-          "department": "ANC",
-          "average_score": 4.30,
-          "survey_total": 109.00,
-          "recommendation_percent": 0.99,
-          "sigma_diff": -0.25
-        }
-      ],
-      "department_count": 47,
-      "average_of_averages": 4.45
-    },
-    "2024-12": {
-      "top10": [
-        {
-          "department": "ปฐมภูมิ",
-          "average_score": 5.00,
-          "survey_total": 3.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 1.79
-        },
-        {
-          "department": "ห้องบัตร ชั้น 1",
-          "average_score": 5.00,
-          "survey_total": 1.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 1.79
-        },
-        {
-          "department": "ทันตกรรม",
-          "average_score": 5.00,
-          "survey_total": 2.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 1.79
-        },
-        {
-          "department": "จิตเวช",
-          "average_score": 4.91,
-          "survey_total": 2.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 1.43
-        },
-        {
-          "department": "24A",
-          "average_score": 4.89,
-          "survey_total": 33.00,
-          "recommendation_percent": 0.97,
-          "sigma_diff": 1.36
-        },
-        {
-          "department": "ผิวหนัง",
-          "average_score": 4.81,
-          "survey_total": 21.00,
-          "recommendation_percent": 0.90,
-          "sigma_diff": 1.07
+          "department": "ORTHO",
+          "average_score": 4.05,
+          "survey_total": 6.00,
+          "recommendation_percent": 0.67,
+          "sigma_diff": -0.80
         },
         {
           "department": "จักษุ",
-          "average_score": 4.80,
-          "survey_total": 11.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 1.01
+          "average_score": 4.14,
+          "survey_total": 7.00,
+          "recommendation_percent": 0.86,
+          "sigma_diff": -0.63
         },
         {
-          "department": "ผ่าตัดวิสัญญี",
-          "average_score": 4.78,
-          "survey_total": 9.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": 0.95
-        },
-        {
-          "department": "21D",
-          "average_score": 4.77,
-          "survey_total": 38.00,
-          "recommendation_percent": 0.89,
-          "sigma_diff": 0.93
-        },
-        {
-          "department": "25A",
-          "average_score": 4.69,
-          "survey_total": 36.00,
-          "recommendation_percent": 0.94,
-          "sigma_diff": 0.61
-        }
-      ],
-      "bottom10": [
-        {
-          "department": "ORTHO",
-          "average_score": 3.94,
-          "survey_total": 2.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -2.23
-        },
-        {
-          "department": "นอกเวลา",
-          "average_score": 3.94,
+          "department": "21A",
+          "average_score": 4.26,
           "survey_total": 6.00,
           "recommendation_percent": 1.00,
-          "sigma_diff": -2.23
-        },
-        {
-          "department": "การเงิน และบัญชี",
-          "average_score": 4.00,
-          "survey_total": 1.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -2.00
-        },
-        {
-          "department": "ศัลยกรรม",
-          "average_score": 4.01,
-          "survey_total": 28.00,
-          "recommendation_percent": 0.89,
-          "sigma_diff": -1.95
-        },
-        {
-          "department": "คลินิกเวชปฏิบัติ",
-          "average_score": 4.08,
-          "survey_total": 12.00,
-          "recommendation_percent": 0.83,
-          "sigma_diff": -1.68
-        },
-        {
-          "department": "คลินิก Meta",
-          "average_score": 4.11,
-          "survey_total": 27.00,
-          "recommendation_percent": 0.93,
-          "sigma_diff": -1.59
-        },
-        {
-          "department": "ห้องคลอด",
-          "average_score": 4.15,
-          "survey_total": 39.00,
-          "recommendation_percent": 1.00,
-          "sigma_diff": -1.41
-        },
-        {
-          "department": "OPD Med",
-          "average_score": 4.22,
-          "survey_total": 5.00,
-          "recommendation_percent": 0.60,
-          "sigma_diff": -1.14
-        },
-        {
-          "department": "23A",
-          "average_score": 4.31,
-          "survey_total": 22.00,
-          "recommendation_percent": 0.95,
-          "sigma_diff": -0.81
+          "sigma_diff": -0.41
         },
         {
           "department": "ANC",
-          "average_score": 4.35,
-          "survey_total": 127.00,
-          "recommendation_percent": 0.98,
-          "sigma_diff": -0.67
+          "average_score": 4.27,
+          "survey_total": 188.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": -0.38
+        },
+        {
+          "department": "ไตเทียม",
+          "average_score": 4.28,
+          "survey_total": 59.00,
+          "recommendation_percent": 0.95,
+          "sigma_diff": -0.37
+        },
+        {
+          "department": "ห้องคลอด",
+          "average_score": 4.29,
+          "survey_total": 51.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.36
         }
       ],
-      "department_count": 49,
-      "average_of_averages": 4.53
+      "department_count": 48,
+      "average_of_averages": 4.48
     },
     "2025-01": {
       "top10": [
@@ -2097,6 +2994,450 @@
       ],
       "department_count": 49,
       "average_of_averages": 4.45
+    },
+    "2025-10": {
+      "top10": [
+        {
+          "department": "จักษุ",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.91
+        },
+        {
+          "department": "ชั้น 1 อาคาร 150 ปี",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.91
+        },
+        {
+          "department": "ER",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.91
+        },
+        {
+          "department": "ORTHO",
+          "average_score": 5.00,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.91
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 4.97,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.86
+        },
+        {
+          "department": "นอกเวลา",
+          "average_score": 4.83,
+          "survey_total": 5.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.62
+        },
+        {
+          "department": "25B",
+          "average_score": 4.74,
+          "survey_total": 64.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.48
+        },
+        {
+          "department": "25A",
+          "average_score": 4.73,
+          "survey_total": 52.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.46
+        },
+        {
+          "department": "ผ่าตัดวิสัญญี",
+          "average_score": 4.69,
+          "survey_total": 36.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": 0.40
+        },
+        {
+          "department": "19D",
+          "average_score": 4.69,
+          "survey_total": 60.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.40
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 1.00,
+          "survey_total": 2.00,
+          "recommendation_percent": 0.00,
+          "sigma_diff": -5.69
+        },
+        {
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 3.25,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -1.98
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 3.84,
+          "survey_total": 2.00,
+          "recommendation_percent": 0.50,
+          "sigma_diff": -1.00
+        },
+        {
+          "department": "ห้องคลอด",
+          "average_score": 4.20,
+          "survey_total": 50.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.42
+        },
+        {
+          "department": "คลินิก Meta",
+          "average_score": 4.25,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.33
+        },
+        {
+          "department": "PED",
+          "average_score": 4.27,
+          "survey_total": 16.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.30
+        },
+        {
+          "department": "18A",
+          "average_score": 4.32,
+          "survey_total": 58.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.21
+        },
+        {
+          "department": "21A",
+          "average_score": 4.33,
+          "survey_total": 18.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.20
+        },
+        {
+          "department": "ANC",
+          "average_score": 4.34,
+          "survey_total": 147.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.17
+        },
+        {
+          "department": "19B",
+          "average_score": 4.38,
+          "survey_total": 56.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.12
+        }
+      ],
+      "department_count": 44,
+      "average_of_averages": 4.45
+    },
+    "2025-11": {
+      "top10": [
+        {
+          "department": "ส่องกล้อง",
+          "average_score": 5.00,
+          "survey_total": 15.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.90
+        },
+        {
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 5.00,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.90
+        },
+        {
+          "department": "เวชกรรม ฟื้นฟู",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.90
+        },
+        {
+          "department": "ผิวหนัง",
+          "average_score": 5.00,
+          "survey_total": 3.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.90
+        },
+        {
+          "department": "HBO",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.90
+        },
+        {
+          "department": "ศัลยกรรม",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.90
+        },
+        {
+          "department": "จิตเวช",
+          "average_score": 4.84,
+          "survey_total": 7.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.63
+        },
+        {
+          "department": "ตึกสว่าง",
+          "average_score": 4.79,
+          "survey_total": 22.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.55
+        },
+        {
+          "department": "18D",
+          "average_score": 4.76,
+          "survey_total": 25.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.50
+        },
+        {
+          "department": "24A",
+          "average_score": 4.72,
+          "survey_total": 42.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.44
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ชั้น 1 คัดกรอง อาคาร 150 ปี",
+          "average_score": 1.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 0.00,
+          "sigma_diff": -5.65
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 3.42,
+          "survey_total": 21.00,
+          "recommendation_percent": 0.76,
+          "sigma_diff": -1.68
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 3.53,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -1.51
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 3.87,
+          "survey_total": 8.00,
+          "recommendation_percent": 0.88,
+          "sigma_diff": -0.96
+        },
+        {
+          "department": "เคมีบำบัด",
+          "average_score": 4.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.74
+        },
+        {
+          "department": "นอกเวลา",
+          "average_score": 4.08,
+          "survey_total": 33.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": -0.61
+        },
+        {
+          "department": "ห้องคลอด",
+          "average_score": 4.14,
+          "survey_total": 56.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.50
+        },
+        {
+          "department": "OB-GYN",
+          "average_score": 4.25,
+          "survey_total": 54.00,
+          "recommendation_percent": 0.96,
+          "sigma_diff": -0.33
+        },
+        {
+          "department": "กายภาพ",
+          "average_score": 4.25,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -0.33
+        },
+        {
+          "department": "ANC",
+          "average_score": 4.30,
+          "survey_total": 109.00,
+          "recommendation_percent": 0.99,
+          "sigma_diff": -0.25
+        }
+      ],
+      "department_count": 47,
+      "average_of_averages": 4.45
+    },
+    "2025-12": {
+      "top10": [
+        {
+          "department": "ปฐมภูมิ",
+          "average_score": 5.00,
+          "survey_total": 3.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.79
+        },
+        {
+          "department": "ห้องบัตร ชั้น 1",
+          "average_score": 5.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.79
+        },
+        {
+          "department": "ทันตกรรม",
+          "average_score": 5.00,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.79
+        },
+        {
+          "department": "จิตเวช",
+          "average_score": 4.91,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.43
+        },
+        {
+          "department": "24A",
+          "average_score": 4.89,
+          "survey_total": 33.00,
+          "recommendation_percent": 0.97,
+          "sigma_diff": 1.36
+        },
+        {
+          "department": "ผิวหนัง",
+          "average_score": 4.81,
+          "survey_total": 21.00,
+          "recommendation_percent": 0.90,
+          "sigma_diff": 1.07
+        },
+        {
+          "department": "จักษุ",
+          "average_score": 4.80,
+          "survey_total": 11.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 1.01
+        },
+        {
+          "department": "ผ่าตัดวิสัญญี",
+          "average_score": 4.78,
+          "survey_total": 9.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": 0.95
+        },
+        {
+          "department": "21D",
+          "average_score": 4.77,
+          "survey_total": 38.00,
+          "recommendation_percent": 0.89,
+          "sigma_diff": 0.93
+        },
+        {
+          "department": "25A",
+          "average_score": 4.69,
+          "survey_total": 36.00,
+          "recommendation_percent": 0.94,
+          "sigma_diff": 0.61
+        }
+      ],
+      "bottom10": [
+        {
+          "department": "ORTHO",
+          "average_score": 3.94,
+          "survey_total": 2.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -2.23
+        },
+        {
+          "department": "นอกเวลา",
+          "average_score": 3.94,
+          "survey_total": 6.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -2.23
+        },
+        {
+          "department": "การเงิน และบัญชี",
+          "average_score": 4.00,
+          "survey_total": 1.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -2.00
+        },
+        {
+          "department": "ศัลยกรรม",
+          "average_score": 4.01,
+          "survey_total": 28.00,
+          "recommendation_percent": 0.89,
+          "sigma_diff": -1.95
+        },
+        {
+          "department": "คลินิกเวชปฏิบัติ",
+          "average_score": 4.08,
+          "survey_total": 12.00,
+          "recommendation_percent": 0.83,
+          "sigma_diff": -1.68
+        },
+        {
+          "department": "คลินิก Meta",
+          "average_score": 4.11,
+          "survey_total": 27.00,
+          "recommendation_percent": 0.93,
+          "sigma_diff": -1.59
+        },
+        {
+          "department": "ห้องคลอด",
+          "average_score": 4.15,
+          "survey_total": 39.00,
+          "recommendation_percent": 1.00,
+          "sigma_diff": -1.41
+        },
+        {
+          "department": "OPD Med",
+          "average_score": 4.22,
+          "survey_total": 5.00,
+          "recommendation_percent": 0.60,
+          "sigma_diff": -1.14
+        },
+        {
+          "department": "23A",
+          "average_score": 4.31,
+          "survey_total": 22.00,
+          "recommendation_percent": 0.95,
+          "sigma_diff": -0.81
+        },
+        {
+          "department": "ANC",
+          "average_score": 4.35,
+          "survey_total": 127.00,
+          "recommendation_percent": 0.98,
+          "sigma_diff": -0.67
+        }
+      ],
+      "department_count": 49,
+      "average_of_averages": 4.53
     }
   }
 }
