@@ -566,8 +566,8 @@
           </p>
           <div class="tab-strip" role="tablist" aria-label="มุมมองการจัดอันดับ">
             <button type="button" data-key="overall" class="active">ภาพรวม</button>
-            <button type="button" data-key="2567">ปี 2024</button>
-            <button type="button" data-key="2568">ปี 2025</button>
+            <button type="button" data-key="2024">ปี 2024</button>
+            <button type="button" data-key="2025">ปี 2025</button>
           </div>
           <div class="metric-grid" style="margin-top: 1.5rem">
             <div>
@@ -1039,11 +1039,32 @@
       }
 
       function renderRanking(viewKey, summary) {
-        const ranking = viewKey === 'overall' ? summary.overall : summary.years[viewKey];
+        const resolveViewKey = (key) => {
+          if (key === 'overall') return 'overall';
+          const stringKey = String(key);
+          if (summary.years[stringKey]) return stringKey;
+          const gregorianKey = String(Number(stringKey) - 543);
+          return summary.years[gregorianKey] ? gregorianKey : null;
+        };
+
+        const resolvedKey = resolveViewKey(viewKey);
+        const ranking =
+          resolvedKey === 'overall'
+            ? summary.overall
+            : resolvedKey
+              ? summary.years[resolvedKey]
+              : null;
         const topBody = document.querySelector('#top-table tbody');
         const bottomBody = document.querySelector('#bottom-table tbody');
         topBody.innerHTML = '';
         bottomBody.innerHTML = '';
+
+        if (!ranking) {
+          const emptyRow = '<tr><td colspan="5">ไม่พบข้อมูลการจัดอันดับสำหรับปีที่เลือก</td></tr>';
+          topBody.innerHTML = emptyRow;
+          bottomBody.innerHTML = emptyRow;
+          return;
+        }
 
         ranking.top10.forEach((row, index) => {
           const tr = document.createElement('tr');
