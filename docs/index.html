@@ -815,6 +815,17 @@
         foreign: 'ผู้ป่วยต่างชาติ'
       };
 
+      const serviceGroupLabels = {
+        'Adult Inpatient': 'หอผู้ป่วยใน (IPD)',
+        Emergency: 'หน่วยอุบัติเหตุและฉุกเฉิน',
+        'General Medicine': 'อายุรกรรม',
+        Maternity: 'สตรีตั้งครรภ์',
+        Other: 'อื่นๆ',
+        Pediatrics: 'กุมารเวชกรรม',
+        'Specialty Clinic': 'หน่วยงานเฉพาะทาง',
+        Surgical: 'ศัลยกกรม'
+      };
+
       function formatNumber(value, options = {}) {
         return new Intl.NumberFormat('th-TH', options).format(value);
       }
@@ -1381,7 +1392,7 @@
         insights.demographic_disparity.service_groups.forEach((row) => {
           const tr = document.createElement('tr');
           tr.innerHTML = `
-            <td>${row.service_group}</td>
+            <td>${serviceGroupLabels[row.service_group] || row.service_group}</td>
             <td>${formatScore(row.average_score)}</td>
             <td>${formatNumber(row.survey_total)}</td>
             <td>${formatNumber(row.departments)}</td>
